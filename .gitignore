@@ -1,0 +1,14 @@
+.DS_Store
+.sass-cache
+.tmp
+*.lock
+*.phar
+docs
+dist
+test
+tests
+vendor
+uploads
+Thumbs.db
+node_modules
+bower_components

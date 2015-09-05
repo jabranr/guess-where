@@ -1,0 +1,69 @@
+// common
+
+strong {
+	font-weight: 700;
+}
+
+.btn {
+	transition: all 200ms ease-in-out;
+	font-weight: 700;
+}
+
+.btn-fix {
+	width: $btn-fix-width;
+}
+
+.app-title {
+	margin-bottom: 18px;
+	margin-top: 0;
+}
+
+.nav-box {
+	display: block;
+	padding: 18px;
+	margin: 0;
+	z-index: 99999;
+	box-shadow: 1px 1px 6px #d5d5d5;
+	background-color: rgba(255,255,255, 0.75);
+	position: absolute;
+	left: 18px;
+	top: 18px;
+	max-width: 320px;
+	max-height: 650px;
+	overflow: auto;
+	overflow-x: hidden;
+	overflow-y: auto;
+}
+
+.the-guess {
+	display: block;
+	margin-bottom: 10px;
+	text-align: left;
+}
+
+.map-canvas {
+	display: block;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+}
+
+.toggle-regions {
+	cursor: pointer;
+}
+
+.regions {
+	display: none;
+
+	&.regions--open {
+		display: block;
+	}
+}
+
+.footer span {
+	font-size: 85%;
+}
+
+.cursor {
+	cursor: pointer;
+}

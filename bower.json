@@ -1,0 +1,30 @@
+{
+  "name": "guess-where",
+  "version": "1.0.0",
+  "authors": [
+    "Jabran Rafique <hello@jabran.me>"
+  ],
+  "main": "index.html",
+  "keywords": [
+    "google",
+    "maps"
+  ],
+  "license": "MIT",
+  "homepage": "http://jabran.me/guess-where/",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "animate.css": "~3.4.0",
+    "socialmedia": "~1.7.6",
+    "bootstrap-sass": "~3.3.5",
+    "world-countries": "~1.7.4"
+  },
+  "devDependencies": {
+    "font-awesome": "fontawesome#~4.4.0"
+  }
+}
