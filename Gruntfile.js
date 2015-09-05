@@ -22,6 +22,16 @@ module.exports = function(grunt) {
 		config: config,
 		pkg: grunt.file.readJSON('package.json'),
 
+		clean: {
+			build: [
+				'<%= config.dist %>/*',
+				'<%= config.app %>/assets/css/*',
+				'<%= config.app %>/assets/font/*',
+				'<%= config.app %>/assets/js/*',
+				'!<%= config.app %>/assets/js/main.js'
+			]
+		},
+
 		copy: {
 			dist: {
 				files: [
@@ -37,6 +47,35 @@ module.exports = function(grunt) {
 						src: config.toCopy.font,
 						cwd: '<%= config.root %>/bower_components/',
 						dest: '<%= config.app %>/assets/font',
+						expand: true,
+						flatten: true,
+						filter: 'isFile'
+					},
+					{
+						src: config.toCopy.animate,
+						cwd: '<%= config.root %>/bower_components/',
+						dest: '<%= config.app %>/assets/sass/components',
+						ext: '.scss',
+						expand: true,
+						flatten: true,
+						filter: 'isFile'
+					}
+				]
+			},
+			build: {
+				files: [
+					{
+						src: config.toCopy.json,
+						cwd: '<%= config.root %>/bower_components/',
+						dest: '<%= config.dist %>/assets/js',
+						expand: true,
+						flatten: true,
+						filter: 'isFile'
+					},
+					{
+						src: config.toCopy.font,
+						cwd: '<%= config.root %>/bower_components/',
+						dest: '<%= config.dist %>/assets/font',
 						expand: true,
 						flatten: true,
 						filter: 'isFile'
@@ -91,7 +130,7 @@ module.exports = function(grunt) {
 					expand: true,
 					cwd: '<%= config.app %>/assets/css',
 					src: ['*.css'],
-					dest: '<%= config.app %>/assets/css',
+					dest: '<%= config.dist %>/assets/css',
 					ext: '.min.css'
 				}],
 				options: {
@@ -109,7 +148,7 @@ module.exports = function(grunt) {
 					sourceMap: true
 				},
 				files: {
-					'<%= config.app %>/assets/js/main.min.js':'<%= config.app %>/assets/js/main.js'
+					'<%= config.dist %>/assets/js/main.min.js':'<%= config.app %>/assets/js/main.js'
 				}
 			},
 			vendor: {
@@ -119,7 +158,7 @@ module.exports = function(grunt) {
 					sourceMap: true
 				},
 				files: {
-					'<%= config.app %>/assets/js/vendor.min.js':'<%= config.app %>/assets/js/vendor.js'
+					'<%= config.dist %>/assets/js/vendor.min.js':'<%= config.app %>/assets/js/vendor.js'
 				}
 			}
 		},
@@ -142,9 +181,24 @@ module.exports = function(grunt) {
 		},
 
 		concurrent: {
-			copy: ['copy:dist'],
+			copy: {
+				dist: ['copy:dist'],
+				build: ['copy:build']
+			},
 			concat: ['concat:vendor'],
 			server: ['sass:server']
+		},
+
+		htmlmin: {
+			dist: {
+				options: {
+					removeComments: true,
+					collapseWhitespace: true
+				},
+				files: {
+					'<%= config.dist %>/index.html': '<%= config.app %>/index.html'
+				}
+			}
 		},
 
 		watch: {
@@ -186,7 +240,7 @@ module.exports = function(grunt) {
 	});
 
 	grunt.registerTask('default', [
-		'concurrent:copy',
+		'concurrent:copy:dist',
 		'concurrent:concat',
 		'concurrent:server',
 		'autoprefixer:dist',
@@ -194,13 +248,14 @@ module.exports = function(grunt) {
 	]);
 
 	grunt.registerTask('build', [
-		'concurrent:copy',
+		'clean:build',
+		'concurrent:copy:build',
 		'concurrent:concat',
 		'concurrent:server',
 		'autoprefixer:dist',
 		'cssmin:dist',
 		'uglify',
-		'watch'
+		'htmlmin:dist'
 	]);
 
 };
