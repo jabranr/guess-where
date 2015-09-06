@@ -9,10 +9,10 @@ module.exports = function(grunt) {
 		root: '.',
 		app: './app',
 		dist: './dist',
+		temp: './.tmp',
 		toInclude: ['jQuery', 'socialmedia.js'],
 		toCopy: {
 			json: ['world-countries/dist/countries.json'],
-			js: ['jquery/dist/jquery.js', 'socialmedia/dist/socialmedia.js'],
 			font: ['font-awesome/fonts/*'],
 			animate: ['animate.css/animate.css']
 		}
@@ -25,10 +25,12 @@ module.exports = function(grunt) {
 		clean: {
 			build: [
 				'<%= config.dist %>/*',
+				'<%= config.temp %>/*',
 				'<%= config.app %>/assets/css/*',
 				'<%= config.app %>/assets/font/*',
 				'<%= config.app %>/assets/js/*',
-				'!<%= config.app %>/assets/js/main.js'
+				'!<%= config.app %>/assets/js/main.js',
+				'<%= config.root %>/*.html'
 			]
 		},
 
@@ -88,6 +90,13 @@ module.exports = function(grunt) {
 						expand: true,
 						flatten: true,
 						filter: 'isFile'
+					},
+					{
+						src: ['*.{ico,htacces,png,txt}', '{,*/}*.html', '!redirect.html'],
+						cwd: '<%= config.app %>',
+						dest: '<%= config.dist %>',
+						expand: true,
+						filter: 'isFile'
 					}
 				]
 			}
@@ -124,68 +133,42 @@ module.exports = function(grunt) {
 			}
 		},
 
-		cssmin: {
-			dist: {
-				files: [{
-					expand: true,
-					cwd: '<%= config.app %>/assets/css',
-					src: ['*.css'],
-					dest: '<%= config.dist %>/assets/css',
-					ext: '.min.css'
-				}],
-				options: {
-					sourceMap: true,
-					banner: '/*! <%= pkg.name %> | v<%= pkg.version %> | <%= pkg.author %> | <%= pkg.homepage %> | <%= pkg.license %> */ \n'
-				}
-			}
-		},
-
-		uglify: {
-			dist: {
-				options: {
-					banner: '/*! <%= pkg.name %> | v<%= pkg.version %> | <%= pkg.author %> | <%= pkg.homepage %> | <%= pkg.license %> */ \n',
-					preserveComments: 'some',
-					sourceMap: true
-				},
-				files: {
-					'<%= config.dist %>/assets/js/main.min.js':'<%= config.app %>/assets/js/main.js'
-				}
-			},
-			vendor: {
-				options: {
-					banner: '/*! <%= pkg.name %> | v<%= pkg.version %> | ' + config.toInclude.join(', ') + ' */ \n',
-					preserveComments: 'none',
-					sourceMap: true
-				},
-				files: {
-					'<%= config.dist %>/assets/js/vendor.min.js':'<%= config.app %>/assets/js/vendor.js'
-				}
-			}
-		},
-
-		concat: {
+		useminPrepare: {
 			options: {
-				separator: ';\n'
+				staging: '<%= config.temp %>',
+				root: '<%= config.app %>',
+				dest: '<%= config.dist %>'
 			},
-			vendor: {
-				dest: '<%= config.app %>/assets/js/vendor.js',
-				src: (function()	{
-					var cwd = config.root + '/bower_components/',
-						files = config.toCopy.js;
+			html: ['<%= config.app %>/index.html']
+		},
 
-					return files.map(function(file) {
-						return (cwd + file);
-					});
-				})()
-			}
+		usemin: {
+			options: {
+				blockReplacements: {
+					none: function(block) {
+						return '';
+					},
+					remotejs: function(block) {
+						return '<script src="' + block.dest + '"></script>';
+					},
+					remotecss: function(block) {
+						return '<link rel="stylesheet" href="' + block.dest + '" />';
+					}
+				},
+				assetsDirs: [
+					'<%= config.dist %>',
+					'<%= config.dist %>/assets/css',
+					'<%= config.dist %>/assets/js',
+					'<%= config.dist %>/assets/font',
+					'<%= config.dist %>/assets/images'
+				]
+			},
+			html: ['<%= config.dist %>/{,*/}*.html'],
+			css: ['<%= config.dist %>/assets/css/{,*/}*.css']
 		},
 
 		concurrent: {
-			copy: {
-				dist: ['copy:dist'],
-				build: ['copy:build']
-			},
-			concat: ['concat:vendor'],
+			copy: ['copy:dist'],
 			server: ['sass:server']
 		},
 
@@ -196,7 +179,8 @@ module.exports = function(grunt) {
 					collapseWhitespace: true
 				},
 				files: {
-					'<%= config.dist %>/index.html': '<%= config.app %>/index.html'
+					'<%= config.dist %>/index.html': '<%= config.dist %>/index.html',
+					'<%= config.root %>/index.html': '<%= config.app %>/redirect.html',
 				}
 			}
 		},
@@ -231,7 +215,7 @@ module.exports = function(grunt) {
 				}
 			},
 			html: {
-				files: ['<%= config.app %>/{,*/}*.{html}'],
+				files: ['<%= config.app %>/{,*/}*.html'],
 				options: {
 					livereload: 35729
 				}
@@ -240,21 +224,22 @@ module.exports = function(grunt) {
 	});
 
 	grunt.registerTask('default', [
-		'concurrent:copy:dist',
-		'concurrent:concat',
+		'concurrent:copy',
 		'concurrent:server',
 		'autoprefixer:dist',
 		'watch'
 	]);
 
 	grunt.registerTask('build', [
-		'clean:build',
-		'concurrent:copy:build',
-		'concurrent:concat',
+		'clean',
+		'copy:build',
 		'concurrent:server',
-		'autoprefixer:dist',
-		'cssmin:dist',
+		'useminPrepare',
+		'concat',
 		'uglify',
+		'autoprefixer:dist',
+		'cssmin',
+		'usemin',
 		'htmlmin:dist'
 	]);
 

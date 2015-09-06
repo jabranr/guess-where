@@ -6,9 +6,11 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<title>Guess where!</title>
 
-		<!-- CSS -->
 		<link rel="stylesheet" href="//fonts.googleapis.com/css?family=Lato:300,700">
+
+		<!-- build:css assets/css/main.min.css -->
 		<link rel="stylesheet" href="assets/css/main.css">
+		<!-- endbuild -->
 
 		<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
 		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -40,10 +42,15 @@
 		</div>
 		<div class="map-canvas" id="mapCanvas"></div>
 
-		<!-- <script src="http://maps.googleapis.com/maps/api/js?v=3&key=AIzaSyCc6A42_pUh_OjrulrREQ5Zu5aWirNrPZ4&sensor=false&language=en"></script> -->
-		<script src="http://maps.googleapis.com/maps/api/js?v=3&sensor=false&language=en"></script>
-		<script src="assets/js/vendor.js"></script>
+		<!-- build:remotejs //maps.googleapis.com/maps/api/js?v=3&key=AIzaSyCc6A42_pUh_OjrulrREQ5Zu5aWirNrPZ4&sensor=false&language=en -->
+		<script src="//maps.googleapis.com/maps/api/js?v=3&sensor=false&language=en"></script>
+		<!-- endbuild -->
+
+		<!-- build:js assets/js/main.min.js -->
+		<script src="../bower_components/jquery/dist/jquery.js"></script>
+		<script src="../bower_components/socialmedia/dist/socialmedia.js"></script>
 		<script src="assets/js/main.js"></script>
+		<!-- endbuild -->
 
 		<script>
 		  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -53,6 +60,9 @@
 		  ga('create', 'UA-9809111-17', 'auto');
 		  ga('send', 'pageview');
 		</script>
+
+		<!-- build:none -->
 		<script src="http://localhost:35729/livereload.js"></script>
+		<!-- endbuild -->
 	</body>
 </html>
