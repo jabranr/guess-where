@@ -1,12 +1,12 @@
 @charset 'UTF-8';
 
-// Import core variables and mixins
-@import 'bootstrap-sass/assets/stylesheets/bootstrap/variables';
-@import 'bootstrap-sass/assets/stylesheets/bootstrap/mixins';
-
 // Import defaults/core
 @import 'components/_vars';
 @import 'components/_mixins';
+
+// Import core variables and mixins
+@import 'bootstrap-sass/assets/stylesheets/bootstrap/variables';
+@import 'bootstrap-sass/assets/stylesheets/bootstrap/mixins';
 
 // Custom Bootstrap / Fontawesome / Animate.css
 @import 'components/_bootstrap';

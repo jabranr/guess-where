@@ -185,6 +185,17 @@ module.exports = function(grunt) {
 			}
 		},
 
+		imagemin: {
+			dist: {
+				files: [{
+					expand: true,
+					cwd: '<%= config.app %>/assets/images',
+					src: '{,*/}*.{jpg,gif,png,jpeg,ico}',
+					dest: '<%= config.dist %>/assets/images'
+				}]
+			}
+		},
+
 		watch: {
 			sass: {
 				files: [
@@ -240,6 +251,7 @@ module.exports = function(grunt) {
 		'autoprefixer:dist',
 		'cssmin',
 		'usemin',
+		'imagemin',
 		'htmlmin:dist'
 	]);
 

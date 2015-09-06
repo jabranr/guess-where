@@ -11,7 +11,7 @@
 
 	var setupGoogleMaps = function(lat, lng, zoom, callback) {
 		var map = _app.map = new google.maps.Map(_app.canvas, {
-			center: new google.maps.LatLng((lat || 70), (lng || 45)),
+			center: new google.maps.LatLng((lat || 45.436), (lng || 4.876)),
 			zoom: (zoom || 2),
 			backgroundColor: '#f1f1f1',
 			disableDefaultUI: true,
@@ -157,7 +157,7 @@
 		_app.geocoder = new google.maps.Geocoder();
 
 		// Setup map
-		setupGoogleMaps(70, 45, 2, function(map) {
+		setupGoogleMaps(45.436, 4.876, 2, function(map) {
 
 			// Get cities
 			getJSON('./assets/js/countries.json', {}, sortData, function(xhr, error) {
