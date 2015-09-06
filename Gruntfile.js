@@ -7,8 +7,8 @@ module.exports = function(grunt) {
 
 	var config = {
 		root: '.',
+		dist: '.',
 		app: './app',
-		dist: './dist',
 		temp: './.tmp',
 		toInclude: ['jQuery', 'socialmedia.js'],
 		toCopy: {
@@ -24,13 +24,13 @@ module.exports = function(grunt) {
 
 		clean: {
 			build: [
-				'<%= config.dist %>/*',
+				'<%= config.dist %>/assets/*',
 				'<%= config.temp %>/*',
 				'<%= config.app %>/assets/css/*',
 				'<%= config.app %>/assets/font/*',
 				'<%= config.app %>/assets/js/*',
 				'!<%= config.app %>/assets/js/main.js',
-				'<%= config.root %>/*.html'
+				'<%= config.root %>/*.{html,txt,htacces,ico,png}'
 			]
 		},
 
@@ -92,7 +92,7 @@ module.exports = function(grunt) {
 						filter: 'isFile'
 					},
 					{
-						src: ['*.{ico,htacces,png,txt}', '{,*/}*.html', '!redirect.html'],
+						src: ['*.{ico,htacces,png,txt}', 'index.html'],
 						cwd: '<%= config.app %>',
 						dest: '<%= config.dist %>',
 						expand: true,
@@ -163,7 +163,7 @@ module.exports = function(grunt) {
 					'<%= config.dist %>/assets/images'
 				]
 			},
-			html: ['<%= config.dist %>/{,*/}*.html'],
+			html: ['<%= config.dist %>/*.html'],
 			css: ['<%= config.dist %>/assets/css/{,*/}*.css']
 		},
 
@@ -179,8 +179,7 @@ module.exports = function(grunt) {
 					collapseWhitespace: true
 				},
 				files: {
-					'<%= config.dist %>/index.html': '<%= config.dist %>/index.html',
-					'<%= config.root %>/index.html': '<%= config.app %>/redirect.html',
+					'<%= config.dist %>/index.html': '<%= config.dist %>/index.html'
 				}
 			}
 		},
