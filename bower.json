@@ -1,7 +1,6 @@
 {
   "name": "guess-where",
   "description": "An interactive geo quiz game app",
-  "version": "1.0.0",
   "authors": [
     "Jabran Rafique <hello@jabran.me>"
   ],
