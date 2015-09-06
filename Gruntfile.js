@@ -24,13 +24,20 @@ module.exports = function(grunt) {
 
 		clean: {
 			build: [
-				'<%= config.dist %>/assets/*',
 				'<%= config.temp %>/*',
+				'<%= config.dist %>/assets/*',
 				'<%= config.app %>/assets/css/*',
 				'<%= config.app %>/assets/font/*',
 				'<%= config.app %>/assets/js/*',
 				'!<%= config.app %>/assets/js/main.js',
 				'<%= config.root %>/*.{html,txt,htacces,ico,png}'
+			],
+			dist: [
+				'<%= config.temp %>/*',
+				'<%= config.app %>/assets/css/*',
+				'<%= config.app %>/assets/font/*',
+				'<%= config.app %>/assets/js/*',
+				'!<%= config.app %>/assets/js/main.js'
 			]
 		},
 
@@ -241,7 +248,7 @@ module.exports = function(grunt) {
 	]);
 
 	grunt.registerTask('build', [
-		'clean',
+		'clean:build',
 		'copy:build',
 		'concurrent:server',
 		'useminPrepare',
@@ -251,7 +258,8 @@ module.exports = function(grunt) {
 		'cssmin',
 		'usemin',
 		'imagemin',
-		'htmlmin:dist'
+		'htmlmin:dist',
+		'clean:dist'
 	]);
 
 };
