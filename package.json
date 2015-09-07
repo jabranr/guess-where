@@ -1,6 +1,6 @@
 {
   "name": "guess-where",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "An interactive geo quiz game app.",
   "main": "index.html",
   "scripts": {
