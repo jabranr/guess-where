@@ -1,8 +1,15 @@
 !(function(root, document, $, google, factory)	{
+
 	root.GuessWhere = root.GuessWhere || factory(root, document, $, google);
+
 	$(document).ready(GuessWhere.init);
+
 })(this, document, jQuery, google, function(root, document, $, google) {
+
+	'use strict';
+
 	var _app = {};
+
 	var app  = {
 		fbscopes: 'email',
 		iOS: (new RegExp(/iP(od|ad|hone)/)).test(navigator.userAgent),
@@ -148,7 +155,7 @@
 		});
 	};
 
-	// Bootstrap method
+	// Bootstrap the app
 	var init = function() {
 
 		_app.canvas = $('#mapCanvas').get(0);
@@ -173,13 +180,15 @@
 
 	// Sort data
 	var sortData = function(countries) {
-		var _data = { total: countries.length };
-		_data.countries = [];
-		_data.capitals = [];
-		_data.byRegion = {};
-		_data.bySubregion = {};
+		var _data = {
+			total: countries.length,
+			countries: [],
+			capitals: [],
+			byRegion: {},
+			bySubregion: {}
+		};
 
-		countries.map(function(country)	{
+		$.map(countries, function(country)	{
 			if ( country.capital && country.capital !== '' ) {
 				_data.capitals.push(country.capital);
 				_data.countries.push({
@@ -244,9 +253,8 @@
 
 	// Set region choice
 	var setRegionChoice = function(e) {
-		var $this = $(this);
 		if ( this.checked ) {
-			_app.quiz.region = $this.data('title');
+			_app.quiz.region = $(this).data('title');
 		}
 	};
 
@@ -295,7 +303,9 @@
 							'html': randCountry.capital
 						}) );
 					}
+
 					$answers = arrSuffle($answers);
+
 					$($answers).each(function(i, el) {
 						$(el).delay(100 * i).promise().done(function() {
 							$(this).appendTo($guesses)
