@@ -13,7 +13,7 @@
 		<!-- SEO -->
 		<meta name="author" content="Jabran Rafique">
 		<meta name="description" content="An interactive geo quiz game app. Guess the unmarked capital from given choices.">
-		<link rel="canonical" href="http://jabran.me/guess-where/">
+		<link rel="canonical" href="https://www.jabran.me/guess-where/">
 
 		<!-- Search Engine Robots -->
 		<meta name="robots" content="noodp">
@@ -24,9 +24,9 @@
 		<!-- Facebook open graph -->
 		<meta property="og:type" content="website">
 		<meta property="og:title" content="Guess Where!">
-		<meta property="og:url" content="http://jabran.me/guess-where/">
+		<meta property="og:url" content="https://www.jabran.me/guess-where/">
 		<meta property="og:description" content="An interactive geo quiz game app. Guess the unmarked capital from given choices.">
-		<meta property="og:image" content="http://jabran.me/guess-where/assets/images/icon1024.png">
+		<meta property="og:image" content="https://www.jabran.me/guess-where/assets/images/icon1024.png">
 
 		<!-- Twitter card -->
 		<meta name="twitter:account_id" content="4503599628147464">
@@ -35,16 +35,16 @@
 		<meta name="twitter:creator" content="@jabranr">
 		<meta name="twitter:title" content="Guess Where!">
 		<meta name="twitter:description" content="An interactive geo quiz game app. Guess the unmarked capital from given choices.">
-		<meta name="twitter:domain" content="http://jabran.me">
-		<meta name="twitter:image" content="http://jabran.me/guess-where/assets/images/icon1024.png">
+		<meta name="twitter:domain" content="https://www.jabran.me">
+		<meta name="twitter:image" content="https://www.jabran.me/guess-where/assets/images/icon1024.png">
 
 		<!-- Favicon etc. -->
 		<link rel="publisher" href="https://plus.google.com/+JabranRafique">
-		<link rel="shortcut icon" href="http://jabran.me/guess-where/assets/images/favicon.ico">
-		<link rel="apple-touch-icon" href="http://jabran.me/guess-where/assets/images/apple-touch-icon-60x60.png">
-		<link rel="apple-touch-icon" sizes="76x76" href="http://jabran.me/guess-where/assets/images/apple-touch-icon-76x76.png">
-		<link rel="apple-touch-icon" sizes="120x120" href="http://jabran.me/guess-where/assets/images/apple-touch-icon-120x120.png">
-		<link rel="apple-touch-icon" sizes="152x152" href="http://jabran.me/guess-where/assets/images/apple-touch-icon-152x152.png">
+		<link rel="shortcut icon" href="https://www.jabran.me/guess-where/assets/images/favicon.ico">
+		<link rel="apple-touch-icon" href="https://www.jabran.me/guess-where/assets/images/apple-touch-icon-60x60.png">
+		<link rel="apple-touch-icon" sizes="76x76" href="https://www.jabran.me/guess-where/assets/images/apple-touch-icon-76x76.png">
+		<link rel="apple-touch-icon" sizes="120x120" href="https://www.jabran.me/guess-where/assets/images/apple-touch-icon-120x120.png">
+		<link rel="apple-touch-icon" sizes="152x152" href="https://www.jabran.me/guess-where/assets/images/apple-touch-icon-152x152.png">
 
 		<link rel="stylesheet" href="//fonts.googleapis.com/css?family=Lato:300,700">
 
@@ -63,7 +63,7 @@
 		<div class="nav-box">
 			<h1 class="app-title sr-only">Guess! Where?</h1>
 			<img src="assets/images/guess_where_logo.png" width="75" height="75" class="title-logo" alt="">
-			<p>An interactive geo quiz game app. Guess the unmarked capital city from given choices.</p>
+			<p class="app-description">An interactive geo quiz game app. Guess the unmarked capital city from given choices.</p>
 			<h4 class="text-success"><strong>Score: </strong> <span class="scored">0</span> / <span class="score-out-of">0</span></h4>
 			<hr>
 			<h4>Test your guess</h4>
@@ -76,7 +76,7 @@
 			<hr>
 			<div class="footer">
 				<p><span>Inspired from <a href="http://www.telegraph.co.uk/travel/citybreaks/11825481/Quiz-Can-you-identify-these-cities.html" target="_blank">Telegraph Geo Quiz</a></span></p>
-				<a href="http://jabran.me" target="_blank"><i class="fa fa-globe"></i></a>
+				<a href="https://www.jabran.me" target="_blank"><i class="fa fa-globe"></i></a>
 				<a href="https://twitter.com/jabranr" target="_blank"><i class="fa fa-twitter"></i></a>
 				<a href="https://github.com/jabranr" target="_blank"><i class="fa fa-github"></i></a>
 				<span>/ MIT License / Jabran Rafique / <i class="fa fa-info-circle cursor" title="Cookies Use"></i></span>
@@ -84,13 +84,14 @@
 		</div>
 		<div class="map-canvas" id="mapCanvas"></div>
 
-		<!-- build:remotejs //maps.googleapis.com/maps/api/js?v=3&key=AIzaSyC6CpPXq4viS1I5GjoBuJzhEx_6qGgkCz8&sensor=false&language=en -->
+		<!-- build:remotejs //maps.googleapis.com/maps/api/js?v=3&key=AIzaSyCc6A42_pUh_OjrulrREQ5Zu5aWirNrPZ4&sensor=false&language=en -->
 		<script src="//maps.googleapis.com/maps/api/js?v=3&sensor=false&language=en"></script>
 		<!-- endbuild -->
 
+		<script src="https://unpkg.com/jquery@3.4.1/dist/jquery.min.js"></script>
+		<script src="https://unpkg.com/socialmedia@2.0.2/dist/socialmedia.min.js"></script>
+
 		<!-- build:js assets/js/main.min.js -->
-		<script src="../bower_components/jquery/dist/jquery.js"></script>
-		<script src="../bower_components/socialmedia/dist/socialmedia.js"></script>
 		<script src="assets/js/main.js"></script>
 		<!-- endbuild -->
 

@@ -22,8 +22,35 @@ strong {
 	float: left;
 	display: block;
 	margin: 0 10px 10px 0;
-	width: 100px;
-	height: 100px;
+
+	@media (min-width: 700px) {
+		width: 100px;
+		height: 100px;
+	}
+}
+
+.app-description {
+	display: none;
+
+	@media (min-width: 700px) {
+		display: inline-block;
+	}
+}
+
+h4 {
+	font-size: 16px;
+
+	@media (min-width: 700px) {
+		font-size: initial;
+	}
+}
+
+hr {
+	display: none;
+
+	@media (min-width: 700px) {
+		display: block;
+	}
 }
 
 .nav-box {
@@ -31,16 +58,24 @@ strong {
 	padding: 18px;
 	margin: 0;
 	z-index: 99999;
-	box-shadow: 1px 1px 6px #d5d5d5;
+
 	background-color: rgba(255,255,255, 0.75);
 	position: absolute;
-	left: 18px;
-	top: 18px;
-	max-width: 320px;
+	left: 0;
+	top: 0;
+	right: 0;
 	max-height: 650px;
 	overflow: auto;
 	overflow-x: hidden;
 	overflow-y: auto;
+
+	@media (min-width: 700px) {
+		left: 18px;
+		top: 18px;
+		right: auto;
+		max-width: 320px;
+		box-shadow: 1px 1px 6px #d5d5d5;
+	}
 }
 
 .the-guess {
@@ -64,6 +99,14 @@ strong {
 	display: none;
 
 	&.regions--open {
+		display: block;
+	}
+}
+
+.footer {
+	display: none;
+
+	@media (min-width: 700px) {
 		display: block;
 	}
 }
