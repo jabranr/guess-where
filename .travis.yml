@@ -6,9 +6,9 @@ nvm:
 install: npm install
 script: npm run deploy
 
-branches:
-  only:
-    - master
+# branches:
+#   only:
+#     - master
 
 env:
   global:
