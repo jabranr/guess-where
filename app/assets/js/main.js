@@ -274,14 +274,19 @@
 				if ( status === google.maps.GeocoderStatus.OK ) {
 					var result = results[0];
 					_app.map.panTo(result.geometry.location);
-					_app.map.setZoom(12);
-					_app.map.panBy(-100, 0);
+					_app.map.setZoom(app.iOS || app.android ? 10 : 12);
+
+					if (app.iOS || app.android) {
+						_app.map.panBy(0, -100);
+					} else {
+						_app.map.panBy(-100, 0);
+					}
 
 					var $guesses = $('.guesses').empty();
 					var $answers = [];
 
 					$answers.push( $('<button />', {
-						'class': 'btn btn-lg btn-block the-guess btn-info animated',
+						'class': 'btn the-guess btn-info animated',
 						'type': 'button',
 						'html': randomCountry.capital
 					}) );
@@ -298,7 +303,7 @@
 						}
 
 						$answers.push( $('<button />', {
-							'class': 'btn btn-lg btn-block the-guess btn-info animated',
+							'class': 'btn the-guess btn-info animated',
 							'type': 'button',
 							'html': randCountry.capital
 						}) );

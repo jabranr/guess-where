@@ -73,15 +73,33 @@ hr {
 		left: 18px;
 		top: 18px;
 		right: auto;
-		max-width: 320px;
+		max-width: 300px;
 		box-shadow: 1px 1px 6px #d5d5d5;
 	}
 }
 
-.the-guess {
+.guesses {
 	display: block;
-	margin-bottom: 10px;
+	margin-top: 3rem;
+
+	@media (min-width: 700px) {
+		margin-top: 0;
+	}
+}
+
+.the-guess {
+	display: inline-block;
 	text-align: left;
+	margin-right: 5px;
+	margin-bottom: 5px;
+
+	@media (min-width: 700px) {
+		display: block;
+		margin-bottom: 10px;
+		margin-right: 0;
+		width: 100%;
+    padding: 10px 15px;
+	}
 }
 
 .map-canvas {
