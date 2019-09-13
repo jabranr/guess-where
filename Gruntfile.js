@@ -7,7 +7,7 @@ module.exports = function(grunt) {
 
 	var config = {
 		root: '.',
-		dist: '.',
+		dist: './dist',
 		app: './app',
 		temp: './.tmp',
 		toInclude: ['jQuery', 'socialmedia.js'],
@@ -24,7 +24,7 @@ module.exports = function(grunt) {
 
 		clean: {
 			build: [
-				'<%= config.temp %>/*',
+				'<%= config.temp %>',
 				'<%= config.dist %>/assets/*',
 				'<%= config.app %>/assets/css/*',
 				'<%= config.app %>/assets/font/*',
@@ -33,7 +33,7 @@ module.exports = function(grunt) {
 				'<%= config.root %>/*.{html,txt,htacces,ico,png}'
 			],
 			dist: [
-				'<%= config.temp %>/*',
+				'<%= config.temp %>',
 				'<%= config.app %>/assets/css/*',
 				'<%= config.app %>/assets/font/*',
 				'<%= config.app %>/assets/js/*',
@@ -46,7 +46,7 @@ module.exports = function(grunt) {
 				files: [
 					{
 						src: config.toCopy.json,
-						cwd: '<%= config.root %>/bower_components/',
+						cwd: '<%= config.root %>/node_modules/',
 						dest: '<%= config.app %>/assets/js',
 						expand: true,
 						flatten: true,
@@ -54,7 +54,7 @@ module.exports = function(grunt) {
 					},
 					{
 						src: config.toCopy.font,
-						cwd: '<%= config.root %>/bower_components/',
+						cwd: '<%= config.root %>/node_modules/',
 						dest: '<%= config.app %>/assets/font',
 						expand: true,
 						flatten: true,
@@ -62,7 +62,7 @@ module.exports = function(grunt) {
 					},
 					{
 						src: config.toCopy.animate,
-						cwd: '<%= config.root %>/bower_components/',
+						cwd: '<%= config.root %>/node_modules/',
 						dest: '<%= config.app %>/assets/sass/components',
 						ext: '.scss',
 						expand: true,
@@ -75,7 +75,7 @@ module.exports = function(grunt) {
 				files: [
 					{
 						src: config.toCopy.json,
-						cwd: '<%= config.root %>/bower_components/',
+						cwd: '<%= config.root %>/node_modules/',
 						dest: '<%= config.dist %>/assets/js',
 						expand: true,
 						flatten: true,
@@ -83,7 +83,7 @@ module.exports = function(grunt) {
 					},
 					{
 						src: config.toCopy.font,
-						cwd: '<%= config.root %>/bower_components/',
+						cwd: '<%= config.root %>/node_modules/',
 						dest: '<%= config.dist %>/assets/font',
 						expand: true,
 						flatten: true,
@@ -91,7 +91,7 @@ module.exports = function(grunt) {
 					},
 					{
 						src: config.toCopy.animate,
-						cwd: '<%= config.root %>/bower_components/',
+						cwd: '<%= config.root %>/node_modules/',
 						dest: '<%= config.app %>/assets/sass/components',
 						ext: '.scss',
 						expand: true,
@@ -125,9 +125,8 @@ module.exports = function(grunt) {
 
 		sass: {
 			options: {
-				loadPath: '<%= config.root %>/bower_components',
-				style: 'expanded',
-				sourcemap: 'none'
+				loadPath: '<%= config.root %>/node_modules',
+				style: 'expanded'
 			},
 			server: {
 				files: [{
