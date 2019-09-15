@@ -16,7 +16,7 @@
 		android: (new RegExp(/(Android)/)).test(navigator.userAgent)
 	};
 
-	var setupGoogleMaps = function(lat, lng, zoom, callback) {
+	function setupGoogleMaps(lat, lng, zoom, callback) {
 		var map = _app.map = new google.maps.Map(_app.canvas, {
 			center: new google.maps.LatLng((lat || 45.436), (lng || 4.876)),
 			zoom: (zoom || 2),
@@ -144,7 +144,7 @@
 	};
 
 	// getJSON helper method
-	var getJSON = function(url, data, success, error) {
+	function getJSON(url, data, success, error) {
 		return $.ajax({
 			url: url,
 			type: 'GET',
@@ -156,7 +156,7 @@
 	};
 
 	// Bootstrap the app
-	var init = function() {
+	function init() {
 
 		_app.canvas = $('#mapCanvas').get(0);
 
@@ -178,8 +178,16 @@
 		});
 	};
 
+	function addCountryInfo(collection, country) {
+		collection.push({
+			name: country.name.common,
+			latlng: new google.maps.LatLng(country.latlng[0], country.latlng[1]),
+			capital: country.capital
+		});
+	};
+
 	// Sort data
-	var sortData = function(countries) {
+	function sortData(countries) {
 		var _data = {
 			total: countries.length,
 			countries: [],
@@ -191,25 +199,13 @@
 		$.map(countries, function(country)	{
 			if ( country.capital && country.capital !== '' ) {
 				_data.capitals.push(country.capital);
-				_data.countries.push({
-					name: country.name.official,
-					latlng: new google.maps.LatLng(country.latlng[0], country.latlng[1]),
-					capital: country.capital
-				});
+				addCountryInfo(_data.countries, country);
 
 				_data.byRegion[country.region] = _data.byRegion[country.region] || [];
-				_data.byRegion[country.region].push({
-					name: country.name.official,
-					latlng: new google.maps.LatLng(country.latlng[0], country.latlng[1]),
-					capital: country.capital
-				});
+				addCountryInfo(_data.byRegion[country.region], country);
 
 				_data.bySubregion[country.subregion] = _data.bySubregion[country.subregion] || [];
-				_data.bySubregion[country.subregion].push({
-					name: country.name.official,
-					latlng: new google.maps.LatLng(country.latlng[0], country.latlng[1]),
-					capital: country.capital
-				});
+				addCountryInfo(_data.bySubregion[country.subregion], country);
 			}
 		});
 
@@ -220,7 +216,7 @@
 	};
 
 	// Add region choices
-	var addRegionChoices = function() {
+	function addRegionChoices() {
 		var $regions = $('.regions');
 		var $toggleRegions = $('.toggle-regions');
 
@@ -252,14 +248,22 @@
 	};
 
 	// Set region choice
-	var setRegionChoice = function(e) {
+	function setRegionChoice(e) {
 		if ( this.checked ) {
 			_app.quiz.region = $(this).data('title');
 		}
 	};
 
+	function addRandomChoice(choices, choice) {
+		choices.push($('<button />', {
+			'class': 'btn the-guess btn-info animated',
+			'type': 'button',
+			'html': choice.capital + '<br /><small>' + choice.name + '</small>'
+		}));
+	}
+
 	// Setup quiz
-	var setupQuiz = function() {
+	function setupQuiz() {
 		_app.quiz = _app.quiz || {};
 		_app.quiz.done = _app.quiz.done || [];
 		_app.quiz.correct = _app.quiz.correct || 0;
@@ -285,13 +289,9 @@
 					var $guesses = $('.guesses').empty();
 					var $answers = [];
 
-					$answers.push( $('<button />', {
-						'class': 'btn the-guess btn-info animated',
-						'type': 'button',
-						'html': randomCountry.capital
-					}) );
+					addRandomChoice($answers, randomCountry);
 
-					_app.quiz.answer = randomCountry.capital;
+					_app.quiz.answer = randomCountry.capital + randomCountry.name;
 					_app.quiz.done.push(randomCountry);
 
 
@@ -302,11 +302,7 @@
 							continue;
 						}
 
-						$answers.push( $('<button />', {
-							'class': 'btn the-guess btn-info animated',
-							'type': 'button',
-							'html': randCountry.capital
-						}) );
+						addRandomChoice($answers, randCountry);
 					}
 
 					$answers = arrSuffle($answers);
@@ -329,11 +325,12 @@
 	};
 
 	// Mark asnwers
-	var markAnswers = function(e) {
+	function markAnswers(e) {
 		e.preventDefault();
 		var $this = $(this).prop('disabled', true);
 		var title = $this.html();
-		if ( title === _app.quiz.answer ) {
+		var titleText = $this.text();
+		if ( titleText === _app.quiz.answer ) {
 			_app.quiz.correct += 1;
 			$this.toggleClass('btn-info btn-success').html('<i class="fa fa-check"></i> ' + title);
 		}
@@ -341,8 +338,9 @@
 			$this.toggleClass('btn-info btn-danger').html('<i class="fa fa-remove"></i> ' + title);
 			$this.siblings('.the-guess').each(function(i, el) {
 				var $el = $(el);
+				var elTitleText = $el.text();
 				var elTitle = $el.html();
-				if ( elTitle === _app.quiz.answer ) {
+				if ( elTitleText === _app.quiz.answer ) {
 					$el.toggleClass('btn-info btn-success').html('<i class="fa fa-check"></i> ' + elTitle);
 				}
 			});
@@ -362,7 +360,7 @@
 	};
 
 	// Get random unique country
-	var getRandomCountry = function() {
+	function getRandomCountry() {
 		var country = _app.quiz.region === 'World' ?
 			_app.data.countries[Math.floor(Math.random() * _app.data.countries.length)] :
 			_app.data.byRegion[_app.quiz.region][Math.floor(Math.random() * _app.data.byRegion[_app.quiz.region].length)];
@@ -372,7 +370,7 @@
 	};
 
 	// Shuffle array - from: http://stackoverflow.com/questions/6274339/how-can-i-shuffle-an-array-in-javascript
-	var arrSuffle = function(arr) {
+	function arrSuffle(arr) {
 		var counter = arr.length, newArr, index;
 		while(counter > 0) {
 			index = Math.floor(Math.random() * counter);
