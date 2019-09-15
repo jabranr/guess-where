@@ -81,9 +81,11 @@ hr {
 .guesses {
 	display: block;
 	margin-top: 3rem;
+	min-height: 126px;
 
 	@media (min-width: 700px) {
 		margin-top: 0;
+		min-height: 294px;
 	}
 }
 
@@ -119,6 +121,14 @@ hr {
 	&.regions--open {
 		display: block;
 	}
+}
+
+.score {
+	font-weight: 400;
+}
+
+.scored {
+	font-size: 3rem;
 }
 
 .footer {
