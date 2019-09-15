@@ -11,3 +11,6 @@ vendor/
 uploads/
 Thumbs.db
 node_modules/
+app/assets/css/
+app/assets/font/
+app/assets/js/countries.json
