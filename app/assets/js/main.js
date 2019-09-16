@@ -155,6 +155,21 @@
 		});
 	};
 
+	function setStyle(map, level) {
+		if (_app.modes && _app.modes[level]) {
+			map.setOptions({ styles: _app.modes[level] });
+			return;
+		}
+
+		return getJSON('./assets/js/modes/' + level + '.json', {}, function(style) {
+			_app.modes = _app.modes || {};
+			_app.modes[level] = style;
+			map.setOptions({ styles: style });
+		}, function(xhr, error) {
+			// console.log(error);
+		});
+	}
+
 	// Bootstrap the app
 	function init() {
 
@@ -171,6 +186,18 @@
 				// console.log(error);
 			});
 
+			// setStyle(map, 'pro');
+
+			$('.mode-btn').on('click', function(ev) {
+				var $this = $(this);
+				if ($this.hasClass('mode-active')) {
+					return;
+				}
+
+				$this.addClass('mode-active');
+				$this.siblings().removeClass('mode-active');
+				setStyle(map, $this.text().toLowerCase());
+			});
 		});
 
 		$('.fa-info-circle').on('click', function(e) {

@@ -1,0 +1,29 @@
+.modes {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+
+  > * {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+  }
+}
+
+.mode-btn {
+  background-color: #eee;
+  border: 1px solid #eee;
+  cursor: pointer;
+  margin: 0;
+  padding: 4px 8px;
+  font-size: 12px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  border-radius: 4px;
+}
+
+.mode-active {
+  background-color: #5bc0de;
+  color: #eee;
+}
