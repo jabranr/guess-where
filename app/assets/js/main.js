@@ -186,8 +186,6 @@
 				// console.log(error);
 			});
 
-			// setStyle(map, 'pro');
-
 			$('.mode-btn').on('click', function(ev) {
 				var $this = $(this);
 				if ($this.hasClass('mode-active')) {
@@ -278,6 +276,8 @@
 	function setRegionChoice(e) {
 		if ( this.checked ) {
 			_app.quiz.region = $(this).data('title');
+			$('.selected-region').text(_app.quiz.region);
+			return setupQuiz();
 		}
 	};
 
@@ -285,7 +285,7 @@
 		choices.push($('<button />', {
 			'class': 'btn the-guess btn-info animated',
 			'type': 'button',
-			'html': choice.capital + '<br /><small>' + choice.name + '</small>'
+			'html': choice.capital + '<br /><span class="guess-country">' + choice.name + '</span>'
 		}));
 	}
 
@@ -354,14 +354,15 @@
 	// Mark asnwers
 	function markAnswers(e) {
 		e.preventDefault();
+
 		var $this = $(this).prop('disabled', true);
 		var title = $this.html();
 		var titleText = $this.text();
+
 		if ( titleText === _app.quiz.answer ) {
 			_app.quiz.correct += 1;
 			$this.toggleClass('btn-info btn-success').html('<i class="fa fa-check"></i> ' + title);
-		}
-		else {
+		} else {
 			$this.toggleClass('btn-info btn-danger').html('<i class="fa fa-remove"></i> ' + title);
 			$this.siblings('.the-guess').each(function(i, el) {
 				var $el = $(el);
@@ -374,6 +375,7 @@
 		}
 
 		$this.siblings().prop('disabled', true);
+
 		$('.scored').html(_app.quiz.correct);
 		$('.score-out-of').html(_app.quiz.done.length);
 
@@ -381,6 +383,7 @@
 			$('.animated').each(function(i, el) {
 				$(el).addClass('fadeOutRight');
 			});
+
 			setupQuiz();
 		}, 1500);
 
@@ -392,7 +395,10 @@
 			_app.data.countries[Math.floor(Math.random() * _app.data.countries.length)] :
 			_app.data.byRegion[_app.quiz.region][Math.floor(Math.random() * _app.data.byRegion[_app.quiz.region].length)];
 
-		if (_app.quiz && _app.quiz.done && _app.quiz.done.indexOf(country) === -1) return country;
+		if (_app.quiz && _app.quiz.done && _app.quiz.done.indexOf(country) === -1) {
+			return country
+		};
+
 		getRandomCountry();
 	};
 

@@ -79,29 +79,39 @@ hr {
 }
 
 .guesses {
-	display: block;
-	margin-top: 3rem;
-	min-height: 126px;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows: 1fr 1fr;
+	grid-gap: 20px;
+	align-items: center;
+	margin-top: 2rem;
+	margin-bottom: 3rem;
 
 	@media (min-width: 700px) {
-		margin-top: 0;
-		min-height: 294px;
+		margin: 0;
+		grid-template-columns: 1fr;
+		grid-gap: 10px;
 	}
 }
 
 .the-guess {
 	display: inline-block;
+	position: relative;
 	text-align: left;
-	margin-right: 5px;
-	margin-bottom: 5px;
 
 	@media (min-width: 700px) {
 		display: block;
-		margin-bottom: 10px;
-		margin-right: 0;
+		margin: 0;
 		width: 100%;
     padding: 10px 15px;
 	}
+}
+
+.guess-country {
+	color: #333;
+	text-transform: uppercase;
+	font-size: 10px;
+	letter-spacing: 1px;
 }
 
 .map-canvas {
