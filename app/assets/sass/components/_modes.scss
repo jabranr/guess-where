@@ -1,13 +1,19 @@
 .modes {
   display: inline-block;
   margin: 0;
-  padding: 0;
+  padding: 0 0 10px 0;
+  border-bottom: 1px solid #eee;
 
   > * {
     display: inline-block;
+    vertical-align: middle;
     margin: 0;
     padding: 0;
   }
+}
+
+.modes-heading {
+  margin-right: 5px;
 }
 
 .mode-btn {
