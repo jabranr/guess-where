@@ -5,7 +5,7 @@ nvm:
 
 before_install: npm install -g sass
 install: npm install
-after_success: npm run deploy
+script: npm run deploy
 
 branches:
   only:
