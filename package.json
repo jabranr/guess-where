@@ -9,7 +9,7 @@
     "test": "echo \"No tests. Living on the edge!\" && exit 1",
     "serve:dev": "serve -s app",
     "serve": "serve -s dist",
-    "deploy": "gh-pages -d dist",
+    "deploy": "DEBUG=gh-pages gh-pages -d dist",
     "predeploy": "npm run build"
   },
   "repository": {
