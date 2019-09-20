@@ -13,6 +13,6 @@ branches:
 
 deploy:
   provider: pages
-  skip-cleanup: true
-  keep-history: true
-  github-token: "$GITHUB_TOKEN"
+  skip_cleanup: true
+  keep_history: true
+  github_token: $GITHUB_TOKEN
