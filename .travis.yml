@@ -16,6 +16,7 @@ deploy:
   skip_cleanup: true
   keep_history: true
   local_dir: dist/
+  repo: git@github.com:jabranr/guess-where.git
   github_token: $GITHUB_TOKEN
   on:
     branch: master
