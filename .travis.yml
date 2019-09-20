@@ -5,12 +5,17 @@ nvm:
 
 before_install: npm install -g sass
 install: npm install
-script: npm run deploy
+after_success: npm run deploy
 
 branches:
   only:
     - master
 
 deploy:
+  provider: pages
   skip_cleanup: true
+  keep_history: true
+  local_dir: dist/
   github_token: $GITHUB_TOKEN
+  on:
+    branch: master
