@@ -25,113 +25,7 @@
 			disableDoubleClickZoom: true,
 			keyboardShortcuts: false,
 			scrollwheel: false,
-			draggable: false,
-			styles: [
-			    {
-			        "featureType": "administrative.country",
-			        "elementType": "geometry.stroke",
-			        "stylers": [
-			            {
-			                "visibility": "off"
-			            }
-			        ]
-			    },
-			    {
-			        "featureType": "administrative",
-			        "elementType": "labels",
-			        "stylers": [
-			            {
-			                "visibility": "off"
-			            }
-			        ]
-			    },
-			    {
-			        "featureType": "poi",
-			        "elementType": "labels",
-			        "stylers": [
-			            {
-			                "visibility": "off"
-			            }
-			        ]
-			    },
-			    {
-			        "featureType": "transit.station",
-			        "stylers": [
-			            {
-			                "visibility": "off"
-			            }
-			        ]
-			    },
-			    {
-			        "featureType": "road",
-			        "elementType": "labels",
-			        "stylers": [
-			            {
-			                "visibility": "off"
-			            }
-			        ]
-			    },
-			    {
-			        "featureType": "water",
-			        "elementType": "labels",
-			        "stylers": [
-			            {
-			                "visibility": "off"
-			            }
-			        ]
-			    },
-			    {
-			        "featureType": "landscape",
-			        "elementType": "labels",
-			        "stylers": [
-			            {
-			                "visibility": "off"
-			            }
-			        ]
-			    },
-			    {
-			        "featureType": "road.highway",
-			        "elementType": "labels.text.fill",
-			        "stylers": [
-			            {
-			                "visibility": "simplified"
-			            }
-			        ]
-			    },
-			    {
-			        "featureType": "water",
-			        "stylers": [
-			            {
-			                "visibility": "on"
-			            },
-			            {
-			                "color": "#5fbcec"
-			            }
-			        ]
-			    },
-			    {
-			        "featureType": "road",
-			        "stylers": [
-			            {
-			                "lightness": 10
-			            },
-			            {
-			                "saturation": -40
-			            }
-			        ]
-			    },
-			    {
-			        "featureType": "landscape",
-			        "stylers": [
-			            {
-			                "color": "#f2f2f2"
-			            },
-			            {
-			                "visibility": "on"
-			            }
-			        ]
-			    }
-			]
+			draggable: false
 		});
 
 		google.maps.event.addListenerOnce(map, 'tilesloaded', function() {
@@ -155,6 +49,21 @@
 		});
 	};
 
+	function setStyle(map, level) {
+		if (_app.modes && _app.modes[level]) {
+			map.setOptions({ styles: _app.modes[level] });
+			return;
+		}
+
+		return getJSON('./assets/js/modes/' + level + '.json', {}, function(style) {
+			_app.modes = _app.modes || {};
+			_app.modes[level] = style;
+			map.setOptions({ styles: style });
+		}, function(xhr, error) {
+			// console.log(error);
+		});
+	}
+
 	// Bootstrap the app
 	function init() {
 
@@ -171,6 +80,18 @@
 				// console.log(error);
 			});
 
+			setStyle(map, 'pro');
+
+			$('.mode-btn').on('click', function(ev) {
+				var $this = $(this);
+				if ($this.hasClass('mode-active')) {
+					return;
+				}
+
+				$this.addClass('mode-active');
+				$this.siblings().removeClass('mode-active');
+				setStyle(map, $this.data('level'));
+			});
 		});
 
 		$('.fa-info-circle').on('click', function(e) {
@@ -251,6 +172,8 @@
 	function setRegionChoice(e) {
 		if ( this.checked ) {
 			_app.quiz.region = $(this).data('title');
+			$('.selected-region').text(_app.quiz.region);
+			return setupQuiz();
 		}
 	};
 
@@ -258,7 +181,7 @@
 		choices.push($('<button />', {
 			'class': 'btn the-guess btn-info animated',
 			'type': 'button',
-			'html': choice.capital + '<br /><small>' + choice.name + '</small>'
+			'html': choice.capital + '<div class="guess-country">' + choice.name + '</div>'
 		}));
 	}
 
@@ -327,14 +250,15 @@
 	// Mark asnwers
 	function markAnswers(e) {
 		e.preventDefault();
+
 		var $this = $(this).prop('disabled', true);
 		var title = $this.html();
 		var titleText = $this.text();
+
 		if ( titleText === _app.quiz.answer ) {
 			_app.quiz.correct += 1;
 			$this.toggleClass('btn-info btn-success').html('<i class="fa fa-check"></i> ' + title);
-		}
-		else {
+		} else {
 			$this.toggleClass('btn-info btn-danger').html('<i class="fa fa-remove"></i> ' + title);
 			$this.siblings('.the-guess').each(function(i, el) {
 				var $el = $(el);
@@ -347,6 +271,7 @@
 		}
 
 		$this.siblings().prop('disabled', true);
+
 		$('.scored').html(_app.quiz.correct);
 		$('.score-out-of').html(_app.quiz.done.length);
 
@@ -354,6 +279,7 @@
 			$('.animated').each(function(i, el) {
 				$(el).addClass('fadeOutRight');
 			});
+
 			setupQuiz();
 		}, 1500);
 
@@ -365,7 +291,10 @@
 			_app.data.countries[Math.floor(Math.random() * _app.data.countries.length)] :
 			_app.data.byRegion[_app.quiz.region][Math.floor(Math.random() * _app.data.byRegion[_app.quiz.region].length)];
 
-		if (_app.quiz && _app.quiz.done && _app.quiz.done.indexOf(country) === -1) return country;
+		if (_app.quiz && _app.quiz.done && _app.quiz.done.indexOf(country) === -1) {
+			return country
+		};
+
 		getRandomCountry();
 	};
 
