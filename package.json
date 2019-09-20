@@ -1,6 +1,6 @@
 {
   "name": "guess-where",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "An interactive geo quiz game app.",
   "main": "index.html",
   "scripts": {
@@ -12,6 +12,9 @@
     "deploy": "gh-pages -d dist",
     "predeploy": "npm run build"
   },
+  "repository": {
+    "url": "git+ssh://git@github.com/jabranr/guess-where.git"
+  },
   "keywords": [
     "geolocation",
     "game",
@@ -21,7 +24,7 @@
   ],
   "author": "Jabran Rafique <hello@jabran.me>",
   "homepage": "https://www.jabran.me/guess-where/",
-  "license": "MIT License",
+  "license": "MIT",
   "devDependencies": {
     "animate.css": "^3.7.2",
     "bootstrap-sass": "^3.4.1",
@@ -48,5 +51,9 @@
     "serve": "^11.1.0",
     "time-grunt": "^1.0.0",
     "world-countries": "^1.8.1"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/jabranr/guess-where/issues"
+  },
+  "dependencies": {}
 }
