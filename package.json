@@ -2,18 +2,19 @@
   "name": "guess-where",
   "version": "1.2.1",
   "description": "An interactive geo quiz game app.",
-  "main": "index.html",
+  "main": "dist/index.html",
   "scripts": {
     "start": "concurrently \"grunt\" \"npm run serve:dev\"",
     "build": "grunt build",
     "test": "echo \"No tests. Living on the edge!\" && exit 1",
     "serve:dev": "serve -s app",
     "serve": "serve -s dist",
-    "deploy": "DEBUG=gh-pages gh-pages -d dist",
+    "deploy": "gh-pages -d dist",
     "predeploy": "npm run build"
   },
   "repository": {
-    "url": "git+ssh://git@github.com/jabranr/guess-where.git"
+    "type": "git",
+    "url": "https://github.com/jabranr/guess-where.git"
   },
   "keywords": [
     "geolocation",
