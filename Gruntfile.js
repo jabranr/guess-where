@@ -30,6 +30,7 @@ module.exports = function(grunt) {
 				'<%= config.app %>/assets/font/*',
 				'<%= config.app %>/assets/js/*',
 				'!<%= config.app %>/assets/js/main.js',
+				'!<%= config.app %>/assets/js/modes',
 				'<%= config.root %>/*.{html,txt,htacces,ico,png}'
 			],
 			dist: [
@@ -37,7 +38,8 @@ module.exports = function(grunt) {
 				'<%= config.app %>/assets/css/*',
 				'<%= config.app %>/assets/font/*',
 				'<%= config.app %>/assets/js/*',
-				'!<%= config.app %>/assets/js/main.js'
+				'!<%= config.app %>/assets/js/main.js',
+				'!<%= config.app %>/assets/js/modes'
 			]
 		},
 
@@ -102,6 +104,13 @@ module.exports = function(grunt) {
 						src: ['*.{ico,htacces,png,txt}', 'index.html'],
 						cwd: '<%= config.app %>',
 						dest: '<%= config.dist %>',
+						expand: true,
+						filter: 'isFile'
+					},
+					{
+						src: ['modes/*'],
+						cwd: '<%= config.app %>/assets/js/',
+						dest: '<%= config.dist %>/assets/js/',
 						expand: true,
 						filter: 'isFile'
 					}
