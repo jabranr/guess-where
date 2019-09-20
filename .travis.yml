@@ -4,7 +4,7 @@ nvm:
   - 10.16.0
 
 before_install: npm install -g sass
-install: npm install
+install: npm install && git remote set-url origin git@github.com:jabranr/guess-where.git
 script: npm run deploy
 
 branches:
@@ -16,7 +16,6 @@ deploy:
   skip_cleanup: true
   keep_history: true
   local_dir: dist/
-  repo: git@github.com:jabranr/guess-where.git
   github_token: $GITHUB_TOKEN
   on:
     branch: master
