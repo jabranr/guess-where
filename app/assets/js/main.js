@@ -186,10 +186,9 @@
 	}
 
 	// Reset to pro (map style & button selection)
-	function resetStyle() {
+	function resetLevel() {
 		setStyle(_app.map, 'pro');
-		$('.mode-btn[data-level="pro"]').addClass('mode-active');
-		$('.mode-btn[data-level="pro"]').siblings().removeClass('mode-active');
+		$('.mode-btn[data-level="pro"]').click();
 	}
 
 	// Setup quiz
@@ -200,7 +199,7 @@
 		_app.quiz.answer = _app.quiz.answer || '';
 		_app.quiz.region = _app.quiz.region || 'World';
 
-		resetStyle();
+		resetLevel();
 
 		var randomCountry = getRandomCountry();
 		if (typeof randomCountry !== 'undefined' && randomCountry.capital && randomCountry.capital !== '') {
