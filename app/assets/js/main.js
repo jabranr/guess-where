@@ -185,6 +185,13 @@
 		}));
 	}
 
+	// Reset to pro (map style & button selection)
+	function resetStyle() {
+		setStyle(_app.map, 'pro');
+		$('.mode-btn[data-level="pro"]').addClass('mode-active');
+		$('.mode-btn[data-level="pro"]').siblings().removeClass('mode-active');
+	}
+
 	// Setup quiz
 	function setupQuiz() {
 		_app.quiz = _app.quiz || {};
@@ -192,6 +199,8 @@
 		_app.quiz.correct = _app.quiz.correct || 0;
 		_app.quiz.answer = _app.quiz.answer || '';
 		_app.quiz.region = _app.quiz.region || 'World';
+
+		resetStyle();
 
 		var randomCountry = getRandomCountry();
 		if (typeof randomCountry !== 'undefined' && randomCountry.capital && randomCountry.capital !== '') {
