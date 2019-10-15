@@ -192,6 +192,9 @@
 		_app.quiz.correct = _app.quiz.correct || 0;
 		_app.quiz.answer = _app.quiz.answer || '';
 		_app.quiz.region = _app.quiz.region || 'World';
+		
+		// Reset to pro (map style & button selection)
+		$('.mode-btn[data-level="pro"]').click();
 
 		var randomCountry = getRandomCountry();
 		if (typeof randomCountry !== 'undefined' && randomCountry.capital && randomCountry.capital !== '') {
