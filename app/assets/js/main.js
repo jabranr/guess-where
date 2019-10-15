@@ -185,12 +185,6 @@
 		}));
 	}
 
-	// Reset to pro (map style & button selection)
-	function resetLevel() {
-		setStyle(_app.map, 'pro');
-		$('.mode-btn[data-level="pro"]').click();
-	}
-
 	// Setup quiz
 	function setupQuiz() {
 		_app.quiz = _app.quiz || {};
@@ -198,8 +192,9 @@
 		_app.quiz.correct = _app.quiz.correct || 0;
 		_app.quiz.answer = _app.quiz.answer || '';
 		_app.quiz.region = _app.quiz.region || 'World';
-
-		resetLevel();
+		
+		// Reset to pro (map style & button selection)
+		$('.mode-btn[data-level="pro"]').click();
 
 		var randomCountry = getRandomCountry();
 		if (typeof randomCountry !== 'undefined' && randomCountry.capital && randomCountry.capital !== '') {
