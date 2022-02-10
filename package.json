@@ -48,7 +48,7 @@
     "grunt-filerev": "^2.3.1",
     "grunt-usemin": "^3.1.1",
     "load-grunt-tasks": "^3.2.0",
-    "node-sass": "^4.13.1",
+    "node-sass": "^7.0.0",
     "serve": "^11.1.0",
     "time-grunt": "^1.0.0",
     "world-countries": "^1.8.1"
