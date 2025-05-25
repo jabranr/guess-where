@@ -1,0 +1,48 @@
+{
+  "name": "guess-where",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "predev": "npm run prep-data",
+    "build": "tsc -b && vite build",
+    "prebuild": "npm run prep-data",
+    "lint": "eslint .",
+    "preview": "vite preview",
+    "test": "vitest run",
+    "test:watch": "vitest --watch",
+    "prep-data": "tsx scripts/sort-countries-data.ts"
+  },
+  "prettier": "@jabranr-lab/prettier",
+  "dependencies": {
+    "@tailwindcss/vite": "^4.1.7",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "tailwindcss": "^4.1.7"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.25.0",
+    "@jabranr-lab/prettier": "^2.0.0",
+    "@testing-library/jest-dom": "^6.6.3",
+    "@testing-library/react": "^16.3.0",
+    "@testing-library/user-event": "^14.6.1",
+    "@types/google.maps": "^3.58.1",
+    "@types/jsdom": "^21.1.7",
+    "@types/react": "^19.1.2",
+    "@types/react-dom": "^19.1.2",
+    "@vitejs/plugin-react": "^4.4.1",
+    "eslint": "^9.25.0",
+    "eslint-plugin-react-hooks": "^5.2.0",
+    "eslint-plugin-react-refresh": "^0.4.19",
+    "globals": "^16.0.0",
+    "jsdom": "^26.1.0",
+    "tsx": "^4.19.4",
+    "typescript": "~5.8.3",
+    "typescript-eslint": "^8.30.1",
+    "use-gmaps": "^1.2.1",
+    "vite": "^6.3.5",
+    "vitest": "^3.1.4",
+    "world-countries": "^5.1.0"
+  }
+}

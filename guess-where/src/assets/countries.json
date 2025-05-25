@@ -1,0 +1,6298 @@
+{
+  "total": 250,
+  "countries": [
+    {
+      "name": "Aruba",
+      "latlng": {
+        "lat": 12.5,
+        "lng": -69.96666666
+      },
+      "capital": "Oranjestad"
+    },
+    {
+      "name": "Afghanistan",
+      "latlng": {
+        "lat": 33,
+        "lng": 65
+      },
+      "capital": "Kabul"
+    },
+    {
+      "name": "Angola",
+      "latlng": {
+        "lat": -12.5,
+        "lng": 18.5
+      },
+      "capital": "Luanda"
+    },
+    {
+      "name": "Anguilla",
+      "latlng": {
+        "lat": 18.25,
+        "lng": -63.16666666
+      },
+      "capital": "The Valley"
+    },
+    {
+      "name": "Åland Islands",
+      "latlng": {
+        "lat": 60.116667,
+        "lng": 19.9
+      },
+      "capital": "Mariehamn"
+    },
+    {
+      "name": "Albania",
+      "latlng": {
+        "lat": 41,
+        "lng": 20
+      },
+      "capital": "Tirana"
+    },
+    {
+      "name": "Andorra",
+      "latlng": {
+        "lat": 42.5,
+        "lng": 1.5
+      },
+      "capital": "Andorra la Vella"
+    },
+    {
+      "name": "United Arab Emirates",
+      "latlng": {
+        "lat": 24,
+        "lng": 54
+      },
+      "capital": "Abu Dhabi"
+    },
+    {
+      "name": "Argentina",
+      "latlng": {
+        "lat": -34,
+        "lng": -64
+      },
+      "capital": "Buenos Aires"
+    },
+    {
+      "name": "Armenia",
+      "latlng": {
+        "lat": 40,
+        "lng": 45
+      },
+      "capital": "Yerevan"
+    },
+    {
+      "name": "American Samoa",
+      "latlng": {
+        "lat": -14.33333333,
+        "lng": -170
+      },
+      "capital": "Pago Pago"
+    },
+    {
+      "name": "French Southern and Antarctic Lands",
+      "latlng": {
+        "lat": -49.25,
+        "lng": 69.167
+      },
+      "capital": "Port-aux-Français"
+    },
+    {
+      "name": "Antigua and Barbuda",
+      "latlng": {
+        "lat": 17.05,
+        "lng": -61.8
+      },
+      "capital": "Saint John's"
+    },
+    {
+      "name": "Australia",
+      "latlng": {
+        "lat": -27,
+        "lng": 133
+      },
+      "capital": "Canberra"
+    },
+    {
+      "name": "Austria",
+      "latlng": {
+        "lat": 47.33333333,
+        "lng": 13.33333333
+      },
+      "capital": "Vienna"
+    },
+    {
+      "name": "Azerbaijan",
+      "latlng": {
+        "lat": 40.5,
+        "lng": 47.5
+      },
+      "capital": "Baku"
+    },
+    {
+      "name": "Burundi",
+      "latlng": {
+        "lat": -3.5,
+        "lng": 30
+      },
+      "capital": "Gitega"
+    },
+    {
+      "name": "Belgium",
+      "latlng": {
+        "lat": 50.83333333,
+        "lng": 4
+      },
+      "capital": "Brussels"
+    },
+    {
+      "name": "Benin",
+      "latlng": {
+        "lat": 9.5,
+        "lng": 2.25
+      },
+      "capital": "Porto-Novo"
+    },
+    {
+      "name": "Burkina Faso",
+      "latlng": {
+        "lat": 13,
+        "lng": -2
+      },
+      "capital": "Ouagadougou"
+    },
+    {
+      "name": "Bangladesh",
+      "latlng": {
+        "lat": 24,
+        "lng": 90
+      },
+      "capital": "Dhaka"
+    },
+    {
+      "name": "Bulgaria",
+      "latlng": {
+        "lat": 43,
+        "lng": 25
+      },
+      "capital": "Sofia"
+    },
+    {
+      "name": "Bahrain",
+      "latlng": {
+        "lat": 26,
+        "lng": 50.55
+      },
+      "capital": "Manama"
+    },
+    {
+      "name": "Bahamas",
+      "latlng": {
+        "lat": 24.25,
+        "lng": -76
+      },
+      "capital": "Nassau"
+    },
+    {
+      "name": "Bosnia and Herzegovina",
+      "latlng": {
+        "lat": 44,
+        "lng": 18
+      },
+      "capital": "Sarajevo"
+    },
+    {
+      "name": "Saint Barthélemy",
+      "latlng": {
+        "lat": 18.5,
+        "lng": -63.41666666
+      },
+      "capital": "Gustavia"
+    },
+    {
+      "name": "Saint Helena, Ascension and Tristan da Cunha",
+      "latlng": {
+        "lat": -15.95,
+        "lng": -5.72
+      },
+      "capital": "Jamestown"
+    },
+    {
+      "name": "Belarus",
+      "latlng": {
+        "lat": 53,
+        "lng": 28
+      },
+      "capital": "Minsk"
+    },
+    {
+      "name": "Belize",
+      "latlng": {
+        "lat": 17.25,
+        "lng": -88.75
+      },
+      "capital": "Belmopan"
+    },
+    {
+      "name": "Bermuda",
+      "latlng": {
+        "lat": 32.33333333,
+        "lng": -64.75
+      },
+      "capital": "Hamilton"
+    },
+    {
+      "name": "Bolivia",
+      "latlng": {
+        "lat": -17,
+        "lng": -65
+      },
+      "capital": "Sucre"
+    },
+    {
+      "name": "Caribbean Netherlands",
+      "latlng": {
+        "lat": 12.18,
+        "lng": -68.25
+      },
+      "capital": "Kralendijk"
+    },
+    {
+      "name": "Caribbean Netherlands",
+      "latlng": {
+        "lat": 12.18,
+        "lng": -68.25
+      },
+      "capital": "Oranjestad"
+    },
+    {
+      "name": "Caribbean Netherlands",
+      "latlng": {
+        "lat": 12.18,
+        "lng": -68.25
+      },
+      "capital": "The Bottom"
+    },
+    {
+      "name": "Brazil",
+      "latlng": {
+        "lat": -10,
+        "lng": -55
+      },
+      "capital": "Brasília"
+    },
+    {
+      "name": "Barbados",
+      "latlng": {
+        "lat": 13.16666666,
+        "lng": -59.53333333
+      },
+      "capital": "Bridgetown"
+    },
+    {
+      "name": "Brunei",
+      "latlng": {
+        "lat": 4.5,
+        "lng": 114.66666666
+      },
+      "capital": "Bandar Seri Begawan"
+    },
+    {
+      "name": "Bhutan",
+      "latlng": {
+        "lat": 27.5,
+        "lng": 90.5
+      },
+      "capital": "Thimphu"
+    },
+    {
+      "name": "Botswana",
+      "latlng": {
+        "lat": -22,
+        "lng": 24
+      },
+      "capital": "Gaborone"
+    },
+    {
+      "name": "Central African Republic",
+      "latlng": {
+        "lat": 7,
+        "lng": 21
+      },
+      "capital": "Bangui"
+    },
+    {
+      "name": "Canada",
+      "latlng": {
+        "lat": 60,
+        "lng": -95
+      },
+      "capital": "Ottawa"
+    },
+    {
+      "name": "Cocos (Keeling) Islands",
+      "latlng": {
+        "lat": -12.5,
+        "lng": 96.83333333
+      },
+      "capital": "West Island"
+    },
+    {
+      "name": "Switzerland",
+      "latlng": {
+        "lat": 47,
+        "lng": 8
+      },
+      "capital": "Bern"
+    },
+    {
+      "name": "Chile",
+      "latlng": {
+        "lat": -30,
+        "lng": -71
+      },
+      "capital": "Santiago"
+    },
+    {
+      "name": "China",
+      "latlng": {
+        "lat": 35,
+        "lng": 105
+      },
+      "capital": "Beijing"
+    },
+    {
+      "name": "Ivory Coast",
+      "latlng": {
+        "lat": 8,
+        "lng": -5
+      },
+      "capital": "Yamoussoukro"
+    },
+    {
+      "name": "Cameroon",
+      "latlng": {
+        "lat": 6,
+        "lng": 12
+      },
+      "capital": "Yaoundé"
+    },
+    {
+      "name": "DR Congo",
+      "latlng": {
+        "lat": 0,
+        "lng": 25
+      },
+      "capital": "Kinshasa"
+    },
+    {
+      "name": "Republic of the Congo",
+      "latlng": {
+        "lat": -1,
+        "lng": 15
+      },
+      "capital": "Brazzaville"
+    },
+    {
+      "name": "Cook Islands",
+      "latlng": {
+        "lat": -21.23333333,
+        "lng": -159.76666666
+      },
+      "capital": "Avarua"
+    },
+    {
+      "name": "Colombia",
+      "latlng": {
+        "lat": 4,
+        "lng": -72
+      },
+      "capital": "Bogotá"
+    },
+    {
+      "name": "Comoros",
+      "latlng": {
+        "lat": -12.16666666,
+        "lng": 44.25
+      },
+      "capital": "Moroni"
+    },
+    {
+      "name": "Cape Verde",
+      "latlng": {
+        "lat": 16,
+        "lng": -24
+      },
+      "capital": "Praia"
+    },
+    {
+      "name": "Costa Rica",
+      "latlng": {
+        "lat": 10,
+        "lng": -84
+      },
+      "capital": "San José"
+    },
+    {
+      "name": "Cuba",
+      "latlng": {
+        "lat": 21.5,
+        "lng": -80
+      },
+      "capital": "Havana"
+    },
+    {
+      "name": "Curaçao",
+      "latlng": {
+        "lat": 12.116667,
+        "lng": -68.933333
+      },
+      "capital": "Willemstad"
+    },
+    {
+      "name": "Christmas Island",
+      "latlng": {
+        "lat": -10.5,
+        "lng": 105.66666666
+      },
+      "capital": "Flying Fish Cove"
+    },
+    {
+      "name": "Cayman Islands",
+      "latlng": {
+        "lat": 19.5,
+        "lng": -80.5
+      },
+      "capital": "George Town"
+    },
+    {
+      "name": "Cyprus",
+      "latlng": {
+        "lat": 35,
+        "lng": 33
+      },
+      "capital": "Nicosia"
+    },
+    {
+      "name": "Czechia",
+      "latlng": {
+        "lat": 49.75,
+        "lng": 15.5
+      },
+      "capital": "Prague"
+    },
+    {
+      "name": "Germany",
+      "latlng": {
+        "lat": 51,
+        "lng": 9
+      },
+      "capital": "Berlin"
+    },
+    {
+      "name": "Djibouti",
+      "latlng": {
+        "lat": 11.5,
+        "lng": 43
+      },
+      "capital": "Djibouti"
+    },
+    {
+      "name": "Dominica",
+      "latlng": {
+        "lat": 15.41666666,
+        "lng": -61.33333333
+      },
+      "capital": "Roseau"
+    },
+    {
+      "name": "Denmark",
+      "latlng": {
+        "lat": 56,
+        "lng": 10
+      },
+      "capital": "Copenhagen"
+    },
+    {
+      "name": "Dominican Republic",
+      "latlng": {
+        "lat": 19,
+        "lng": -70.66666666
+      },
+      "capital": "Santo Domingo"
+    },
+    {
+      "name": "Algeria",
+      "latlng": {
+        "lat": 28,
+        "lng": 3
+      },
+      "capital": "Algiers"
+    },
+    {
+      "name": "Ecuador",
+      "latlng": {
+        "lat": -2,
+        "lng": -77.5
+      },
+      "capital": "Quito"
+    },
+    {
+      "name": "Egypt",
+      "latlng": {
+        "lat": 27,
+        "lng": 30
+      },
+      "capital": "Cairo"
+    },
+    {
+      "name": "Eritrea",
+      "latlng": {
+        "lat": 15,
+        "lng": 39
+      },
+      "capital": "Asmara"
+    },
+    {
+      "name": "Western Sahara",
+      "latlng": {
+        "lat": 24.5,
+        "lng": -13
+      },
+      "capital": "El Aaiún"
+    },
+    {
+      "name": "Spain",
+      "latlng": {
+        "lat": 40,
+        "lng": -4
+      },
+      "capital": "Madrid"
+    },
+    {
+      "name": "Estonia",
+      "latlng": {
+        "lat": 59,
+        "lng": 26
+      },
+      "capital": "Tallinn"
+    },
+    {
+      "name": "Ethiopia",
+      "latlng": {
+        "lat": 8,
+        "lng": 38
+      },
+      "capital": "Addis Ababa"
+    },
+    {
+      "name": "Finland",
+      "latlng": {
+        "lat": 64,
+        "lng": 26
+      },
+      "capital": "Helsinki"
+    },
+    {
+      "name": "Fiji",
+      "latlng": {
+        "lat": -18,
+        "lng": 175
+      },
+      "capital": "Suva"
+    },
+    {
+      "name": "Falkland Islands",
+      "latlng": {
+        "lat": -51.75,
+        "lng": -59
+      },
+      "capital": "Stanley"
+    },
+    {
+      "name": "France",
+      "latlng": {
+        "lat": 46,
+        "lng": 2
+      },
+      "capital": "Paris"
+    },
+    {
+      "name": "Faroe Islands",
+      "latlng": {
+        "lat": 62,
+        "lng": -7
+      },
+      "capital": "Tórshavn"
+    },
+    {
+      "name": "Micronesia",
+      "latlng": {
+        "lat": 6.91666666,
+        "lng": 158.25
+      },
+      "capital": "Palikir"
+    },
+    {
+      "name": "Gabon",
+      "latlng": {
+        "lat": -1,
+        "lng": 11.75
+      },
+      "capital": "Libreville"
+    },
+    {
+      "name": "United Kingdom",
+      "latlng": {
+        "lat": 54,
+        "lng": -2
+      },
+      "capital": "London"
+    },
+    {
+      "name": "Georgia",
+      "latlng": {
+        "lat": 42,
+        "lng": 43.5
+      },
+      "capital": "Tbilisi"
+    },
+    {
+      "name": "Guernsey",
+      "latlng": {
+        "lat": 49.46666666,
+        "lng": -2.58333333
+      },
+      "capital": "St. Peter Port"
+    },
+    {
+      "name": "Ghana",
+      "latlng": {
+        "lat": 8,
+        "lng": -2
+      },
+      "capital": "Accra"
+    },
+    {
+      "name": "Gibraltar",
+      "latlng": {
+        "lat": 36.13333333,
+        "lng": -5.35
+      },
+      "capital": "Gibraltar"
+    },
+    {
+      "name": "Guinea",
+      "latlng": {
+        "lat": 11,
+        "lng": -10
+      },
+      "capital": "Conakry"
+    },
+    {
+      "name": "Guadeloupe",
+      "latlng": {
+        "lat": 16.25,
+        "lng": -61.583333
+      },
+      "capital": "Basse-Terre"
+    },
+    {
+      "name": "Gambia",
+      "latlng": {
+        "lat": 13.46666666,
+        "lng": -16.56666666
+      },
+      "capital": "Banjul"
+    },
+    {
+      "name": "Guinea-Bissau",
+      "latlng": {
+        "lat": 12,
+        "lng": -15
+      },
+      "capital": "Bissau"
+    },
+    {
+      "name": "Equatorial Guinea",
+      "latlng": {
+        "lat": 2,
+        "lng": 10
+      },
+      "capital": "Malabo"
+    },
+    {
+      "name": "Greece",
+      "latlng": {
+        "lat": 39,
+        "lng": 22
+      },
+      "capital": "Athens"
+    },
+    {
+      "name": "Grenada",
+      "latlng": {
+        "lat": 12.11666666,
+        "lng": -61.66666666
+      },
+      "capital": "St. George's"
+    },
+    {
+      "name": "Greenland",
+      "latlng": {
+        "lat": 72,
+        "lng": -40
+      },
+      "capital": "Nuuk"
+    },
+    {
+      "name": "Guatemala",
+      "latlng": {
+        "lat": 15.5,
+        "lng": -90.25
+      },
+      "capital": "Guatemala City"
+    },
+    {
+      "name": "French Guiana",
+      "latlng": {
+        "lat": 4,
+        "lng": -53
+      },
+      "capital": "Cayenne"
+    },
+    {
+      "name": "Guam",
+      "latlng": {
+        "lat": 13.46666666,
+        "lng": 144.78333333
+      },
+      "capital": "Hagåtña"
+    },
+    {
+      "name": "Guyana",
+      "latlng": {
+        "lat": 5,
+        "lng": -59
+      },
+      "capital": "Georgetown"
+    },
+    {
+      "name": "Hong Kong",
+      "latlng": {
+        "lat": 22.267,
+        "lng": 114.188
+      },
+      "capital": "City of Victoria"
+    },
+    {
+      "name": "Honduras",
+      "latlng": {
+        "lat": 15,
+        "lng": -86.5
+      },
+      "capital": "Tegucigalpa"
+    },
+    {
+      "name": "Croatia",
+      "latlng": {
+        "lat": 45.16666666,
+        "lng": 15.5
+      },
+      "capital": "Zagreb"
+    },
+    {
+      "name": "Haiti",
+      "latlng": {
+        "lat": 19,
+        "lng": -72.41666666
+      },
+      "capital": "Port-au-Prince"
+    },
+    {
+      "name": "Hungary",
+      "latlng": {
+        "lat": 47,
+        "lng": 20
+      },
+      "capital": "Budapest"
+    },
+    {
+      "name": "Indonesia",
+      "latlng": {
+        "lat": -5,
+        "lng": 120
+      },
+      "capital": "Jakarta"
+    },
+    {
+      "name": "Isle of Man",
+      "latlng": {
+        "lat": 54.25,
+        "lng": -4.5
+      },
+      "capital": "Douglas"
+    },
+    {
+      "name": "India",
+      "latlng": {
+        "lat": 20,
+        "lng": 77
+      },
+      "capital": "New Delhi"
+    },
+    {
+      "name": "British Indian Ocean Territory",
+      "latlng": {
+        "lat": -6,
+        "lng": 71.5
+      },
+      "capital": "Diego Garcia"
+    },
+    {
+      "name": "Ireland",
+      "latlng": {
+        "lat": 53,
+        "lng": -8
+      },
+      "capital": "Dublin"
+    },
+    {
+      "name": "Iran",
+      "latlng": {
+        "lat": 32,
+        "lng": 53
+      },
+      "capital": "Tehran"
+    },
+    {
+      "name": "Iraq",
+      "latlng": {
+        "lat": 33,
+        "lng": 44
+      },
+      "capital": "Baghdad"
+    },
+    {
+      "name": "Iceland",
+      "latlng": {
+        "lat": 65,
+        "lng": -18
+      },
+      "capital": "Reykjavik"
+    },
+    {
+      "name": "Israel",
+      "latlng": {
+        "lat": 31.47,
+        "lng": 35.13
+      },
+      "capital": "Jerusalem"
+    },
+    {
+      "name": "Italy",
+      "latlng": {
+        "lat": 42.83333333,
+        "lng": 12.83333333
+      },
+      "capital": "Rome"
+    },
+    {
+      "name": "Jamaica",
+      "latlng": {
+        "lat": 18.25,
+        "lng": -77.5
+      },
+      "capital": "Kingston"
+    },
+    {
+      "name": "Jersey",
+      "latlng": {
+        "lat": 49.25,
+        "lng": -2.16666666
+      },
+      "capital": "Saint Helier"
+    },
+    {
+      "name": "Jordan",
+      "latlng": {
+        "lat": 31,
+        "lng": 36
+      },
+      "capital": "Amman"
+    },
+    {
+      "name": "Japan",
+      "latlng": {
+        "lat": 36,
+        "lng": 138
+      },
+      "capital": "Tokyo"
+    },
+    {
+      "name": "Kazakhstan",
+      "latlng": {
+        "lat": 48,
+        "lng": 68
+      },
+      "capital": "Astana"
+    },
+    {
+      "name": "Kenya",
+      "latlng": {
+        "lat": 1,
+        "lng": 38
+      },
+      "capital": "Nairobi"
+    },
+    {
+      "name": "Kyrgyzstan",
+      "latlng": {
+        "lat": 41,
+        "lng": 75
+      },
+      "capital": "Bishkek"
+    },
+    {
+      "name": "Cambodia",
+      "latlng": {
+        "lat": 13,
+        "lng": 105
+      },
+      "capital": "Phnom Penh"
+    },
+    {
+      "name": "Kiribati",
+      "latlng": {
+        "lat": 1.41666666,
+        "lng": 173
+      },
+      "capital": "South Tarawa"
+    },
+    {
+      "name": "Saint Kitts and Nevis",
+      "latlng": {
+        "lat": 17.33333333,
+        "lng": -62.75
+      },
+      "capital": "Basseterre"
+    },
+    {
+      "name": "South Korea",
+      "latlng": {
+        "lat": 37,
+        "lng": 127.5
+      },
+      "capital": "Seoul"
+    },
+    {
+      "name": "Kosovo",
+      "latlng": {
+        "lat": 42.666667,
+        "lng": 21.166667
+      },
+      "capital": "Pristina"
+    },
+    {
+      "name": "Kuwait",
+      "latlng": {
+        "lat": 29.5,
+        "lng": 45.75
+      },
+      "capital": "Kuwait City"
+    },
+    {
+      "name": "Laos",
+      "latlng": {
+        "lat": 18,
+        "lng": 105
+      },
+      "capital": "Vientiane"
+    },
+    {
+      "name": "Lebanon",
+      "latlng": {
+        "lat": 33.83333333,
+        "lng": 35.83333333
+      },
+      "capital": "Beirut"
+    },
+    {
+      "name": "Liberia",
+      "latlng": {
+        "lat": 6.5,
+        "lng": -9.5
+      },
+      "capital": "Monrovia"
+    },
+    {
+      "name": "Libya",
+      "latlng": {
+        "lat": 25,
+        "lng": 17
+      },
+      "capital": "Tripoli"
+    },
+    {
+      "name": "Saint Lucia",
+      "latlng": {
+        "lat": 13.88333333,
+        "lng": -60.96666666
+      },
+      "capital": "Castries"
+    },
+    {
+      "name": "Liechtenstein",
+      "latlng": {
+        "lat": 47.26666666,
+        "lng": 9.53333333
+      },
+      "capital": "Vaduz"
+    },
+    {
+      "name": "Sri Lanka",
+      "latlng": {
+        "lat": 7,
+        "lng": 81
+      },
+      "capital": "Colombo"
+    },
+    {
+      "name": "Lesotho",
+      "latlng": {
+        "lat": -29.5,
+        "lng": 28.5
+      },
+      "capital": "Maseru"
+    },
+    {
+      "name": "Lithuania",
+      "latlng": {
+        "lat": 56,
+        "lng": 24
+      },
+      "capital": "Vilnius"
+    },
+    {
+      "name": "Luxembourg",
+      "latlng": {
+        "lat": 49.75,
+        "lng": 6.16666666
+      },
+      "capital": "Luxembourg"
+    },
+    {
+      "name": "Latvia",
+      "latlng": {
+        "lat": 57,
+        "lng": 25
+      },
+      "capital": "Riga"
+    },
+    {
+      "name": "Saint Martin",
+      "latlng": {
+        "lat": 18.08333333,
+        "lng": -63.95
+      },
+      "capital": "Marigot"
+    },
+    {
+      "name": "Morocco",
+      "latlng": {
+        "lat": 32,
+        "lng": -5
+      },
+      "capital": "Rabat"
+    },
+    {
+      "name": "Monaco",
+      "latlng": {
+        "lat": 43.73333333,
+        "lng": 7.4
+      },
+      "capital": "Monaco"
+    },
+    {
+      "name": "Moldova",
+      "latlng": {
+        "lat": 47,
+        "lng": 29
+      },
+      "capital": "Chișinău"
+    },
+    {
+      "name": "Madagascar",
+      "latlng": {
+        "lat": -20,
+        "lng": 47
+      },
+      "capital": "Antananarivo"
+    },
+    {
+      "name": "Maldives",
+      "latlng": {
+        "lat": 3.25,
+        "lng": 73
+      },
+      "capital": "Malé"
+    },
+    {
+      "name": "Mexico",
+      "latlng": {
+        "lat": 23,
+        "lng": -102
+      },
+      "capital": "Mexico City"
+    },
+    {
+      "name": "Marshall Islands",
+      "latlng": {
+        "lat": 9,
+        "lng": 168
+      },
+      "capital": "Majuro"
+    },
+    {
+      "name": "North Macedonia",
+      "latlng": {
+        "lat": 41.83333333,
+        "lng": 22
+      },
+      "capital": "Skopje"
+    },
+    {
+      "name": "Mali",
+      "latlng": {
+        "lat": 17,
+        "lng": -4
+      },
+      "capital": "Bamako"
+    },
+    {
+      "name": "Malta",
+      "latlng": {
+        "lat": 35.83333333,
+        "lng": 14.58333333
+      },
+      "capital": "Valletta"
+    },
+    {
+      "name": "Myanmar",
+      "latlng": {
+        "lat": 22,
+        "lng": 98
+      },
+      "capital": "Naypyidaw"
+    },
+    {
+      "name": "Montenegro",
+      "latlng": {
+        "lat": 42.5,
+        "lng": 19.3
+      },
+      "capital": "Podgorica"
+    },
+    {
+      "name": "Mongolia",
+      "latlng": {
+        "lat": 46,
+        "lng": 105
+      },
+      "capital": "Ulan Bator"
+    },
+    {
+      "name": "Northern Mariana Islands",
+      "latlng": {
+        "lat": 15.2,
+        "lng": 145.75
+      },
+      "capital": "Saipan"
+    },
+    {
+      "name": "Mozambique",
+      "latlng": {
+        "lat": -18.25,
+        "lng": 35
+      },
+      "capital": "Maputo"
+    },
+    {
+      "name": "Mauritania",
+      "latlng": {
+        "lat": 20,
+        "lng": -12
+      },
+      "capital": "Nouakchott"
+    },
+    {
+      "name": "Montserrat",
+      "latlng": {
+        "lat": 16.75,
+        "lng": -62.2
+      },
+      "capital": "Plymouth"
+    },
+    {
+      "name": "Martinique",
+      "latlng": {
+        "lat": 14.666667,
+        "lng": -61
+      },
+      "capital": "Fort-de-France"
+    },
+    {
+      "name": "Mauritius",
+      "latlng": {
+        "lat": -20.28333333,
+        "lng": 57.55
+      },
+      "capital": "Port Louis"
+    },
+    {
+      "name": "Malawi",
+      "latlng": {
+        "lat": -13.5,
+        "lng": 34
+      },
+      "capital": "Lilongwe"
+    },
+    {
+      "name": "Malaysia",
+      "latlng": {
+        "lat": 2.5,
+        "lng": 112.5
+      },
+      "capital": "Kuala Lumpur"
+    },
+    {
+      "name": "Mayotte",
+      "latlng": {
+        "lat": -12.83333333,
+        "lng": 45.16666666
+      },
+      "capital": "Mamoudzou"
+    },
+    {
+      "name": "Namibia",
+      "latlng": {
+        "lat": -22,
+        "lng": 17
+      },
+      "capital": "Windhoek"
+    },
+    {
+      "name": "New Caledonia",
+      "latlng": {
+        "lat": -21.5,
+        "lng": 165.5
+      },
+      "capital": "Nouméa"
+    },
+    {
+      "name": "Niger",
+      "latlng": {
+        "lat": 16,
+        "lng": 8
+      },
+      "capital": "Niamey"
+    },
+    {
+      "name": "Norfolk Island",
+      "latlng": {
+        "lat": -29.03333333,
+        "lng": 167.95
+      },
+      "capital": "Kingston"
+    },
+    {
+      "name": "Nigeria",
+      "latlng": {
+        "lat": 10,
+        "lng": 8
+      },
+      "capital": "Abuja"
+    },
+    {
+      "name": "Nicaragua",
+      "latlng": {
+        "lat": 13,
+        "lng": -85
+      },
+      "capital": "Managua"
+    },
+    {
+      "name": "Niue",
+      "latlng": {
+        "lat": -19.03333333,
+        "lng": -169.86666666
+      },
+      "capital": "Alofi"
+    },
+    {
+      "name": "Netherlands",
+      "latlng": {
+        "lat": 52.5,
+        "lng": 5.75
+      },
+      "capital": "Amsterdam"
+    },
+    {
+      "name": "Norway",
+      "latlng": {
+        "lat": 62,
+        "lng": 10
+      },
+      "capital": "Oslo"
+    },
+    {
+      "name": "Nepal",
+      "latlng": {
+        "lat": 28,
+        "lng": 84
+      },
+      "capital": "Kathmandu"
+    },
+    {
+      "name": "Nauru",
+      "latlng": {
+        "lat": -0.53333333,
+        "lng": 166.91666666
+      },
+      "capital": "Yaren"
+    },
+    {
+      "name": "New Zealand",
+      "latlng": {
+        "lat": -41,
+        "lng": 174
+      },
+      "capital": "Wellington"
+    },
+    {
+      "name": "Oman",
+      "latlng": {
+        "lat": 21,
+        "lng": 57
+      },
+      "capital": "Muscat"
+    },
+    {
+      "name": "Pakistan",
+      "latlng": {
+        "lat": 30,
+        "lng": 70
+      },
+      "capital": "Islamabad"
+    },
+    {
+      "name": "Panama",
+      "latlng": {
+        "lat": 9,
+        "lng": -80
+      },
+      "capital": "Panama City"
+    },
+    {
+      "name": "Pitcairn Islands",
+      "latlng": {
+        "lat": -25.06666666,
+        "lng": -130.1
+      },
+      "capital": "Adamstown"
+    },
+    {
+      "name": "Peru",
+      "latlng": {
+        "lat": -10,
+        "lng": -76
+      },
+      "capital": "Lima"
+    },
+    {
+      "name": "Philippines",
+      "latlng": {
+        "lat": 13,
+        "lng": 122
+      },
+      "capital": "Manila"
+    },
+    {
+      "name": "Palau",
+      "latlng": {
+        "lat": 7.5,
+        "lng": 134.5
+      },
+      "capital": "Ngerulmud"
+    },
+    {
+      "name": "Papua New Guinea",
+      "latlng": {
+        "lat": -6,
+        "lng": 147
+      },
+      "capital": "Port Moresby"
+    },
+    {
+      "name": "Poland",
+      "latlng": {
+        "lat": 52,
+        "lng": 20
+      },
+      "capital": "Warsaw"
+    },
+    {
+      "name": "Puerto Rico",
+      "latlng": {
+        "lat": 18.25,
+        "lng": -66.5
+      },
+      "capital": "San Juan"
+    },
+    {
+      "name": "North Korea",
+      "latlng": {
+        "lat": 40,
+        "lng": 127
+      },
+      "capital": "Pyongyang"
+    },
+    {
+      "name": "Portugal",
+      "latlng": {
+        "lat": 39.5,
+        "lng": -8
+      },
+      "capital": "Lisbon"
+    },
+    {
+      "name": "Paraguay",
+      "latlng": {
+        "lat": -23,
+        "lng": -58
+      },
+      "capital": "Asunción"
+    },
+    {
+      "name": "Palestine",
+      "latlng": {
+        "lat": 31.9,
+        "lng": 35.2
+      },
+      "capital": "Ramallah"
+    },
+    {
+      "name": "French Polynesia",
+      "latlng": {
+        "lat": -15,
+        "lng": -140
+      },
+      "capital": "Papeetē"
+    },
+    {
+      "name": "Qatar",
+      "latlng": {
+        "lat": 25.5,
+        "lng": 51.25
+      },
+      "capital": "Doha"
+    },
+    {
+      "name": "Réunion",
+      "latlng": {
+        "lat": -21.15,
+        "lng": 55.5
+      },
+      "capital": "Saint-Denis"
+    },
+    {
+      "name": "Romania",
+      "latlng": {
+        "lat": 46,
+        "lng": 25
+      },
+      "capital": "Bucharest"
+    },
+    {
+      "name": "Russia",
+      "latlng": {
+        "lat": 60,
+        "lng": 100
+      },
+      "capital": "Moscow"
+    },
+    {
+      "name": "Rwanda",
+      "latlng": {
+        "lat": -2,
+        "lng": 30
+      },
+      "capital": "Kigali"
+    },
+    {
+      "name": "Saudi Arabia",
+      "latlng": {
+        "lat": 25,
+        "lng": 45
+      },
+      "capital": "Riyadh"
+    },
+    {
+      "name": "Sudan",
+      "latlng": {
+        "lat": 15,
+        "lng": 30
+      },
+      "capital": "Khartoum"
+    },
+    {
+      "name": "Senegal",
+      "latlng": {
+        "lat": 14,
+        "lng": -14
+      },
+      "capital": "Dakar"
+    },
+    {
+      "name": "Singapore",
+      "latlng": {
+        "lat": 1.36666666,
+        "lng": 103.8
+      },
+      "capital": "Singapore"
+    },
+    {
+      "name": "South Georgia",
+      "latlng": {
+        "lat": -54.5,
+        "lng": -37
+      },
+      "capital": "King Edward Point"
+    },
+    {
+      "name": "Svalbard and Jan Mayen",
+      "latlng": {
+        "lat": 78,
+        "lng": 20
+      },
+      "capital": "Longyearbyen"
+    },
+    {
+      "name": "Solomon Islands",
+      "latlng": {
+        "lat": -8,
+        "lng": 159
+      },
+      "capital": "Honiara"
+    },
+    {
+      "name": "Sierra Leone",
+      "latlng": {
+        "lat": 8.5,
+        "lng": -11.5
+      },
+      "capital": "Freetown"
+    },
+    {
+      "name": "El Salvador",
+      "latlng": {
+        "lat": 13.83333333,
+        "lng": -88.91666666
+      },
+      "capital": "San Salvador"
+    },
+    {
+      "name": "San Marino",
+      "latlng": {
+        "lat": 43.76666666,
+        "lng": 12.41666666
+      },
+      "capital": "City of San Marino"
+    },
+    {
+      "name": "Somalia",
+      "latlng": {
+        "lat": 10,
+        "lng": 49
+      },
+      "capital": "Mogadishu"
+    },
+    {
+      "name": "Saint Pierre and Miquelon",
+      "latlng": {
+        "lat": 46.83333333,
+        "lng": -56.33333333
+      },
+      "capital": "Saint-Pierre"
+    },
+    {
+      "name": "Serbia",
+      "latlng": {
+        "lat": 44,
+        "lng": 21
+      },
+      "capital": "Belgrade"
+    },
+    {
+      "name": "South Sudan",
+      "latlng": {
+        "lat": 7,
+        "lng": 30
+      },
+      "capital": "Juba"
+    },
+    {
+      "name": "São Tomé and Príncipe",
+      "latlng": {
+        "lat": 1,
+        "lng": 7
+      },
+      "capital": "São Tomé"
+    },
+    {
+      "name": "Suriname",
+      "latlng": {
+        "lat": 4,
+        "lng": -56
+      },
+      "capital": "Paramaribo"
+    },
+    {
+      "name": "Slovakia",
+      "latlng": {
+        "lat": 48.66666666,
+        "lng": 19.5
+      },
+      "capital": "Bratislava"
+    },
+    {
+      "name": "Slovenia",
+      "latlng": {
+        "lat": 46.11666666,
+        "lng": 14.81666666
+      },
+      "capital": "Ljubljana"
+    },
+    {
+      "name": "Sweden",
+      "latlng": {
+        "lat": 62,
+        "lng": 15
+      },
+      "capital": "Stockholm"
+    },
+    {
+      "name": "Eswatini",
+      "latlng": {
+        "lat": -26.5,
+        "lng": 31.5
+      },
+      "capital": "Lobamba"
+    },
+    {
+      "name": "Sint Maarten",
+      "latlng": {
+        "lat": 18.033333,
+        "lng": -63.05
+      },
+      "capital": "Philipsburg"
+    },
+    {
+      "name": "Seychelles",
+      "latlng": {
+        "lat": -4.58333333,
+        "lng": 55.66666666
+      },
+      "capital": "Victoria"
+    },
+    {
+      "name": "Syria",
+      "latlng": {
+        "lat": 35,
+        "lng": 38
+      },
+      "capital": "Damascus"
+    },
+    {
+      "name": "Turks and Caicos Islands",
+      "latlng": {
+        "lat": 21.75,
+        "lng": -71.58333333
+      },
+      "capital": "Cockburn Town"
+    },
+    {
+      "name": "Chad",
+      "latlng": {
+        "lat": 15,
+        "lng": 19
+      },
+      "capital": "N'Djamena"
+    },
+    {
+      "name": "Togo",
+      "latlng": {
+        "lat": 8,
+        "lng": 1.16666666
+      },
+      "capital": "Lomé"
+    },
+    {
+      "name": "Thailand",
+      "latlng": {
+        "lat": 15,
+        "lng": 100
+      },
+      "capital": "Bangkok"
+    },
+    {
+      "name": "Tajikistan",
+      "latlng": {
+        "lat": 39,
+        "lng": 71
+      },
+      "capital": "Dushanbe"
+    },
+    {
+      "name": "Tokelau",
+      "latlng": {
+        "lat": -9,
+        "lng": -172
+      },
+      "capital": "Fakaofo"
+    },
+    {
+      "name": "Turkmenistan",
+      "latlng": {
+        "lat": 40,
+        "lng": 60
+      },
+      "capital": "Ashgabat"
+    },
+    {
+      "name": "Timor-Leste",
+      "latlng": {
+        "lat": -8.83333333,
+        "lng": 125.91666666
+      },
+      "capital": "Dili"
+    },
+    {
+      "name": "Tonga",
+      "latlng": {
+        "lat": -20,
+        "lng": -175
+      },
+      "capital": "Nuku'alofa"
+    },
+    {
+      "name": "Trinidad and Tobago",
+      "latlng": {
+        "lat": 11,
+        "lng": -61
+      },
+      "capital": "Port of Spain"
+    },
+    {
+      "name": "Tunisia",
+      "latlng": {
+        "lat": 34,
+        "lng": 9
+      },
+      "capital": "Tunis"
+    },
+    {
+      "name": "Türkiye",
+      "latlng": {
+        "lat": 39,
+        "lng": 35
+      },
+      "capital": "Ankara"
+    },
+    {
+      "name": "Tuvalu",
+      "latlng": {
+        "lat": -8,
+        "lng": 178
+      },
+      "capital": "Funafuti"
+    },
+    {
+      "name": "Taiwan",
+      "latlng": {
+        "lat": 23.5,
+        "lng": 121
+      },
+      "capital": "Taipei"
+    },
+    {
+      "name": "Tanzania",
+      "latlng": {
+        "lat": -6,
+        "lng": 35
+      },
+      "capital": "Dodoma"
+    },
+    {
+      "name": "Uganda",
+      "latlng": {
+        "lat": 1,
+        "lng": 32
+      },
+      "capital": "Kampala"
+    },
+    {
+      "name": "Ukraine",
+      "latlng": {
+        "lat": 49,
+        "lng": 32
+      },
+      "capital": "Kyiv"
+    },
+    {
+      "name": "Uruguay",
+      "latlng": {
+        "lat": -33,
+        "lng": -56
+      },
+      "capital": "Montevideo"
+    },
+    {
+      "name": "United States",
+      "latlng": {
+        "lat": 38,
+        "lng": -97
+      },
+      "capital": "Washington D.C."
+    },
+    {
+      "name": "Uzbekistan",
+      "latlng": {
+        "lat": 41,
+        "lng": 64
+      },
+      "capital": "Tashkent"
+    },
+    {
+      "name": "Vatican City",
+      "latlng": {
+        "lat": 41.9,
+        "lng": 12.45
+      },
+      "capital": "Vatican City"
+    },
+    {
+      "name": "Saint Vincent and the Grenadines",
+      "latlng": {
+        "lat": 13.25,
+        "lng": -61.2
+      },
+      "capital": "Kingstown"
+    },
+    {
+      "name": "Venezuela",
+      "latlng": {
+        "lat": 8,
+        "lng": -66
+      },
+      "capital": "Caracas"
+    },
+    {
+      "name": "British Virgin Islands",
+      "latlng": {
+        "lat": 18.431383,
+        "lng": -64.62305
+      },
+      "capital": "Road Town"
+    },
+    {
+      "name": "United States Virgin Islands",
+      "latlng": {
+        "lat": 18.35,
+        "lng": -64.933333
+      },
+      "capital": "Charlotte Amalie"
+    },
+    {
+      "name": "Vietnam",
+      "latlng": {
+        "lat": 16.16666666,
+        "lng": 107.83333333
+      },
+      "capital": "Hanoi"
+    },
+    {
+      "name": "Vanuatu",
+      "latlng": {
+        "lat": -16,
+        "lng": 167
+      },
+      "capital": "Port Vila"
+    },
+    {
+      "name": "Wallis and Futuna",
+      "latlng": {
+        "lat": -13.3,
+        "lng": -176.2
+      },
+      "capital": "Mata-Utu"
+    },
+    {
+      "name": "Samoa",
+      "latlng": {
+        "lat": -13.58333333,
+        "lng": -172.33333333
+      },
+      "capital": "Apia"
+    },
+    {
+      "name": "Yemen",
+      "latlng": {
+        "lat": 15,
+        "lng": 48
+      },
+      "capital": "Sana'a"
+    },
+    {
+      "name": "South Africa",
+      "latlng": {
+        "lat": -29,
+        "lng": 24
+      },
+      "capital": "Pretoria"
+    },
+    {
+      "name": "South Africa",
+      "latlng": {
+        "lat": -29,
+        "lng": 24
+      },
+      "capital": "Bloemfontein"
+    },
+    {
+      "name": "South Africa",
+      "latlng": {
+        "lat": -29,
+        "lng": 24
+      },
+      "capital": "Cape Town"
+    },
+    {
+      "name": "Zambia",
+      "latlng": {
+        "lat": -15,
+        "lng": 30
+      },
+      "capital": "Lusaka"
+    },
+    {
+      "name": "Zimbabwe",
+      "latlng": {
+        "lat": -20,
+        "lng": 30
+      },
+      "capital": "Harare"
+    }
+  ],
+  "capitals": [
+    "Oranjestad",
+    "Kabul",
+    "Luanda",
+    "The Valley",
+    "Mariehamn",
+    "Tirana",
+    "Andorra la Vella",
+    "Abu Dhabi",
+    "Buenos Aires",
+    "Yerevan",
+    "Pago Pago",
+    "Port-aux-Français",
+    "Saint John's",
+    "Canberra",
+    "Vienna",
+    "Baku",
+    "Gitega",
+    "Brussels",
+    "Porto-Novo",
+    "Ouagadougou",
+    "Dhaka",
+    "Sofia",
+    "Manama",
+    "Nassau",
+    "Sarajevo",
+    "Gustavia",
+    "Jamestown",
+    "Minsk",
+    "Belmopan",
+    "Hamilton",
+    "Sucre",
+    "Kralendijk",
+    "Oranjestad",
+    "The Bottom",
+    "Brasília",
+    "Bridgetown",
+    "Bandar Seri Begawan",
+    "Thimphu",
+    "Gaborone",
+    "Bangui",
+    "Ottawa",
+    "West Island",
+    "Bern",
+    "Santiago",
+    "Beijing",
+    "Yamoussoukro",
+    "Yaoundé",
+    "Kinshasa",
+    "Brazzaville",
+    "Avarua",
+    "Bogotá",
+    "Moroni",
+    "Praia",
+    "San José",
+    "Havana",
+    "Willemstad",
+    "Flying Fish Cove",
+    "George Town",
+    "Nicosia",
+    "Prague",
+    "Berlin",
+    "Djibouti",
+    "Roseau",
+    "Copenhagen",
+    "Santo Domingo",
+    "Algiers",
+    "Quito",
+    "Cairo",
+    "Asmara",
+    "El Aaiún",
+    "Madrid",
+    "Tallinn",
+    "Addis Ababa",
+    "Helsinki",
+    "Suva",
+    "Stanley",
+    "Paris",
+    "Tórshavn",
+    "Palikir",
+    "Libreville",
+    "London",
+    "Tbilisi",
+    "St. Peter Port",
+    "Accra",
+    "Gibraltar",
+    "Conakry",
+    "Basse-Terre",
+    "Banjul",
+    "Bissau",
+    "Malabo",
+    "Athens",
+    "St. George's",
+    "Nuuk",
+    "Guatemala City",
+    "Cayenne",
+    "Hagåtña",
+    "Georgetown",
+    "City of Victoria",
+    "Tegucigalpa",
+    "Zagreb",
+    "Port-au-Prince",
+    "Budapest",
+    "Jakarta",
+    "Douglas",
+    "New Delhi",
+    "Diego Garcia",
+    "Dublin",
+    "Tehran",
+    "Baghdad",
+    "Reykjavik",
+    "Jerusalem",
+    "Rome",
+    "Kingston",
+    "Saint Helier",
+    "Amman",
+    "Tokyo",
+    "Astana",
+    "Nairobi",
+    "Bishkek",
+    "Phnom Penh",
+    "South Tarawa",
+    "Basseterre",
+    "Seoul",
+    "Pristina",
+    "Kuwait City",
+    "Vientiane",
+    "Beirut",
+    "Monrovia",
+    "Tripoli",
+    "Castries",
+    "Vaduz",
+    "Colombo",
+    "Maseru",
+    "Vilnius",
+    "Luxembourg",
+    "Riga",
+    "Marigot",
+    "Rabat",
+    "Monaco",
+    "Chișinău",
+    "Antananarivo",
+    "Malé",
+    "Mexico City",
+    "Majuro",
+    "Skopje",
+    "Bamako",
+    "Valletta",
+    "Naypyidaw",
+    "Podgorica",
+    "Ulan Bator",
+    "Saipan",
+    "Maputo",
+    "Nouakchott",
+    "Plymouth",
+    "Fort-de-France",
+    "Port Louis",
+    "Lilongwe",
+    "Kuala Lumpur",
+    "Mamoudzou",
+    "Windhoek",
+    "Nouméa",
+    "Niamey",
+    "Kingston",
+    "Abuja",
+    "Managua",
+    "Alofi",
+    "Amsterdam",
+    "Oslo",
+    "Kathmandu",
+    "Yaren",
+    "Wellington",
+    "Muscat",
+    "Islamabad",
+    "Panama City",
+    "Adamstown",
+    "Lima",
+    "Manila",
+    "Ngerulmud",
+    "Port Moresby",
+    "Warsaw",
+    "San Juan",
+    "Pyongyang",
+    "Lisbon",
+    "Asunción",
+    "Ramallah",
+    "Papeetē",
+    "Doha",
+    "Saint-Denis",
+    "Bucharest",
+    "Moscow",
+    "Kigali",
+    "Riyadh",
+    "Khartoum",
+    "Dakar",
+    "Singapore",
+    "King Edward Point",
+    "Longyearbyen",
+    "Honiara",
+    "Freetown",
+    "San Salvador",
+    "City of San Marino",
+    "Mogadishu",
+    "Saint-Pierre",
+    "Belgrade",
+    "Juba",
+    "São Tomé",
+    "Paramaribo",
+    "Bratislava",
+    "Ljubljana",
+    "Stockholm",
+    "Lobamba",
+    "Philipsburg",
+    "Victoria",
+    "Damascus",
+    "Cockburn Town",
+    "N'Djamena",
+    "Lomé",
+    "Bangkok",
+    "Dushanbe",
+    "Fakaofo",
+    "Ashgabat",
+    "Dili",
+    "Nuku'alofa",
+    "Port of Spain",
+    "Tunis",
+    "Ankara",
+    "Funafuti",
+    "Taipei",
+    "Dodoma",
+    "Kampala",
+    "Kyiv",
+    "Montevideo",
+    "Washington D.C.",
+    "Tashkent",
+    "Vatican City",
+    "Kingstown",
+    "Caracas",
+    "Road Town",
+    "Charlotte Amalie",
+    "Hanoi",
+    "Port Vila",
+    "Mata-Utu",
+    "Apia",
+    "Sana'a",
+    "Pretoria",
+    "Bloemfontein",
+    "Cape Town",
+    "Lusaka",
+    "Harare"
+  ],
+  "byRegion": {
+    "Americas": [
+      {
+        "name": "Aruba",
+        "latlng": {
+          "lat": 12.5,
+          "lng": -69.96666666
+        },
+        "capital": "Oranjestad"
+      },
+      {
+        "name": "Anguilla",
+        "latlng": {
+          "lat": 18.25,
+          "lng": -63.16666666
+        },
+        "capital": "The Valley"
+      },
+      {
+        "name": "Argentina",
+        "latlng": {
+          "lat": -34,
+          "lng": -64
+        },
+        "capital": "Buenos Aires"
+      },
+      {
+        "name": "Antigua and Barbuda",
+        "latlng": {
+          "lat": 17.05,
+          "lng": -61.8
+        },
+        "capital": "Saint John's"
+      },
+      {
+        "name": "Bahamas",
+        "latlng": {
+          "lat": 24.25,
+          "lng": -76
+        },
+        "capital": "Nassau"
+      },
+      {
+        "name": "Saint Barthélemy",
+        "latlng": {
+          "lat": 18.5,
+          "lng": -63.41666666
+        },
+        "capital": "Gustavia"
+      },
+      {
+        "name": "Belize",
+        "latlng": {
+          "lat": 17.25,
+          "lng": -88.75
+        },
+        "capital": "Belmopan"
+      },
+      {
+        "name": "Bermuda",
+        "latlng": {
+          "lat": 32.33333333,
+          "lng": -64.75
+        },
+        "capital": "Hamilton"
+      },
+      {
+        "name": "Bolivia",
+        "latlng": {
+          "lat": -17,
+          "lng": -65
+        },
+        "capital": "Sucre"
+      },
+      {
+        "name": "Caribbean Netherlands",
+        "latlng": {
+          "lat": 12.18,
+          "lng": -68.25
+        },
+        "capital": "Kralendijk"
+      },
+      {
+        "name": "Caribbean Netherlands",
+        "latlng": {
+          "lat": 12.18,
+          "lng": -68.25
+        },
+        "capital": "Oranjestad"
+      },
+      {
+        "name": "Caribbean Netherlands",
+        "latlng": {
+          "lat": 12.18,
+          "lng": -68.25
+        },
+        "capital": "The Bottom"
+      },
+      {
+        "name": "Brazil",
+        "latlng": {
+          "lat": -10,
+          "lng": -55
+        },
+        "capital": "Brasília"
+      },
+      {
+        "name": "Barbados",
+        "latlng": {
+          "lat": 13.16666666,
+          "lng": -59.53333333
+        },
+        "capital": "Bridgetown"
+      },
+      {
+        "name": "Canada",
+        "latlng": {
+          "lat": 60,
+          "lng": -95
+        },
+        "capital": "Ottawa"
+      },
+      {
+        "name": "Chile",
+        "latlng": {
+          "lat": -30,
+          "lng": -71
+        },
+        "capital": "Santiago"
+      },
+      {
+        "name": "Colombia",
+        "latlng": {
+          "lat": 4,
+          "lng": -72
+        },
+        "capital": "Bogotá"
+      },
+      {
+        "name": "Costa Rica",
+        "latlng": {
+          "lat": 10,
+          "lng": -84
+        },
+        "capital": "San José"
+      },
+      {
+        "name": "Cuba",
+        "latlng": {
+          "lat": 21.5,
+          "lng": -80
+        },
+        "capital": "Havana"
+      },
+      {
+        "name": "Curaçao",
+        "latlng": {
+          "lat": 12.116667,
+          "lng": -68.933333
+        },
+        "capital": "Willemstad"
+      },
+      {
+        "name": "Cayman Islands",
+        "latlng": {
+          "lat": 19.5,
+          "lng": -80.5
+        },
+        "capital": "George Town"
+      },
+      {
+        "name": "Dominica",
+        "latlng": {
+          "lat": 15.41666666,
+          "lng": -61.33333333
+        },
+        "capital": "Roseau"
+      },
+      {
+        "name": "Dominican Republic",
+        "latlng": {
+          "lat": 19,
+          "lng": -70.66666666
+        },
+        "capital": "Santo Domingo"
+      },
+      {
+        "name": "Ecuador",
+        "latlng": {
+          "lat": -2,
+          "lng": -77.5
+        },
+        "capital": "Quito"
+      },
+      {
+        "name": "Falkland Islands",
+        "latlng": {
+          "lat": -51.75,
+          "lng": -59
+        },
+        "capital": "Stanley"
+      },
+      {
+        "name": "Guadeloupe",
+        "latlng": {
+          "lat": 16.25,
+          "lng": -61.583333
+        },
+        "capital": "Basse-Terre"
+      },
+      {
+        "name": "Grenada",
+        "latlng": {
+          "lat": 12.11666666,
+          "lng": -61.66666666
+        },
+        "capital": "St. George's"
+      },
+      {
+        "name": "Greenland",
+        "latlng": {
+          "lat": 72,
+          "lng": -40
+        },
+        "capital": "Nuuk"
+      },
+      {
+        "name": "Guatemala",
+        "latlng": {
+          "lat": 15.5,
+          "lng": -90.25
+        },
+        "capital": "Guatemala City"
+      },
+      {
+        "name": "French Guiana",
+        "latlng": {
+          "lat": 4,
+          "lng": -53
+        },
+        "capital": "Cayenne"
+      },
+      {
+        "name": "Guyana",
+        "latlng": {
+          "lat": 5,
+          "lng": -59
+        },
+        "capital": "Georgetown"
+      },
+      {
+        "name": "Honduras",
+        "latlng": {
+          "lat": 15,
+          "lng": -86.5
+        },
+        "capital": "Tegucigalpa"
+      },
+      {
+        "name": "Haiti",
+        "latlng": {
+          "lat": 19,
+          "lng": -72.41666666
+        },
+        "capital": "Port-au-Prince"
+      },
+      {
+        "name": "Jamaica",
+        "latlng": {
+          "lat": 18.25,
+          "lng": -77.5
+        },
+        "capital": "Kingston"
+      },
+      {
+        "name": "Saint Kitts and Nevis",
+        "latlng": {
+          "lat": 17.33333333,
+          "lng": -62.75
+        },
+        "capital": "Basseterre"
+      },
+      {
+        "name": "Saint Lucia",
+        "latlng": {
+          "lat": 13.88333333,
+          "lng": -60.96666666
+        },
+        "capital": "Castries"
+      },
+      {
+        "name": "Saint Martin",
+        "latlng": {
+          "lat": 18.08333333,
+          "lng": -63.95
+        },
+        "capital": "Marigot"
+      },
+      {
+        "name": "Mexico",
+        "latlng": {
+          "lat": 23,
+          "lng": -102
+        },
+        "capital": "Mexico City"
+      },
+      {
+        "name": "Montserrat",
+        "latlng": {
+          "lat": 16.75,
+          "lng": -62.2
+        },
+        "capital": "Plymouth"
+      },
+      {
+        "name": "Martinique",
+        "latlng": {
+          "lat": 14.666667,
+          "lng": -61
+        },
+        "capital": "Fort-de-France"
+      },
+      {
+        "name": "Nicaragua",
+        "latlng": {
+          "lat": 13,
+          "lng": -85
+        },
+        "capital": "Managua"
+      },
+      {
+        "name": "Panama",
+        "latlng": {
+          "lat": 9,
+          "lng": -80
+        },
+        "capital": "Panama City"
+      },
+      {
+        "name": "Peru",
+        "latlng": {
+          "lat": -10,
+          "lng": -76
+        },
+        "capital": "Lima"
+      },
+      {
+        "name": "Puerto Rico",
+        "latlng": {
+          "lat": 18.25,
+          "lng": -66.5
+        },
+        "capital": "San Juan"
+      },
+      {
+        "name": "Paraguay",
+        "latlng": {
+          "lat": -23,
+          "lng": -58
+        },
+        "capital": "Asunción"
+      },
+      {
+        "name": "El Salvador",
+        "latlng": {
+          "lat": 13.83333333,
+          "lng": -88.91666666
+        },
+        "capital": "San Salvador"
+      },
+      {
+        "name": "Saint Pierre and Miquelon",
+        "latlng": {
+          "lat": 46.83333333,
+          "lng": -56.33333333
+        },
+        "capital": "Saint-Pierre"
+      },
+      {
+        "name": "Suriname",
+        "latlng": {
+          "lat": 4,
+          "lng": -56
+        },
+        "capital": "Paramaribo"
+      },
+      {
+        "name": "Sint Maarten",
+        "latlng": {
+          "lat": 18.033333,
+          "lng": -63.05
+        },
+        "capital": "Philipsburg"
+      },
+      {
+        "name": "Turks and Caicos Islands",
+        "latlng": {
+          "lat": 21.75,
+          "lng": -71.58333333
+        },
+        "capital": "Cockburn Town"
+      },
+      {
+        "name": "Trinidad and Tobago",
+        "latlng": {
+          "lat": 11,
+          "lng": -61
+        },
+        "capital": "Port of Spain"
+      },
+      {
+        "name": "Uruguay",
+        "latlng": {
+          "lat": -33,
+          "lng": -56
+        },
+        "capital": "Montevideo"
+      },
+      {
+        "name": "United States",
+        "latlng": {
+          "lat": 38,
+          "lng": -97
+        },
+        "capital": "Washington D.C."
+      },
+      {
+        "name": "Saint Vincent and the Grenadines",
+        "latlng": {
+          "lat": 13.25,
+          "lng": -61.2
+        },
+        "capital": "Kingstown"
+      },
+      {
+        "name": "Venezuela",
+        "latlng": {
+          "lat": 8,
+          "lng": -66
+        },
+        "capital": "Caracas"
+      },
+      {
+        "name": "British Virgin Islands",
+        "latlng": {
+          "lat": 18.431383,
+          "lng": -64.62305
+        },
+        "capital": "Road Town"
+      },
+      {
+        "name": "United States Virgin Islands",
+        "latlng": {
+          "lat": 18.35,
+          "lng": -64.933333
+        },
+        "capital": "Charlotte Amalie"
+      }
+    ],
+    "Asia": [
+      {
+        "name": "Afghanistan",
+        "latlng": {
+          "lat": 33,
+          "lng": 65
+        },
+        "capital": "Kabul"
+      },
+      {
+        "name": "United Arab Emirates",
+        "latlng": {
+          "lat": 24,
+          "lng": 54
+        },
+        "capital": "Abu Dhabi"
+      },
+      {
+        "name": "Armenia",
+        "latlng": {
+          "lat": 40,
+          "lng": 45
+        },
+        "capital": "Yerevan"
+      },
+      {
+        "name": "Azerbaijan",
+        "latlng": {
+          "lat": 40.5,
+          "lng": 47.5
+        },
+        "capital": "Baku"
+      },
+      {
+        "name": "Bangladesh",
+        "latlng": {
+          "lat": 24,
+          "lng": 90
+        },
+        "capital": "Dhaka"
+      },
+      {
+        "name": "Bahrain",
+        "latlng": {
+          "lat": 26,
+          "lng": 50.55
+        },
+        "capital": "Manama"
+      },
+      {
+        "name": "Brunei",
+        "latlng": {
+          "lat": 4.5,
+          "lng": 114.66666666
+        },
+        "capital": "Bandar Seri Begawan"
+      },
+      {
+        "name": "Bhutan",
+        "latlng": {
+          "lat": 27.5,
+          "lng": 90.5
+        },
+        "capital": "Thimphu"
+      },
+      {
+        "name": "China",
+        "latlng": {
+          "lat": 35,
+          "lng": 105
+        },
+        "capital": "Beijing"
+      },
+      {
+        "name": "Georgia",
+        "latlng": {
+          "lat": 42,
+          "lng": 43.5
+        },
+        "capital": "Tbilisi"
+      },
+      {
+        "name": "Hong Kong",
+        "latlng": {
+          "lat": 22.267,
+          "lng": 114.188
+        },
+        "capital": "City of Victoria"
+      },
+      {
+        "name": "Indonesia",
+        "latlng": {
+          "lat": -5,
+          "lng": 120
+        },
+        "capital": "Jakarta"
+      },
+      {
+        "name": "India",
+        "latlng": {
+          "lat": 20,
+          "lng": 77
+        },
+        "capital": "New Delhi"
+      },
+      {
+        "name": "Iran",
+        "latlng": {
+          "lat": 32,
+          "lng": 53
+        },
+        "capital": "Tehran"
+      },
+      {
+        "name": "Iraq",
+        "latlng": {
+          "lat": 33,
+          "lng": 44
+        },
+        "capital": "Baghdad"
+      },
+      {
+        "name": "Israel",
+        "latlng": {
+          "lat": 31.47,
+          "lng": 35.13
+        },
+        "capital": "Jerusalem"
+      },
+      {
+        "name": "Jordan",
+        "latlng": {
+          "lat": 31,
+          "lng": 36
+        },
+        "capital": "Amman"
+      },
+      {
+        "name": "Japan",
+        "latlng": {
+          "lat": 36,
+          "lng": 138
+        },
+        "capital": "Tokyo"
+      },
+      {
+        "name": "Kazakhstan",
+        "latlng": {
+          "lat": 48,
+          "lng": 68
+        },
+        "capital": "Astana"
+      },
+      {
+        "name": "Kyrgyzstan",
+        "latlng": {
+          "lat": 41,
+          "lng": 75
+        },
+        "capital": "Bishkek"
+      },
+      {
+        "name": "Cambodia",
+        "latlng": {
+          "lat": 13,
+          "lng": 105
+        },
+        "capital": "Phnom Penh"
+      },
+      {
+        "name": "South Korea",
+        "latlng": {
+          "lat": 37,
+          "lng": 127.5
+        },
+        "capital": "Seoul"
+      },
+      {
+        "name": "Kuwait",
+        "latlng": {
+          "lat": 29.5,
+          "lng": 45.75
+        },
+        "capital": "Kuwait City"
+      },
+      {
+        "name": "Laos",
+        "latlng": {
+          "lat": 18,
+          "lng": 105
+        },
+        "capital": "Vientiane"
+      },
+      {
+        "name": "Lebanon",
+        "latlng": {
+          "lat": 33.83333333,
+          "lng": 35.83333333
+        },
+        "capital": "Beirut"
+      },
+      {
+        "name": "Sri Lanka",
+        "latlng": {
+          "lat": 7,
+          "lng": 81
+        },
+        "capital": "Colombo"
+      },
+      {
+        "name": "Maldives",
+        "latlng": {
+          "lat": 3.25,
+          "lng": 73
+        },
+        "capital": "Malé"
+      },
+      {
+        "name": "Myanmar",
+        "latlng": {
+          "lat": 22,
+          "lng": 98
+        },
+        "capital": "Naypyidaw"
+      },
+      {
+        "name": "Mongolia",
+        "latlng": {
+          "lat": 46,
+          "lng": 105
+        },
+        "capital": "Ulan Bator"
+      },
+      {
+        "name": "Malaysia",
+        "latlng": {
+          "lat": 2.5,
+          "lng": 112.5
+        },
+        "capital": "Kuala Lumpur"
+      },
+      {
+        "name": "Nepal",
+        "latlng": {
+          "lat": 28,
+          "lng": 84
+        },
+        "capital": "Kathmandu"
+      },
+      {
+        "name": "Oman",
+        "latlng": {
+          "lat": 21,
+          "lng": 57
+        },
+        "capital": "Muscat"
+      },
+      {
+        "name": "Pakistan",
+        "latlng": {
+          "lat": 30,
+          "lng": 70
+        },
+        "capital": "Islamabad"
+      },
+      {
+        "name": "Philippines",
+        "latlng": {
+          "lat": 13,
+          "lng": 122
+        },
+        "capital": "Manila"
+      },
+      {
+        "name": "North Korea",
+        "latlng": {
+          "lat": 40,
+          "lng": 127
+        },
+        "capital": "Pyongyang"
+      },
+      {
+        "name": "Palestine",
+        "latlng": {
+          "lat": 31.9,
+          "lng": 35.2
+        },
+        "capital": "Ramallah"
+      },
+      {
+        "name": "Qatar",
+        "latlng": {
+          "lat": 25.5,
+          "lng": 51.25
+        },
+        "capital": "Doha"
+      },
+      {
+        "name": "Saudi Arabia",
+        "latlng": {
+          "lat": 25,
+          "lng": 45
+        },
+        "capital": "Riyadh"
+      },
+      {
+        "name": "Singapore",
+        "latlng": {
+          "lat": 1.36666666,
+          "lng": 103.8
+        },
+        "capital": "Singapore"
+      },
+      {
+        "name": "Syria",
+        "latlng": {
+          "lat": 35,
+          "lng": 38
+        },
+        "capital": "Damascus"
+      },
+      {
+        "name": "Thailand",
+        "latlng": {
+          "lat": 15,
+          "lng": 100
+        },
+        "capital": "Bangkok"
+      },
+      {
+        "name": "Tajikistan",
+        "latlng": {
+          "lat": 39,
+          "lng": 71
+        },
+        "capital": "Dushanbe"
+      },
+      {
+        "name": "Turkmenistan",
+        "latlng": {
+          "lat": 40,
+          "lng": 60
+        },
+        "capital": "Ashgabat"
+      },
+      {
+        "name": "Timor-Leste",
+        "latlng": {
+          "lat": -8.83333333,
+          "lng": 125.91666666
+        },
+        "capital": "Dili"
+      },
+      {
+        "name": "Türkiye",
+        "latlng": {
+          "lat": 39,
+          "lng": 35
+        },
+        "capital": "Ankara"
+      },
+      {
+        "name": "Taiwan",
+        "latlng": {
+          "lat": 23.5,
+          "lng": 121
+        },
+        "capital": "Taipei"
+      },
+      {
+        "name": "Uzbekistan",
+        "latlng": {
+          "lat": 41,
+          "lng": 64
+        },
+        "capital": "Tashkent"
+      },
+      {
+        "name": "Vietnam",
+        "latlng": {
+          "lat": 16.16666666,
+          "lng": 107.83333333
+        },
+        "capital": "Hanoi"
+      },
+      {
+        "name": "Yemen",
+        "latlng": {
+          "lat": 15,
+          "lng": 48
+        },
+        "capital": "Sana'a"
+      }
+    ],
+    "Africa": [
+      {
+        "name": "Angola",
+        "latlng": {
+          "lat": -12.5,
+          "lng": 18.5
+        },
+        "capital": "Luanda"
+      },
+      {
+        "name": "Burundi",
+        "latlng": {
+          "lat": -3.5,
+          "lng": 30
+        },
+        "capital": "Gitega"
+      },
+      {
+        "name": "Benin",
+        "latlng": {
+          "lat": 9.5,
+          "lng": 2.25
+        },
+        "capital": "Porto-Novo"
+      },
+      {
+        "name": "Burkina Faso",
+        "latlng": {
+          "lat": 13,
+          "lng": -2
+        },
+        "capital": "Ouagadougou"
+      },
+      {
+        "name": "Saint Helena, Ascension and Tristan da Cunha",
+        "latlng": {
+          "lat": -15.95,
+          "lng": -5.72
+        },
+        "capital": "Jamestown"
+      },
+      {
+        "name": "Botswana",
+        "latlng": {
+          "lat": -22,
+          "lng": 24
+        },
+        "capital": "Gaborone"
+      },
+      {
+        "name": "Central African Republic",
+        "latlng": {
+          "lat": 7,
+          "lng": 21
+        },
+        "capital": "Bangui"
+      },
+      {
+        "name": "Ivory Coast",
+        "latlng": {
+          "lat": 8,
+          "lng": -5
+        },
+        "capital": "Yamoussoukro"
+      },
+      {
+        "name": "Cameroon",
+        "latlng": {
+          "lat": 6,
+          "lng": 12
+        },
+        "capital": "Yaoundé"
+      },
+      {
+        "name": "DR Congo",
+        "latlng": {
+          "lat": 0,
+          "lng": 25
+        },
+        "capital": "Kinshasa"
+      },
+      {
+        "name": "Republic of the Congo",
+        "latlng": {
+          "lat": -1,
+          "lng": 15
+        },
+        "capital": "Brazzaville"
+      },
+      {
+        "name": "Comoros",
+        "latlng": {
+          "lat": -12.16666666,
+          "lng": 44.25
+        },
+        "capital": "Moroni"
+      },
+      {
+        "name": "Cape Verde",
+        "latlng": {
+          "lat": 16,
+          "lng": -24
+        },
+        "capital": "Praia"
+      },
+      {
+        "name": "Djibouti",
+        "latlng": {
+          "lat": 11.5,
+          "lng": 43
+        },
+        "capital": "Djibouti"
+      },
+      {
+        "name": "Algeria",
+        "latlng": {
+          "lat": 28,
+          "lng": 3
+        },
+        "capital": "Algiers"
+      },
+      {
+        "name": "Egypt",
+        "latlng": {
+          "lat": 27,
+          "lng": 30
+        },
+        "capital": "Cairo"
+      },
+      {
+        "name": "Eritrea",
+        "latlng": {
+          "lat": 15,
+          "lng": 39
+        },
+        "capital": "Asmara"
+      },
+      {
+        "name": "Western Sahara",
+        "latlng": {
+          "lat": 24.5,
+          "lng": -13
+        },
+        "capital": "El Aaiún"
+      },
+      {
+        "name": "Ethiopia",
+        "latlng": {
+          "lat": 8,
+          "lng": 38
+        },
+        "capital": "Addis Ababa"
+      },
+      {
+        "name": "Gabon",
+        "latlng": {
+          "lat": -1,
+          "lng": 11.75
+        },
+        "capital": "Libreville"
+      },
+      {
+        "name": "Ghana",
+        "latlng": {
+          "lat": 8,
+          "lng": -2
+        },
+        "capital": "Accra"
+      },
+      {
+        "name": "Guinea",
+        "latlng": {
+          "lat": 11,
+          "lng": -10
+        },
+        "capital": "Conakry"
+      },
+      {
+        "name": "Gambia",
+        "latlng": {
+          "lat": 13.46666666,
+          "lng": -16.56666666
+        },
+        "capital": "Banjul"
+      },
+      {
+        "name": "Guinea-Bissau",
+        "latlng": {
+          "lat": 12,
+          "lng": -15
+        },
+        "capital": "Bissau"
+      },
+      {
+        "name": "Equatorial Guinea",
+        "latlng": {
+          "lat": 2,
+          "lng": 10
+        },
+        "capital": "Malabo"
+      },
+      {
+        "name": "British Indian Ocean Territory",
+        "latlng": {
+          "lat": -6,
+          "lng": 71.5
+        },
+        "capital": "Diego Garcia"
+      },
+      {
+        "name": "Kenya",
+        "latlng": {
+          "lat": 1,
+          "lng": 38
+        },
+        "capital": "Nairobi"
+      },
+      {
+        "name": "Liberia",
+        "latlng": {
+          "lat": 6.5,
+          "lng": -9.5
+        },
+        "capital": "Monrovia"
+      },
+      {
+        "name": "Libya",
+        "latlng": {
+          "lat": 25,
+          "lng": 17
+        },
+        "capital": "Tripoli"
+      },
+      {
+        "name": "Lesotho",
+        "latlng": {
+          "lat": -29.5,
+          "lng": 28.5
+        },
+        "capital": "Maseru"
+      },
+      {
+        "name": "Morocco",
+        "latlng": {
+          "lat": 32,
+          "lng": -5
+        },
+        "capital": "Rabat"
+      },
+      {
+        "name": "Madagascar",
+        "latlng": {
+          "lat": -20,
+          "lng": 47
+        },
+        "capital": "Antananarivo"
+      },
+      {
+        "name": "Mali",
+        "latlng": {
+          "lat": 17,
+          "lng": -4
+        },
+        "capital": "Bamako"
+      },
+      {
+        "name": "Mozambique",
+        "latlng": {
+          "lat": -18.25,
+          "lng": 35
+        },
+        "capital": "Maputo"
+      },
+      {
+        "name": "Mauritania",
+        "latlng": {
+          "lat": 20,
+          "lng": -12
+        },
+        "capital": "Nouakchott"
+      },
+      {
+        "name": "Mauritius",
+        "latlng": {
+          "lat": -20.28333333,
+          "lng": 57.55
+        },
+        "capital": "Port Louis"
+      },
+      {
+        "name": "Malawi",
+        "latlng": {
+          "lat": -13.5,
+          "lng": 34
+        },
+        "capital": "Lilongwe"
+      },
+      {
+        "name": "Mayotte",
+        "latlng": {
+          "lat": -12.83333333,
+          "lng": 45.16666666
+        },
+        "capital": "Mamoudzou"
+      },
+      {
+        "name": "Namibia",
+        "latlng": {
+          "lat": -22,
+          "lng": 17
+        },
+        "capital": "Windhoek"
+      },
+      {
+        "name": "Niger",
+        "latlng": {
+          "lat": 16,
+          "lng": 8
+        },
+        "capital": "Niamey"
+      },
+      {
+        "name": "Nigeria",
+        "latlng": {
+          "lat": 10,
+          "lng": 8
+        },
+        "capital": "Abuja"
+      },
+      {
+        "name": "Réunion",
+        "latlng": {
+          "lat": -21.15,
+          "lng": 55.5
+        },
+        "capital": "Saint-Denis"
+      },
+      {
+        "name": "Rwanda",
+        "latlng": {
+          "lat": -2,
+          "lng": 30
+        },
+        "capital": "Kigali"
+      },
+      {
+        "name": "Sudan",
+        "latlng": {
+          "lat": 15,
+          "lng": 30
+        },
+        "capital": "Khartoum"
+      },
+      {
+        "name": "Senegal",
+        "latlng": {
+          "lat": 14,
+          "lng": -14
+        },
+        "capital": "Dakar"
+      },
+      {
+        "name": "Sierra Leone",
+        "latlng": {
+          "lat": 8.5,
+          "lng": -11.5
+        },
+        "capital": "Freetown"
+      },
+      {
+        "name": "Somalia",
+        "latlng": {
+          "lat": 10,
+          "lng": 49
+        },
+        "capital": "Mogadishu"
+      },
+      {
+        "name": "South Sudan",
+        "latlng": {
+          "lat": 7,
+          "lng": 30
+        },
+        "capital": "Juba"
+      },
+      {
+        "name": "São Tomé and Príncipe",
+        "latlng": {
+          "lat": 1,
+          "lng": 7
+        },
+        "capital": "São Tomé"
+      },
+      {
+        "name": "Eswatini",
+        "latlng": {
+          "lat": -26.5,
+          "lng": 31.5
+        },
+        "capital": "Lobamba"
+      },
+      {
+        "name": "Seychelles",
+        "latlng": {
+          "lat": -4.58333333,
+          "lng": 55.66666666
+        },
+        "capital": "Victoria"
+      },
+      {
+        "name": "Chad",
+        "latlng": {
+          "lat": 15,
+          "lng": 19
+        },
+        "capital": "N'Djamena"
+      },
+      {
+        "name": "Togo",
+        "latlng": {
+          "lat": 8,
+          "lng": 1.16666666
+        },
+        "capital": "Lomé"
+      },
+      {
+        "name": "Tunisia",
+        "latlng": {
+          "lat": 34,
+          "lng": 9
+        },
+        "capital": "Tunis"
+      },
+      {
+        "name": "Tanzania",
+        "latlng": {
+          "lat": -6,
+          "lng": 35
+        },
+        "capital": "Dodoma"
+      },
+      {
+        "name": "Uganda",
+        "latlng": {
+          "lat": 1,
+          "lng": 32
+        },
+        "capital": "Kampala"
+      },
+      {
+        "name": "South Africa",
+        "latlng": {
+          "lat": -29,
+          "lng": 24
+        },
+        "capital": "Pretoria"
+      },
+      {
+        "name": "South Africa",
+        "latlng": {
+          "lat": -29,
+          "lng": 24
+        },
+        "capital": "Bloemfontein"
+      },
+      {
+        "name": "South Africa",
+        "latlng": {
+          "lat": -29,
+          "lng": 24
+        },
+        "capital": "Cape Town"
+      },
+      {
+        "name": "Zambia",
+        "latlng": {
+          "lat": -15,
+          "lng": 30
+        },
+        "capital": "Lusaka"
+      },
+      {
+        "name": "Zimbabwe",
+        "latlng": {
+          "lat": -20,
+          "lng": 30
+        },
+        "capital": "Harare"
+      }
+    ],
+    "Europe": [
+      {
+        "name": "Åland Islands",
+        "latlng": {
+          "lat": 60.116667,
+          "lng": 19.9
+        },
+        "capital": "Mariehamn"
+      },
+      {
+        "name": "Albania",
+        "latlng": {
+          "lat": 41,
+          "lng": 20
+        },
+        "capital": "Tirana"
+      },
+      {
+        "name": "Andorra",
+        "latlng": {
+          "lat": 42.5,
+          "lng": 1.5
+        },
+        "capital": "Andorra la Vella"
+      },
+      {
+        "name": "Austria",
+        "latlng": {
+          "lat": 47.33333333,
+          "lng": 13.33333333
+        },
+        "capital": "Vienna"
+      },
+      {
+        "name": "Belgium",
+        "latlng": {
+          "lat": 50.83333333,
+          "lng": 4
+        },
+        "capital": "Brussels"
+      },
+      {
+        "name": "Bulgaria",
+        "latlng": {
+          "lat": 43,
+          "lng": 25
+        },
+        "capital": "Sofia"
+      },
+      {
+        "name": "Bosnia and Herzegovina",
+        "latlng": {
+          "lat": 44,
+          "lng": 18
+        },
+        "capital": "Sarajevo"
+      },
+      {
+        "name": "Belarus",
+        "latlng": {
+          "lat": 53,
+          "lng": 28
+        },
+        "capital": "Minsk"
+      },
+      {
+        "name": "Switzerland",
+        "latlng": {
+          "lat": 47,
+          "lng": 8
+        },
+        "capital": "Bern"
+      },
+      {
+        "name": "Cyprus",
+        "latlng": {
+          "lat": 35,
+          "lng": 33
+        },
+        "capital": "Nicosia"
+      },
+      {
+        "name": "Czechia",
+        "latlng": {
+          "lat": 49.75,
+          "lng": 15.5
+        },
+        "capital": "Prague"
+      },
+      {
+        "name": "Germany",
+        "latlng": {
+          "lat": 51,
+          "lng": 9
+        },
+        "capital": "Berlin"
+      },
+      {
+        "name": "Denmark",
+        "latlng": {
+          "lat": 56,
+          "lng": 10
+        },
+        "capital": "Copenhagen"
+      },
+      {
+        "name": "Spain",
+        "latlng": {
+          "lat": 40,
+          "lng": -4
+        },
+        "capital": "Madrid"
+      },
+      {
+        "name": "Estonia",
+        "latlng": {
+          "lat": 59,
+          "lng": 26
+        },
+        "capital": "Tallinn"
+      },
+      {
+        "name": "Finland",
+        "latlng": {
+          "lat": 64,
+          "lng": 26
+        },
+        "capital": "Helsinki"
+      },
+      {
+        "name": "France",
+        "latlng": {
+          "lat": 46,
+          "lng": 2
+        },
+        "capital": "Paris"
+      },
+      {
+        "name": "Faroe Islands",
+        "latlng": {
+          "lat": 62,
+          "lng": -7
+        },
+        "capital": "Tórshavn"
+      },
+      {
+        "name": "United Kingdom",
+        "latlng": {
+          "lat": 54,
+          "lng": -2
+        },
+        "capital": "London"
+      },
+      {
+        "name": "Guernsey",
+        "latlng": {
+          "lat": 49.46666666,
+          "lng": -2.58333333
+        },
+        "capital": "St. Peter Port"
+      },
+      {
+        "name": "Gibraltar",
+        "latlng": {
+          "lat": 36.13333333,
+          "lng": -5.35
+        },
+        "capital": "Gibraltar"
+      },
+      {
+        "name": "Greece",
+        "latlng": {
+          "lat": 39,
+          "lng": 22
+        },
+        "capital": "Athens"
+      },
+      {
+        "name": "Croatia",
+        "latlng": {
+          "lat": 45.16666666,
+          "lng": 15.5
+        },
+        "capital": "Zagreb"
+      },
+      {
+        "name": "Hungary",
+        "latlng": {
+          "lat": 47,
+          "lng": 20
+        },
+        "capital": "Budapest"
+      },
+      {
+        "name": "Isle of Man",
+        "latlng": {
+          "lat": 54.25,
+          "lng": -4.5
+        },
+        "capital": "Douglas"
+      },
+      {
+        "name": "Ireland",
+        "latlng": {
+          "lat": 53,
+          "lng": -8
+        },
+        "capital": "Dublin"
+      },
+      {
+        "name": "Iceland",
+        "latlng": {
+          "lat": 65,
+          "lng": -18
+        },
+        "capital": "Reykjavik"
+      },
+      {
+        "name": "Italy",
+        "latlng": {
+          "lat": 42.83333333,
+          "lng": 12.83333333
+        },
+        "capital": "Rome"
+      },
+      {
+        "name": "Jersey",
+        "latlng": {
+          "lat": 49.25,
+          "lng": -2.16666666
+        },
+        "capital": "Saint Helier"
+      },
+      {
+        "name": "Kosovo",
+        "latlng": {
+          "lat": 42.666667,
+          "lng": 21.166667
+        },
+        "capital": "Pristina"
+      },
+      {
+        "name": "Liechtenstein",
+        "latlng": {
+          "lat": 47.26666666,
+          "lng": 9.53333333
+        },
+        "capital": "Vaduz"
+      },
+      {
+        "name": "Lithuania",
+        "latlng": {
+          "lat": 56,
+          "lng": 24
+        },
+        "capital": "Vilnius"
+      },
+      {
+        "name": "Luxembourg",
+        "latlng": {
+          "lat": 49.75,
+          "lng": 6.16666666
+        },
+        "capital": "Luxembourg"
+      },
+      {
+        "name": "Latvia",
+        "latlng": {
+          "lat": 57,
+          "lng": 25
+        },
+        "capital": "Riga"
+      },
+      {
+        "name": "Monaco",
+        "latlng": {
+          "lat": 43.73333333,
+          "lng": 7.4
+        },
+        "capital": "Monaco"
+      },
+      {
+        "name": "Moldova",
+        "latlng": {
+          "lat": 47,
+          "lng": 29
+        },
+        "capital": "Chișinău"
+      },
+      {
+        "name": "North Macedonia",
+        "latlng": {
+          "lat": 41.83333333,
+          "lng": 22
+        },
+        "capital": "Skopje"
+      },
+      {
+        "name": "Malta",
+        "latlng": {
+          "lat": 35.83333333,
+          "lng": 14.58333333
+        },
+        "capital": "Valletta"
+      },
+      {
+        "name": "Montenegro",
+        "latlng": {
+          "lat": 42.5,
+          "lng": 19.3
+        },
+        "capital": "Podgorica"
+      },
+      {
+        "name": "Netherlands",
+        "latlng": {
+          "lat": 52.5,
+          "lng": 5.75
+        },
+        "capital": "Amsterdam"
+      },
+      {
+        "name": "Norway",
+        "latlng": {
+          "lat": 62,
+          "lng": 10
+        },
+        "capital": "Oslo"
+      },
+      {
+        "name": "Poland",
+        "latlng": {
+          "lat": 52,
+          "lng": 20
+        },
+        "capital": "Warsaw"
+      },
+      {
+        "name": "Portugal",
+        "latlng": {
+          "lat": 39.5,
+          "lng": -8
+        },
+        "capital": "Lisbon"
+      },
+      {
+        "name": "Romania",
+        "latlng": {
+          "lat": 46,
+          "lng": 25
+        },
+        "capital": "Bucharest"
+      },
+      {
+        "name": "Russia",
+        "latlng": {
+          "lat": 60,
+          "lng": 100
+        },
+        "capital": "Moscow"
+      },
+      {
+        "name": "Svalbard and Jan Mayen",
+        "latlng": {
+          "lat": 78,
+          "lng": 20
+        },
+        "capital": "Longyearbyen"
+      },
+      {
+        "name": "San Marino",
+        "latlng": {
+          "lat": 43.76666666,
+          "lng": 12.41666666
+        },
+        "capital": "City of San Marino"
+      },
+      {
+        "name": "Serbia",
+        "latlng": {
+          "lat": 44,
+          "lng": 21
+        },
+        "capital": "Belgrade"
+      },
+      {
+        "name": "Slovakia",
+        "latlng": {
+          "lat": 48.66666666,
+          "lng": 19.5
+        },
+        "capital": "Bratislava"
+      },
+      {
+        "name": "Slovenia",
+        "latlng": {
+          "lat": 46.11666666,
+          "lng": 14.81666666
+        },
+        "capital": "Ljubljana"
+      },
+      {
+        "name": "Sweden",
+        "latlng": {
+          "lat": 62,
+          "lng": 15
+        },
+        "capital": "Stockholm"
+      },
+      {
+        "name": "Ukraine",
+        "latlng": {
+          "lat": 49,
+          "lng": 32
+        },
+        "capital": "Kyiv"
+      },
+      {
+        "name": "Vatican City",
+        "latlng": {
+          "lat": 41.9,
+          "lng": 12.45
+        },
+        "capital": "Vatican City"
+      }
+    ],
+    "Oceania": [
+      {
+        "name": "American Samoa",
+        "latlng": {
+          "lat": -14.33333333,
+          "lng": -170
+        },
+        "capital": "Pago Pago"
+      },
+      {
+        "name": "Australia",
+        "latlng": {
+          "lat": -27,
+          "lng": 133
+        },
+        "capital": "Canberra"
+      },
+      {
+        "name": "Cocos (Keeling) Islands",
+        "latlng": {
+          "lat": -12.5,
+          "lng": 96.83333333
+        },
+        "capital": "West Island"
+      },
+      {
+        "name": "Cook Islands",
+        "latlng": {
+          "lat": -21.23333333,
+          "lng": -159.76666666
+        },
+        "capital": "Avarua"
+      },
+      {
+        "name": "Christmas Island",
+        "latlng": {
+          "lat": -10.5,
+          "lng": 105.66666666
+        },
+        "capital": "Flying Fish Cove"
+      },
+      {
+        "name": "Fiji",
+        "latlng": {
+          "lat": -18,
+          "lng": 175
+        },
+        "capital": "Suva"
+      },
+      {
+        "name": "Micronesia",
+        "latlng": {
+          "lat": 6.91666666,
+          "lng": 158.25
+        },
+        "capital": "Palikir"
+      },
+      {
+        "name": "Guam",
+        "latlng": {
+          "lat": 13.46666666,
+          "lng": 144.78333333
+        },
+        "capital": "Hagåtña"
+      },
+      {
+        "name": "Kiribati",
+        "latlng": {
+          "lat": 1.41666666,
+          "lng": 173
+        },
+        "capital": "South Tarawa"
+      },
+      {
+        "name": "Marshall Islands",
+        "latlng": {
+          "lat": 9,
+          "lng": 168
+        },
+        "capital": "Majuro"
+      },
+      {
+        "name": "Northern Mariana Islands",
+        "latlng": {
+          "lat": 15.2,
+          "lng": 145.75
+        },
+        "capital": "Saipan"
+      },
+      {
+        "name": "New Caledonia",
+        "latlng": {
+          "lat": -21.5,
+          "lng": 165.5
+        },
+        "capital": "Nouméa"
+      },
+      {
+        "name": "Norfolk Island",
+        "latlng": {
+          "lat": -29.03333333,
+          "lng": 167.95
+        },
+        "capital": "Kingston"
+      },
+      {
+        "name": "Niue",
+        "latlng": {
+          "lat": -19.03333333,
+          "lng": -169.86666666
+        },
+        "capital": "Alofi"
+      },
+      {
+        "name": "Nauru",
+        "latlng": {
+          "lat": -0.53333333,
+          "lng": 166.91666666
+        },
+        "capital": "Yaren"
+      },
+      {
+        "name": "New Zealand",
+        "latlng": {
+          "lat": -41,
+          "lng": 174
+        },
+        "capital": "Wellington"
+      },
+      {
+        "name": "Pitcairn Islands",
+        "latlng": {
+          "lat": -25.06666666,
+          "lng": -130.1
+        },
+        "capital": "Adamstown"
+      },
+      {
+        "name": "Palau",
+        "latlng": {
+          "lat": 7.5,
+          "lng": 134.5
+        },
+        "capital": "Ngerulmud"
+      },
+      {
+        "name": "Papua New Guinea",
+        "latlng": {
+          "lat": -6,
+          "lng": 147
+        },
+        "capital": "Port Moresby"
+      },
+      {
+        "name": "French Polynesia",
+        "latlng": {
+          "lat": -15,
+          "lng": -140
+        },
+        "capital": "Papeetē"
+      },
+      {
+        "name": "Solomon Islands",
+        "latlng": {
+          "lat": -8,
+          "lng": 159
+        },
+        "capital": "Honiara"
+      },
+      {
+        "name": "Tokelau",
+        "latlng": {
+          "lat": -9,
+          "lng": -172
+        },
+        "capital": "Fakaofo"
+      },
+      {
+        "name": "Tonga",
+        "latlng": {
+          "lat": -20,
+          "lng": -175
+        },
+        "capital": "Nuku'alofa"
+      },
+      {
+        "name": "Tuvalu",
+        "latlng": {
+          "lat": -8,
+          "lng": 178
+        },
+        "capital": "Funafuti"
+      },
+      {
+        "name": "Vanuatu",
+        "latlng": {
+          "lat": -16,
+          "lng": 167
+        },
+        "capital": "Port Vila"
+      },
+      {
+        "name": "Wallis and Futuna",
+        "latlng": {
+          "lat": -13.3,
+          "lng": -176.2
+        },
+        "capital": "Mata-Utu"
+      },
+      {
+        "name": "Samoa",
+        "latlng": {
+          "lat": -13.58333333,
+          "lng": -172.33333333
+        },
+        "capital": "Apia"
+      }
+    ],
+    "Antarctic": [
+      {
+        "name": "French Southern and Antarctic Lands",
+        "latlng": {
+          "lat": -49.25,
+          "lng": 69.167
+        },
+        "capital": "Port-aux-Français"
+      },
+      {
+        "name": "South Georgia",
+        "latlng": {
+          "lat": -54.5,
+          "lng": -37
+        },
+        "capital": "King Edward Point"
+      }
+    ]
+  },
+  "bySubregion": {
+    "Caribbean": [
+      {
+        "name": "Aruba",
+        "latlng": {
+          "lat": 12.5,
+          "lng": -69.96666666
+        },
+        "capital": "Oranjestad"
+      },
+      {
+        "name": "Anguilla",
+        "latlng": {
+          "lat": 18.25,
+          "lng": -63.16666666
+        },
+        "capital": "The Valley"
+      },
+      {
+        "name": "Antigua and Barbuda",
+        "latlng": {
+          "lat": 17.05,
+          "lng": -61.8
+        },
+        "capital": "Saint John's"
+      },
+      {
+        "name": "Bahamas",
+        "latlng": {
+          "lat": 24.25,
+          "lng": -76
+        },
+        "capital": "Nassau"
+      },
+      {
+        "name": "Saint Barthélemy",
+        "latlng": {
+          "lat": 18.5,
+          "lng": -63.41666666
+        },
+        "capital": "Gustavia"
+      },
+      {
+        "name": "Caribbean Netherlands",
+        "latlng": {
+          "lat": 12.18,
+          "lng": -68.25
+        },
+        "capital": "Kralendijk"
+      },
+      {
+        "name": "Caribbean Netherlands",
+        "latlng": {
+          "lat": 12.18,
+          "lng": -68.25
+        },
+        "capital": "Oranjestad"
+      },
+      {
+        "name": "Caribbean Netherlands",
+        "latlng": {
+          "lat": 12.18,
+          "lng": -68.25
+        },
+        "capital": "The Bottom"
+      },
+      {
+        "name": "Barbados",
+        "latlng": {
+          "lat": 13.16666666,
+          "lng": -59.53333333
+        },
+        "capital": "Bridgetown"
+      },
+      {
+        "name": "Cuba",
+        "latlng": {
+          "lat": 21.5,
+          "lng": -80
+        },
+        "capital": "Havana"
+      },
+      {
+        "name": "Curaçao",
+        "latlng": {
+          "lat": 12.116667,
+          "lng": -68.933333
+        },
+        "capital": "Willemstad"
+      },
+      {
+        "name": "Cayman Islands",
+        "latlng": {
+          "lat": 19.5,
+          "lng": -80.5
+        },
+        "capital": "George Town"
+      },
+      {
+        "name": "Dominica",
+        "latlng": {
+          "lat": 15.41666666,
+          "lng": -61.33333333
+        },
+        "capital": "Roseau"
+      },
+      {
+        "name": "Dominican Republic",
+        "latlng": {
+          "lat": 19,
+          "lng": -70.66666666
+        },
+        "capital": "Santo Domingo"
+      },
+      {
+        "name": "Guadeloupe",
+        "latlng": {
+          "lat": 16.25,
+          "lng": -61.583333
+        },
+        "capital": "Basse-Terre"
+      },
+      {
+        "name": "Grenada",
+        "latlng": {
+          "lat": 12.11666666,
+          "lng": -61.66666666
+        },
+        "capital": "St. George's"
+      },
+      {
+        "name": "Haiti",
+        "latlng": {
+          "lat": 19,
+          "lng": -72.41666666
+        },
+        "capital": "Port-au-Prince"
+      },
+      {
+        "name": "Jamaica",
+        "latlng": {
+          "lat": 18.25,
+          "lng": -77.5
+        },
+        "capital": "Kingston"
+      },
+      {
+        "name": "Saint Kitts and Nevis",
+        "latlng": {
+          "lat": 17.33333333,
+          "lng": -62.75
+        },
+        "capital": "Basseterre"
+      },
+      {
+        "name": "Saint Lucia",
+        "latlng": {
+          "lat": 13.88333333,
+          "lng": -60.96666666
+        },
+        "capital": "Castries"
+      },
+      {
+        "name": "Saint Martin",
+        "latlng": {
+          "lat": 18.08333333,
+          "lng": -63.95
+        },
+        "capital": "Marigot"
+      },
+      {
+        "name": "Montserrat",
+        "latlng": {
+          "lat": 16.75,
+          "lng": -62.2
+        },
+        "capital": "Plymouth"
+      },
+      {
+        "name": "Martinique",
+        "latlng": {
+          "lat": 14.666667,
+          "lng": -61
+        },
+        "capital": "Fort-de-France"
+      },
+      {
+        "name": "Puerto Rico",
+        "latlng": {
+          "lat": 18.25,
+          "lng": -66.5
+        },
+        "capital": "San Juan"
+      },
+      {
+        "name": "Sint Maarten",
+        "latlng": {
+          "lat": 18.033333,
+          "lng": -63.05
+        },
+        "capital": "Philipsburg"
+      },
+      {
+        "name": "Turks and Caicos Islands",
+        "latlng": {
+          "lat": 21.75,
+          "lng": -71.58333333
+        },
+        "capital": "Cockburn Town"
+      },
+      {
+        "name": "Trinidad and Tobago",
+        "latlng": {
+          "lat": 11,
+          "lng": -61
+        },
+        "capital": "Port of Spain"
+      },
+      {
+        "name": "Saint Vincent and the Grenadines",
+        "latlng": {
+          "lat": 13.25,
+          "lng": -61.2
+        },
+        "capital": "Kingstown"
+      },
+      {
+        "name": "British Virgin Islands",
+        "latlng": {
+          "lat": 18.431383,
+          "lng": -64.62305
+        },
+        "capital": "Road Town"
+      },
+      {
+        "name": "United States Virgin Islands",
+        "latlng": {
+          "lat": 18.35,
+          "lng": -64.933333
+        },
+        "capital": "Charlotte Amalie"
+      }
+    ],
+    "Southern Asia": [
+      {
+        "name": "Afghanistan",
+        "latlng": {
+          "lat": 33,
+          "lng": 65
+        },
+        "capital": "Kabul"
+      },
+      {
+        "name": "Bangladesh",
+        "latlng": {
+          "lat": 24,
+          "lng": 90
+        },
+        "capital": "Dhaka"
+      },
+      {
+        "name": "Bhutan",
+        "latlng": {
+          "lat": 27.5,
+          "lng": 90.5
+        },
+        "capital": "Thimphu"
+      },
+      {
+        "name": "India",
+        "latlng": {
+          "lat": 20,
+          "lng": 77
+        },
+        "capital": "New Delhi"
+      },
+      {
+        "name": "Iran",
+        "latlng": {
+          "lat": 32,
+          "lng": 53
+        },
+        "capital": "Tehran"
+      },
+      {
+        "name": "Sri Lanka",
+        "latlng": {
+          "lat": 7,
+          "lng": 81
+        },
+        "capital": "Colombo"
+      },
+      {
+        "name": "Maldives",
+        "latlng": {
+          "lat": 3.25,
+          "lng": 73
+        },
+        "capital": "Malé"
+      },
+      {
+        "name": "Nepal",
+        "latlng": {
+          "lat": 28,
+          "lng": 84
+        },
+        "capital": "Kathmandu"
+      },
+      {
+        "name": "Pakistan",
+        "latlng": {
+          "lat": 30,
+          "lng": 70
+        },
+        "capital": "Islamabad"
+      }
+    ],
+    "Middle Africa": [
+      {
+        "name": "Angola",
+        "latlng": {
+          "lat": -12.5,
+          "lng": 18.5
+        },
+        "capital": "Luanda"
+      },
+      {
+        "name": "Central African Republic",
+        "latlng": {
+          "lat": 7,
+          "lng": 21
+        },
+        "capital": "Bangui"
+      },
+      {
+        "name": "Cameroon",
+        "latlng": {
+          "lat": 6,
+          "lng": 12
+        },
+        "capital": "Yaoundé"
+      },
+      {
+        "name": "DR Congo",
+        "latlng": {
+          "lat": 0,
+          "lng": 25
+        },
+        "capital": "Kinshasa"
+      },
+      {
+        "name": "Republic of the Congo",
+        "latlng": {
+          "lat": -1,
+          "lng": 15
+        },
+        "capital": "Brazzaville"
+      },
+      {
+        "name": "Gabon",
+        "latlng": {
+          "lat": -1,
+          "lng": 11.75
+        },
+        "capital": "Libreville"
+      },
+      {
+        "name": "Equatorial Guinea",
+        "latlng": {
+          "lat": 2,
+          "lng": 10
+        },
+        "capital": "Malabo"
+      },
+      {
+        "name": "South Sudan",
+        "latlng": {
+          "lat": 7,
+          "lng": 30
+        },
+        "capital": "Juba"
+      },
+      {
+        "name": "São Tomé and Príncipe",
+        "latlng": {
+          "lat": 1,
+          "lng": 7
+        },
+        "capital": "São Tomé"
+      },
+      {
+        "name": "Chad",
+        "latlng": {
+          "lat": 15,
+          "lng": 19
+        },
+        "capital": "N'Djamena"
+      }
+    ],
+    "Northern Europe": [
+      {
+        "name": "Åland Islands",
+        "latlng": {
+          "lat": 60.116667,
+          "lng": 19.9
+        },
+        "capital": "Mariehamn"
+      },
+      {
+        "name": "Denmark",
+        "latlng": {
+          "lat": 56,
+          "lng": 10
+        },
+        "capital": "Copenhagen"
+      },
+      {
+        "name": "Estonia",
+        "latlng": {
+          "lat": 59,
+          "lng": 26
+        },
+        "capital": "Tallinn"
+      },
+      {
+        "name": "Finland",
+        "latlng": {
+          "lat": 64,
+          "lng": 26
+        },
+        "capital": "Helsinki"
+      },
+      {
+        "name": "Faroe Islands",
+        "latlng": {
+          "lat": 62,
+          "lng": -7
+        },
+        "capital": "Tórshavn"
+      },
+      {
+        "name": "United Kingdom",
+        "latlng": {
+          "lat": 54,
+          "lng": -2
+        },
+        "capital": "London"
+      },
+      {
+        "name": "Guernsey",
+        "latlng": {
+          "lat": 49.46666666,
+          "lng": -2.58333333
+        },
+        "capital": "St. Peter Port"
+      },
+      {
+        "name": "Isle of Man",
+        "latlng": {
+          "lat": 54.25,
+          "lng": -4.5
+        },
+        "capital": "Douglas"
+      },
+      {
+        "name": "Ireland",
+        "latlng": {
+          "lat": 53,
+          "lng": -8
+        },
+        "capital": "Dublin"
+      },
+      {
+        "name": "Iceland",
+        "latlng": {
+          "lat": 65,
+          "lng": -18
+        },
+        "capital": "Reykjavik"
+      },
+      {
+        "name": "Jersey",
+        "latlng": {
+          "lat": 49.25,
+          "lng": -2.16666666
+        },
+        "capital": "Saint Helier"
+      },
+      {
+        "name": "Lithuania",
+        "latlng": {
+          "lat": 56,
+          "lng": 24
+        },
+        "capital": "Vilnius"
+      },
+      {
+        "name": "Latvia",
+        "latlng": {
+          "lat": 57,
+          "lng": 25
+        },
+        "capital": "Riga"
+      },
+      {
+        "name": "Norway",
+        "latlng": {
+          "lat": 62,
+          "lng": 10
+        },
+        "capital": "Oslo"
+      },
+      {
+        "name": "Svalbard and Jan Mayen",
+        "latlng": {
+          "lat": 78,
+          "lng": 20
+        },
+        "capital": "Longyearbyen"
+      },
+      {
+        "name": "Sweden",
+        "latlng": {
+          "lat": 62,
+          "lng": 15
+        },
+        "capital": "Stockholm"
+      }
+    ],
+    "Southeast Europe": [
+      {
+        "name": "Albania",
+        "latlng": {
+          "lat": 41,
+          "lng": 20
+        },
+        "capital": "Tirana"
+      },
+      {
+        "name": "Bulgaria",
+        "latlng": {
+          "lat": 43,
+          "lng": 25
+        },
+        "capital": "Sofia"
+      },
+      {
+        "name": "Bosnia and Herzegovina",
+        "latlng": {
+          "lat": 44,
+          "lng": 18
+        },
+        "capital": "Sarajevo"
+      },
+      {
+        "name": "Croatia",
+        "latlng": {
+          "lat": 45.16666666,
+          "lng": 15.5
+        },
+        "capital": "Zagreb"
+      },
+      {
+        "name": "Kosovo",
+        "latlng": {
+          "lat": 42.666667,
+          "lng": 21.166667
+        },
+        "capital": "Pristina"
+      },
+      {
+        "name": "North Macedonia",
+        "latlng": {
+          "lat": 41.83333333,
+          "lng": 22
+        },
+        "capital": "Skopje"
+      },
+      {
+        "name": "Montenegro",
+        "latlng": {
+          "lat": 42.5,
+          "lng": 19.3
+        },
+        "capital": "Podgorica"
+      },
+      {
+        "name": "Romania",
+        "latlng": {
+          "lat": 46,
+          "lng": 25
+        },
+        "capital": "Bucharest"
+      },
+      {
+        "name": "Serbia",
+        "latlng": {
+          "lat": 44,
+          "lng": 21
+        },
+        "capital": "Belgrade"
+      }
+    ],
+    "Southern Europe": [
+      {
+        "name": "Andorra",
+        "latlng": {
+          "lat": 42.5,
+          "lng": 1.5
+        },
+        "capital": "Andorra la Vella"
+      },
+      {
+        "name": "Cyprus",
+        "latlng": {
+          "lat": 35,
+          "lng": 33
+        },
+        "capital": "Nicosia"
+      },
+      {
+        "name": "Spain",
+        "latlng": {
+          "lat": 40,
+          "lng": -4
+        },
+        "capital": "Madrid"
+      },
+      {
+        "name": "Gibraltar",
+        "latlng": {
+          "lat": 36.13333333,
+          "lng": -5.35
+        },
+        "capital": "Gibraltar"
+      },
+      {
+        "name": "Greece",
+        "latlng": {
+          "lat": 39,
+          "lng": 22
+        },
+        "capital": "Athens"
+      },
+      {
+        "name": "Italy",
+        "latlng": {
+          "lat": 42.83333333,
+          "lng": 12.83333333
+        },
+        "capital": "Rome"
+      },
+      {
+        "name": "Malta",
+        "latlng": {
+          "lat": 35.83333333,
+          "lng": 14.58333333
+        },
+        "capital": "Valletta"
+      },
+      {
+        "name": "Portugal",
+        "latlng": {
+          "lat": 39.5,
+          "lng": -8
+        },
+        "capital": "Lisbon"
+      },
+      {
+        "name": "San Marino",
+        "latlng": {
+          "lat": 43.76666666,
+          "lng": 12.41666666
+        },
+        "capital": "City of San Marino"
+      },
+      {
+        "name": "Vatican City",
+        "latlng": {
+          "lat": 41.9,
+          "lng": 12.45
+        },
+        "capital": "Vatican City"
+      }
+    ],
+    "Western Asia": [
+      {
+        "name": "United Arab Emirates",
+        "latlng": {
+          "lat": 24,
+          "lng": 54
+        },
+        "capital": "Abu Dhabi"
+      },
+      {
+        "name": "Armenia",
+        "latlng": {
+          "lat": 40,
+          "lng": 45
+        },
+        "capital": "Yerevan"
+      },
+      {
+        "name": "Azerbaijan",
+        "latlng": {
+          "lat": 40.5,
+          "lng": 47.5
+        },
+        "capital": "Baku"
+      },
+      {
+        "name": "Bahrain",
+        "latlng": {
+          "lat": 26,
+          "lng": 50.55
+        },
+        "capital": "Manama"
+      },
+      {
+        "name": "Georgia",
+        "latlng": {
+          "lat": 42,
+          "lng": 43.5
+        },
+        "capital": "Tbilisi"
+      },
+      {
+        "name": "Iraq",
+        "latlng": {
+          "lat": 33,
+          "lng": 44
+        },
+        "capital": "Baghdad"
+      },
+      {
+        "name": "Israel",
+        "latlng": {
+          "lat": 31.47,
+          "lng": 35.13
+        },
+        "capital": "Jerusalem"
+      },
+      {
+        "name": "Jordan",
+        "latlng": {
+          "lat": 31,
+          "lng": 36
+        },
+        "capital": "Amman"
+      },
+      {
+        "name": "Kuwait",
+        "latlng": {
+          "lat": 29.5,
+          "lng": 45.75
+        },
+        "capital": "Kuwait City"
+      },
+      {
+        "name": "Lebanon",
+        "latlng": {
+          "lat": 33.83333333,
+          "lng": 35.83333333
+        },
+        "capital": "Beirut"
+      },
+      {
+        "name": "Oman",
+        "latlng": {
+          "lat": 21,
+          "lng": 57
+        },
+        "capital": "Muscat"
+      },
+      {
+        "name": "Palestine",
+        "latlng": {
+          "lat": 31.9,
+          "lng": 35.2
+        },
+        "capital": "Ramallah"
+      },
+      {
+        "name": "Qatar",
+        "latlng": {
+          "lat": 25.5,
+          "lng": 51.25
+        },
+        "capital": "Doha"
+      },
+      {
+        "name": "Saudi Arabia",
+        "latlng": {
+          "lat": 25,
+          "lng": 45
+        },
+        "capital": "Riyadh"
+      },
+      {
+        "name": "Syria",
+        "latlng": {
+          "lat": 35,
+          "lng": 38
+        },
+        "capital": "Damascus"
+      },
+      {
+        "name": "Türkiye",
+        "latlng": {
+          "lat": 39,
+          "lng": 35
+        },
+        "capital": "Ankara"
+      },
+      {
+        "name": "Yemen",
+        "latlng": {
+          "lat": 15,
+          "lng": 48
+        },
+        "capital": "Sana'a"
+      }
+    ],
+    "South America": [
+      {
+        "name": "Argentina",
+        "latlng": {
+          "lat": -34,
+          "lng": -64
+        },
+        "capital": "Buenos Aires"
+      },
+      {
+        "name": "Bolivia",
+        "latlng": {
+          "lat": -17,
+          "lng": -65
+        },
+        "capital": "Sucre"
+      },
+      {
+        "name": "Brazil",
+        "latlng": {
+          "lat": -10,
+          "lng": -55
+        },
+        "capital": "Brasília"
+      },
+      {
+        "name": "Chile",
+        "latlng": {
+          "lat": -30,
+          "lng": -71
+        },
+        "capital": "Santiago"
+      },
+      {
+        "name": "Colombia",
+        "latlng": {
+          "lat": 4,
+          "lng": -72
+        },
+        "capital": "Bogotá"
+      },
+      {
+        "name": "Ecuador",
+        "latlng": {
+          "lat": -2,
+          "lng": -77.5
+        },
+        "capital": "Quito"
+      },
+      {
+        "name": "Falkland Islands",
+        "latlng": {
+          "lat": -51.75,
+          "lng": -59
+        },
+        "capital": "Stanley"
+      },
+      {
+        "name": "French Guiana",
+        "latlng": {
+          "lat": 4,
+          "lng": -53
+        },
+        "capital": "Cayenne"
+      },
+      {
+        "name": "Guyana",
+        "latlng": {
+          "lat": 5,
+          "lng": -59
+        },
+        "capital": "Georgetown"
+      },
+      {
+        "name": "Peru",
+        "latlng": {
+          "lat": -10,
+          "lng": -76
+        },
+        "capital": "Lima"
+      },
+      {
+        "name": "Paraguay",
+        "latlng": {
+          "lat": -23,
+          "lng": -58
+        },
+        "capital": "Asunción"
+      },
+      {
+        "name": "Suriname",
+        "latlng": {
+          "lat": 4,
+          "lng": -56
+        },
+        "capital": "Paramaribo"
+      },
+      {
+        "name": "Uruguay",
+        "latlng": {
+          "lat": -33,
+          "lng": -56
+        },
+        "capital": "Montevideo"
+      },
+      {
+        "name": "Venezuela",
+        "latlng": {
+          "lat": 8,
+          "lng": -66
+        },
+        "capital": "Caracas"
+      }
+    ],
+    "Polynesia": [
+      {
+        "name": "American Samoa",
+        "latlng": {
+          "lat": -14.33333333,
+          "lng": -170
+        },
+        "capital": "Pago Pago"
+      },
+      {
+        "name": "Cook Islands",
+        "latlng": {
+          "lat": -21.23333333,
+          "lng": -159.76666666
+        },
+        "capital": "Avarua"
+      },
+      {
+        "name": "Niue",
+        "latlng": {
+          "lat": -19.03333333,
+          "lng": -169.86666666
+        },
+        "capital": "Alofi"
+      },
+      {
+        "name": "Pitcairn Islands",
+        "latlng": {
+          "lat": -25.06666666,
+          "lng": -130.1
+        },
+        "capital": "Adamstown"
+      },
+      {
+        "name": "French Polynesia",
+        "latlng": {
+          "lat": -15,
+          "lng": -140
+        },
+        "capital": "Papeetē"
+      },
+      {
+        "name": "Tokelau",
+        "latlng": {
+          "lat": -9,
+          "lng": -172
+        },
+        "capital": "Fakaofo"
+      },
+      {
+        "name": "Tonga",
+        "latlng": {
+          "lat": -20,
+          "lng": -175
+        },
+        "capital": "Nuku'alofa"
+      },
+      {
+        "name": "Tuvalu",
+        "latlng": {
+          "lat": -8,
+          "lng": 178
+        },
+        "capital": "Funafuti"
+      },
+      {
+        "name": "Wallis and Futuna",
+        "latlng": {
+          "lat": -13.3,
+          "lng": -176.2
+        },
+        "capital": "Mata-Utu"
+      },
+      {
+        "name": "Samoa",
+        "latlng": {
+          "lat": -13.58333333,
+          "lng": -172.33333333
+        },
+        "capital": "Apia"
+      }
+    ],
+    "": [
+      {
+        "name": "French Southern and Antarctic Lands",
+        "latlng": {
+          "lat": -49.25,
+          "lng": 69.167
+        },
+        "capital": "Port-aux-Français"
+      },
+      {
+        "name": "South Georgia",
+        "latlng": {
+          "lat": -54.5,
+          "lng": -37
+        },
+        "capital": "King Edward Point"
+      }
+    ],
+    "Australia and New Zealand": [
+      {
+        "name": "Australia",
+        "latlng": {
+          "lat": -27,
+          "lng": 133
+        },
+        "capital": "Canberra"
+      },
+      {
+        "name": "Cocos (Keeling) Islands",
+        "latlng": {
+          "lat": -12.5,
+          "lng": 96.83333333
+        },
+        "capital": "West Island"
+      },
+      {
+        "name": "Christmas Island",
+        "latlng": {
+          "lat": -10.5,
+          "lng": 105.66666666
+        },
+        "capital": "Flying Fish Cove"
+      },
+      {
+        "name": "Norfolk Island",
+        "latlng": {
+          "lat": -29.03333333,
+          "lng": 167.95
+        },
+        "capital": "Kingston"
+      },
+      {
+        "name": "New Zealand",
+        "latlng": {
+          "lat": -41,
+          "lng": 174
+        },
+        "capital": "Wellington"
+      }
+    ],
+    "Central Europe": [
+      {
+        "name": "Austria",
+        "latlng": {
+          "lat": 47.33333333,
+          "lng": 13.33333333
+        },
+        "capital": "Vienna"
+      },
+      {
+        "name": "Czechia",
+        "latlng": {
+          "lat": 49.75,
+          "lng": 15.5
+        },
+        "capital": "Prague"
+      },
+      {
+        "name": "Hungary",
+        "latlng": {
+          "lat": 47,
+          "lng": 20
+        },
+        "capital": "Budapest"
+      },
+      {
+        "name": "Poland",
+        "latlng": {
+          "lat": 52,
+          "lng": 20
+        },
+        "capital": "Warsaw"
+      },
+      {
+        "name": "Slovakia",
+        "latlng": {
+          "lat": 48.66666666,
+          "lng": 19.5
+        },
+        "capital": "Bratislava"
+      },
+      {
+        "name": "Slovenia",
+        "latlng": {
+          "lat": 46.11666666,
+          "lng": 14.81666666
+        },
+        "capital": "Ljubljana"
+      }
+    ],
+    "Eastern Africa": [
+      {
+        "name": "Burundi",
+        "latlng": {
+          "lat": -3.5,
+          "lng": 30
+        },
+        "capital": "Gitega"
+      },
+      {
+        "name": "Comoros",
+        "latlng": {
+          "lat": -12.16666666,
+          "lng": 44.25
+        },
+        "capital": "Moroni"
+      },
+      {
+        "name": "Djibouti",
+        "latlng": {
+          "lat": 11.5,
+          "lng": 43
+        },
+        "capital": "Djibouti"
+      },
+      {
+        "name": "Eritrea",
+        "latlng": {
+          "lat": 15,
+          "lng": 39
+        },
+        "capital": "Asmara"
+      },
+      {
+        "name": "Ethiopia",
+        "latlng": {
+          "lat": 8,
+          "lng": 38
+        },
+        "capital": "Addis Ababa"
+      },
+      {
+        "name": "British Indian Ocean Territory",
+        "latlng": {
+          "lat": -6,
+          "lng": 71.5
+        },
+        "capital": "Diego Garcia"
+      },
+      {
+        "name": "Kenya",
+        "latlng": {
+          "lat": 1,
+          "lng": 38
+        },
+        "capital": "Nairobi"
+      },
+      {
+        "name": "Madagascar",
+        "latlng": {
+          "lat": -20,
+          "lng": 47
+        },
+        "capital": "Antananarivo"
+      },
+      {
+        "name": "Mozambique",
+        "latlng": {
+          "lat": -18.25,
+          "lng": 35
+        },
+        "capital": "Maputo"
+      },
+      {
+        "name": "Mauritius",
+        "latlng": {
+          "lat": -20.28333333,
+          "lng": 57.55
+        },
+        "capital": "Port Louis"
+      },
+      {
+        "name": "Malawi",
+        "latlng": {
+          "lat": -13.5,
+          "lng": 34
+        },
+        "capital": "Lilongwe"
+      },
+      {
+        "name": "Mayotte",
+        "latlng": {
+          "lat": -12.83333333,
+          "lng": 45.16666666
+        },
+        "capital": "Mamoudzou"
+      },
+      {
+        "name": "Réunion",
+        "latlng": {
+          "lat": -21.15,
+          "lng": 55.5
+        },
+        "capital": "Saint-Denis"
+      },
+      {
+        "name": "Rwanda",
+        "latlng": {
+          "lat": -2,
+          "lng": 30
+        },
+        "capital": "Kigali"
+      },
+      {
+        "name": "Somalia",
+        "latlng": {
+          "lat": 10,
+          "lng": 49
+        },
+        "capital": "Mogadishu"
+      },
+      {
+        "name": "Seychelles",
+        "latlng": {
+          "lat": -4.58333333,
+          "lng": 55.66666666
+        },
+        "capital": "Victoria"
+      },
+      {
+        "name": "Tanzania",
+        "latlng": {
+          "lat": -6,
+          "lng": 35
+        },
+        "capital": "Dodoma"
+      },
+      {
+        "name": "Uganda",
+        "latlng": {
+          "lat": 1,
+          "lng": 32
+        },
+        "capital": "Kampala"
+      },
+      {
+        "name": "Zambia",
+        "latlng": {
+          "lat": -15,
+          "lng": 30
+        },
+        "capital": "Lusaka"
+      },
+      {
+        "name": "Zimbabwe",
+        "latlng": {
+          "lat": -20,
+          "lng": 30
+        },
+        "capital": "Harare"
+      }
+    ],
+    "Western Europe": [
+      {
+        "name": "Belgium",
+        "latlng": {
+          "lat": 50.83333333,
+          "lng": 4
+        },
+        "capital": "Brussels"
+      },
+      {
+        "name": "Switzerland",
+        "latlng": {
+          "lat": 47,
+          "lng": 8
+        },
+        "capital": "Bern"
+      },
+      {
+        "name": "Germany",
+        "latlng": {
+          "lat": 51,
+          "lng": 9
+        },
+        "capital": "Berlin"
+      },
+      {
+        "name": "France",
+        "latlng": {
+          "lat": 46,
+          "lng": 2
+        },
+        "capital": "Paris"
+      },
+      {
+        "name": "Liechtenstein",
+        "latlng": {
+          "lat": 47.26666666,
+          "lng": 9.53333333
+        },
+        "capital": "Vaduz"
+      },
+      {
+        "name": "Luxembourg",
+        "latlng": {
+          "lat": 49.75,
+          "lng": 6.16666666
+        },
+        "capital": "Luxembourg"
+      },
+      {
+        "name": "Monaco",
+        "latlng": {
+          "lat": 43.73333333,
+          "lng": 7.4
+        },
+        "capital": "Monaco"
+      },
+      {
+        "name": "Netherlands",
+        "latlng": {
+          "lat": 52.5,
+          "lng": 5.75
+        },
+        "capital": "Amsterdam"
+      }
+    ],
+    "Western Africa": [
+      {
+        "name": "Benin",
+        "latlng": {
+          "lat": 9.5,
+          "lng": 2.25
+        },
+        "capital": "Porto-Novo"
+      },
+      {
+        "name": "Burkina Faso",
+        "latlng": {
+          "lat": 13,
+          "lng": -2
+        },
+        "capital": "Ouagadougou"
+      },
+      {
+        "name": "Saint Helena, Ascension and Tristan da Cunha",
+        "latlng": {
+          "lat": -15.95,
+          "lng": -5.72
+        },
+        "capital": "Jamestown"
+      },
+      {
+        "name": "Ivory Coast",
+        "latlng": {
+          "lat": 8,
+          "lng": -5
+        },
+        "capital": "Yamoussoukro"
+      },
+      {
+        "name": "Cape Verde",
+        "latlng": {
+          "lat": 16,
+          "lng": -24
+        },
+        "capital": "Praia"
+      },
+      {
+        "name": "Ghana",
+        "latlng": {
+          "lat": 8,
+          "lng": -2
+        },
+        "capital": "Accra"
+      },
+      {
+        "name": "Guinea",
+        "latlng": {
+          "lat": 11,
+          "lng": -10
+        },
+        "capital": "Conakry"
+      },
+      {
+        "name": "Gambia",
+        "latlng": {
+          "lat": 13.46666666,
+          "lng": -16.56666666
+        },
+        "capital": "Banjul"
+      },
+      {
+        "name": "Guinea-Bissau",
+        "latlng": {
+          "lat": 12,
+          "lng": -15
+        },
+        "capital": "Bissau"
+      },
+      {
+        "name": "Liberia",
+        "latlng": {
+          "lat": 6.5,
+          "lng": -9.5
+        },
+        "capital": "Monrovia"
+      },
+      {
+        "name": "Mali",
+        "latlng": {
+          "lat": 17,
+          "lng": -4
+        },
+        "capital": "Bamako"
+      },
+      {
+        "name": "Mauritania",
+        "latlng": {
+          "lat": 20,
+          "lng": -12
+        },
+        "capital": "Nouakchott"
+      },
+      {
+        "name": "Niger",
+        "latlng": {
+          "lat": 16,
+          "lng": 8
+        },
+        "capital": "Niamey"
+      },
+      {
+        "name": "Nigeria",
+        "latlng": {
+          "lat": 10,
+          "lng": 8
+        },
+        "capital": "Abuja"
+      },
+      {
+        "name": "Senegal",
+        "latlng": {
+          "lat": 14,
+          "lng": -14
+        },
+        "capital": "Dakar"
+      },
+      {
+        "name": "Sierra Leone",
+        "latlng": {
+          "lat": 8.5,
+          "lng": -11.5
+        },
+        "capital": "Freetown"
+      },
+      {
+        "name": "Togo",
+        "latlng": {
+          "lat": 8,
+          "lng": 1.16666666
+        },
+        "capital": "Lomé"
+      }
+    ],
+    "Eastern Europe": [
+      {
+        "name": "Belarus",
+        "latlng": {
+          "lat": 53,
+          "lng": 28
+        },
+        "capital": "Minsk"
+      },
+      {
+        "name": "Moldova",
+        "latlng": {
+          "lat": 47,
+          "lng": 29
+        },
+        "capital": "Chișinău"
+      },
+      {
+        "name": "Russia",
+        "latlng": {
+          "lat": 60,
+          "lng": 100
+        },
+        "capital": "Moscow"
+      },
+      {
+        "name": "Ukraine",
+        "latlng": {
+          "lat": 49,
+          "lng": 32
+        },
+        "capital": "Kyiv"
+      }
+    ],
+    "Central America": [
+      {
+        "name": "Belize",
+        "latlng": {
+          "lat": 17.25,
+          "lng": -88.75
+        },
+        "capital": "Belmopan"
+      },
+      {
+        "name": "Costa Rica",
+        "latlng": {
+          "lat": 10,
+          "lng": -84
+        },
+        "capital": "San José"
+      },
+      {
+        "name": "Guatemala",
+        "latlng": {
+          "lat": 15.5,
+          "lng": -90.25
+        },
+        "capital": "Guatemala City"
+      },
+      {
+        "name": "Honduras",
+        "latlng": {
+          "lat": 15,
+          "lng": -86.5
+        },
+        "capital": "Tegucigalpa"
+      },
+      {
+        "name": "Nicaragua",
+        "latlng": {
+          "lat": 13,
+          "lng": -85
+        },
+        "capital": "Managua"
+      },
+      {
+        "name": "Panama",
+        "latlng": {
+          "lat": 9,
+          "lng": -80
+        },
+        "capital": "Panama City"
+      },
+      {
+        "name": "El Salvador",
+        "latlng": {
+          "lat": 13.83333333,
+          "lng": -88.91666666
+        },
+        "capital": "San Salvador"
+      }
+    ],
+    "North America": [
+      {
+        "name": "Bermuda",
+        "latlng": {
+          "lat": 32.33333333,
+          "lng": -64.75
+        },
+        "capital": "Hamilton"
+      },
+      {
+        "name": "Canada",
+        "latlng": {
+          "lat": 60,
+          "lng": -95
+        },
+        "capital": "Ottawa"
+      },
+      {
+        "name": "Greenland",
+        "latlng": {
+          "lat": 72,
+          "lng": -40
+        },
+        "capital": "Nuuk"
+      },
+      {
+        "name": "Mexico",
+        "latlng": {
+          "lat": 23,
+          "lng": -102
+        },
+        "capital": "Mexico City"
+      },
+      {
+        "name": "Saint Pierre and Miquelon",
+        "latlng": {
+          "lat": 46.83333333,
+          "lng": -56.33333333
+        },
+        "capital": "Saint-Pierre"
+      },
+      {
+        "name": "United States",
+        "latlng": {
+          "lat": 38,
+          "lng": -97
+        },
+        "capital": "Washington D.C."
+      }
+    ],
+    "South-Eastern Asia": [
+      {
+        "name": "Brunei",
+        "latlng": {
+          "lat": 4.5,
+          "lng": 114.66666666
+        },
+        "capital": "Bandar Seri Begawan"
+      },
+      {
+        "name": "Indonesia",
+        "latlng": {
+          "lat": -5,
+          "lng": 120
+        },
+        "capital": "Jakarta"
+      },
+      {
+        "name": "Cambodia",
+        "latlng": {
+          "lat": 13,
+          "lng": 105
+        },
+        "capital": "Phnom Penh"
+      },
+      {
+        "name": "Laos",
+        "latlng": {
+          "lat": 18,
+          "lng": 105
+        },
+        "capital": "Vientiane"
+      },
+      {
+        "name": "Myanmar",
+        "latlng": {
+          "lat": 22,
+          "lng": 98
+        },
+        "capital": "Naypyidaw"
+      },
+      {
+        "name": "Malaysia",
+        "latlng": {
+          "lat": 2.5,
+          "lng": 112.5
+        },
+        "capital": "Kuala Lumpur"
+      },
+      {
+        "name": "Philippines",
+        "latlng": {
+          "lat": 13,
+          "lng": 122
+        },
+        "capital": "Manila"
+      },
+      {
+        "name": "Singapore",
+        "latlng": {
+          "lat": 1.36666666,
+          "lng": 103.8
+        },
+        "capital": "Singapore"
+      },
+      {
+        "name": "Thailand",
+        "latlng": {
+          "lat": 15,
+          "lng": 100
+        },
+        "capital": "Bangkok"
+      },
+      {
+        "name": "Timor-Leste",
+        "latlng": {
+          "lat": -8.83333333,
+          "lng": 125.91666666
+        },
+        "capital": "Dili"
+      },
+      {
+        "name": "Vietnam",
+        "latlng": {
+          "lat": 16.16666666,
+          "lng": 107.83333333
+        },
+        "capital": "Hanoi"
+      }
+    ],
+    "Southern Africa": [
+      {
+        "name": "Botswana",
+        "latlng": {
+          "lat": -22,
+          "lng": 24
+        },
+        "capital": "Gaborone"
+      },
+      {
+        "name": "Lesotho",
+        "latlng": {
+          "lat": -29.5,
+          "lng": 28.5
+        },
+        "capital": "Maseru"
+      },
+      {
+        "name": "Namibia",
+        "latlng": {
+          "lat": -22,
+          "lng": 17
+        },
+        "capital": "Windhoek"
+      },
+      {
+        "name": "Eswatini",
+        "latlng": {
+          "lat": -26.5,
+          "lng": 31.5
+        },
+        "capital": "Lobamba"
+      },
+      {
+        "name": "South Africa",
+        "latlng": {
+          "lat": -29,
+          "lng": 24
+        },
+        "capital": "Pretoria"
+      },
+      {
+        "name": "South Africa",
+        "latlng": {
+          "lat": -29,
+          "lng": 24
+        },
+        "capital": "Bloemfontein"
+      },
+      {
+        "name": "South Africa",
+        "latlng": {
+          "lat": -29,
+          "lng": 24
+        },
+        "capital": "Cape Town"
+      }
+    ],
+    "Eastern Asia": [
+      {
+        "name": "China",
+        "latlng": {
+          "lat": 35,
+          "lng": 105
+        },
+        "capital": "Beijing"
+      },
+      {
+        "name": "Hong Kong",
+        "latlng": {
+          "lat": 22.267,
+          "lng": 114.188
+        },
+        "capital": "City of Victoria"
+      },
+      {
+        "name": "Japan",
+        "latlng": {
+          "lat": 36,
+          "lng": 138
+        },
+        "capital": "Tokyo"
+      },
+      {
+        "name": "South Korea",
+        "latlng": {
+          "lat": 37,
+          "lng": 127.5
+        },
+        "capital": "Seoul"
+      },
+      {
+        "name": "Mongolia",
+        "latlng": {
+          "lat": 46,
+          "lng": 105
+        },
+        "capital": "Ulan Bator"
+      },
+      {
+        "name": "North Korea",
+        "latlng": {
+          "lat": 40,
+          "lng": 127
+        },
+        "capital": "Pyongyang"
+      },
+      {
+        "name": "Taiwan",
+        "latlng": {
+          "lat": 23.5,
+          "lng": 121
+        },
+        "capital": "Taipei"
+      }
+    ],
+    "Northern Africa": [
+      {
+        "name": "Algeria",
+        "latlng": {
+          "lat": 28,
+          "lng": 3
+        },
+        "capital": "Algiers"
+      },
+      {
+        "name": "Egypt",
+        "latlng": {
+          "lat": 27,
+          "lng": 30
+        },
+        "capital": "Cairo"
+      },
+      {
+        "name": "Western Sahara",
+        "latlng": {
+          "lat": 24.5,
+          "lng": -13
+        },
+        "capital": "El Aaiún"
+      },
+      {
+        "name": "Libya",
+        "latlng": {
+          "lat": 25,
+          "lng": 17
+        },
+        "capital": "Tripoli"
+      },
+      {
+        "name": "Morocco",
+        "latlng": {
+          "lat": 32,
+          "lng": -5
+        },
+        "capital": "Rabat"
+      },
+      {
+        "name": "Sudan",
+        "latlng": {
+          "lat": 15,
+          "lng": 30
+        },
+        "capital": "Khartoum"
+      },
+      {
+        "name": "Tunisia",
+        "latlng": {
+          "lat": 34,
+          "lng": 9
+        },
+        "capital": "Tunis"
+      }
+    ],
+    "Melanesia": [
+      {
+        "name": "Fiji",
+        "latlng": {
+          "lat": -18,
+          "lng": 175
+        },
+        "capital": "Suva"
+      },
+      {
+        "name": "New Caledonia",
+        "latlng": {
+          "lat": -21.5,
+          "lng": 165.5
+        },
+        "capital": "Nouméa"
+      },
+      {
+        "name": "Papua New Guinea",
+        "latlng": {
+          "lat": -6,
+          "lng": 147
+        },
+        "capital": "Port Moresby"
+      },
+      {
+        "name": "Solomon Islands",
+        "latlng": {
+          "lat": -8,
+          "lng": 159
+        },
+        "capital": "Honiara"
+      },
+      {
+        "name": "Vanuatu",
+        "latlng": {
+          "lat": -16,
+          "lng": 167
+        },
+        "capital": "Port Vila"
+      }
+    ],
+    "Micronesia": [
+      {
+        "name": "Micronesia",
+        "latlng": {
+          "lat": 6.91666666,
+          "lng": 158.25
+        },
+        "capital": "Palikir"
+      },
+      {
+        "name": "Guam",
+        "latlng": {
+          "lat": 13.46666666,
+          "lng": 144.78333333
+        },
+        "capital": "Hagåtña"
+      },
+      {
+        "name": "Kiribati",
+        "latlng": {
+          "lat": 1.41666666,
+          "lng": 173
+        },
+        "capital": "South Tarawa"
+      },
+      {
+        "name": "Marshall Islands",
+        "latlng": {
+          "lat": 9,
+          "lng": 168
+        },
+        "capital": "Majuro"
+      },
+      {
+        "name": "Northern Mariana Islands",
+        "latlng": {
+          "lat": 15.2,
+          "lng": 145.75
+        },
+        "capital": "Saipan"
+      },
+      {
+        "name": "Nauru",
+        "latlng": {
+          "lat": -0.53333333,
+          "lng": 166.91666666
+        },
+        "capital": "Yaren"
+      },
+      {
+        "name": "Palau",
+        "latlng": {
+          "lat": 7.5,
+          "lng": 134.5
+        },
+        "capital": "Ngerulmud"
+      }
+    ],
+    "Central Asia": [
+      {
+        "name": "Kazakhstan",
+        "latlng": {
+          "lat": 48,
+          "lng": 68
+        },
+        "capital": "Astana"
+      },
+      {
+        "name": "Kyrgyzstan",
+        "latlng": {
+          "lat": 41,
+          "lng": 75
+        },
+        "capital": "Bishkek"
+      },
+      {
+        "name": "Tajikistan",
+        "latlng": {
+          "lat": 39,
+          "lng": 71
+        },
+        "capital": "Dushanbe"
+      },
+      {
+        "name": "Turkmenistan",
+        "latlng": {
+          "lat": 40,
+          "lng": 60
+        },
+        "capital": "Ashgabat"
+      },
+      {
+        "name": "Uzbekistan",
+        "latlng": {
+          "lat": 41,
+          "lng": 64
+        },
+        "capital": "Tashkent"
+      }
+    ]
+  }
+}
