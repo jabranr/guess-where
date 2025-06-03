@@ -10,8 +10,8 @@
     "prebuild": "npm run prep-data",
     "lint": "eslint .",
     "preview": "vite preview",
-    "test": "vitest run",
-    "test:watch": "vitest --watch",
+    "test": "tsc --noEmit && vitest run",
+    "test:watch": "tsc --noEmit && vitest --watch",
     "prep-data": "tsx scripts/sort-countries-data.ts"
   },
   "prettier": "@jabranr-lab/prettier",

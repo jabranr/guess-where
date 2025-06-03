@@ -1,7 +1,7 @@
 import { useCallback, useEffect, useState, useTransition } from 'react';
 import { getRandomCountries } from '../utils';
 import type { Region } from '../types';
-import { Check, MapPinCheckInside, MapPinXInside, X } from 'lucide-react';
+import { Check, X } from 'lucide-react';
 
 export default function Guesses({
   region,
