@@ -1,6 +1,6 @@
 # Guess Where?
 
-An interactive geo quiz game app. This repository hosts the uncompiled code. The games is inspired from a [geo quiz by Telegraph](http://www.telegraph.co.uk/travel/citybreaks/11825481/Quiz-Can-you-identify-these-cities.html) that used a collection of static images. Visit the website and test your geo skills at [https://guess-where.pages.dev](https://guess-where.pages.dev)
+An interactive geo quiz game app. This repository hosts the uncompiled code. The games is inspired from a [geo quiz by Telegraph](http://www.telegraph.co.uk/travel/citybreaks/11825481/Quiz-Can-you-identify-these-cities.html) that used a collection of static images. Visit the website and test your geo skills at [https://guess-where.jabran.dev](https://guess-where.jabran.dev)
 
 ## Contribute / Get involved
 

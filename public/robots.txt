@@ -1,4 +1,4 @@
-# https://guess-where.pages.dev
+# https://guess-where.jabran.dev
 
 User-agent: *
 Disallow
