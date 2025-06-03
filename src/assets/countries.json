@@ -1,0 +1,7018 @@
+{
+  "total": 248,
+  "countries": [
+    {
+      "id": "QXJtZW5pYVllcmV2YW4=",
+      "name": "Armenia",
+      "latlng": {
+        "lat": 40.1872023,
+        "lng": 44.515209
+      },
+      "capital": "Yerevan"
+    },
+    {
+      "id": "w4VsYW5kIElzbGFuZHNNYXJpZWhhbW4=",
+      "name": "Åland Islands",
+      "latlng": {
+        "lat": 60.0970945,
+        "lng": 19.9348339
+      },
+      "capital": "Mariehamn"
+    },
+    {
+      "id": "QXJ1YmFPcmFuamVzdGFk",
+      "name": "Aruba",
+      "latlng": {
+        "lat": 12.5227171,
+        "lng": -70.0352618
+      },
+      "capital": "Oranjestad"
+    },
+    {
+      "id": "QW5ndWlsbGFUaGUgVmFsbGV5",
+      "name": "Anguilla",
+      "latlng": {
+        "lat": 18.2148129,
+        "lng": -63.0574406
+      },
+      "capital": "The Valley"
+    },
+    {
+      "id": "QW5nb2xhTHVhbmRh",
+      "name": "Angola",
+      "latlng": {
+        "lat": -8.8146556,
+        "lng": 13.2301756
+      },
+      "capital": "Luanda"
+    },
+    {
+      "id": "QWZnaGFuaXN0YW5LYWJ1bA==",
+      "name": "Afghanistan",
+      "latlng": {
+        "lat": 34.5553494,
+        "lng": 69.207486
+      },
+      "capital": "Kabul"
+    },
+    {
+      "id": "QWxiYW5pYVRpcmFuYQ==",
+      "name": "Albania",
+      "latlng": {
+        "lat": 41.3275459,
+        "lng": 19.8186982
+      },
+      "capital": "Tirana"
+    },
+    {
+      "id": "QW5kb3JyYUFuZG9ycmEgbGEgVmVsbGE=",
+      "name": "Andorra",
+      "latlng": {
+        "lat": 42.50631740000001,
+        "lng": 1.5218355
+      },
+      "capital": "Andorra la Vella"
+    },
+    {
+      "id": "QW1lcmljYW4gU2Ftb2FQYWdvIFBhZ28=",
+      "name": "American Samoa",
+      "latlng": {
+        "lat": -14.2732232,
+        "lng": -170.7030309
+      },
+      "capital": "Pago Pago"
+    },
+    {
+      "id": "QXJnZW50aW5hQnVlbm9zIEFpcmVz",
+      "name": "Argentina",
+      "latlng": {
+        "lat": -34.6036739,
+        "lng": -58.3821215
+      },
+      "capital": "Buenos Aires"
+    },
+    {
+      "id": "QXVzdHJpYVZpZW5uYQ==",
+      "name": "Austria",
+      "latlng": {
+        "lat": 48.20806959999999,
+        "lng": 16.3713095
+      },
+      "capital": "Vienna"
+    },
+    {
+      "id": "RnJlbmNoIFNvdXRoZXJuIGFuZCBBbnRhcmN0aWMgTGFuZHNQb3J0LWF1eC1GcmFuw6dhaXM=",
+      "name": "French Southern and Antarctic Lands",
+      "latlng": {
+        "lat": -49.3496422,
+        "lng": 70.2180039
+      },
+      "capital": "Port-aux-Français"
+    },
+    {
+      "id": "QmVsZ2l1bUJydXNzZWxz",
+      "name": "Belgium",
+      "latlng": {
+        "lat": 50.84770289999999,
+        "lng": 4.357200100000001
+      },
+      "capital": "Brussels"
+    },
+    {
+      "id": "QnVsZ2FyaWFTb2ZpYQ==",
+      "name": "Bulgaria",
+      "latlng": {
+        "lat": 42.6977082,
+        "lng": 23.3218675
+      },
+      "capital": "Sofia"
+    },
+    {
+      "id": "QW50aWd1YSBhbmQgQmFyYnVkYVNhaW50IEpvaG4ncw==",
+      "name": "Antigua and Barbuda",
+      "latlng": {
+        "lat": 17.1274104,
+        "lng": -61.84677199999999
+      },
+      "capital": "Saint John's"
+    },
+    {
+      "id": "U2FpbnQgSGVsZW5hLCBBc2NlbnNpb24gYW5kIFRyaXN0YW4gZGEgQ3VuaGFKYW1lc3Rvd24=",
+      "name": "Saint Helena, Ascension and Tristan da Cunha",
+      "latlng": {
+        "lat": -15.9267879,
+        "lng": -5.717124699999999
+      },
+      "capital": "Jamestown"
+    },
+    {
+      "id": "QmVybXVkYUhhbWlsdG9u",
+      "name": "Bermuda",
+      "latlng": {
+        "lat": 32.2950716,
+        "lng": -64.7842417
+      },
+      "capital": "Hamilton"
+    },
+    {
+      "id": "QmFocmFpbk1hbmFtYQ==",
+      "name": "Bahrain",
+      "latlng": {
+        "lat": 26.2235305,
+        "lng": 50.5875935
+      },
+      "capital": "Manama"
+    },
+    {
+      "id": "Qm9zbmlhIGFuZCBIZXJ6ZWdvdmluYVNhcmFqZXZv",
+      "name": "Bosnia and Herzegovina",
+      "latlng": {
+        "lat": 43.8562586,
+        "lng": 18.4130763
+      },
+      "capital": "Sarajevo"
+    },
+    {
+      "id": "Q2FyaWJiZWFuIE5ldGhlcmxhbmRzT3Jhbmplc3RhZA==",
+      "name": "Caribbean Netherlands",
+      "latlng": {
+        "lat": 17.4867485,
+        "lng": -62.9764978
+      },
+      "capital": "Oranjestad"
+    },
+    {
+      "id": "QmVsYXJ1c01pbnNr",
+      "name": "Belarus",
+      "latlng": {
+        "lat": 53.9006011,
+        "lng": 27.558972
+      },
+      "capital": "Minsk"
+    },
+    {
+      "id": "U2FpbnQgQmFydGjDqWxlbXlHdXN0YXZpYQ==",
+      "name": "Saint Barthélemy",
+      "latlng": {
+        "lat": 17.8964345,
+        "lng": -62.85220099999999
+      },
+      "capital": "Gustavia"
+    },
+    {
+      "id": "QmFuZ2xhZGVzaERoYWth",
+      "name": "Bangladesh",
+      "latlng": {
+        "lat": 23.804093,
+        "lng": 90.4152376
+      },
+      "capital": "Dhaka"
+    },
+    {
+      "id": "Qm9saXZpYVN1Y3Jl",
+      "name": "Bolivia",
+      "latlng": {
+        "lat": -19.0352912,
+        "lng": -65.2592563
+      },
+      "capital": "Sucre"
+    },
+    {
+      "id": "QmFoYW1hc05hc3NhdQ==",
+      "name": "Bahamas",
+      "latlng": {
+        "lat": 25.0443312,
+        "lng": -77.3503609
+      },
+      "capital": "Nassau"
+    },
+    {
+      "id": "Q3ViYUhhdmFuYQ==",
+      "name": "Cuba",
+      "latlng": {
+        "lat": 23.133865,
+        "lng": -82.3585654
+      },
+      "capital": "Havana"
+    },
+    {
+      "id": "Q2F5bWFuIElzbGFuZHNHZW9yZ2UgVG93bg==",
+      "name": "Cayman Islands",
+      "latlng": {
+        "lat": 19.2965778,
+        "lng": -81.3819158
+      },
+      "capital": "George Town"
+    },
+    {
+      "id": "Q29vayBJc2xhbmRzQXZhcnVh",
+      "name": "Cook Islands",
+      "latlng": {
+        "lat": -21.2056839,
+        "lng": -159.7850102
+      },
+      "capital": "Avarua"
+    },
+    {
+      "id": "Q29tb3Jvc01vcm9uaQ==",
+      "name": "Comoros",
+      "latlng": {
+        "lat": -11.7061223,
+        "lng": 43.2517012
+      },
+      "capital": "Moroni"
+    },
+    {
+      "id": "Q3plY2hpYVByYWd1ZQ==",
+      "name": "Czechia",
+      "latlng": {
+        "lat": 50.0755381,
+        "lng": 14.4378005
+      },
+      "capital": "Prague"
+    },
+    {
+      "id": "Q3lwcnVzTmljb3NpYQ==",
+      "name": "Cyprus",
+      "latlng": {
+        "lat": 35.1855659,
+        "lng": 33.38227639999999
+      },
+      "capital": "Nicosia"
+    },
+    {
+      "id": "RXJpdHJlYUFzbWFyYQ==",
+      "name": "Eritrea",
+      "latlng": {
+        "lat": 15.3317304,
+        "lng": 38.9300394
+      },
+      "capital": "Asmara"
+    },
+    {
+      "id": "VW5pdGVkIEFyYWIgRW1pcmF0ZXNBYnUgRGhhYmk=",
+      "name": "United Arab Emirates",
+      "latlng": {
+        "lat": 24.453884,
+        "lng": 54.3773438
+      },
+      "capital": "Abu Dhabi"
+    },
+    {
+      "id": "RWd5cHRDYWlybw==",
+      "name": "Egypt",
+      "latlng": {
+        "lat": 30.0444196,
+        "lng": 31.2357116
+      },
+      "capital": "Cairo"
+    },
+    {
+      "id": "RG9taW5pY2FSb3NlYXU=",
+      "name": "Dominica",
+      "latlng": {
+        "lat": 15.3091676,
+        "lng": -61.37935539999999
+      },
+      "capital": "Roseau"
+    },
+    {
+      "id": "RGVubWFya0NvcGVuaGFnZW4=",
+      "name": "Denmark",
+      "latlng": {
+        "lat": 55.6760968,
+        "lng": 12.5683371
+      },
+      "capital": "Copenhagen"
+    },
+    {
+      "id": "RWN1YWRvclF1aXRv",
+      "name": "Ecuador",
+      "latlng": {
+        "lat": -0.2232523,
+        "lng": -78.5141064
+      },
+      "capital": "Quito"
+    },
+    {
+      "id": "RG9taW5pY2FuIFJlcHVibGljU2FudG8gRG9taW5nbw==",
+      "name": "Dominican Republic",
+      "latlng": {
+        "lat": 18.4626178,
+        "lng": -69.93609239999999
+      },
+      "capital": "Santo Domingo"
+    },
+    {
+      "id": "QWxnZXJpYUFsZ2llcnM=",
+      "name": "Algeria",
+      "latlng": {
+        "lat": 36.753768,
+        "lng": 3.0587561
+      },
+      "capital": "Algiers"
+    },
+    {
+      "id": "V2VzdGVybiBTYWhhcmFFbCBBYWnDum4=",
+      "name": "Western Sahara",
+      "latlng": {
+        "lat": 26.7599542,
+        "lng": -12.989615
+      },
+      "capital": "El Aaiún"
+    },
+    {
+      "id": "RGppYm91dGlEamlib3V0aQ==",
+      "name": "Djibouti",
+      "latlng": {
+        "lat": 11.825138,
+        "lng": 42.590275
+      },
+      "capital": "Djibouti"
+    },
+    {
+      "id": "R2VybWFueUJlcmxpbg==",
+      "name": "Germany",
+      "latlng": {
+        "lat": 52.52000659999999,
+        "lng": 13.404954
+      },
+      "capital": "Berlin"
+    },
+    {
+      "id": "U3BhaW5NYWRyaWQ=",
+      "name": "Spain",
+      "latlng": {
+        "lat": 40.41672790000001,
+        "lng": -3.7032905
+      },
+      "capital": "Madrid"
+    },
+    {
+      "id": "QnVya2luYSBGYXNvT3VhZ2Fkb3Vnb3U=",
+      "name": "Burkina Faso",
+      "latlng": {
+        "lat": 12.3714277,
+        "lng": -1.5196603
+      },
+      "capital": "Ouagadougou"
+    },
+    {
+      "id": "QnVydW5kaUdpdGVnYQ==",
+      "name": "Burundi",
+      "latlng": {
+        "lat": -3.4272755,
+        "lng": 29.9246016
+      },
+      "capital": "Gitega"
+    },
+    {
+      "id": "QmVuaW5Qb3J0by1Ob3Zv",
+      "name": "Benin",
+      "latlng": {
+        "lat": 6.478623799999999,
+        "lng": 2.6203212
+      },
+      "capital": "Porto-Novo"
+    },
+    {
+      "id": "SW5kb25lc2lhSmFrYXJ0YQ==",
+      "name": "Indonesia",
+      "latlng": {
+        "lat": -6.1944491,
+        "lng": 106.8229198
+      },
+      "capital": "Jakarta"
+    },
+    {
+      "id": "QnJpdGlzaCBJbmRpYW4gT2NlYW4gVGVycml0b3J5RGllZ28gR2FyY2lh",
+      "name": "British Indian Ocean Territory",
+      "latlng": {
+        "lat": -7.319500499999999,
+        "lng": 72.42285559999999
+      },
+      "capital": "Diego Garcia"
+    },
+    {
+      "id": "R3V5YW5hR2VvcmdldG93bg==",
+      "name": "Guyana",
+      "latlng": {
+        "lat": 6.8012793,
+        "lng": -58.1551255
+      },
+      "capital": "Georgetown"
+    },
+    {
+      "id": "SGFpdGlQb3J0LWF1LVByaW5jZQ==",
+      "name": "Haiti",
+      "latlng": {
+        "lat": 18.5363875,
+        "lng": -72.34654200000001
+      },
+      "capital": "Port-au-Prince"
+    },
+    {
+      "id": "SWNlbGFuZFJleWtqYXZpaw==",
+      "name": "Iceland",
+      "latlng": {
+        "lat": 64.1469868,
+        "lng": -21.9407552
+      },
+      "capital": "Reykjavik"
+    },
+    {
+      "id": "QXVzdHJhbGlhQ2FuYmVycmE=",
+      "name": "Australia",
+      "latlng": {
+        "lat": -35.2801846,
+        "lng": 149.1310324
+      },
+      "capital": "Canberra"
+    },
+    {
+      "id": "SmFtYWljYUtpbmdzdG9u",
+      "name": "Jamaica",
+      "latlng": {
+        "lat": 18.0178743,
+        "lng": -76.8099041
+      },
+      "capital": "Kingston"
+    },
+    {
+      "id": "U2FpbnQgS2l0dHMgYW5kIE5ldmlzQmFzc2V0ZXJyZQ==",
+      "name": "Saint Kitts and Nevis",
+      "latlng": {
+        "lat": 17.3026058,
+        "lng": -62.7176924
+      },
+      "capital": "Basseterre"
+    },
+    {
+      "id": "QXplcmJhaWphbkJha3U=",
+      "name": "Azerbaijan",
+      "latlng": {
+        "lat": 40.40926169999999,
+        "lng": 49.8670924
+      },
+      "capital": "Baku"
+    },
+    {
+      "id": "Q2FyaWJiZWFuIE5ldGhlcmxhbmRzS3JhbGVuZGlqaw==",
+      "name": "Caribbean Netherlands",
+      "latlng": {
+        "lat": 12.1498095,
+        "lng": -68.2763129
+      },
+      "capital": "Kralendijk"
+    },
+    {
+      "id": "Q2FyaWJiZWFuIE5ldGhlcmxhbmRzVGhlIEJvdHRvbQ==",
+      "name": "Caribbean Netherlands",
+      "latlng": {
+        "lat": 17.6255882,
+        "lng": -63.2488817
+      },
+      "capital": "The Bottom"
+    },
+    {
+      "id": "R2licmFsdGFyR2licmFsdGFy",
+      "name": "Gibraltar",
+      "latlng": {
+        "lat": 36.140751,
+        "lng": -5.353585
+      },
+      "capital": "Gibraltar"
+    },
+    {
+      "id": "R3VpbmVhQ29uYWtyeQ==",
+      "name": "Guinea",
+      "latlng": {
+        "lat": 9.5090945,
+        "lng": -13.7119312
+      },
+      "capital": "Conakry"
+    },
+    {
+      "id": "SG9uZHVyYXNUZWd1Y2lnYWxwYQ==",
+      "name": "Honduras",
+      "latlng": {
+        "lat": 14.0607145,
+        "lng": -87.1824529
+      },
+      "capital": "Tegucigalpa"
+    },
+    {
+      "id": "R3VhZGVsb3VwZUJhc3NlLVRlcnJl",
+      "name": "Guadeloupe",
+      "latlng": {
+        "lat": 15.9965719,
+        "lng": -61.73172150000001
+      },
+      "capital": "Basse-Terre"
+    },
+    {
+      "id": "SW5kaWFOZXcgRGVsaGk=",
+      "name": "India",
+      "latlng": {
+        "lat": 28.6139298,
+        "lng": 77.2088282
+      },
+      "capital": "New Delhi"
+    },
+    {
+      "id": "SHVuZ2FyeUJ1ZGFwZXN0",
+      "name": "Hungary",
+      "latlng": {
+        "lat": 47.497912,
+        "lng": 19.040235
+      },
+      "capital": "Budapest"
+    },
+    {
+      "id": "R2hhbmFBY2NyYQ==",
+      "name": "Ghana",
+      "latlng": {
+        "lat": 5.559284600000001,
+        "lng": -0.1974306
+      },
+      "capital": "Accra"
+    },
+    {
+      "id": "R3VhbUhhZ8OldMOxYQ==",
+      "name": "Guam",
+      "latlng": {
+        "lat": 13.4769232,
+        "lng": 144.754282
+      },
+      "capital": "Hagåtña"
+    },
+    {
+      "id": "R2Fib25MaWJyZXZpbGxl",
+      "name": "Gabon",
+      "latlng": {
+        "lat": 0.4077972,
+        "lng": 9.440283299999999
+      },
+      "capital": "Libreville"
+    },
+    {
+      "id": "RnJlbmNoIEd1aWFuYUNheWVubmU=",
+      "name": "French Guiana",
+      "latlng": {
+        "lat": 4.937977399999999,
+        "lng": -52.3354386
+      },
+      "capital": "Cayenne"
+    },
+    {
+      "id": "R2FtYmlhQmFuanVs",
+      "name": "Gambia",
+      "latlng": {
+        "lat": 13.454375,
+        "lng": -16.5753186
+      },
+      "capital": "Banjul"
+    },
+    {
+      "id": "R3JlbmFkYVN0LiBHZW9yZ2Uncw==",
+      "name": "Grenada",
+      "latlng": {
+        "lat": 12.0560975,
+        "lng": -61.7487996
+      },
+      "capital": "St. George's"
+    },
+    {
+      "id": "Q3JvYXRpYVphZ3JlYg==",
+      "name": "Croatia",
+      "latlng": {
+        "lat": 45.8150108,
+        "lng": 15.981919
+      },
+      "capital": "Zagreb"
+    },
+    {
+      "id": "VW5pdGVkIEtpbmdkb21Mb25kb24=",
+      "name": "United Kingdom",
+      "latlng": {
+        "lat": 51.5072178,
+        "lng": -0.1275862
+      },
+      "capital": "London"
+    },
+    {
+      "id": "R3VpbmVhLUJpc3NhdUJpc3NhdQ==",
+      "name": "Guinea-Bissau",
+      "latlng": {
+        "lat": 11.8632196,
+        "lng": -15.5843227
+      },
+      "capital": "Bissau"
+    },
+    {
+      "id": "R3Vlcm5zZXlTdC4gUGV0ZXIgUG9ydA==",
+      "name": "Guernsey",
+      "latlng": {
+        "lat": 49.4569282,
+        "lng": -2.5375359
+      },
+      "capital": "St. Peter Port"
+    },
+    {
+      "id": "R2VvcmdpYVRiaWxpc2k=",
+      "name": "Georgia",
+      "latlng": {
+        "lat": 41.6938026,
+        "lng": 44.80151679999999
+      },
+      "capital": "Tbilisi"
+    },
+    {
+      "id": "SmVyc2V5U2FpbnQgSGVsaWVy",
+      "name": "Jersey",
+      "latlng": {
+        "lat": 49.1805019,
+        "lng": -2.103233
+      },
+      "capital": "Saint Helier"
+    },
+    {
+      "id": "QmVsaXplQmVsbW9wYW4=",
+      "name": "Belize",
+      "latlng": {
+        "lat": 17.2522988,
+        "lng": -88.7641293
+      },
+      "capital": "Belmopan"
+    },
+    {
+      "id": "Q29jb3MgKEtlZWxpbmcpIElzbGFuZHNXZXN0IElzbGFuZA==",
+      "name": "Cocos (Keeling) Islands",
+      "latlng": {
+        "lat": -12.1450486,
+        "lng": 96.82170169999999
+      },
+      "capital": "West Island"
+    },
+    {
+      "id": "U3dpdHplcmxhbmRCZXJu",
+      "name": "Switzerland",
+      "latlng": {
+        "lat": 46.9479739,
+        "lng": 7.4474468
+      },
+      "capital": "Bern"
+    },
+    {
+      "id": "Q29zdGEgUmljYVNhbiBKb3PDqQ==",
+      "name": "Costa Rica",
+      "latlng": {
+        "lat": 9.9280694,
+        "lng": -84.0907246
+      },
+      "capital": "San José"
+    },
+    {
+      "id": "RFIgQ29uZ29LaW5zaGFzYQ==",
+      "name": "DR Congo",
+      "latlng": {
+        "lat": -4.3032527,
+        "lng": 15.310528
+      },
+      "capital": "Kinshasa"
+    },
+    {
+      "id": "Q29sb21iaWFCb2dvdMOh",
+      "name": "Colombia",
+      "latlng": {
+        "lat": 4.710988599999999,
+        "lng": -74.072092
+      },
+      "capital": "Bogotá"
+    },
+    {
+      "id": "Q2hyaXN0bWFzIElzbGFuZEZseWluZyBGaXNoIENvdmU=",
+      "name": "Christmas Island",
+      "latlng": {
+        "lat": -10.4260146,
+        "lng": 105.6727746
+      },
+      "capital": "Flying Fish Cove"
+    },
+    {
+      "id": "Qm90c3dhbmFHYWJvcm9uZQ==",
+      "name": "Botswana",
+      "latlng": {
+        "lat": -24.6580003,
+        "lng": 25.9077037
+      },
+      "capital": "Gaborone"
+    },
+    {
+      "id": "SXNsZSBvZiBNYW5Eb3VnbGFz",
+      "name": "Isle of Man",
+      "latlng": {
+        "lat": 54.1523372,
+        "lng": -4.4861228
+      },
+      "capital": "Douglas"
+    },
+    {
+      "id": "QnJ1bmVpQmFuZGFyIFNlcmkgQmVnYXdhbg==",
+      "name": "Brunei",
+      "latlng": {
+        "lat": 4.8923413,
+        "lng": 114.9419021
+      },
+      "capital": "Bandar Seri Begawan"
+    },
+    {
+      "id": "SXZvcnkgQ29hc3RZYW1vdXNzb3Vrcm8=",
+      "name": "Ivory Coast",
+      "latlng": {
+        "lat": 6.816274099999999,
+        "lng": -5.274362900000001
+      },
+      "capital": "Yamoussoukro"
+    },
+    {
+      "id": "Q2VudHJhbCBBZnJpY2FuIFJlcHVibGljQmFuZ3Vp",
+      "name": "Central African Republic",
+      "latlng": {
+        "lat": 4.362156,
+        "lng": 18.5827765
+      },
+      "capital": "Bangui"
+    },
+    {
+      "id": "TGViYW5vbkJlaXJ1dA==",
+      "name": "Lebanon",
+      "latlng": {
+        "lat": 33.8937913,
+        "lng": 35.5017767
+      },
+      "capital": "Beirut"
+    },
+    {
+      "id": "TGllY2h0ZW5zdGVpblZhZHV6",
+      "name": "Liechtenstein",
+      "latlng": {
+        "lat": 47.1410843,
+        "lng": 9.5210732
+      },
+      "capital": "Vaduz"
+    },
+    {
+      "id": "TGlieWFUcmlwb2xp",
+      "name": "Libya",
+      "latlng": {
+        "lat": 32.8877109,
+        "lng": 13.187186
+      },
+      "capital": "Tripoli"
+    },
+    {
+      "id": "S29zb3ZvUHJpc3RpbmE=",
+      "name": "Kosovo",
+      "latlng": {
+        "lat": 42.6673053,
+        "lng": 21.1643067
+      },
+      "capital": "Pristina"
+    },
+    {
+      "id": "U2FpbnQgTHVjaWFDYXN0cmllcw==",
+      "name": "Saint Lucia",
+      "latlng": {
+        "lat": 14.0110158,
+        "lng": -60.98972389999999
+      },
+      "capital": "Castries"
+    },
+    {
+      "id": "TGliZXJpYU1vbnJvdmlh",
+      "name": "Liberia",
+      "latlng": {
+        "lat": 6.3156068,
+        "lng": -10.8073698
+      },
+      "capital": "Monrovia"
+    },
+    {
+      "id": "TGFvc1ZpZW50aWFuZQ==",
+      "name": "Laos",
+      "latlng": {
+        "lat": 17.9757058,
+        "lng": 102.6331035
+      },
+      "capital": "Vientiane"
+    },
+    {
+      "id": "U3JpIExhbmthQ29sb21ibw==",
+      "name": "Sri Lanka",
+      "latlng": {
+        "lat": 6.9270786,
+        "lng": 79.861243
+      },
+      "capital": "Colombo"
+    },
+    {
+      "id": "TGVzb3Rob01hc2VydQ==",
+      "name": "Lesotho",
+      "latlng": {
+        "lat": -29.3150767,
+        "lng": 27.4869229
+      },
+      "capital": "Maseru"
+    },
+    {
+      "id": "S3V3YWl0S3V3YWl0IENpdHk=",
+      "name": "Kuwait",
+      "latlng": {
+        "lat": 29.3780268,
+        "lng": 47.9751178
+      },
+      "capital": "Kuwait City"
+    },
+    {
+      "id": "TGF0dmlhUmlnYQ==",
+      "name": "Latvia",
+      "latlng": {
+        "lat": 56.9676941,
+        "lng": 24.1056221
+      },
+      "capital": "Riga"
+    },
+    {
+      "id": "TGl0aHVhbmlhVmlsbml1cw==",
+      "name": "Lithuania",
+      "latlng": {
+        "lat": 54.6871555,
+        "lng": 25.2796514
+      },
+      "capital": "Vilnius"
+    },
+    {
+      "id": "TW9sZG92YUNoaciZaW7Eg3U=",
+      "name": "Moldova",
+      "latlng": {
+        "lat": 47.0104529,
+        "lng": 28.8638103
+      },
+      "capital": "Chișinău"
+    },
+    {
+      "id": "THV4ZW1ib3VyZ0x1eGVtYm91cmc=",
+      "name": "Luxembourg",
+      "latlng": {
+        "lat": 49.815273,
+        "lng": 6.129582999999999
+      },
+      "capital": "Luxembourg"
+    },
+    {
+      "id": "Q2FwZSBWZXJkZVByYWlh",
+      "name": "Cape Verde",
+      "latlng": {
+        "lat": 14.9452652,
+        "lng": -23.5014213
+      },
+      "capital": "Praia"
+    },
+    {
+      "id": "U2FpbnQgTWFydGluTWFyaWdvdA==",
+      "name": "Saint Martin",
+      "latlng": {
+        "lat": 18.0675189,
+        "lng": -63.0824656
+      },
+      "capital": "Marigot"
+    },
+    {
+      "id": "TW9uYWNvTW9uYWNv",
+      "name": "Monaco",
+      "latlng": {
+        "lat": 43.73841760000001,
+        "lng": 7.424615799999999
+      },
+      "capital": "Monaco"
+    },
+    {
+      "id": "TW9yb2Njb1JhYmF0",
+      "name": "Morocco",
+      "latlng": {
+        "lat": 34.0083637,
+        "lng": -6.8538748
+      },
+      "capital": "Rabat"
+    },
+    {
+      "id": "TWFkYWdhc2NhckFudGFuYW5hcml2bw==",
+      "name": "Madagascar",
+      "latlng": {
+        "lat": -18.9184607,
+        "lng": 47.5211293
+      },
+      "capital": "Antananarivo"
+    },
+    {
+      "id": "TWFsZGl2ZXNNYWzDqQ==",
+      "name": "Maldives",
+      "latlng": {
+        "lat": 4.175270900000001,
+        "lng": 73.50911719999999
+      },
+      "capital": "Malé"
+    },
+    {
+      "id": "TWFsaUJhbWFrbw==",
+      "name": "Mali",
+      "latlng": {
+        "lat": 12.6391699,
+        "lng": -8.0025475
+      },
+      "capital": "Bamako"
+    },
+    {
+      "id": "S3lyZ3l6c3RhbkJpc2hrZWs=",
+      "name": "Kyrgyzstan",
+      "latlng": {
+        "lat": 42.8746212,
+        "lng": 74.5697617
+      },
+      "capital": "Bishkek"
+    },
+    {
+      "id": "SXJhblRlaHJhbg==",
+      "name": "Iran",
+      "latlng": {
+        "lat": 35.7218583,
+        "lng": 51.3346954
+      },
+      "capital": "Tehran"
+    },
+    {
+      "id": "SXJhcUJhZ2hkYWQ=",
+      "name": "Iraq",
+      "latlng": {
+        "lat": 33.315241,
+        "lng": 44.3660671
+      },
+      "capital": "Baghdad"
+    },
+    {
+      "id": "SXRhbHlSb21l",
+      "name": "Italy",
+      "latlng": {
+        "lat": 41.8967068,
+        "lng": 12.4822025
+      },
+      "capital": "Rome"
+    },
+    {
+      "id": "Q2FtYm9kaWFQaG5vbSBQZW5o",
+      "name": "Cambodia",
+      "latlng": {
+        "lat": 11.5563738,
+        "lng": 104.9282099
+      },
+      "capital": "Phnom Penh"
+    },
+    {
+      "id": "SXNyYWVsSmVydXNhbGVt",
+      "name": "Israel",
+      "latlng": {
+        "lat": 31.7768831,
+        "lng": 35.22243460000001
+      },
+      "capital": "Jerusalem"
+    },
+    {
+      "id": "S2F6YWtoc3RhbkFzdGFuYQ==",
+      "name": "Kazakhstan",
+      "latlng": {
+        "lat": 51.1655126,
+        "lng": 71.4272222
+      },
+      "capital": "Astana"
+    },
+    {
+      "id": "TmVwYWxLYXRobWFuZHU=",
+      "name": "Nepal",
+      "latlng": {
+        "lat": 27.7103145,
+        "lng": 85.3221634
+      },
+      "capital": "Kathmandu"
+    },
+    {
+      "id": "TmV0aGVybGFuZHNBbXN0ZXJkYW0=",
+      "name": "Netherlands",
+      "latlng": {
+        "lat": 52.3675734,
+        "lng": 4.9041389
+      },
+      "capital": "Amsterdam"
+    },
+    {
+      "id": "UGFuYW1hUGFuYW1hIENpdHk=",
+      "name": "Panama",
+      "latlng": {
+        "lat": 8.9823792,
+        "lng": -79.51986959999999
+      },
+      "capital": "Panama City"
+    },
+    {
+      "id": "UGFwdWEgTmV3IEd1aW5lYVBvcnQgTW9yZXNieQ==",
+      "name": "Papua New Guinea",
+      "latlng": {
+        "lat": -9.4790043,
+        "lng": 147.1494164
+      },
+      "capital": "Port Moresby"
+    },
+    {
+      "id": "UGl0Y2Fpcm4gSXNsYW5kc0FkYW1zdG93bg==",
+      "name": "Pitcairn Islands",
+      "latlng": {
+        "lat": -25.0662051,
+        "lng": -130.0996638
+      },
+      "capital": "Adamstown"
+    },
+    {
+      "id": "UG9sYW5kV2Fyc2F3",
+      "name": "Poland",
+      "latlng": {
+        "lat": 52.2296756,
+        "lng": 21.0122287
+      },
+      "capital": "Warsaw"
+    },
+    {
+      "id": "UGFsYXVOZ2VydWxtdWQ=",
+      "name": "Palau",
+      "latlng": {
+        "lat": 7.5003835,
+        "lng": 134.624289
+      },
+      "capital": "Ngerulmud"
+    },
+    {
+      "id": "UHVlcnRvIFJpY29TYW4gSnVhbg==",
+      "name": "Puerto Rico",
+      "latlng": {
+        "lat": 18.4153108,
+        "lng": -66.0593509
+      },
+      "capital": "San Juan"
+    },
+    {
+      "id": "UGVydUxpbWE=",
+      "name": "Peru",
+      "latlng": {
+        "lat": -12.0466888,
+        "lng": -77.04308859999999
+      },
+      "capital": "Lima"
+    },
+    {
+      "id": "UGhpbGlwcGluZXNNYW5pbGE=",
+      "name": "Philippines",
+      "latlng": {
+        "lat": 14.5995133,
+        "lng": 120.984234
+      },
+      "capital": "Manila"
+    },
+    {
+      "id": "UG9ydHVnYWxMaXNib24=",
+      "name": "Portugal",
+      "latlng": {
+        "lat": 38.7222524,
+        "lng": -9.1393366
+      },
+      "capital": "Lisbon"
+    },
+    {
+      "id": "UGFraXN0YW5Jc2xhbWFiYWQ=",
+      "name": "Pakistan",
+      "latlng": {
+        "lat": 33.699619,
+        "lng": 73.036187
+      },
+      "capital": "Islamabad"
+    },
+    {
+      "id": "T21hbk11c2NhdA==",
+      "name": "Oman",
+      "latlng": {
+        "lat": 23.5880307,
+        "lng": 58.3828717
+      },
+      "capital": "Muscat"
+    },
+    {
+      "id": "Tm9ydGggS29yZWFQeW9uZ3lhbmc=",
+      "name": "North Korea",
+      "latlng": {
+        "lat": 39.0737987,
+        "lng": 125.8197642
+      },
+      "capital": "Pyongyang"
+    },
+    {
+      "id": "UWF0YXJEb2hh",
+      "name": "Qatar",
+      "latlng": {
+        "lat": 25.2854473,
+        "lng": 51.53103979999999
+      },
+      "capital": "Doha"
+    },
+    {
+      "id": "UGFsZXN0aW5lUmFtYWxsYWg=",
+      "name": "Palestine",
+      "latlng": {
+        "lat": 31.9037641,
+        "lng": 35.2034184
+      },
+      "capital": "Ramallah"
+    },
+    {
+      "id": "U3ZhbGJhcmQgYW5kIEphbiBNYXllbkxvbmd5ZWFyYnllbg==",
+      "name": "Svalbard and Jan Mayen",
+      "latlng": {
+        "lat": 78.2253231,
+        "lng": 15.6256365
+      },
+      "capital": "Longyearbyen"
+    },
+    {
+      "id": "RnJlbmNoIFBvbHluZXNpYVBhcGVldMST",
+      "name": "French Polynesia",
+      "latlng": {
+        "lat": -17.5324608,
+        "lng": -149.5677151
+      },
+      "capital": "Papeetē"
+    },
+    {
+      "id": "UGFyYWd1YXlBc3VuY2nDs24=",
+      "name": "Paraguay",
+      "latlng": {
+        "lat": -25.2637399,
+        "lng": -57.57592599999999
+      },
+      "capital": "Asunción"
+    },
+    {
+      "id": "VmF0aWNhbiBDaXR5VmF0aWNhbiBDaXR5",
+      "name": "Vatican City",
+      "latlng": {
+        "lat": 41.9021788,
+        "lng": 12.4536007
+      },
+      "capital": "Vatican City"
+    },
+    {
+      "id": "VW5pdGVkIFN0YXRlc1dhc2hpbmd0b24gRC5DLg==",
+      "name": "United States",
+      "latlng": {
+        "lat": 38.9071923,
+        "lng": -77.0368707
+      },
+      "capital": "Washington D.C."
+    },
+    {
+      "id": "VWdhbmRhS2FtcGFsYQ==",
+      "name": "Uganda",
+      "latlng": {
+        "lat": 0.3151692,
+        "lng": 32.5816313
+      },
+      "capital": "Kampala"
+    },
+    {
+      "id": "VXJ1Z3VheU1vbnRldmlkZW8=",
+      "name": "Uruguay",
+      "latlng": {
+        "lat": -34.9055016,
+        "lng": -56.1851147
+      },
+      "capital": "Montevideo"
+    },
+    {
+      "id": "QnJpdGlzaCBWaXJnaW4gSXNsYW5kc1JvYWQgVG93bg==",
+      "name": "British Virgin Islands",
+      "latlng": {
+        "lat": 18.4286115,
+        "lng": -64.6184657
+      },
+      "capital": "Road Town"
+    },
+    {
+      "id": "U291dGggQWZyaWNhQ2FwZSBUb3du",
+      "name": "South Africa",
+      "latlng": {
+        "lat": -33.922087,
+        "lng": 18.4231418
+      },
+      "capital": "Cape Town"
+    },
+    {
+      "id": "U291dGggQWZyaWNhQmxvZW1mb250ZWlu",
+      "name": "South Africa",
+      "latlng": {
+        "lat": -29.1129237,
+        "lng": 26.214937
+      },
+      "capital": "Bloemfontein"
+    },
+    {
+      "id": "TW9uZ29saWFVbGFuIEJhdG9y",
+      "name": "Mongolia",
+      "latlng": {
+        "lat": 47.9220509,
+        "lng": 106.9155007
+      },
+      "capital": "Ulan Bator"
+    },
+    {
+      "id": "TXlhbm1hck5heXB5aWRhdw==",
+      "name": "Myanmar",
+      "latlng": {
+        "lat": 19.7633057,
+        "lng": 96.07851040000001
+      },
+      "capital": "Naypyidaw"
+    },
+    {
+      "id": "TW9udGVuZWdyb1BvZGdvcmljYQ==",
+      "name": "Montenegro",
+      "latlng": {
+        "lat": 42.4304196,
+        "lng": 19.2593642
+      },
+      "capital": "Podgorica"
+    },
+    {
+      "id": "TW96YW1iaXF1ZU1hcHV0bw==",
+      "name": "Mozambique",
+      "latlng": {
+        "lat": -25.969248,
+        "lng": 32.5731746
+      },
+      "capital": "Maputo"
+    },
+    {
+      "id": "TW9udHNlcnJhdFBseW1vdXRo",
+      "name": "Montserrat",
+      "latlng": {
+        "lat": 16.706523,
+        "lng": -62.21573799999999
+      },
+      "capital": "Plymouth"
+    },
+    {
+      "id": "TWFsdGFWYWxsZXR0YQ==",
+      "name": "Malta",
+      "latlng": {
+        "lat": 35.8992375,
+        "lng": 14.5140996
+      },
+      "capital": "Valletta"
+    },
+    {
+      "id": "TWF1cml0aXVzUG9ydCBMb3Vpcw==",
+      "name": "Mauritius",
+      "latlng": {
+        "lat": -20.1608912,
+        "lng": 57.5012222
+      },
+      "capital": "Port Louis"
+    },
+    {
+      "id": "TWF1cml0YW5pYU5vdWFrY2hvdHQ=",
+      "name": "Mauritania",
+      "latlng": {
+        "lat": 18.0735299,
+        "lng": -15.9582372
+      },
+      "capital": "Nouakchott"
+    },
+    {
+      "id": "Tm9ydGhlcm4gTWFyaWFuYSBJc2xhbmRzU2FpcGFu",
+      "name": "Northern Mariana Islands",
+      "latlng": {
+        "lat": 15.1850483,
+        "lng": 145.7467259
+      },
+      "capital": "Saipan"
+    },
+    {
+      "id": "TWF5b3R0ZU1hbW91ZHpvdQ==",
+      "name": "Mayotte",
+      "latlng": {
+        "lat": -12.78064,
+        "lng": 45.23269639999999
+      },
+      "capital": "Mamoudzou"
+    },
+    {
+      "id": "TWFydGluaXF1ZUZvcnQtZGUtRnJhbmNl",
+      "name": "Martinique",
+      "latlng": {
+        "lat": 14.6060576,
+        "lng": -61.06988399999999
+      },
+      "capital": "Fort-de-France"
+    },
+    {
+      "id": "TmljYXJhZ3VhTWFuYWd1YQ==",
+      "name": "Nicaragua",
+      "latlng": {
+        "lat": 12.1149926,
+        "lng": -86.2361744
+      },
+      "capital": "Managua"
+    },
+    {
+      "id": "Tml1ZUFsb2Zp",
+      "name": "Niue",
+      "latlng": {
+        "lat": -19.0558365,
+        "lng": -169.9213651
+      },
+      "capital": "Alofi"
+    },
+    {
+      "id": "TWFsYXdpTGlsb25nd2U=",
+      "name": "Malawi",
+      "latlng": {
+        "lat": -13.9865252,
+        "lng": 33.76806
+      },
+      "capital": "Lilongwe"
+    },
+    {
+      "id": "Q2hpbmFCZWlqaW5n",
+      "name": "China",
+      "latlng": {
+        "lat": 39.904211,
+        "lng": 116.407395
+      },
+      "capital": "Beijing"
+    },
+    {
+      "id": "QmFyYmFkb3NCcmlkZ2V0b3du",
+      "name": "Barbados",
+      "latlng": {
+        "lat": 13.0971177,
+        "lng": -59.6132388
+      },
+      "capital": "Bridgetown"
+    },
+    {
+      "id": "Q2FtZXJvb25ZYW91bmTDqQ==",
+      "name": "Cameroon",
+      "latlng": {
+        "lat": 3.8616853,
+        "lng": 11.5202292
+      },
+      "capital": "Yaoundé"
+    },
+    {
+      "id": "Qmh1dGFuVGhpbXBodQ==",
+      "name": "Bhutan",
+      "latlng": {
+        "lat": 27.471586,
+        "lng": 89.6386108
+      },
+      "capital": "Thimphu"
+    },
+    {
+      "id": "QnJhemlsQnJhc8OtbGlh",
+      "name": "Brazil",
+      "latlng": {
+        "lat": -15.7975154,
+        "lng": -47.89188739999999
+      },
+      "capital": "Brasília"
+    },
+    {
+      "id": "Q2hpbGVTYW50aWFnbw==",
+      "name": "Chile",
+      "latlng": {
+        "lat": -33.4488897,
+        "lng": -70.6692655
+      },
+      "capital": "Santiago"
+    },
+    {
+      "id": "UmVwdWJsaWMgb2YgdGhlIENvbmdvQnJhenphdmlsbGU=",
+      "name": "Republic of the Congo",
+      "latlng": {
+        "lat": -4.2744405,
+        "lng": 15.2812803
+      },
+      "capital": "Brazzaville"
+    },
+    {
+      "id": "Q2FuYWRhT3R0YXdh",
+      "name": "Canada",
+      "latlng": {
+        "lat": 45.4200572,
+        "lng": -75.7003397
+      },
+      "capital": "Ottawa"
+    },
+    {
+      "id": "VGhhaWxhbmRCYW5na29r",
+      "name": "Thailand",
+      "latlng": {
+        "lat": 13.7563309,
+        "lng": 100.5017651
+      },
+      "capital": "Bangkok"
+    },
+    {
+      "id": "U3lyaWFEYW1hc2N1cw==",
+      "name": "Syria",
+      "latlng": {
+        "lat": 33.5132192,
+        "lng": 36.2768193
+      },
+      "capital": "Damascus"
+    },
+    {
+      "id": "Q2hhZE4nRGphbWVuYQ==",
+      "name": "Chad",
+      "latlng": {
+        "lat": 12.1191352,
+        "lng": 15.0502875
+      },
+      "capital": "N'Djamena"
+    },
+    {
+      "id": "U2ludCBNYWFydGVuUGhpbGlwc2J1cmc=",
+      "name": "Sint Maarten",
+      "latlng": {
+        "lat": 18.0295839,
+        "lng": -63.04713709999999
+      },
+      "capital": "Philipsburg"
+    },
+    {
+      "id": "U3dlZGVuU3RvY2tob2xt",
+      "name": "Sweden",
+      "latlng": {
+        "lat": 59.3327036,
+        "lng": 18.0656255
+      },
+      "capital": "Stockholm"
+    },
+    {
+      "id": "VGFqaWtpc3RhbkR1c2hhbmJl",
+      "name": "Tajikistan",
+      "latlng": {
+        "lat": 38.5597722,
+        "lng": 68.7870384
+      },
+      "capital": "Dushanbe"
+    },
+    {
+      "id": "U2V5Y2hlbGxlc1ZpY3Rvcmlh",
+      "name": "Seychelles",
+      "latlng": {
+        "lat": -4.621129799999999,
+        "lng": 55.4522153
+      },
+      "capital": "Victoria"
+    },
+    {
+      "id": "VG9nb0xvbcOp",
+      "name": "Togo",
+      "latlng": {
+        "lat": 6.129557699999999,
+        "lng": 1.2196502
+      },
+      "capital": "Lomé"
+    },
+    {
+      "id": "SXJlbGFuZER1Ymxpbg==",
+      "name": "Ireland",
+      "latlng": {
+        "lat": 53.3498053,
+        "lng": -6.2603097
+      },
+      "capital": "Dublin"
+    },
+    {
+      "id": "VG9uZ2FOdWt1J2Fsb2Zh",
+      "name": "Tonga",
+      "latlng": {
+        "lat": -21.1343065,
+        "lng": -175.2004858
+      },
+      "capital": "Nuku'alofa"
+    },
+    {
+      "id": "RXN3YXRpbmlMb2JhbWJh",
+      "name": "Eswatini",
+      "latlng": {
+        "lat": -26.4465795,
+        "lng": 31.201826
+      },
+      "capital": "Lobamba"
+    },
+    {
+      "id": "VHVya21lbmlzdGFuQXNoZ2FiYXQ=",
+      "name": "Turkmenistan",
+      "latlng": {
+        "lat": 37.9600766,
+        "lng": 58.32606289999999
+      },
+      "capital": "Ashgabat"
+    },
+    {
+      "id": "VHJpbmlkYWQgYW5kIFRvYmFnb1BvcnQgb2YgU3BhaW4=",
+      "name": "Trinidad and Tobago",
+      "latlng": {
+        "lat": 10.6603435,
+        "lng": -61.5086355
+      },
+      "capital": "Port of Spain"
+    },
+    {
+      "id": "RXRoaW9waWFBZGRpcyBBYmFiYQ==",
+      "name": "Ethiopia",
+      "latlng": {
+        "lat": 9.0191936,
+        "lng": 38.7524635
+      },
+      "capital": "Addis Ababa"
+    },
+    {
+      "id": "U2xvdmVuaWFManVibGphbmE=",
+      "name": "Slovenia",
+      "latlng": {
+        "lat": 46.0569465,
+        "lng": 14.5057515
+      },
+      "capital": "Ljubljana"
+    },
+    {
+      "id": "VHVuaXNpYVR1bmlz",
+      "name": "Tunisia",
+      "latlng": {
+        "lat": 36.8064948,
+        "lng": 10.1815316
+      },
+      "capital": "Tunis"
+    },
+    {
+      "id": "VG9rZWxhdUZha2FvZm8=",
+      "name": "Tokelau",
+      "latlng": {
+        "lat": -9.380255499999999,
+        "lng": -171.2188355
+      },
+      "capital": "Fakaofo"
+    },
+    {
+      "id": "VHV2YWx1RnVuYWZ1dGk=",
+      "name": "Tuvalu",
+      "latlng": {
+        "lat": -8.5211471,
+        "lng": 179.1961926
+      },
+      "capital": "Funafuti"
+    },
+    {
+      "id": "U2xvdmFraWFCcmF0aXNsYXZh",
+      "name": "Slovakia",
+      "latlng": {
+        "lat": 48.1485965,
+        "lng": 17.1077477
+      },
+      "capital": "Bratislava"
+    },
+    {
+      "id": "RXN0b25pYVRhbGxpbm4=",
+      "name": "Estonia",
+      "latlng": {
+        "lat": 59.43696079999999,
+        "lng": 24.7535746
+      },
+      "capital": "Tallinn"
+    },
+    {
+      "id": "RmlqaVN1dmE=",
+      "name": "Fiji",
+      "latlng": {
+        "lat": -18.1265564,
+        "lng": 178.439908
+      },
+      "capital": "Suva"
+    },
+    {
+      "id": "VGFuemFuaWFEb2RvbWE=",
+      "name": "Tanzania",
+      "latlng": {
+        "lat": -6.1811245,
+        "lng": 35.746877
+      },
+      "capital": "Dodoma"
+    },
+    {
+      "id": "RnJhbmNlUGFyaXM=",
+      "name": "France",
+      "latlng": {
+        "lat": 48.8575475,
+        "lng": 2.3513765
+      },
+      "capital": "Paris"
+    },
+    {
+      "id": "RmlubGFuZEhlbHNpbmtp",
+      "name": "Finland",
+      "latlng": {
+        "lat": 60.16985569999999,
+        "lng": 24.938379
+      },
+      "capital": "Helsinki"
+    },
+    {
+      "id": "VGltb3ItTGVzdGVEaWxp",
+      "name": "Timor-Leste",
+      "latlng": {
+        "lat": -8.5563336,
+        "lng": 125.5798233
+      },
+      "capital": "Dili"
+    },
+    {
+      "id": "U291dGggS29yZWFTZW91bA==",
+      "name": "South Korea",
+      "latlng": {
+        "lat": 37.550263,
+        "lng": 126.9970831
+      },
+      "capital": "Seoul"
+    },
+    {
+      "id": "S2lyaWJhdGlTb3V0aCBUYXJhd2E=",
+      "name": "Kiribati",
+      "latlng": {
+        "lat": 1.433333,
+        "lng": 173
+      },
+      "capital": "South Tarawa"
+    },
+    {
+      "id": "VMO8cmtpeWVBbmthcmE=",
+      "name": "Türkiye",
+      "latlng": {
+        "lat": 39.9333635,
+        "lng": 32.8597419
+      },
+      "capital": "Ankara"
+    },
+    {
+      "id": "VGFpd2FuVGFpcGVp",
+      "name": "Taiwan",
+      "latlng": {
+        "lat": 25.0329694,
+        "lng": 121.5654177
+      },
+      "capital": "Taipei"
+    },
+    {
+      "id": "Q3VyYcOnYW9XaWxsZW1zdGFk",
+      "name": "Curaçao",
+      "latlng": {
+        "lat": 12.103852,
+        "lng": -68.9323695
+      },
+      "capital": "Willemstad"
+    },
+    {
+      "id": "Sm9yZGFuQW1tYW4=",
+      "name": "Jordan",
+      "latlng": {
+        "lat": 31.9543786,
+        "lng": 35.9105776
+      },
+      "capital": "Amman"
+    },
+    {
+      "id": "VWtyYWluZUt5aXY=",
+      "name": "Ukraine",
+      "latlng": {
+        "lat": 50.4503596,
+        "lng": 30.5245025
+      },
+      "capital": "Kyiv"
+    },
+    {
+      "id": "WmltYmFid2VIYXJhcmU=",
+      "name": "Zimbabwe",
+      "latlng": {
+        "lat": -17.8262928,
+        "lng": 31.0503723
+      },
+      "capital": "Harare"
+    },
+    {
+      "id": "U2FpbnQgUGllcnJlIGFuZCBNaXF1ZWxvblNhaW50LVBpZXJyZQ==",
+      "name": "Saint Pierre and Miquelon",
+      "latlng": {
+        "lat": 46.7818357,
+        "lng": -56.17373929999999
+      },
+      "capital": "Saint-Pierre"
+    },
+    {
+      "id": "UnVzc2lhTW9zY293",
+      "name": "Russia",
+      "latlng": {
+        "lat": 55.7568721,
+        "lng": 37.6150527
+      },
+      "capital": "Moscow"
+    },
+    {
+      "id": "U8OjbyBUb23DqSBhbmQgUHLDrW5jaXBlU8OjbyBUb23DqQ==",
+      "name": "São Tomé and Príncipe",
+      "latlng": {
+        "lat": 0.3375532,
+        "lng": 6.7298686
+      },
+      "capital": "São Tomé"
+    },
+    {
+      "id": "U2F1ZGkgQXJhYmlhUml5YWRo",
+      "name": "Saudi Arabia",
+      "latlng": {
+        "lat": 24.7135517,
+        "lng": 46.6752957
+      },
+      "capital": "Riyadh"
+    },
+    {
+      "id": "U2FuIE1hcmlub0NpdHkgb2YgU2FuIE1hcmlubw==",
+      "name": "San Marino",
+      "latlng": {
+        "lat": 43.9355907,
+        "lng": 12.4472806
+      },
+      "capital": "City of San Marino"
+    },
+    {
+      "id": "UndhbmRhS2lnYWxp",
+      "name": "Rwanda",
+      "latlng": {
+        "lat": -1.9440727,
+        "lng": 30.0618851
+      },
+      "capital": "Kigali"
+    },
+    {
+      "id": "UsOpdW5pb25TYWludC1EZW5pcw==",
+      "name": "Réunion",
+      "latlng": {
+        "lat": -20.8784675,
+        "lng": 55.4484856
+      },
+      "capital": "Saint-Denis"
+    },
+    {
+      "id": "U29sb21vbiBJc2xhbmRzSG9uaWFyYQ==",
+      "name": "Solomon Islands",
+      "latlng": {
+        "lat": -9.4306698,
+        "lng": 159.9526758
+      },
+      "capital": "Honiara"
+    },
+    {
+      "id": "U291dGggR2VvcmdpYUtpbmcgRWR3YXJkIFBvaW50",
+      "name": "South Georgia",
+      "latlng": {
+        "lat": -54.2832502,
+        "lng": -36.493735
+      },
+      "capital": "King Edward Point"
+    },
+    {
+      "id": "U2VyYmlhQmVsZ3JhZGU=",
+      "name": "Serbia",
+      "latlng": {
+        "lat": 44.8125449,
+        "lng": 20.46123
+      },
+      "capital": "Belgrade"
+    },
+    {
+      "id": "Um9tYW5pYUJ1Y2hhcmVzdA==",
+      "name": "Romania",
+      "latlng": {
+        "lat": 44.4267674,
+        "lng": 26.1025384
+      },
+      "capital": "Bucharest"
+    },
+    {
+      "id": "Tm9ydGggTWFjZWRvbmlhU2tvcGpl",
+      "name": "North Macedonia",
+      "latlng": {
+        "lat": 41.9981294,
+        "lng": 21.4254355
+      },
+      "capital": "Skopje"
+    },
+    {
+      "id": "VmFudWF0dVBvcnQgVmlsYQ==",
+      "name": "Vanuatu",
+      "latlng": {
+        "lat": -17.742979,
+        "lng": 168.3173027
+      },
+      "capital": "Port Vila"
+    },
+    {
+      "id": "Tm9yd2F5T3Nsbw==",
+      "name": "Norway",
+      "latlng": {
+        "lat": 59.9138688,
+        "lng": 10.7522454
+      },
+      "capital": "Oslo"
+    },
+    {
+      "id": "U2VuZWdhbERha2Fy",
+      "name": "Senegal",
+      "latlng": {
+        "lat": 14.716677,
+        "lng": -17.4676861
+      },
+      "capital": "Dakar"
+    },
+    {
+      "id": "V2FsbGlzIGFuZCBGdXR1bmFNYXRhLVV0dQ==",
+      "name": "Wallis and Futuna",
+      "latlng": {
+        "lat": -13.2825091,
+        "lng": -176.1764475
+      },
+      "capital": "Mata-Utu"
+    },
+    {
+      "id": "U2Ftb2FBcGlh",
+      "name": "Samoa",
+      "latlng": {
+        "lat": -13.831609,
+        "lng": -171.7689086
+      },
+      "capital": "Apia"
+    },
+    {
+      "id": "WmFtYmlhTHVzYWth",
+      "name": "Zambia",
+      "latlng": {
+        "lat": -15.4154677,
+        "lng": 28.2773267
+      },
+      "capital": "Lusaka"
+    },
+    {
+      "id": "VmlldG5hbUhhbm9p",
+      "name": "Vietnam",
+      "latlng": {
+        "lat": 21.0277644,
+        "lng": 105.8341598
+      },
+      "capital": "Hanoi"
+    },
+    {
+      "id": "VXpiZWtpc3RhblRhc2hrZW50",
+      "name": "Uzbekistan",
+      "latlng": {
+        "lat": 41.2994958,
+        "lng": 69.2400734
+      },
+      "capital": "Tashkent"
+    },
+    {
+      "id": "VW5pdGVkIFN0YXRlcyBWaXJnaW4gSXNsYW5kc0NoYXJsb3R0ZSBBbWFsaWU=",
+      "name": "United States Virgin Islands",
+      "latlng": {
+        "lat": 18.3418571,
+        "lng": -64.93106
+      },
+      "capital": "Charlotte Amalie"
+    },
+    {
+      "id": "U2FpbnQgVmluY2VudCBhbmQgdGhlIEdyZW5hZGluZXNLaW5nc3Rvd24=",
+      "name": "Saint Vincent and the Grenadines",
+      "latlng": {
+        "lat": 13.1600249,
+        "lng": -61.2248157
+      },
+      "capital": "Kingstown"
+    },
+    {
+      "id": "VmVuZXp1ZWxhQ2FyYWNhcw==",
+      "name": "Venezuela",
+      "latlng": {
+        "lat": 10.4805937,
+        "lng": -66.90360629999999
+      },
+      "capital": "Caracas"
+    },
+    {
+      "id": "U291dGggQWZyaWNhUHJldG9yaWE=",
+      "name": "South Africa",
+      "latlng": {
+        "lat": -25.7565723,
+        "lng": 28.1913815
+      },
+      "capital": "Pretoria"
+    },
+    {
+      "id": "WWVtZW5TYW5hJ2E=",
+      "name": "Yemen",
+      "latlng": {
+        "lat": 15.3545381,
+        "lng": 44.2064003
+      },
+      "capital": "Sana'a"
+    },
+    {
+      "id": "R3VhdGVtYWxhR3VhdGVtYWxhIENpdHk=",
+      "name": "Guatemala",
+      "latlng": {
+        "lat": 14.6349149,
+        "lng": -90.5068824
+      },
+      "capital": "Guatemala City"
+    },
+    {
+      "id": "SmFwYW5Ub2t5bw==",
+      "name": "Japan",
+      "latlng": {
+        "lat": 35.6764225,
+        "lng": 139.650027
+      },
+      "capital": "Tokyo"
+    },
+    {
+      "id": "S2VueWFOYWlyb2Jp",
+      "name": "Kenya",
+      "latlng": {
+        "lat": -1.2920659,
+        "lng": 36.8219462
+      },
+      "capital": "Nairobi"
+    },
+    {
+      "id": "R3JlZW5sYW5kTnV1aw==",
+      "name": "Greenland",
+      "latlng": {
+        "lat": 64.17432339999999,
+        "lng": -51.7372787
+      },
+      "capital": "Nuuk"
+    },
+    {
+      "id": "RXF1YXRvcmlhbCBHdWluZWFNYWxhYm8=",
+      "name": "Equatorial Guinea",
+      "latlng": {
+        "lat": 3.7549606,
+        "lng": 8.7821344
+      },
+      "capital": "Malabo"
+    },
+    {
+      "id": "R3JlZWNlQXRoZW5z",
+      "name": "Greece",
+      "latlng": {
+        "lat": 37.9838096,
+        "lng": 23.7275388
+      },
+      "capital": "Athens"
+    },
+    {
+      "id": "RmFyb2UgSXNsYW5kc1TDs3JzaGF2bg==",
+      "name": "Faroe Islands",
+      "latlng": {
+        "lat": 62.01072479999999,
+        "lng": -6.7740852
+      },
+      "capital": "Tórshavn"
+    },
+    {
+      "id": "TWljcm9uZXNpYVBhbGlraXI=",
+      "name": "Micronesia",
+      "latlng": {
+        "lat": 6.92347,
+        "lng": 158.1584451
+      },
+      "capital": "Palikir"
+    },
+    {
+      "id": "RmFsa2xhbmQgSXNsYW5kc1N0YW5sZXk=",
+      "name": "Falkland Islands",
+      "latlng": {
+        "lat": -51.6927517,
+        "lng": -57.86196
+      },
+      "capital": "Stanley"
+    },
+    {
+      "id": "TmV3IENhbGVkb25pYU5vdW3DqWE=",
+      "name": "New Caledonia",
+      "latlng": {
+        "lat": -22.2716866,
+        "lng": 166.4398627
+      },
+      "capital": "Nouméa"
+    },
+    {
+      "id": "TmF1cnVZYXJlbg==",
+      "name": "Nauru",
+      "latlng": {
+        "lat": -0.5455672,
+        "lng": 166.9156781
+      },
+      "capital": "Yaren"
+    },
+    {
+      "id": "TmFtaWJpYVdpbmRob2Vr",
+      "name": "Namibia",
+      "latlng": {
+        "lat": -22.5649344,
+        "lng": 17.0842147
+      },
+      "capital": "Windhoek"
+    },
+    {
+      "id": "Tm9yZm9sayBJc2xhbmRLaW5nc3Rvbg==",
+      "name": "Norfolk Island",
+      "latlng": {
+        "lat": -29.0559683,
+        "lng": 167.9601828
+      },
+      "capital": "Kingston"
+    },
+    {
+      "id": "TmlnZXJpYUFidWph",
+      "name": "Nigeria",
+      "latlng": {
+        "lat": 9.0562646,
+        "lng": 7.4985259
+      },
+      "capital": "Abuja"
+    },
+    {
+      "id": "TmV3IFplYWxhbmRXZWxsaW5ndG9u",
+      "name": "New Zealand",
+      "latlng": {
+        "lat": -41.2923814,
+        "lng": 174.7787463
+      },
+      "capital": "Wellington"
+    },
+    {
+      "id": "TmlnZXJOaWFtZXk=",
+      "name": "Niger",
+      "latlng": {
+        "lat": 13.5115963,
+        "lng": 2.1253854
+      },
+      "capital": "Niamey"
+    },
+    {
+      "id": "TWFsYXlzaWFLdWFsYSBMdW1wdXI=",
+      "name": "Malaysia",
+      "latlng": {
+        "lat": 3.1319197,
+        "lng": 101.6840589
+      },
+      "capital": "Kuala Lumpur"
+    },
+    {
+      "id": "TWV4aWNvTWV4aWNvIENpdHk=",
+      "name": "Mexico",
+      "latlng": {
+        "lat": 19.4326077,
+        "lng": -99.133208
+      },
+      "capital": "Mexico City"
+    },
+    {
+      "id": "U2luZ2Fwb3JlU2luZ2Fwb3Jl",
+      "name": "Singapore",
+      "latlng": {
+        "lat": 1.352083,
+        "lng": 103.819836
+      },
+      "capital": "Singapore"
+    },
+    {
+      "id": "TWFyc2hhbGwgSXNsYW5kc01hanVybw==",
+      "name": "Marshall Islands",
+      "latlng": {
+        "lat": 7.066667,
+        "lng": 171.266667
+      },
+      "capital": "Majuro"
+    },
+    {
+      "id": "U3VkYW5LaGFydG91bQ==",
+      "name": "Sudan",
+      "latlng": {
+        "lat": 15.597431,
+        "lng": 32.535587
+      },
+      "capital": "Khartoum"
+    },
+    {
+      "id": "U291dGggU3VkYW5KdWJh",
+      "name": "South Sudan",
+      "latlng": {
+        "lat": 4.853856599999999,
+        "lng": 31.58252539999999
+      },
+      "capital": "Juba"
+    },
+    {
+      "id": "U3VyaW5hbWVQYXJhbWFyaWJv",
+      "name": "Suriname",
+      "latlng": {
+        "lat": 5.8520355,
+        "lng": -55.2038278
+      },
+      "capital": "Paramaribo"
+    },
+    {
+      "id": "U2llcnJhIExlb25lRnJlZXRvd24=",
+      "name": "Sierra Leone",
+      "latlng": {
+        "lat": 8.487080299999999,
+        "lng": -13.2354918
+      },
+      "capital": "Freetown"
+    },
+    {
+      "id": "VHVya3MgYW5kIENhaWNvcyBJc2xhbmRzQ29ja2J1cm4gVG93bg==",
+      "name": "Turks and Caicos Islands",
+      "latlng": {
+        "lat": 21.4688811,
+        "lng": -71.1457927
+      },
+      "capital": "Cockburn Town"
+    },
+    {
+      "id": "RWwgU2FsdmFkb3JTYW4gU2FsdmFkb3I=",
+      "name": "El Salvador",
+      "latlng": {
+        "lat": 13.6929403,
+        "lng": -89.2181911
+      },
+      "capital": "San Salvador"
+    },
+    {
+      "id": "U29tYWxpYU1vZ2FkaXNodQ==",
+      "name": "Somalia",
+      "latlng": {
+        "lat": 2.037148,
+        "lng": 45.3379067
+      },
+      "capital": "Mogadishu"
+    }
+  ],
+  "capitals": [
+    "Oranjestad",
+    "Kabul",
+    "Luanda",
+    "The Valley",
+    "Mariehamn",
+    "Tirana",
+    "Andorra la Vella",
+    "Abu Dhabi",
+    "Buenos Aires",
+    "Yerevan",
+    "Pago Pago",
+    "Port-aux-Français",
+    "Saint John's",
+    "Canberra",
+    "Vienna",
+    "Baku",
+    "Gitega",
+    "Brussels",
+    "Porto-Novo",
+    "Ouagadougou",
+    "Dhaka",
+    "Sofia",
+    "Manama",
+    "Nassau",
+    "Sarajevo",
+    "Gustavia",
+    "Jamestown",
+    "Minsk",
+    "Belmopan",
+    "Hamilton",
+    "Sucre",
+    "Kralendijk",
+    "Oranjestad",
+    "The Bottom",
+    "Brasília",
+    "Bridgetown",
+    "Bandar Seri Begawan",
+    "Thimphu",
+    "Gaborone",
+    "Bangui",
+    "Ottawa",
+    "West Island",
+    "Bern",
+    "Santiago",
+    "Beijing",
+    "Yamoussoukro",
+    "Yaoundé",
+    "Kinshasa",
+    "Brazzaville",
+    "Avarua",
+    "Bogotá",
+    "Moroni",
+    "Praia",
+    "San José",
+    "Havana",
+    "Willemstad",
+    "Flying Fish Cove",
+    "George Town",
+    "Nicosia",
+    "Prague",
+    "Berlin",
+    "Djibouti",
+    "Roseau",
+    "Copenhagen",
+    "Santo Domingo",
+    "Algiers",
+    "Quito",
+    "Cairo",
+    "Asmara",
+    "El Aaiún",
+    "Madrid",
+    "Tallinn",
+    "Addis Ababa",
+    "Helsinki",
+    "Suva",
+    "Stanley",
+    "Paris",
+    "Tórshavn",
+    "Palikir",
+    "Libreville",
+    "London",
+    "Tbilisi",
+    "St. Peter Port",
+    "Accra",
+    "Gibraltar",
+    "Conakry",
+    "Basse-Terre",
+    "Banjul",
+    "Bissau",
+    "Malabo",
+    "Athens",
+    "St. George's",
+    "Nuuk",
+    "Guatemala City",
+    "Cayenne",
+    "Hagåtña",
+    "Georgetown",
+    "City of Victoria",
+    "Tegucigalpa",
+    "Zagreb",
+    "Port-au-Prince",
+    "Budapest",
+    "Jakarta",
+    "Douglas",
+    "New Delhi",
+    "Diego Garcia",
+    "Dublin",
+    "Tehran",
+    "Baghdad",
+    "Reykjavik",
+    "Jerusalem",
+    "Rome",
+    "Kingston",
+    "Saint Helier",
+    "Amman",
+    "Tokyo",
+    "Astana",
+    "Nairobi",
+    "Bishkek",
+    "Phnom Penh",
+    "South Tarawa",
+    "Basseterre",
+    "Seoul",
+    "Pristina",
+    "Kuwait City",
+    "Vientiane",
+    "Beirut",
+    "Monrovia",
+    "Tripoli",
+    "Castries",
+    "Vaduz",
+    "Colombo",
+    "Maseru",
+    "Vilnius",
+    "Luxembourg",
+    "Riga",
+    "Marigot",
+    "Rabat",
+    "Monaco",
+    "Chișinău",
+    "Antananarivo",
+    "Malé",
+    "Mexico City",
+    "Majuro",
+    "Skopje",
+    "Bamako",
+    "Valletta",
+    "Naypyidaw",
+    "Podgorica",
+    "Ulan Bator",
+    "Saipan",
+    "Maputo",
+    "Nouakchott",
+    "Plymouth",
+    "Fort-de-France",
+    "Port Louis",
+    "Lilongwe",
+    "Kuala Lumpur",
+    "Mamoudzou",
+    "Windhoek",
+    "Nouméa",
+    "Niamey",
+    "Kingston",
+    "Abuja",
+    "Managua",
+    "Alofi",
+    "Amsterdam",
+    "Oslo",
+    "Kathmandu",
+    "Yaren",
+    "Wellington",
+    "Muscat",
+    "Islamabad",
+    "Panama City",
+    "Adamstown",
+    "Lima",
+    "Manila",
+    "Ngerulmud",
+    "Port Moresby",
+    "Warsaw",
+    "San Juan",
+    "Pyongyang",
+    "Lisbon",
+    "Asunción",
+    "Ramallah",
+    "Papeetē",
+    "Doha",
+    "Saint-Denis",
+    "Bucharest",
+    "Moscow",
+    "Kigali",
+    "Riyadh",
+    "Khartoum",
+    "Dakar",
+    "Singapore",
+    "King Edward Point",
+    "Longyearbyen",
+    "Honiara",
+    "Freetown",
+    "San Salvador",
+    "City of San Marino",
+    "Mogadishu",
+    "Saint-Pierre",
+    "Belgrade",
+    "Juba",
+    "São Tomé",
+    "Paramaribo",
+    "Bratislava",
+    "Ljubljana",
+    "Stockholm",
+    "Lobamba",
+    "Philipsburg",
+    "Victoria",
+    "Damascus",
+    "Cockburn Town",
+    "N'Djamena",
+    "Lomé",
+    "Bangkok",
+    "Dushanbe",
+    "Fakaofo",
+    "Ashgabat",
+    "Dili",
+    "Nuku'alofa",
+    "Port of Spain",
+    "Tunis",
+    "Ankara",
+    "Funafuti",
+    "Taipei",
+    "Dodoma",
+    "Kampala",
+    "Kyiv",
+    "Montevideo",
+    "Washington D.C.",
+    "Tashkent",
+    "Vatican City",
+    "Kingstown",
+    "Caracas",
+    "Road Town",
+    "Charlotte Amalie",
+    "Hanoi",
+    "Port Vila",
+    "Mata-Utu",
+    "Apia",
+    "Sana'a",
+    "Pretoria",
+    "Bloemfontein",
+    "Cape Town",
+    "Lusaka",
+    "Harare"
+  ],
+  "byRegion": {
+    "Asia": [
+      {
+        "id": "QXJtZW5pYVllcmV2YW4=",
+        "name": "Armenia",
+        "latlng": {
+          "lat": 40.1872023,
+          "lng": 44.515209
+        },
+        "capital": "Yerevan"
+      },
+      {
+        "id": "QWZnaGFuaXN0YW5LYWJ1bA==",
+        "name": "Afghanistan",
+        "latlng": {
+          "lat": 34.5553494,
+          "lng": 69.207486
+        },
+        "capital": "Kabul"
+      },
+      {
+        "id": "QmFocmFpbk1hbmFtYQ==",
+        "name": "Bahrain",
+        "latlng": {
+          "lat": 26.2235305,
+          "lng": 50.5875935
+        },
+        "capital": "Manama"
+      },
+      {
+        "id": "QmFuZ2xhZGVzaERoYWth",
+        "name": "Bangladesh",
+        "latlng": {
+          "lat": 23.804093,
+          "lng": 90.4152376
+        },
+        "capital": "Dhaka"
+      },
+      {
+        "id": "VW5pdGVkIEFyYWIgRW1pcmF0ZXNBYnUgRGhhYmk=",
+        "name": "United Arab Emirates",
+        "latlng": {
+          "lat": 24.453884,
+          "lng": 54.3773438
+        },
+        "capital": "Abu Dhabi"
+      },
+      {
+        "id": "SW5kb25lc2lhSmFrYXJ0YQ==",
+        "name": "Indonesia",
+        "latlng": {
+          "lat": -6.1944491,
+          "lng": 106.8229198
+        },
+        "capital": "Jakarta"
+      },
+      {
+        "id": "QXplcmJhaWphbkJha3U=",
+        "name": "Azerbaijan",
+        "latlng": {
+          "lat": 40.40926169999999,
+          "lng": 49.8670924
+        },
+        "capital": "Baku"
+      },
+      {
+        "id": "SW5kaWFOZXcgRGVsaGk=",
+        "name": "India",
+        "latlng": {
+          "lat": 28.6139298,
+          "lng": 77.2088282
+        },
+        "capital": "New Delhi"
+      },
+      {
+        "id": "R2VvcmdpYVRiaWxpc2k=",
+        "name": "Georgia",
+        "latlng": {
+          "lat": 41.6938026,
+          "lng": 44.80151679999999
+        },
+        "capital": "Tbilisi"
+      },
+      {
+        "id": "QnJ1bmVpQmFuZGFyIFNlcmkgQmVnYXdhbg==",
+        "name": "Brunei",
+        "latlng": {
+          "lat": 4.8923413,
+          "lng": 114.9419021
+        },
+        "capital": "Bandar Seri Begawan"
+      },
+      {
+        "id": "TGViYW5vbkJlaXJ1dA==",
+        "name": "Lebanon",
+        "latlng": {
+          "lat": 33.8937913,
+          "lng": 35.5017767
+        },
+        "capital": "Beirut"
+      },
+      {
+        "id": "TGFvc1ZpZW50aWFuZQ==",
+        "name": "Laos",
+        "latlng": {
+          "lat": 17.9757058,
+          "lng": 102.6331035
+        },
+        "capital": "Vientiane"
+      },
+      {
+        "id": "U3JpIExhbmthQ29sb21ibw==",
+        "name": "Sri Lanka",
+        "latlng": {
+          "lat": 6.9270786,
+          "lng": 79.861243
+        },
+        "capital": "Colombo"
+      },
+      {
+        "id": "S3V3YWl0S3V3YWl0IENpdHk=",
+        "name": "Kuwait",
+        "latlng": {
+          "lat": 29.3780268,
+          "lng": 47.9751178
+        },
+        "capital": "Kuwait City"
+      },
+      {
+        "id": "TWFsZGl2ZXNNYWzDqQ==",
+        "name": "Maldives",
+        "latlng": {
+          "lat": 4.175270900000001,
+          "lng": 73.50911719999999
+        },
+        "capital": "Malé"
+      },
+      {
+        "id": "S3lyZ3l6c3RhbkJpc2hrZWs=",
+        "name": "Kyrgyzstan",
+        "latlng": {
+          "lat": 42.8746212,
+          "lng": 74.5697617
+        },
+        "capital": "Bishkek"
+      },
+      {
+        "id": "SXJhblRlaHJhbg==",
+        "name": "Iran",
+        "latlng": {
+          "lat": 35.7218583,
+          "lng": 51.3346954
+        },
+        "capital": "Tehran"
+      },
+      {
+        "id": "SXJhcUJhZ2hkYWQ=",
+        "name": "Iraq",
+        "latlng": {
+          "lat": 33.315241,
+          "lng": 44.3660671
+        },
+        "capital": "Baghdad"
+      },
+      {
+        "id": "Q2FtYm9kaWFQaG5vbSBQZW5o",
+        "name": "Cambodia",
+        "latlng": {
+          "lat": 11.5563738,
+          "lng": 104.9282099
+        },
+        "capital": "Phnom Penh"
+      },
+      {
+        "id": "SXNyYWVsSmVydXNhbGVt",
+        "name": "Israel",
+        "latlng": {
+          "lat": 31.7768831,
+          "lng": 35.22243460000001
+        },
+        "capital": "Jerusalem"
+      },
+      {
+        "id": "S2F6YWtoc3RhbkFzdGFuYQ==",
+        "name": "Kazakhstan",
+        "latlng": {
+          "lat": 51.1655126,
+          "lng": 71.4272222
+        },
+        "capital": "Astana"
+      },
+      {
+        "id": "TmVwYWxLYXRobWFuZHU=",
+        "name": "Nepal",
+        "latlng": {
+          "lat": 27.7103145,
+          "lng": 85.3221634
+        },
+        "capital": "Kathmandu"
+      },
+      {
+        "id": "UGhpbGlwcGluZXNNYW5pbGE=",
+        "name": "Philippines",
+        "latlng": {
+          "lat": 14.5995133,
+          "lng": 120.984234
+        },
+        "capital": "Manila"
+      },
+      {
+        "id": "UGFraXN0YW5Jc2xhbWFiYWQ=",
+        "name": "Pakistan",
+        "latlng": {
+          "lat": 33.699619,
+          "lng": 73.036187
+        },
+        "capital": "Islamabad"
+      },
+      {
+        "id": "T21hbk11c2NhdA==",
+        "name": "Oman",
+        "latlng": {
+          "lat": 23.5880307,
+          "lng": 58.3828717
+        },
+        "capital": "Muscat"
+      },
+      {
+        "id": "Tm9ydGggS29yZWFQeW9uZ3lhbmc=",
+        "name": "North Korea",
+        "latlng": {
+          "lat": 39.0737987,
+          "lng": 125.8197642
+        },
+        "capital": "Pyongyang"
+      },
+      {
+        "id": "UWF0YXJEb2hh",
+        "name": "Qatar",
+        "latlng": {
+          "lat": 25.2854473,
+          "lng": 51.53103979999999
+        },
+        "capital": "Doha"
+      },
+      {
+        "id": "UGFsZXN0aW5lUmFtYWxsYWg=",
+        "name": "Palestine",
+        "latlng": {
+          "lat": 31.9037641,
+          "lng": 35.2034184
+        },
+        "capital": "Ramallah"
+      },
+      {
+        "id": "TW9uZ29saWFVbGFuIEJhdG9y",
+        "name": "Mongolia",
+        "latlng": {
+          "lat": 47.9220509,
+          "lng": 106.9155007
+        },
+        "capital": "Ulan Bator"
+      },
+      {
+        "id": "TXlhbm1hck5heXB5aWRhdw==",
+        "name": "Myanmar",
+        "latlng": {
+          "lat": 19.7633057,
+          "lng": 96.07851040000001
+        },
+        "capital": "Naypyidaw"
+      },
+      {
+        "id": "Q2hpbmFCZWlqaW5n",
+        "name": "China",
+        "latlng": {
+          "lat": 39.904211,
+          "lng": 116.407395
+        },
+        "capital": "Beijing"
+      },
+      {
+        "id": "Qmh1dGFuVGhpbXBodQ==",
+        "name": "Bhutan",
+        "latlng": {
+          "lat": 27.471586,
+          "lng": 89.6386108
+        },
+        "capital": "Thimphu"
+      },
+      {
+        "id": "VGhhaWxhbmRCYW5na29r",
+        "name": "Thailand",
+        "latlng": {
+          "lat": 13.7563309,
+          "lng": 100.5017651
+        },
+        "capital": "Bangkok"
+      },
+      {
+        "id": "U3lyaWFEYW1hc2N1cw==",
+        "name": "Syria",
+        "latlng": {
+          "lat": 33.5132192,
+          "lng": 36.2768193
+        },
+        "capital": "Damascus"
+      },
+      {
+        "id": "VGFqaWtpc3RhbkR1c2hhbmJl",
+        "name": "Tajikistan",
+        "latlng": {
+          "lat": 38.5597722,
+          "lng": 68.7870384
+        },
+        "capital": "Dushanbe"
+      },
+      {
+        "id": "VHVya21lbmlzdGFuQXNoZ2FiYXQ=",
+        "name": "Turkmenistan",
+        "latlng": {
+          "lat": 37.9600766,
+          "lng": 58.32606289999999
+        },
+        "capital": "Ashgabat"
+      },
+      {
+        "id": "VGltb3ItTGVzdGVEaWxp",
+        "name": "Timor-Leste",
+        "latlng": {
+          "lat": -8.5563336,
+          "lng": 125.5798233
+        },
+        "capital": "Dili"
+      },
+      {
+        "id": "U291dGggS29yZWFTZW91bA==",
+        "name": "South Korea",
+        "latlng": {
+          "lat": 37.550263,
+          "lng": 126.9970831
+        },
+        "capital": "Seoul"
+      },
+      {
+        "id": "VMO8cmtpeWVBbmthcmE=",
+        "name": "Türkiye",
+        "latlng": {
+          "lat": 39.9333635,
+          "lng": 32.8597419
+        },
+        "capital": "Ankara"
+      },
+      {
+        "id": "VGFpd2FuVGFpcGVp",
+        "name": "Taiwan",
+        "latlng": {
+          "lat": 25.0329694,
+          "lng": 121.5654177
+        },
+        "capital": "Taipei"
+      },
+      {
+        "id": "Sm9yZGFuQW1tYW4=",
+        "name": "Jordan",
+        "latlng": {
+          "lat": 31.9543786,
+          "lng": 35.9105776
+        },
+        "capital": "Amman"
+      },
+      {
+        "id": "U2F1ZGkgQXJhYmlhUml5YWRo",
+        "name": "Saudi Arabia",
+        "latlng": {
+          "lat": 24.7135517,
+          "lng": 46.6752957
+        },
+        "capital": "Riyadh"
+      },
+      {
+        "id": "VmlldG5hbUhhbm9p",
+        "name": "Vietnam",
+        "latlng": {
+          "lat": 21.0277644,
+          "lng": 105.8341598
+        },
+        "capital": "Hanoi"
+      },
+      {
+        "id": "VXpiZWtpc3RhblRhc2hrZW50",
+        "name": "Uzbekistan",
+        "latlng": {
+          "lat": 41.2994958,
+          "lng": 69.2400734
+        },
+        "capital": "Tashkent"
+      },
+      {
+        "id": "WWVtZW5TYW5hJ2E=",
+        "name": "Yemen",
+        "latlng": {
+          "lat": 15.3545381,
+          "lng": 44.2064003
+        },
+        "capital": "Sana'a"
+      },
+      {
+        "id": "SmFwYW5Ub2t5bw==",
+        "name": "Japan",
+        "latlng": {
+          "lat": 35.6764225,
+          "lng": 139.650027
+        },
+        "capital": "Tokyo"
+      },
+      {
+        "id": "TWFsYXlzaWFLdWFsYSBMdW1wdXI=",
+        "name": "Malaysia",
+        "latlng": {
+          "lat": 3.1319197,
+          "lng": 101.6840589
+        },
+        "capital": "Kuala Lumpur"
+      },
+      {
+        "id": "U2luZ2Fwb3JlU2luZ2Fwb3Jl",
+        "name": "Singapore",
+        "latlng": {
+          "lat": 1.352083,
+          "lng": 103.819836
+        },
+        "capital": "Singapore"
+      }
+    ],
+    "Europe": [
+      {
+        "id": "w4VsYW5kIElzbGFuZHNNYXJpZWhhbW4=",
+        "name": "Åland Islands",
+        "latlng": {
+          "lat": 60.0970945,
+          "lng": 19.9348339
+        },
+        "capital": "Mariehamn"
+      },
+      {
+        "id": "QWxiYW5pYVRpcmFuYQ==",
+        "name": "Albania",
+        "latlng": {
+          "lat": 41.3275459,
+          "lng": 19.8186982
+        },
+        "capital": "Tirana"
+      },
+      {
+        "id": "QW5kb3JyYUFuZG9ycmEgbGEgVmVsbGE=",
+        "name": "Andorra",
+        "latlng": {
+          "lat": 42.50631740000001,
+          "lng": 1.5218355
+        },
+        "capital": "Andorra la Vella"
+      },
+      {
+        "id": "QXVzdHJpYVZpZW5uYQ==",
+        "name": "Austria",
+        "latlng": {
+          "lat": 48.20806959999999,
+          "lng": 16.3713095
+        },
+        "capital": "Vienna"
+      },
+      {
+        "id": "QmVsZ2l1bUJydXNzZWxz",
+        "name": "Belgium",
+        "latlng": {
+          "lat": 50.84770289999999,
+          "lng": 4.357200100000001
+        },
+        "capital": "Brussels"
+      },
+      {
+        "id": "QnVsZ2FyaWFTb2ZpYQ==",
+        "name": "Bulgaria",
+        "latlng": {
+          "lat": 42.6977082,
+          "lng": 23.3218675
+        },
+        "capital": "Sofia"
+      },
+      {
+        "id": "Qm9zbmlhIGFuZCBIZXJ6ZWdvdmluYVNhcmFqZXZv",
+        "name": "Bosnia and Herzegovina",
+        "latlng": {
+          "lat": 43.8562586,
+          "lng": 18.4130763
+        },
+        "capital": "Sarajevo"
+      },
+      {
+        "id": "QmVsYXJ1c01pbnNr",
+        "name": "Belarus",
+        "latlng": {
+          "lat": 53.9006011,
+          "lng": 27.558972
+        },
+        "capital": "Minsk"
+      },
+      {
+        "id": "Q3plY2hpYVByYWd1ZQ==",
+        "name": "Czechia",
+        "latlng": {
+          "lat": 50.0755381,
+          "lng": 14.4378005
+        },
+        "capital": "Prague"
+      },
+      {
+        "id": "Q3lwcnVzTmljb3NpYQ==",
+        "name": "Cyprus",
+        "latlng": {
+          "lat": 35.1855659,
+          "lng": 33.38227639999999
+        },
+        "capital": "Nicosia"
+      },
+      {
+        "id": "RGVubWFya0NvcGVuaGFnZW4=",
+        "name": "Denmark",
+        "latlng": {
+          "lat": 55.6760968,
+          "lng": 12.5683371
+        },
+        "capital": "Copenhagen"
+      },
+      {
+        "id": "R2VybWFueUJlcmxpbg==",
+        "name": "Germany",
+        "latlng": {
+          "lat": 52.52000659999999,
+          "lng": 13.404954
+        },
+        "capital": "Berlin"
+      },
+      {
+        "id": "U3BhaW5NYWRyaWQ=",
+        "name": "Spain",
+        "latlng": {
+          "lat": 40.41672790000001,
+          "lng": -3.7032905
+        },
+        "capital": "Madrid"
+      },
+      {
+        "id": "SWNlbGFuZFJleWtqYXZpaw==",
+        "name": "Iceland",
+        "latlng": {
+          "lat": 64.1469868,
+          "lng": -21.9407552
+        },
+        "capital": "Reykjavik"
+      },
+      {
+        "id": "R2licmFsdGFyR2licmFsdGFy",
+        "name": "Gibraltar",
+        "latlng": {
+          "lat": 36.140751,
+          "lng": -5.353585
+        },
+        "capital": "Gibraltar"
+      },
+      {
+        "id": "SHVuZ2FyeUJ1ZGFwZXN0",
+        "name": "Hungary",
+        "latlng": {
+          "lat": 47.497912,
+          "lng": 19.040235
+        },
+        "capital": "Budapest"
+      },
+      {
+        "id": "Q3JvYXRpYVphZ3JlYg==",
+        "name": "Croatia",
+        "latlng": {
+          "lat": 45.8150108,
+          "lng": 15.981919
+        },
+        "capital": "Zagreb"
+      },
+      {
+        "id": "VW5pdGVkIEtpbmdkb21Mb25kb24=",
+        "name": "United Kingdom",
+        "latlng": {
+          "lat": 51.5072178,
+          "lng": -0.1275862
+        },
+        "capital": "London"
+      },
+      {
+        "id": "R3Vlcm5zZXlTdC4gUGV0ZXIgUG9ydA==",
+        "name": "Guernsey",
+        "latlng": {
+          "lat": 49.4569282,
+          "lng": -2.5375359
+        },
+        "capital": "St. Peter Port"
+      },
+      {
+        "id": "SmVyc2V5U2FpbnQgSGVsaWVy",
+        "name": "Jersey",
+        "latlng": {
+          "lat": 49.1805019,
+          "lng": -2.103233
+        },
+        "capital": "Saint Helier"
+      },
+      {
+        "id": "U3dpdHplcmxhbmRCZXJu",
+        "name": "Switzerland",
+        "latlng": {
+          "lat": 46.9479739,
+          "lng": 7.4474468
+        },
+        "capital": "Bern"
+      },
+      {
+        "id": "SXNsZSBvZiBNYW5Eb3VnbGFz",
+        "name": "Isle of Man",
+        "latlng": {
+          "lat": 54.1523372,
+          "lng": -4.4861228
+        },
+        "capital": "Douglas"
+      },
+      {
+        "id": "TGllY2h0ZW5zdGVpblZhZHV6",
+        "name": "Liechtenstein",
+        "latlng": {
+          "lat": 47.1410843,
+          "lng": 9.5210732
+        },
+        "capital": "Vaduz"
+      },
+      {
+        "id": "S29zb3ZvUHJpc3RpbmE=",
+        "name": "Kosovo",
+        "latlng": {
+          "lat": 42.6673053,
+          "lng": 21.1643067
+        },
+        "capital": "Pristina"
+      },
+      {
+        "id": "TGF0dmlhUmlnYQ==",
+        "name": "Latvia",
+        "latlng": {
+          "lat": 56.9676941,
+          "lng": 24.1056221
+        },
+        "capital": "Riga"
+      },
+      {
+        "id": "TGl0aHVhbmlhVmlsbml1cw==",
+        "name": "Lithuania",
+        "latlng": {
+          "lat": 54.6871555,
+          "lng": 25.2796514
+        },
+        "capital": "Vilnius"
+      },
+      {
+        "id": "TW9sZG92YUNoaciZaW7Eg3U=",
+        "name": "Moldova",
+        "latlng": {
+          "lat": 47.0104529,
+          "lng": 28.8638103
+        },
+        "capital": "Chișinău"
+      },
+      {
+        "id": "THV4ZW1ib3VyZ0x1eGVtYm91cmc=",
+        "name": "Luxembourg",
+        "latlng": {
+          "lat": 49.815273,
+          "lng": 6.129582999999999
+        },
+        "capital": "Luxembourg"
+      },
+      {
+        "id": "TW9uYWNvTW9uYWNv",
+        "name": "Monaco",
+        "latlng": {
+          "lat": 43.73841760000001,
+          "lng": 7.424615799999999
+        },
+        "capital": "Monaco"
+      },
+      {
+        "id": "SXRhbHlSb21l",
+        "name": "Italy",
+        "latlng": {
+          "lat": 41.8967068,
+          "lng": 12.4822025
+        },
+        "capital": "Rome"
+      },
+      {
+        "id": "TmV0aGVybGFuZHNBbXN0ZXJkYW0=",
+        "name": "Netherlands",
+        "latlng": {
+          "lat": 52.3675734,
+          "lng": 4.9041389
+        },
+        "capital": "Amsterdam"
+      },
+      {
+        "id": "UG9sYW5kV2Fyc2F3",
+        "name": "Poland",
+        "latlng": {
+          "lat": 52.2296756,
+          "lng": 21.0122287
+        },
+        "capital": "Warsaw"
+      },
+      {
+        "id": "UG9ydHVnYWxMaXNib24=",
+        "name": "Portugal",
+        "latlng": {
+          "lat": 38.7222524,
+          "lng": -9.1393366
+        },
+        "capital": "Lisbon"
+      },
+      {
+        "id": "U3ZhbGJhcmQgYW5kIEphbiBNYXllbkxvbmd5ZWFyYnllbg==",
+        "name": "Svalbard and Jan Mayen",
+        "latlng": {
+          "lat": 78.2253231,
+          "lng": 15.6256365
+        },
+        "capital": "Longyearbyen"
+      },
+      {
+        "id": "VmF0aWNhbiBDaXR5VmF0aWNhbiBDaXR5",
+        "name": "Vatican City",
+        "latlng": {
+          "lat": 41.9021788,
+          "lng": 12.4536007
+        },
+        "capital": "Vatican City"
+      },
+      {
+        "id": "TW9udGVuZWdyb1BvZGdvcmljYQ==",
+        "name": "Montenegro",
+        "latlng": {
+          "lat": 42.4304196,
+          "lng": 19.2593642
+        },
+        "capital": "Podgorica"
+      },
+      {
+        "id": "TWFsdGFWYWxsZXR0YQ==",
+        "name": "Malta",
+        "latlng": {
+          "lat": 35.8992375,
+          "lng": 14.5140996
+        },
+        "capital": "Valletta"
+      },
+      {
+        "id": "U3dlZGVuU3RvY2tob2xt",
+        "name": "Sweden",
+        "latlng": {
+          "lat": 59.3327036,
+          "lng": 18.0656255
+        },
+        "capital": "Stockholm"
+      },
+      {
+        "id": "SXJlbGFuZER1Ymxpbg==",
+        "name": "Ireland",
+        "latlng": {
+          "lat": 53.3498053,
+          "lng": -6.2603097
+        },
+        "capital": "Dublin"
+      },
+      {
+        "id": "U2xvdmVuaWFManVibGphbmE=",
+        "name": "Slovenia",
+        "latlng": {
+          "lat": 46.0569465,
+          "lng": 14.5057515
+        },
+        "capital": "Ljubljana"
+      },
+      {
+        "id": "U2xvdmFraWFCcmF0aXNsYXZh",
+        "name": "Slovakia",
+        "latlng": {
+          "lat": 48.1485965,
+          "lng": 17.1077477
+        },
+        "capital": "Bratislava"
+      },
+      {
+        "id": "RXN0b25pYVRhbGxpbm4=",
+        "name": "Estonia",
+        "latlng": {
+          "lat": 59.43696079999999,
+          "lng": 24.7535746
+        },
+        "capital": "Tallinn"
+      },
+      {
+        "id": "RnJhbmNlUGFyaXM=",
+        "name": "France",
+        "latlng": {
+          "lat": 48.8575475,
+          "lng": 2.3513765
+        },
+        "capital": "Paris"
+      },
+      {
+        "id": "RmlubGFuZEhlbHNpbmtp",
+        "name": "Finland",
+        "latlng": {
+          "lat": 60.16985569999999,
+          "lng": 24.938379
+        },
+        "capital": "Helsinki"
+      },
+      {
+        "id": "VWtyYWluZUt5aXY=",
+        "name": "Ukraine",
+        "latlng": {
+          "lat": 50.4503596,
+          "lng": 30.5245025
+        },
+        "capital": "Kyiv"
+      },
+      {
+        "id": "UnVzc2lhTW9zY293",
+        "name": "Russia",
+        "latlng": {
+          "lat": 55.7568721,
+          "lng": 37.6150527
+        },
+        "capital": "Moscow"
+      },
+      {
+        "id": "U2FuIE1hcmlub0NpdHkgb2YgU2FuIE1hcmlubw==",
+        "name": "San Marino",
+        "latlng": {
+          "lat": 43.9355907,
+          "lng": 12.4472806
+        },
+        "capital": "City of San Marino"
+      },
+      {
+        "id": "U2VyYmlhQmVsZ3JhZGU=",
+        "name": "Serbia",
+        "latlng": {
+          "lat": 44.8125449,
+          "lng": 20.46123
+        },
+        "capital": "Belgrade"
+      },
+      {
+        "id": "Um9tYW5pYUJ1Y2hhcmVzdA==",
+        "name": "Romania",
+        "latlng": {
+          "lat": 44.4267674,
+          "lng": 26.1025384
+        },
+        "capital": "Bucharest"
+      },
+      {
+        "id": "Tm9ydGggTWFjZWRvbmlhU2tvcGpl",
+        "name": "North Macedonia",
+        "latlng": {
+          "lat": 41.9981294,
+          "lng": 21.4254355
+        },
+        "capital": "Skopje"
+      },
+      {
+        "id": "Tm9yd2F5T3Nsbw==",
+        "name": "Norway",
+        "latlng": {
+          "lat": 59.9138688,
+          "lng": 10.7522454
+        },
+        "capital": "Oslo"
+      },
+      {
+        "id": "R3JlZWNlQXRoZW5z",
+        "name": "Greece",
+        "latlng": {
+          "lat": 37.9838096,
+          "lng": 23.7275388
+        },
+        "capital": "Athens"
+      },
+      {
+        "id": "RmFyb2UgSXNsYW5kc1TDs3JzaGF2bg==",
+        "name": "Faroe Islands",
+        "latlng": {
+          "lat": 62.01072479999999,
+          "lng": -6.7740852
+        },
+        "capital": "Tórshavn"
+      }
+    ],
+    "Americas": [
+      {
+        "id": "QXJ1YmFPcmFuamVzdGFk",
+        "name": "Aruba",
+        "latlng": {
+          "lat": 12.5227171,
+          "lng": -70.0352618
+        },
+        "capital": "Oranjestad"
+      },
+      {
+        "id": "QW5ndWlsbGFUaGUgVmFsbGV5",
+        "name": "Anguilla",
+        "latlng": {
+          "lat": 18.2148129,
+          "lng": -63.0574406
+        },
+        "capital": "The Valley"
+      },
+      {
+        "id": "QXJnZW50aW5hQnVlbm9zIEFpcmVz",
+        "name": "Argentina",
+        "latlng": {
+          "lat": -34.6036739,
+          "lng": -58.3821215
+        },
+        "capital": "Buenos Aires"
+      },
+      {
+        "id": "QW50aWd1YSBhbmQgQmFyYnVkYVNhaW50IEpvaG4ncw==",
+        "name": "Antigua and Barbuda",
+        "latlng": {
+          "lat": 17.1274104,
+          "lng": -61.84677199999999
+        },
+        "capital": "Saint John's"
+      },
+      {
+        "id": "QmVybXVkYUhhbWlsdG9u",
+        "name": "Bermuda",
+        "latlng": {
+          "lat": 32.2950716,
+          "lng": -64.7842417
+        },
+        "capital": "Hamilton"
+      },
+      {
+        "id": "Q2FyaWJiZWFuIE5ldGhlcmxhbmRzT3Jhbmplc3RhZA==",
+        "name": "Caribbean Netherlands",
+        "latlng": {
+          "lat": 17.4867485,
+          "lng": -62.9764978
+        },
+        "capital": "Oranjestad"
+      },
+      {
+        "id": "U2FpbnQgQmFydGjDqWxlbXlHdXN0YXZpYQ==",
+        "name": "Saint Barthélemy",
+        "latlng": {
+          "lat": 17.8964345,
+          "lng": -62.85220099999999
+        },
+        "capital": "Gustavia"
+      },
+      {
+        "id": "Qm9saXZpYVN1Y3Jl",
+        "name": "Bolivia",
+        "latlng": {
+          "lat": -19.0352912,
+          "lng": -65.2592563
+        },
+        "capital": "Sucre"
+      },
+      {
+        "id": "QmFoYW1hc05hc3NhdQ==",
+        "name": "Bahamas",
+        "latlng": {
+          "lat": 25.0443312,
+          "lng": -77.3503609
+        },
+        "capital": "Nassau"
+      },
+      {
+        "id": "Q3ViYUhhdmFuYQ==",
+        "name": "Cuba",
+        "latlng": {
+          "lat": 23.133865,
+          "lng": -82.3585654
+        },
+        "capital": "Havana"
+      },
+      {
+        "id": "Q2F5bWFuIElzbGFuZHNHZW9yZ2UgVG93bg==",
+        "name": "Cayman Islands",
+        "latlng": {
+          "lat": 19.2965778,
+          "lng": -81.3819158
+        },
+        "capital": "George Town"
+      },
+      {
+        "id": "RG9taW5pY2FSb3NlYXU=",
+        "name": "Dominica",
+        "latlng": {
+          "lat": 15.3091676,
+          "lng": -61.37935539999999
+        },
+        "capital": "Roseau"
+      },
+      {
+        "id": "RWN1YWRvclF1aXRv",
+        "name": "Ecuador",
+        "latlng": {
+          "lat": -0.2232523,
+          "lng": -78.5141064
+        },
+        "capital": "Quito"
+      },
+      {
+        "id": "RG9taW5pY2FuIFJlcHVibGljU2FudG8gRG9taW5nbw==",
+        "name": "Dominican Republic",
+        "latlng": {
+          "lat": 18.4626178,
+          "lng": -69.93609239999999
+        },
+        "capital": "Santo Domingo"
+      },
+      {
+        "id": "R3V5YW5hR2VvcmdldG93bg==",
+        "name": "Guyana",
+        "latlng": {
+          "lat": 6.8012793,
+          "lng": -58.1551255
+        },
+        "capital": "Georgetown"
+      },
+      {
+        "id": "SGFpdGlQb3J0LWF1LVByaW5jZQ==",
+        "name": "Haiti",
+        "latlng": {
+          "lat": 18.5363875,
+          "lng": -72.34654200000001
+        },
+        "capital": "Port-au-Prince"
+      },
+      {
+        "id": "SmFtYWljYUtpbmdzdG9u",
+        "name": "Jamaica",
+        "latlng": {
+          "lat": 18.0178743,
+          "lng": -76.8099041
+        },
+        "capital": "Kingston"
+      },
+      {
+        "id": "U2FpbnQgS2l0dHMgYW5kIE5ldmlzQmFzc2V0ZXJyZQ==",
+        "name": "Saint Kitts and Nevis",
+        "latlng": {
+          "lat": 17.3026058,
+          "lng": -62.7176924
+        },
+        "capital": "Basseterre"
+      },
+      {
+        "id": "Q2FyaWJiZWFuIE5ldGhlcmxhbmRzS3JhbGVuZGlqaw==",
+        "name": "Caribbean Netherlands",
+        "latlng": {
+          "lat": 12.1498095,
+          "lng": -68.2763129
+        },
+        "capital": "Kralendijk"
+      },
+      {
+        "id": "Q2FyaWJiZWFuIE5ldGhlcmxhbmRzVGhlIEJvdHRvbQ==",
+        "name": "Caribbean Netherlands",
+        "latlng": {
+          "lat": 17.6255882,
+          "lng": -63.2488817
+        },
+        "capital": "The Bottom"
+      },
+      {
+        "id": "SG9uZHVyYXNUZWd1Y2lnYWxwYQ==",
+        "name": "Honduras",
+        "latlng": {
+          "lat": 14.0607145,
+          "lng": -87.1824529
+        },
+        "capital": "Tegucigalpa"
+      },
+      {
+        "id": "R3VhZGVsb3VwZUJhc3NlLVRlcnJl",
+        "name": "Guadeloupe",
+        "latlng": {
+          "lat": 15.9965719,
+          "lng": -61.73172150000001
+        },
+        "capital": "Basse-Terre"
+      },
+      {
+        "id": "RnJlbmNoIEd1aWFuYUNheWVubmU=",
+        "name": "French Guiana",
+        "latlng": {
+          "lat": 4.937977399999999,
+          "lng": -52.3354386
+        },
+        "capital": "Cayenne"
+      },
+      {
+        "id": "R3JlbmFkYVN0LiBHZW9yZ2Uncw==",
+        "name": "Grenada",
+        "latlng": {
+          "lat": 12.0560975,
+          "lng": -61.7487996
+        },
+        "capital": "St. George's"
+      },
+      {
+        "id": "QmVsaXplQmVsbW9wYW4=",
+        "name": "Belize",
+        "latlng": {
+          "lat": 17.2522988,
+          "lng": -88.7641293
+        },
+        "capital": "Belmopan"
+      },
+      {
+        "id": "Q29zdGEgUmljYVNhbiBKb3PDqQ==",
+        "name": "Costa Rica",
+        "latlng": {
+          "lat": 9.9280694,
+          "lng": -84.0907246
+        },
+        "capital": "San José"
+      },
+      {
+        "id": "Q29sb21iaWFCb2dvdMOh",
+        "name": "Colombia",
+        "latlng": {
+          "lat": 4.710988599999999,
+          "lng": -74.072092
+        },
+        "capital": "Bogotá"
+      },
+      {
+        "id": "U2FpbnQgTHVjaWFDYXN0cmllcw==",
+        "name": "Saint Lucia",
+        "latlng": {
+          "lat": 14.0110158,
+          "lng": -60.98972389999999
+        },
+        "capital": "Castries"
+      },
+      {
+        "id": "U2FpbnQgTWFydGluTWFyaWdvdA==",
+        "name": "Saint Martin",
+        "latlng": {
+          "lat": 18.0675189,
+          "lng": -63.0824656
+        },
+        "capital": "Marigot"
+      },
+      {
+        "id": "UGFuYW1hUGFuYW1hIENpdHk=",
+        "name": "Panama",
+        "latlng": {
+          "lat": 8.9823792,
+          "lng": -79.51986959999999
+        },
+        "capital": "Panama City"
+      },
+      {
+        "id": "UHVlcnRvIFJpY29TYW4gSnVhbg==",
+        "name": "Puerto Rico",
+        "latlng": {
+          "lat": 18.4153108,
+          "lng": -66.0593509
+        },
+        "capital": "San Juan"
+      },
+      {
+        "id": "UGVydUxpbWE=",
+        "name": "Peru",
+        "latlng": {
+          "lat": -12.0466888,
+          "lng": -77.04308859999999
+        },
+        "capital": "Lima"
+      },
+      {
+        "id": "UGFyYWd1YXlBc3VuY2nDs24=",
+        "name": "Paraguay",
+        "latlng": {
+          "lat": -25.2637399,
+          "lng": -57.57592599999999
+        },
+        "capital": "Asunción"
+      },
+      {
+        "id": "VW5pdGVkIFN0YXRlc1dhc2hpbmd0b24gRC5DLg==",
+        "name": "United States",
+        "latlng": {
+          "lat": 38.9071923,
+          "lng": -77.0368707
+        },
+        "capital": "Washington D.C."
+      },
+      {
+        "id": "VXJ1Z3VheU1vbnRldmlkZW8=",
+        "name": "Uruguay",
+        "latlng": {
+          "lat": -34.9055016,
+          "lng": -56.1851147
+        },
+        "capital": "Montevideo"
+      },
+      {
+        "id": "QnJpdGlzaCBWaXJnaW4gSXNsYW5kc1JvYWQgVG93bg==",
+        "name": "British Virgin Islands",
+        "latlng": {
+          "lat": 18.4286115,
+          "lng": -64.6184657
+        },
+        "capital": "Road Town"
+      },
+      {
+        "id": "TW9udHNlcnJhdFBseW1vdXRo",
+        "name": "Montserrat",
+        "latlng": {
+          "lat": 16.706523,
+          "lng": -62.21573799999999
+        },
+        "capital": "Plymouth"
+      },
+      {
+        "id": "TWFydGluaXF1ZUZvcnQtZGUtRnJhbmNl",
+        "name": "Martinique",
+        "latlng": {
+          "lat": 14.6060576,
+          "lng": -61.06988399999999
+        },
+        "capital": "Fort-de-France"
+      },
+      {
+        "id": "TmljYXJhZ3VhTWFuYWd1YQ==",
+        "name": "Nicaragua",
+        "latlng": {
+          "lat": 12.1149926,
+          "lng": -86.2361744
+        },
+        "capital": "Managua"
+      },
+      {
+        "id": "QmFyYmFkb3NCcmlkZ2V0b3du",
+        "name": "Barbados",
+        "latlng": {
+          "lat": 13.0971177,
+          "lng": -59.6132388
+        },
+        "capital": "Bridgetown"
+      },
+      {
+        "id": "QnJhemlsQnJhc8OtbGlh",
+        "name": "Brazil",
+        "latlng": {
+          "lat": -15.7975154,
+          "lng": -47.89188739999999
+        },
+        "capital": "Brasília"
+      },
+      {
+        "id": "Q2hpbGVTYW50aWFnbw==",
+        "name": "Chile",
+        "latlng": {
+          "lat": -33.4488897,
+          "lng": -70.6692655
+        },
+        "capital": "Santiago"
+      },
+      {
+        "id": "Q2FuYWRhT3R0YXdh",
+        "name": "Canada",
+        "latlng": {
+          "lat": 45.4200572,
+          "lng": -75.7003397
+        },
+        "capital": "Ottawa"
+      },
+      {
+        "id": "U2ludCBNYWFydGVuUGhpbGlwc2J1cmc=",
+        "name": "Sint Maarten",
+        "latlng": {
+          "lat": 18.0295839,
+          "lng": -63.04713709999999
+        },
+        "capital": "Philipsburg"
+      },
+      {
+        "id": "VHJpbmlkYWQgYW5kIFRvYmFnb1BvcnQgb2YgU3BhaW4=",
+        "name": "Trinidad and Tobago",
+        "latlng": {
+          "lat": 10.6603435,
+          "lng": -61.5086355
+        },
+        "capital": "Port of Spain"
+      },
+      {
+        "id": "Q3VyYcOnYW9XaWxsZW1zdGFk",
+        "name": "Curaçao",
+        "latlng": {
+          "lat": 12.103852,
+          "lng": -68.9323695
+        },
+        "capital": "Willemstad"
+      },
+      {
+        "id": "U2FpbnQgUGllcnJlIGFuZCBNaXF1ZWxvblNhaW50LVBpZXJyZQ==",
+        "name": "Saint Pierre and Miquelon",
+        "latlng": {
+          "lat": 46.7818357,
+          "lng": -56.17373929999999
+        },
+        "capital": "Saint-Pierre"
+      },
+      {
+        "id": "VW5pdGVkIFN0YXRlcyBWaXJnaW4gSXNsYW5kc0NoYXJsb3R0ZSBBbWFsaWU=",
+        "name": "United States Virgin Islands",
+        "latlng": {
+          "lat": 18.3418571,
+          "lng": -64.93106
+        },
+        "capital": "Charlotte Amalie"
+      },
+      {
+        "id": "U2FpbnQgVmluY2VudCBhbmQgdGhlIEdyZW5hZGluZXNLaW5nc3Rvd24=",
+        "name": "Saint Vincent and the Grenadines",
+        "latlng": {
+          "lat": 13.1600249,
+          "lng": -61.2248157
+        },
+        "capital": "Kingstown"
+      },
+      {
+        "id": "VmVuZXp1ZWxhQ2FyYWNhcw==",
+        "name": "Venezuela",
+        "latlng": {
+          "lat": 10.4805937,
+          "lng": -66.90360629999999
+        },
+        "capital": "Caracas"
+      },
+      {
+        "id": "R3VhdGVtYWxhR3VhdGVtYWxhIENpdHk=",
+        "name": "Guatemala",
+        "latlng": {
+          "lat": 14.6349149,
+          "lng": -90.5068824
+        },
+        "capital": "Guatemala City"
+      },
+      {
+        "id": "R3JlZW5sYW5kTnV1aw==",
+        "name": "Greenland",
+        "latlng": {
+          "lat": 64.17432339999999,
+          "lng": -51.7372787
+        },
+        "capital": "Nuuk"
+      },
+      {
+        "id": "RmFsa2xhbmQgSXNsYW5kc1N0YW5sZXk=",
+        "name": "Falkland Islands",
+        "latlng": {
+          "lat": -51.6927517,
+          "lng": -57.86196
+        },
+        "capital": "Stanley"
+      },
+      {
+        "id": "TWV4aWNvTWV4aWNvIENpdHk=",
+        "name": "Mexico",
+        "latlng": {
+          "lat": 19.4326077,
+          "lng": -99.133208
+        },
+        "capital": "Mexico City"
+      },
+      {
+        "id": "U3VyaW5hbWVQYXJhbWFyaWJv",
+        "name": "Suriname",
+        "latlng": {
+          "lat": 5.8520355,
+          "lng": -55.2038278
+        },
+        "capital": "Paramaribo"
+      },
+      {
+        "id": "VHVya3MgYW5kIENhaWNvcyBJc2xhbmRzQ29ja2J1cm4gVG93bg==",
+        "name": "Turks and Caicos Islands",
+        "latlng": {
+          "lat": 21.4688811,
+          "lng": -71.1457927
+        },
+        "capital": "Cockburn Town"
+      },
+      {
+        "id": "RWwgU2FsdmFkb3JTYW4gU2FsdmFkb3I=",
+        "name": "El Salvador",
+        "latlng": {
+          "lat": 13.6929403,
+          "lng": -89.2181911
+        },
+        "capital": "San Salvador"
+      }
+    ],
+    "Africa": [
+      {
+        "id": "QW5nb2xhTHVhbmRh",
+        "name": "Angola",
+        "latlng": {
+          "lat": -8.8146556,
+          "lng": 13.2301756
+        },
+        "capital": "Luanda"
+      },
+      {
+        "id": "U2FpbnQgSGVsZW5hLCBBc2NlbnNpb24gYW5kIFRyaXN0YW4gZGEgQ3VuaGFKYW1lc3Rvd24=",
+        "name": "Saint Helena, Ascension and Tristan da Cunha",
+        "latlng": {
+          "lat": -15.9267879,
+          "lng": -5.717124699999999
+        },
+        "capital": "Jamestown"
+      },
+      {
+        "id": "Q29tb3Jvc01vcm9uaQ==",
+        "name": "Comoros",
+        "latlng": {
+          "lat": -11.7061223,
+          "lng": 43.2517012
+        },
+        "capital": "Moroni"
+      },
+      {
+        "id": "RXJpdHJlYUFzbWFyYQ==",
+        "name": "Eritrea",
+        "latlng": {
+          "lat": 15.3317304,
+          "lng": 38.9300394
+        },
+        "capital": "Asmara"
+      },
+      {
+        "id": "RWd5cHRDYWlybw==",
+        "name": "Egypt",
+        "latlng": {
+          "lat": 30.0444196,
+          "lng": 31.2357116
+        },
+        "capital": "Cairo"
+      },
+      {
+        "id": "QWxnZXJpYUFsZ2llcnM=",
+        "name": "Algeria",
+        "latlng": {
+          "lat": 36.753768,
+          "lng": 3.0587561
+        },
+        "capital": "Algiers"
+      },
+      {
+        "id": "V2VzdGVybiBTYWhhcmFFbCBBYWnDum4=",
+        "name": "Western Sahara",
+        "latlng": {
+          "lat": 26.7599542,
+          "lng": -12.989615
+        },
+        "capital": "El Aaiún"
+      },
+      {
+        "id": "RGppYm91dGlEamlib3V0aQ==",
+        "name": "Djibouti",
+        "latlng": {
+          "lat": 11.825138,
+          "lng": 42.590275
+        },
+        "capital": "Djibouti"
+      },
+      {
+        "id": "QnVya2luYSBGYXNvT3VhZ2Fkb3Vnb3U=",
+        "name": "Burkina Faso",
+        "latlng": {
+          "lat": 12.3714277,
+          "lng": -1.5196603
+        },
+        "capital": "Ouagadougou"
+      },
+      {
+        "id": "QnVydW5kaUdpdGVnYQ==",
+        "name": "Burundi",
+        "latlng": {
+          "lat": -3.4272755,
+          "lng": 29.9246016
+        },
+        "capital": "Gitega"
+      },
+      {
+        "id": "QmVuaW5Qb3J0by1Ob3Zv",
+        "name": "Benin",
+        "latlng": {
+          "lat": 6.478623799999999,
+          "lng": 2.6203212
+        },
+        "capital": "Porto-Novo"
+      },
+      {
+        "id": "QnJpdGlzaCBJbmRpYW4gT2NlYW4gVGVycml0b3J5RGllZ28gR2FyY2lh",
+        "name": "British Indian Ocean Territory",
+        "latlng": {
+          "lat": -7.319500499999999,
+          "lng": 72.42285559999999
+        },
+        "capital": "Diego Garcia"
+      },
+      {
+        "id": "R3VpbmVhQ29uYWtyeQ==",
+        "name": "Guinea",
+        "latlng": {
+          "lat": 9.5090945,
+          "lng": -13.7119312
+        },
+        "capital": "Conakry"
+      },
+      {
+        "id": "R2hhbmFBY2NyYQ==",
+        "name": "Ghana",
+        "latlng": {
+          "lat": 5.559284600000001,
+          "lng": -0.1974306
+        },
+        "capital": "Accra"
+      },
+      {
+        "id": "R2Fib25MaWJyZXZpbGxl",
+        "name": "Gabon",
+        "latlng": {
+          "lat": 0.4077972,
+          "lng": 9.440283299999999
+        },
+        "capital": "Libreville"
+      },
+      {
+        "id": "R2FtYmlhQmFuanVs",
+        "name": "Gambia",
+        "latlng": {
+          "lat": 13.454375,
+          "lng": -16.5753186
+        },
+        "capital": "Banjul"
+      },
+      {
+        "id": "R3VpbmVhLUJpc3NhdUJpc3NhdQ==",
+        "name": "Guinea-Bissau",
+        "latlng": {
+          "lat": 11.8632196,
+          "lng": -15.5843227
+        },
+        "capital": "Bissau"
+      },
+      {
+        "id": "RFIgQ29uZ29LaW5zaGFzYQ==",
+        "name": "DR Congo",
+        "latlng": {
+          "lat": -4.3032527,
+          "lng": 15.310528
+        },
+        "capital": "Kinshasa"
+      },
+      {
+        "id": "Qm90c3dhbmFHYWJvcm9uZQ==",
+        "name": "Botswana",
+        "latlng": {
+          "lat": -24.6580003,
+          "lng": 25.9077037
+        },
+        "capital": "Gaborone"
+      },
+      {
+        "id": "SXZvcnkgQ29hc3RZYW1vdXNzb3Vrcm8=",
+        "name": "Ivory Coast",
+        "latlng": {
+          "lat": 6.816274099999999,
+          "lng": -5.274362900000001
+        },
+        "capital": "Yamoussoukro"
+      },
+      {
+        "id": "Q2VudHJhbCBBZnJpY2FuIFJlcHVibGljQmFuZ3Vp",
+        "name": "Central African Republic",
+        "latlng": {
+          "lat": 4.362156,
+          "lng": 18.5827765
+        },
+        "capital": "Bangui"
+      },
+      {
+        "id": "TGlieWFUcmlwb2xp",
+        "name": "Libya",
+        "latlng": {
+          "lat": 32.8877109,
+          "lng": 13.187186
+        },
+        "capital": "Tripoli"
+      },
+      {
+        "id": "TGliZXJpYU1vbnJvdmlh",
+        "name": "Liberia",
+        "latlng": {
+          "lat": 6.3156068,
+          "lng": -10.8073698
+        },
+        "capital": "Monrovia"
+      },
+      {
+        "id": "TGVzb3Rob01hc2VydQ==",
+        "name": "Lesotho",
+        "latlng": {
+          "lat": -29.3150767,
+          "lng": 27.4869229
+        },
+        "capital": "Maseru"
+      },
+      {
+        "id": "Q2FwZSBWZXJkZVByYWlh",
+        "name": "Cape Verde",
+        "latlng": {
+          "lat": 14.9452652,
+          "lng": -23.5014213
+        },
+        "capital": "Praia"
+      },
+      {
+        "id": "TW9yb2Njb1JhYmF0",
+        "name": "Morocco",
+        "latlng": {
+          "lat": 34.0083637,
+          "lng": -6.8538748
+        },
+        "capital": "Rabat"
+      },
+      {
+        "id": "TWFkYWdhc2NhckFudGFuYW5hcml2bw==",
+        "name": "Madagascar",
+        "latlng": {
+          "lat": -18.9184607,
+          "lng": 47.5211293
+        },
+        "capital": "Antananarivo"
+      },
+      {
+        "id": "TWFsaUJhbWFrbw==",
+        "name": "Mali",
+        "latlng": {
+          "lat": 12.6391699,
+          "lng": -8.0025475
+        },
+        "capital": "Bamako"
+      },
+      {
+        "id": "VWdhbmRhS2FtcGFsYQ==",
+        "name": "Uganda",
+        "latlng": {
+          "lat": 0.3151692,
+          "lng": 32.5816313
+        },
+        "capital": "Kampala"
+      },
+      {
+        "id": "U291dGggQWZyaWNhQ2FwZSBUb3du",
+        "name": "South Africa",
+        "latlng": {
+          "lat": -33.922087,
+          "lng": 18.4231418
+        },
+        "capital": "Cape Town"
+      },
+      {
+        "id": "U291dGggQWZyaWNhQmxvZW1mb250ZWlu",
+        "name": "South Africa",
+        "latlng": {
+          "lat": -29.1129237,
+          "lng": 26.214937
+        },
+        "capital": "Bloemfontein"
+      },
+      {
+        "id": "TW96YW1iaXF1ZU1hcHV0bw==",
+        "name": "Mozambique",
+        "latlng": {
+          "lat": -25.969248,
+          "lng": 32.5731746
+        },
+        "capital": "Maputo"
+      },
+      {
+        "id": "TWF1cml0aXVzUG9ydCBMb3Vpcw==",
+        "name": "Mauritius",
+        "latlng": {
+          "lat": -20.1608912,
+          "lng": 57.5012222
+        },
+        "capital": "Port Louis"
+      },
+      {
+        "id": "TWF1cml0YW5pYU5vdWFrY2hvdHQ=",
+        "name": "Mauritania",
+        "latlng": {
+          "lat": 18.0735299,
+          "lng": -15.9582372
+        },
+        "capital": "Nouakchott"
+      },
+      {
+        "id": "TWF5b3R0ZU1hbW91ZHpvdQ==",
+        "name": "Mayotte",
+        "latlng": {
+          "lat": -12.78064,
+          "lng": 45.23269639999999
+        },
+        "capital": "Mamoudzou"
+      },
+      {
+        "id": "TWFsYXdpTGlsb25nd2U=",
+        "name": "Malawi",
+        "latlng": {
+          "lat": -13.9865252,
+          "lng": 33.76806
+        },
+        "capital": "Lilongwe"
+      },
+      {
+        "id": "Q2FtZXJvb25ZYW91bmTDqQ==",
+        "name": "Cameroon",
+        "latlng": {
+          "lat": 3.8616853,
+          "lng": 11.5202292
+        },
+        "capital": "Yaoundé"
+      },
+      {
+        "id": "UmVwdWJsaWMgb2YgdGhlIENvbmdvQnJhenphdmlsbGU=",
+        "name": "Republic of the Congo",
+        "latlng": {
+          "lat": -4.2744405,
+          "lng": 15.2812803
+        },
+        "capital": "Brazzaville"
+      },
+      {
+        "id": "Q2hhZE4nRGphbWVuYQ==",
+        "name": "Chad",
+        "latlng": {
+          "lat": 12.1191352,
+          "lng": 15.0502875
+        },
+        "capital": "N'Djamena"
+      },
+      {
+        "id": "U2V5Y2hlbGxlc1ZpY3Rvcmlh",
+        "name": "Seychelles",
+        "latlng": {
+          "lat": -4.621129799999999,
+          "lng": 55.4522153
+        },
+        "capital": "Victoria"
+      },
+      {
+        "id": "VG9nb0xvbcOp",
+        "name": "Togo",
+        "latlng": {
+          "lat": 6.129557699999999,
+          "lng": 1.2196502
+        },
+        "capital": "Lomé"
+      },
+      {
+        "id": "RXN3YXRpbmlMb2JhbWJh",
+        "name": "Eswatini",
+        "latlng": {
+          "lat": -26.4465795,
+          "lng": 31.201826
+        },
+        "capital": "Lobamba"
+      },
+      {
+        "id": "RXRoaW9waWFBZGRpcyBBYmFiYQ==",
+        "name": "Ethiopia",
+        "latlng": {
+          "lat": 9.0191936,
+          "lng": 38.7524635
+        },
+        "capital": "Addis Ababa"
+      },
+      {
+        "id": "VHVuaXNpYVR1bmlz",
+        "name": "Tunisia",
+        "latlng": {
+          "lat": 36.8064948,
+          "lng": 10.1815316
+        },
+        "capital": "Tunis"
+      },
+      {
+        "id": "VGFuemFuaWFEb2RvbWE=",
+        "name": "Tanzania",
+        "latlng": {
+          "lat": -6.1811245,
+          "lng": 35.746877
+        },
+        "capital": "Dodoma"
+      },
+      {
+        "id": "WmltYmFid2VIYXJhcmU=",
+        "name": "Zimbabwe",
+        "latlng": {
+          "lat": -17.8262928,
+          "lng": 31.0503723
+        },
+        "capital": "Harare"
+      },
+      {
+        "id": "U8OjbyBUb23DqSBhbmQgUHLDrW5jaXBlU8OjbyBUb23DqQ==",
+        "name": "São Tomé and Príncipe",
+        "latlng": {
+          "lat": 0.3375532,
+          "lng": 6.7298686
+        },
+        "capital": "São Tomé"
+      },
+      {
+        "id": "UndhbmRhS2lnYWxp",
+        "name": "Rwanda",
+        "latlng": {
+          "lat": -1.9440727,
+          "lng": 30.0618851
+        },
+        "capital": "Kigali"
+      },
+      {
+        "id": "UsOpdW5pb25TYWludC1EZW5pcw==",
+        "name": "Réunion",
+        "latlng": {
+          "lat": -20.8784675,
+          "lng": 55.4484856
+        },
+        "capital": "Saint-Denis"
+      },
+      {
+        "id": "U2VuZWdhbERha2Fy",
+        "name": "Senegal",
+        "latlng": {
+          "lat": 14.716677,
+          "lng": -17.4676861
+        },
+        "capital": "Dakar"
+      },
+      {
+        "id": "WmFtYmlhTHVzYWth",
+        "name": "Zambia",
+        "latlng": {
+          "lat": -15.4154677,
+          "lng": 28.2773267
+        },
+        "capital": "Lusaka"
+      },
+      {
+        "id": "U291dGggQWZyaWNhUHJldG9yaWE=",
+        "name": "South Africa",
+        "latlng": {
+          "lat": -25.7565723,
+          "lng": 28.1913815
+        },
+        "capital": "Pretoria"
+      },
+      {
+        "id": "S2VueWFOYWlyb2Jp",
+        "name": "Kenya",
+        "latlng": {
+          "lat": -1.2920659,
+          "lng": 36.8219462
+        },
+        "capital": "Nairobi"
+      },
+      {
+        "id": "RXF1YXRvcmlhbCBHdWluZWFNYWxhYm8=",
+        "name": "Equatorial Guinea",
+        "latlng": {
+          "lat": 3.7549606,
+          "lng": 8.7821344
+        },
+        "capital": "Malabo"
+      },
+      {
+        "id": "TmFtaWJpYVdpbmRob2Vr",
+        "name": "Namibia",
+        "latlng": {
+          "lat": -22.5649344,
+          "lng": 17.0842147
+        },
+        "capital": "Windhoek"
+      },
+      {
+        "id": "TmlnZXJpYUFidWph",
+        "name": "Nigeria",
+        "latlng": {
+          "lat": 9.0562646,
+          "lng": 7.4985259
+        },
+        "capital": "Abuja"
+      },
+      {
+        "id": "TmlnZXJOaWFtZXk=",
+        "name": "Niger",
+        "latlng": {
+          "lat": 13.5115963,
+          "lng": 2.1253854
+        },
+        "capital": "Niamey"
+      },
+      {
+        "id": "U3VkYW5LaGFydG91bQ==",
+        "name": "Sudan",
+        "latlng": {
+          "lat": 15.597431,
+          "lng": 32.535587
+        },
+        "capital": "Khartoum"
+      },
+      {
+        "id": "U291dGggU3VkYW5KdWJh",
+        "name": "South Sudan",
+        "latlng": {
+          "lat": 4.853856599999999,
+          "lng": 31.58252539999999
+        },
+        "capital": "Juba"
+      },
+      {
+        "id": "U2llcnJhIExlb25lRnJlZXRvd24=",
+        "name": "Sierra Leone",
+        "latlng": {
+          "lat": 8.487080299999999,
+          "lng": -13.2354918
+        },
+        "capital": "Freetown"
+      },
+      {
+        "id": "U29tYWxpYU1vZ2FkaXNodQ==",
+        "name": "Somalia",
+        "latlng": {
+          "lat": 2.037148,
+          "lng": 45.3379067
+        },
+        "capital": "Mogadishu"
+      }
+    ],
+    "Oceania": [
+      {
+        "id": "QW1lcmljYW4gU2Ftb2FQYWdvIFBhZ28=",
+        "name": "American Samoa",
+        "latlng": {
+          "lat": -14.2732232,
+          "lng": -170.7030309
+        },
+        "capital": "Pago Pago"
+      },
+      {
+        "id": "Q29vayBJc2xhbmRzQXZhcnVh",
+        "name": "Cook Islands",
+        "latlng": {
+          "lat": -21.2056839,
+          "lng": -159.7850102
+        },
+        "capital": "Avarua"
+      },
+      {
+        "id": "QXVzdHJhbGlhQ2FuYmVycmE=",
+        "name": "Australia",
+        "latlng": {
+          "lat": -35.2801846,
+          "lng": 149.1310324
+        },
+        "capital": "Canberra"
+      },
+      {
+        "id": "R3VhbUhhZ8OldMOxYQ==",
+        "name": "Guam",
+        "latlng": {
+          "lat": 13.4769232,
+          "lng": 144.754282
+        },
+        "capital": "Hagåtña"
+      },
+      {
+        "id": "Q29jb3MgKEtlZWxpbmcpIElzbGFuZHNXZXN0IElzbGFuZA==",
+        "name": "Cocos (Keeling) Islands",
+        "latlng": {
+          "lat": -12.1450486,
+          "lng": 96.82170169999999
+        },
+        "capital": "West Island"
+      },
+      {
+        "id": "Q2hyaXN0bWFzIElzbGFuZEZseWluZyBGaXNoIENvdmU=",
+        "name": "Christmas Island",
+        "latlng": {
+          "lat": -10.4260146,
+          "lng": 105.6727746
+        },
+        "capital": "Flying Fish Cove"
+      },
+      {
+        "id": "UGFwdWEgTmV3IEd1aW5lYVBvcnQgTW9yZXNieQ==",
+        "name": "Papua New Guinea",
+        "latlng": {
+          "lat": -9.4790043,
+          "lng": 147.1494164
+        },
+        "capital": "Port Moresby"
+      },
+      {
+        "id": "UGl0Y2Fpcm4gSXNsYW5kc0FkYW1zdG93bg==",
+        "name": "Pitcairn Islands",
+        "latlng": {
+          "lat": -25.0662051,
+          "lng": -130.0996638
+        },
+        "capital": "Adamstown"
+      },
+      {
+        "id": "UGFsYXVOZ2VydWxtdWQ=",
+        "name": "Palau",
+        "latlng": {
+          "lat": 7.5003835,
+          "lng": 134.624289
+        },
+        "capital": "Ngerulmud"
+      },
+      {
+        "id": "RnJlbmNoIFBvbHluZXNpYVBhcGVldMST",
+        "name": "French Polynesia",
+        "latlng": {
+          "lat": -17.5324608,
+          "lng": -149.5677151
+        },
+        "capital": "Papeetē"
+      },
+      {
+        "id": "Tm9ydGhlcm4gTWFyaWFuYSBJc2xhbmRzU2FpcGFu",
+        "name": "Northern Mariana Islands",
+        "latlng": {
+          "lat": 15.1850483,
+          "lng": 145.7467259
+        },
+        "capital": "Saipan"
+      },
+      {
+        "id": "Tml1ZUFsb2Zp",
+        "name": "Niue",
+        "latlng": {
+          "lat": -19.0558365,
+          "lng": -169.9213651
+        },
+        "capital": "Alofi"
+      },
+      {
+        "id": "VG9uZ2FOdWt1J2Fsb2Zh",
+        "name": "Tonga",
+        "latlng": {
+          "lat": -21.1343065,
+          "lng": -175.2004858
+        },
+        "capital": "Nuku'alofa"
+      },
+      {
+        "id": "VG9rZWxhdUZha2FvZm8=",
+        "name": "Tokelau",
+        "latlng": {
+          "lat": -9.380255499999999,
+          "lng": -171.2188355
+        },
+        "capital": "Fakaofo"
+      },
+      {
+        "id": "VHV2YWx1RnVuYWZ1dGk=",
+        "name": "Tuvalu",
+        "latlng": {
+          "lat": -8.5211471,
+          "lng": 179.1961926
+        },
+        "capital": "Funafuti"
+      },
+      {
+        "id": "RmlqaVN1dmE=",
+        "name": "Fiji",
+        "latlng": {
+          "lat": -18.1265564,
+          "lng": 178.439908
+        },
+        "capital": "Suva"
+      },
+      {
+        "id": "S2lyaWJhdGlTb3V0aCBUYXJhd2E=",
+        "name": "Kiribati",
+        "latlng": {
+          "lat": 1.433333,
+          "lng": 173
+        },
+        "capital": "South Tarawa"
+      },
+      {
+        "id": "U29sb21vbiBJc2xhbmRzSG9uaWFyYQ==",
+        "name": "Solomon Islands",
+        "latlng": {
+          "lat": -9.4306698,
+          "lng": 159.9526758
+        },
+        "capital": "Honiara"
+      },
+      {
+        "id": "VmFudWF0dVBvcnQgVmlsYQ==",
+        "name": "Vanuatu",
+        "latlng": {
+          "lat": -17.742979,
+          "lng": 168.3173027
+        },
+        "capital": "Port Vila"
+      },
+      {
+        "id": "V2FsbGlzIGFuZCBGdXR1bmFNYXRhLVV0dQ==",
+        "name": "Wallis and Futuna",
+        "latlng": {
+          "lat": -13.2825091,
+          "lng": -176.1764475
+        },
+        "capital": "Mata-Utu"
+      },
+      {
+        "id": "U2Ftb2FBcGlh",
+        "name": "Samoa",
+        "latlng": {
+          "lat": -13.831609,
+          "lng": -171.7689086
+        },
+        "capital": "Apia"
+      },
+      {
+        "id": "TWljcm9uZXNpYVBhbGlraXI=",
+        "name": "Micronesia",
+        "latlng": {
+          "lat": 6.92347,
+          "lng": 158.1584451
+        },
+        "capital": "Palikir"
+      },
+      {
+        "id": "TmV3IENhbGVkb25pYU5vdW3DqWE=",
+        "name": "New Caledonia",
+        "latlng": {
+          "lat": -22.2716866,
+          "lng": 166.4398627
+        },
+        "capital": "Nouméa"
+      },
+      {
+        "id": "TmF1cnVZYXJlbg==",
+        "name": "Nauru",
+        "latlng": {
+          "lat": -0.5455672,
+          "lng": 166.9156781
+        },
+        "capital": "Yaren"
+      },
+      {
+        "id": "Tm9yZm9sayBJc2xhbmRLaW5nc3Rvbg==",
+        "name": "Norfolk Island",
+        "latlng": {
+          "lat": -29.0559683,
+          "lng": 167.9601828
+        },
+        "capital": "Kingston"
+      },
+      {
+        "id": "TmV3IFplYWxhbmRXZWxsaW5ndG9u",
+        "name": "New Zealand",
+        "latlng": {
+          "lat": -41.2923814,
+          "lng": 174.7787463
+        },
+        "capital": "Wellington"
+      },
+      {
+        "id": "TWFyc2hhbGwgSXNsYW5kc01hanVybw==",
+        "name": "Marshall Islands",
+        "latlng": {
+          "lat": 7.066667,
+          "lng": 171.266667
+        },
+        "capital": "Majuro"
+      }
+    ],
+    "Antarctic": [
+      {
+        "id": "RnJlbmNoIFNvdXRoZXJuIGFuZCBBbnRhcmN0aWMgTGFuZHNQb3J0LWF1eC1GcmFuw6dhaXM=",
+        "name": "French Southern and Antarctic Lands",
+        "latlng": {
+          "lat": -49.3496422,
+          "lng": 70.2180039
+        },
+        "capital": "Port-aux-Français"
+      },
+      {
+        "id": "U291dGggR2VvcmdpYUtpbmcgRWR3YXJkIFBvaW50",
+        "name": "South Georgia",
+        "latlng": {
+          "lat": -54.2832502,
+          "lng": -36.493735
+        },
+        "capital": "King Edward Point"
+      }
+    ]
+  },
+  "bySubregion": {
+    "Western Asia": [
+      {
+        "id": "QXJtZW5pYVllcmV2YW4=",
+        "name": "Armenia",
+        "latlng": {
+          "lat": 40.1872023,
+          "lng": 44.515209
+        },
+        "capital": "Yerevan"
+      },
+      {
+        "id": "QmFocmFpbk1hbmFtYQ==",
+        "name": "Bahrain",
+        "latlng": {
+          "lat": 26.2235305,
+          "lng": 50.5875935
+        },
+        "capital": "Manama"
+      },
+      {
+        "id": "VW5pdGVkIEFyYWIgRW1pcmF0ZXNBYnUgRGhhYmk=",
+        "name": "United Arab Emirates",
+        "latlng": {
+          "lat": 24.453884,
+          "lng": 54.3773438
+        },
+        "capital": "Abu Dhabi"
+      },
+      {
+        "id": "QXplcmJhaWphbkJha3U=",
+        "name": "Azerbaijan",
+        "latlng": {
+          "lat": 40.40926169999999,
+          "lng": 49.8670924
+        },
+        "capital": "Baku"
+      },
+      {
+        "id": "R2VvcmdpYVRiaWxpc2k=",
+        "name": "Georgia",
+        "latlng": {
+          "lat": 41.6938026,
+          "lng": 44.80151679999999
+        },
+        "capital": "Tbilisi"
+      },
+      {
+        "id": "TGViYW5vbkJlaXJ1dA==",
+        "name": "Lebanon",
+        "latlng": {
+          "lat": 33.8937913,
+          "lng": 35.5017767
+        },
+        "capital": "Beirut"
+      },
+      {
+        "id": "S3V3YWl0S3V3YWl0IENpdHk=",
+        "name": "Kuwait",
+        "latlng": {
+          "lat": 29.3780268,
+          "lng": 47.9751178
+        },
+        "capital": "Kuwait City"
+      },
+      {
+        "id": "SXJhcUJhZ2hkYWQ=",
+        "name": "Iraq",
+        "latlng": {
+          "lat": 33.315241,
+          "lng": 44.3660671
+        },
+        "capital": "Baghdad"
+      },
+      {
+        "id": "SXNyYWVsSmVydXNhbGVt",
+        "name": "Israel",
+        "latlng": {
+          "lat": 31.7768831,
+          "lng": 35.22243460000001
+        },
+        "capital": "Jerusalem"
+      },
+      {
+        "id": "T21hbk11c2NhdA==",
+        "name": "Oman",
+        "latlng": {
+          "lat": 23.5880307,
+          "lng": 58.3828717
+        },
+        "capital": "Muscat"
+      },
+      {
+        "id": "UWF0YXJEb2hh",
+        "name": "Qatar",
+        "latlng": {
+          "lat": 25.2854473,
+          "lng": 51.53103979999999
+        },
+        "capital": "Doha"
+      },
+      {
+        "id": "UGFsZXN0aW5lUmFtYWxsYWg=",
+        "name": "Palestine",
+        "latlng": {
+          "lat": 31.9037641,
+          "lng": 35.2034184
+        },
+        "capital": "Ramallah"
+      },
+      {
+        "id": "U3lyaWFEYW1hc2N1cw==",
+        "name": "Syria",
+        "latlng": {
+          "lat": 33.5132192,
+          "lng": 36.2768193
+        },
+        "capital": "Damascus"
+      },
+      {
+        "id": "VMO8cmtpeWVBbmthcmE=",
+        "name": "Türkiye",
+        "latlng": {
+          "lat": 39.9333635,
+          "lng": 32.8597419
+        },
+        "capital": "Ankara"
+      },
+      {
+        "id": "Sm9yZGFuQW1tYW4=",
+        "name": "Jordan",
+        "latlng": {
+          "lat": 31.9543786,
+          "lng": 35.9105776
+        },
+        "capital": "Amman"
+      },
+      {
+        "id": "U2F1ZGkgQXJhYmlhUml5YWRo",
+        "name": "Saudi Arabia",
+        "latlng": {
+          "lat": 24.7135517,
+          "lng": 46.6752957
+        },
+        "capital": "Riyadh"
+      },
+      {
+        "id": "WWVtZW5TYW5hJ2E=",
+        "name": "Yemen",
+        "latlng": {
+          "lat": 15.3545381,
+          "lng": 44.2064003
+        },
+        "capital": "Sana'a"
+      }
+    ],
+    "Northern Europe": [
+      {
+        "id": "w4VsYW5kIElzbGFuZHNNYXJpZWhhbW4=",
+        "name": "Åland Islands",
+        "latlng": {
+          "lat": 60.0970945,
+          "lng": 19.9348339
+        },
+        "capital": "Mariehamn"
+      },
+      {
+        "id": "RGVubWFya0NvcGVuaGFnZW4=",
+        "name": "Denmark",
+        "latlng": {
+          "lat": 55.6760968,
+          "lng": 12.5683371
+        },
+        "capital": "Copenhagen"
+      },
+      {
+        "id": "SWNlbGFuZFJleWtqYXZpaw==",
+        "name": "Iceland",
+        "latlng": {
+          "lat": 64.1469868,
+          "lng": -21.9407552
+        },
+        "capital": "Reykjavik"
+      },
+      {
+        "id": "VW5pdGVkIEtpbmdkb21Mb25kb24=",
+        "name": "United Kingdom",
+        "latlng": {
+          "lat": 51.5072178,
+          "lng": -0.1275862
+        },
+        "capital": "London"
+      },
+      {
+        "id": "R3Vlcm5zZXlTdC4gUGV0ZXIgUG9ydA==",
+        "name": "Guernsey",
+        "latlng": {
+          "lat": 49.4569282,
+          "lng": -2.5375359
+        },
+        "capital": "St. Peter Port"
+      },
+      {
+        "id": "SmVyc2V5U2FpbnQgSGVsaWVy",
+        "name": "Jersey",
+        "latlng": {
+          "lat": 49.1805019,
+          "lng": -2.103233
+        },
+        "capital": "Saint Helier"
+      },
+      {
+        "id": "SXNsZSBvZiBNYW5Eb3VnbGFz",
+        "name": "Isle of Man",
+        "latlng": {
+          "lat": 54.1523372,
+          "lng": -4.4861228
+        },
+        "capital": "Douglas"
+      },
+      {
+        "id": "TGF0dmlhUmlnYQ==",
+        "name": "Latvia",
+        "latlng": {
+          "lat": 56.9676941,
+          "lng": 24.1056221
+        },
+        "capital": "Riga"
+      },
+      {
+        "id": "TGl0aHVhbmlhVmlsbml1cw==",
+        "name": "Lithuania",
+        "latlng": {
+          "lat": 54.6871555,
+          "lng": 25.2796514
+        },
+        "capital": "Vilnius"
+      },
+      {
+        "id": "U3ZhbGJhcmQgYW5kIEphbiBNYXllbkxvbmd5ZWFyYnllbg==",
+        "name": "Svalbard and Jan Mayen",
+        "latlng": {
+          "lat": 78.2253231,
+          "lng": 15.6256365
+        },
+        "capital": "Longyearbyen"
+      },
+      {
+        "id": "U3dlZGVuU3RvY2tob2xt",
+        "name": "Sweden",
+        "latlng": {
+          "lat": 59.3327036,
+          "lng": 18.0656255
+        },
+        "capital": "Stockholm"
+      },
+      {
+        "id": "SXJlbGFuZER1Ymxpbg==",
+        "name": "Ireland",
+        "latlng": {
+          "lat": 53.3498053,
+          "lng": -6.2603097
+        },
+        "capital": "Dublin"
+      },
+      {
+        "id": "RXN0b25pYVRhbGxpbm4=",
+        "name": "Estonia",
+        "latlng": {
+          "lat": 59.43696079999999,
+          "lng": 24.7535746
+        },
+        "capital": "Tallinn"
+      },
+      {
+        "id": "RmlubGFuZEhlbHNpbmtp",
+        "name": "Finland",
+        "latlng": {
+          "lat": 60.16985569999999,
+          "lng": 24.938379
+        },
+        "capital": "Helsinki"
+      },
+      {
+        "id": "Tm9yd2F5T3Nsbw==",
+        "name": "Norway",
+        "latlng": {
+          "lat": 59.9138688,
+          "lng": 10.7522454
+        },
+        "capital": "Oslo"
+      },
+      {
+        "id": "RmFyb2UgSXNsYW5kc1TDs3JzaGF2bg==",
+        "name": "Faroe Islands",
+        "latlng": {
+          "lat": 62.01072479999999,
+          "lng": -6.7740852
+        },
+        "capital": "Tórshavn"
+      }
+    ],
+    "Caribbean": [
+      {
+        "id": "QXJ1YmFPcmFuamVzdGFk",
+        "name": "Aruba",
+        "latlng": {
+          "lat": 12.5227171,
+          "lng": -70.0352618
+        },
+        "capital": "Oranjestad"
+      },
+      {
+        "id": "QW5ndWlsbGFUaGUgVmFsbGV5",
+        "name": "Anguilla",
+        "latlng": {
+          "lat": 18.2148129,
+          "lng": -63.0574406
+        },
+        "capital": "The Valley"
+      },
+      {
+        "id": "QW50aWd1YSBhbmQgQmFyYnVkYVNhaW50IEpvaG4ncw==",
+        "name": "Antigua and Barbuda",
+        "latlng": {
+          "lat": 17.1274104,
+          "lng": -61.84677199999999
+        },
+        "capital": "Saint John's"
+      },
+      {
+        "id": "Q2FyaWJiZWFuIE5ldGhlcmxhbmRzT3Jhbmplc3RhZA==",
+        "name": "Caribbean Netherlands",
+        "latlng": {
+          "lat": 17.4867485,
+          "lng": -62.9764978
+        },
+        "capital": "Oranjestad"
+      },
+      {
+        "id": "U2FpbnQgQmFydGjDqWxlbXlHdXN0YXZpYQ==",
+        "name": "Saint Barthélemy",
+        "latlng": {
+          "lat": 17.8964345,
+          "lng": -62.85220099999999
+        },
+        "capital": "Gustavia"
+      },
+      {
+        "id": "QmFoYW1hc05hc3NhdQ==",
+        "name": "Bahamas",
+        "latlng": {
+          "lat": 25.0443312,
+          "lng": -77.3503609
+        },
+        "capital": "Nassau"
+      },
+      {
+        "id": "Q3ViYUhhdmFuYQ==",
+        "name": "Cuba",
+        "latlng": {
+          "lat": 23.133865,
+          "lng": -82.3585654
+        },
+        "capital": "Havana"
+      },
+      {
+        "id": "Q2F5bWFuIElzbGFuZHNHZW9yZ2UgVG93bg==",
+        "name": "Cayman Islands",
+        "latlng": {
+          "lat": 19.2965778,
+          "lng": -81.3819158
+        },
+        "capital": "George Town"
+      },
+      {
+        "id": "RG9taW5pY2FSb3NlYXU=",
+        "name": "Dominica",
+        "latlng": {
+          "lat": 15.3091676,
+          "lng": -61.37935539999999
+        },
+        "capital": "Roseau"
+      },
+      {
+        "id": "RG9taW5pY2FuIFJlcHVibGljU2FudG8gRG9taW5nbw==",
+        "name": "Dominican Republic",
+        "latlng": {
+          "lat": 18.4626178,
+          "lng": -69.93609239999999
+        },
+        "capital": "Santo Domingo"
+      },
+      {
+        "id": "SGFpdGlQb3J0LWF1LVByaW5jZQ==",
+        "name": "Haiti",
+        "latlng": {
+          "lat": 18.5363875,
+          "lng": -72.34654200000001
+        },
+        "capital": "Port-au-Prince"
+      },
+      {
+        "id": "SmFtYWljYUtpbmdzdG9u",
+        "name": "Jamaica",
+        "latlng": {
+          "lat": 18.0178743,
+          "lng": -76.8099041
+        },
+        "capital": "Kingston"
+      },
+      {
+        "id": "U2FpbnQgS2l0dHMgYW5kIE5ldmlzQmFzc2V0ZXJyZQ==",
+        "name": "Saint Kitts and Nevis",
+        "latlng": {
+          "lat": 17.3026058,
+          "lng": -62.7176924
+        },
+        "capital": "Basseterre"
+      },
+      {
+        "id": "Q2FyaWJiZWFuIE5ldGhlcmxhbmRzS3JhbGVuZGlqaw==",
+        "name": "Caribbean Netherlands",
+        "latlng": {
+          "lat": 12.1498095,
+          "lng": -68.2763129
+        },
+        "capital": "Kralendijk"
+      },
+      {
+        "id": "Q2FyaWJiZWFuIE5ldGhlcmxhbmRzVGhlIEJvdHRvbQ==",
+        "name": "Caribbean Netherlands",
+        "latlng": {
+          "lat": 17.6255882,
+          "lng": -63.2488817
+        },
+        "capital": "The Bottom"
+      },
+      {
+        "id": "R3VhZGVsb3VwZUJhc3NlLVRlcnJl",
+        "name": "Guadeloupe",
+        "latlng": {
+          "lat": 15.9965719,
+          "lng": -61.73172150000001
+        },
+        "capital": "Basse-Terre"
+      },
+      {
+        "id": "R3JlbmFkYVN0LiBHZW9yZ2Uncw==",
+        "name": "Grenada",
+        "latlng": {
+          "lat": 12.0560975,
+          "lng": -61.7487996
+        },
+        "capital": "St. George's"
+      },
+      {
+        "id": "U2FpbnQgTHVjaWFDYXN0cmllcw==",
+        "name": "Saint Lucia",
+        "latlng": {
+          "lat": 14.0110158,
+          "lng": -60.98972389999999
+        },
+        "capital": "Castries"
+      },
+      {
+        "id": "U2FpbnQgTWFydGluTWFyaWdvdA==",
+        "name": "Saint Martin",
+        "latlng": {
+          "lat": 18.0675189,
+          "lng": -63.0824656
+        },
+        "capital": "Marigot"
+      },
+      {
+        "id": "UHVlcnRvIFJpY29TYW4gSnVhbg==",
+        "name": "Puerto Rico",
+        "latlng": {
+          "lat": 18.4153108,
+          "lng": -66.0593509
+        },
+        "capital": "San Juan"
+      },
+      {
+        "id": "QnJpdGlzaCBWaXJnaW4gSXNsYW5kc1JvYWQgVG93bg==",
+        "name": "British Virgin Islands",
+        "latlng": {
+          "lat": 18.4286115,
+          "lng": -64.6184657
+        },
+        "capital": "Road Town"
+      },
+      {
+        "id": "TW9udHNlcnJhdFBseW1vdXRo",
+        "name": "Montserrat",
+        "latlng": {
+          "lat": 16.706523,
+          "lng": -62.21573799999999
+        },
+        "capital": "Plymouth"
+      },
+      {
+        "id": "TWFydGluaXF1ZUZvcnQtZGUtRnJhbmNl",
+        "name": "Martinique",
+        "latlng": {
+          "lat": 14.6060576,
+          "lng": -61.06988399999999
+        },
+        "capital": "Fort-de-France"
+      },
+      {
+        "id": "QmFyYmFkb3NCcmlkZ2V0b3du",
+        "name": "Barbados",
+        "latlng": {
+          "lat": 13.0971177,
+          "lng": -59.6132388
+        },
+        "capital": "Bridgetown"
+      },
+      {
+        "id": "U2ludCBNYWFydGVuUGhpbGlwc2J1cmc=",
+        "name": "Sint Maarten",
+        "latlng": {
+          "lat": 18.0295839,
+          "lng": -63.04713709999999
+        },
+        "capital": "Philipsburg"
+      },
+      {
+        "id": "VHJpbmlkYWQgYW5kIFRvYmFnb1BvcnQgb2YgU3BhaW4=",
+        "name": "Trinidad and Tobago",
+        "latlng": {
+          "lat": 10.6603435,
+          "lng": -61.5086355
+        },
+        "capital": "Port of Spain"
+      },
+      {
+        "id": "Q3VyYcOnYW9XaWxsZW1zdGFk",
+        "name": "Curaçao",
+        "latlng": {
+          "lat": 12.103852,
+          "lng": -68.9323695
+        },
+        "capital": "Willemstad"
+      },
+      {
+        "id": "VW5pdGVkIFN0YXRlcyBWaXJnaW4gSXNsYW5kc0NoYXJsb3R0ZSBBbWFsaWU=",
+        "name": "United States Virgin Islands",
+        "latlng": {
+          "lat": 18.3418571,
+          "lng": -64.93106
+        },
+        "capital": "Charlotte Amalie"
+      },
+      {
+        "id": "U2FpbnQgVmluY2VudCBhbmQgdGhlIEdyZW5hZGluZXNLaW5nc3Rvd24=",
+        "name": "Saint Vincent and the Grenadines",
+        "latlng": {
+          "lat": 13.1600249,
+          "lng": -61.2248157
+        },
+        "capital": "Kingstown"
+      },
+      {
+        "id": "VHVya3MgYW5kIENhaWNvcyBJc2xhbmRzQ29ja2J1cm4gVG93bg==",
+        "name": "Turks and Caicos Islands",
+        "latlng": {
+          "lat": 21.4688811,
+          "lng": -71.1457927
+        },
+        "capital": "Cockburn Town"
+      }
+    ],
+    "Middle Africa": [
+      {
+        "id": "QW5nb2xhTHVhbmRh",
+        "name": "Angola",
+        "latlng": {
+          "lat": -8.8146556,
+          "lng": 13.2301756
+        },
+        "capital": "Luanda"
+      },
+      {
+        "id": "R2Fib25MaWJyZXZpbGxl",
+        "name": "Gabon",
+        "latlng": {
+          "lat": 0.4077972,
+          "lng": 9.440283299999999
+        },
+        "capital": "Libreville"
+      },
+      {
+        "id": "RFIgQ29uZ29LaW5zaGFzYQ==",
+        "name": "DR Congo",
+        "latlng": {
+          "lat": -4.3032527,
+          "lng": 15.310528
+        },
+        "capital": "Kinshasa"
+      },
+      {
+        "id": "Q2VudHJhbCBBZnJpY2FuIFJlcHVibGljQmFuZ3Vp",
+        "name": "Central African Republic",
+        "latlng": {
+          "lat": 4.362156,
+          "lng": 18.5827765
+        },
+        "capital": "Bangui"
+      },
+      {
+        "id": "Q2FtZXJvb25ZYW91bmTDqQ==",
+        "name": "Cameroon",
+        "latlng": {
+          "lat": 3.8616853,
+          "lng": 11.5202292
+        },
+        "capital": "Yaoundé"
+      },
+      {
+        "id": "UmVwdWJsaWMgb2YgdGhlIENvbmdvQnJhenphdmlsbGU=",
+        "name": "Republic of the Congo",
+        "latlng": {
+          "lat": -4.2744405,
+          "lng": 15.2812803
+        },
+        "capital": "Brazzaville"
+      },
+      {
+        "id": "Q2hhZE4nRGphbWVuYQ==",
+        "name": "Chad",
+        "latlng": {
+          "lat": 12.1191352,
+          "lng": 15.0502875
+        },
+        "capital": "N'Djamena"
+      },
+      {
+        "id": "U8OjbyBUb23DqSBhbmQgUHLDrW5jaXBlU8OjbyBUb23DqQ==",
+        "name": "São Tomé and Príncipe",
+        "latlng": {
+          "lat": 0.3375532,
+          "lng": 6.7298686
+        },
+        "capital": "São Tomé"
+      },
+      {
+        "id": "RXF1YXRvcmlhbCBHdWluZWFNYWxhYm8=",
+        "name": "Equatorial Guinea",
+        "latlng": {
+          "lat": 3.7549606,
+          "lng": 8.7821344
+        },
+        "capital": "Malabo"
+      },
+      {
+        "id": "U291dGggU3VkYW5KdWJh",
+        "name": "South Sudan",
+        "latlng": {
+          "lat": 4.853856599999999,
+          "lng": 31.58252539999999
+        },
+        "capital": "Juba"
+      }
+    ],
+    "Southern Asia": [
+      {
+        "id": "QWZnaGFuaXN0YW5LYWJ1bA==",
+        "name": "Afghanistan",
+        "latlng": {
+          "lat": 34.5553494,
+          "lng": 69.207486
+        },
+        "capital": "Kabul"
+      },
+      {
+        "id": "QmFuZ2xhZGVzaERoYWth",
+        "name": "Bangladesh",
+        "latlng": {
+          "lat": 23.804093,
+          "lng": 90.4152376
+        },
+        "capital": "Dhaka"
+      },
+      {
+        "id": "SW5kaWFOZXcgRGVsaGk=",
+        "name": "India",
+        "latlng": {
+          "lat": 28.6139298,
+          "lng": 77.2088282
+        },
+        "capital": "New Delhi"
+      },
+      {
+        "id": "U3JpIExhbmthQ29sb21ibw==",
+        "name": "Sri Lanka",
+        "latlng": {
+          "lat": 6.9270786,
+          "lng": 79.861243
+        },
+        "capital": "Colombo"
+      },
+      {
+        "id": "TWFsZGl2ZXNNYWzDqQ==",
+        "name": "Maldives",
+        "latlng": {
+          "lat": 4.175270900000001,
+          "lng": 73.50911719999999
+        },
+        "capital": "Malé"
+      },
+      {
+        "id": "SXJhblRlaHJhbg==",
+        "name": "Iran",
+        "latlng": {
+          "lat": 35.7218583,
+          "lng": 51.3346954
+        },
+        "capital": "Tehran"
+      },
+      {
+        "id": "TmVwYWxLYXRobWFuZHU=",
+        "name": "Nepal",
+        "latlng": {
+          "lat": 27.7103145,
+          "lng": 85.3221634
+        },
+        "capital": "Kathmandu"
+      },
+      {
+        "id": "UGFraXN0YW5Jc2xhbWFiYWQ=",
+        "name": "Pakistan",
+        "latlng": {
+          "lat": 33.699619,
+          "lng": 73.036187
+        },
+        "capital": "Islamabad"
+      },
+      {
+        "id": "Qmh1dGFuVGhpbXBodQ==",
+        "name": "Bhutan",
+        "latlng": {
+          "lat": 27.471586,
+          "lng": 89.6386108
+        },
+        "capital": "Thimphu"
+      }
+    ],
+    "Southeast Europe": [
+      {
+        "id": "QWxiYW5pYVRpcmFuYQ==",
+        "name": "Albania",
+        "latlng": {
+          "lat": 41.3275459,
+          "lng": 19.8186982
+        },
+        "capital": "Tirana"
+      },
+      {
+        "id": "QnVsZ2FyaWFTb2ZpYQ==",
+        "name": "Bulgaria",
+        "latlng": {
+          "lat": 42.6977082,
+          "lng": 23.3218675
+        },
+        "capital": "Sofia"
+      },
+      {
+        "id": "Qm9zbmlhIGFuZCBIZXJ6ZWdvdmluYVNhcmFqZXZv",
+        "name": "Bosnia and Herzegovina",
+        "latlng": {
+          "lat": 43.8562586,
+          "lng": 18.4130763
+        },
+        "capital": "Sarajevo"
+      },
+      {
+        "id": "Q3JvYXRpYVphZ3JlYg==",
+        "name": "Croatia",
+        "latlng": {
+          "lat": 45.8150108,
+          "lng": 15.981919
+        },
+        "capital": "Zagreb"
+      },
+      {
+        "id": "S29zb3ZvUHJpc3RpbmE=",
+        "name": "Kosovo",
+        "latlng": {
+          "lat": 42.6673053,
+          "lng": 21.1643067
+        },
+        "capital": "Pristina"
+      },
+      {
+        "id": "TW9udGVuZWdyb1BvZGdvcmljYQ==",
+        "name": "Montenegro",
+        "latlng": {
+          "lat": 42.4304196,
+          "lng": 19.2593642
+        },
+        "capital": "Podgorica"
+      },
+      {
+        "id": "U2VyYmlhQmVsZ3JhZGU=",
+        "name": "Serbia",
+        "latlng": {
+          "lat": 44.8125449,
+          "lng": 20.46123
+        },
+        "capital": "Belgrade"
+      },
+      {
+        "id": "Um9tYW5pYUJ1Y2hhcmVzdA==",
+        "name": "Romania",
+        "latlng": {
+          "lat": 44.4267674,
+          "lng": 26.1025384
+        },
+        "capital": "Bucharest"
+      },
+      {
+        "id": "Tm9ydGggTWFjZWRvbmlhU2tvcGpl",
+        "name": "North Macedonia",
+        "latlng": {
+          "lat": 41.9981294,
+          "lng": 21.4254355
+        },
+        "capital": "Skopje"
+      }
+    ],
+    "Southern Europe": [
+      {
+        "id": "QW5kb3JyYUFuZG9ycmEgbGEgVmVsbGE=",
+        "name": "Andorra",
+        "latlng": {
+          "lat": 42.50631740000001,
+          "lng": 1.5218355
+        },
+        "capital": "Andorra la Vella"
+      },
+      {
+        "id": "Q3lwcnVzTmljb3NpYQ==",
+        "name": "Cyprus",
+        "latlng": {
+          "lat": 35.1855659,
+          "lng": 33.38227639999999
+        },
+        "capital": "Nicosia"
+      },
+      {
+        "id": "U3BhaW5NYWRyaWQ=",
+        "name": "Spain",
+        "latlng": {
+          "lat": 40.41672790000001,
+          "lng": -3.7032905
+        },
+        "capital": "Madrid"
+      },
+      {
+        "id": "R2licmFsdGFyR2licmFsdGFy",
+        "name": "Gibraltar",
+        "latlng": {
+          "lat": 36.140751,
+          "lng": -5.353585
+        },
+        "capital": "Gibraltar"
+      },
+      {
+        "id": "SXRhbHlSb21l",
+        "name": "Italy",
+        "latlng": {
+          "lat": 41.8967068,
+          "lng": 12.4822025
+        },
+        "capital": "Rome"
+      },
+      {
+        "id": "UG9ydHVnYWxMaXNib24=",
+        "name": "Portugal",
+        "latlng": {
+          "lat": 38.7222524,
+          "lng": -9.1393366
+        },
+        "capital": "Lisbon"
+      },
+      {
+        "id": "VmF0aWNhbiBDaXR5VmF0aWNhbiBDaXR5",
+        "name": "Vatican City",
+        "latlng": {
+          "lat": 41.9021788,
+          "lng": 12.4536007
+        },
+        "capital": "Vatican City"
+      },
+      {
+        "id": "TWFsdGFWYWxsZXR0YQ==",
+        "name": "Malta",
+        "latlng": {
+          "lat": 35.8992375,
+          "lng": 14.5140996
+        },
+        "capital": "Valletta"
+      },
+      {
+        "id": "U2FuIE1hcmlub0NpdHkgb2YgU2FuIE1hcmlubw==",
+        "name": "San Marino",
+        "latlng": {
+          "lat": 43.9355907,
+          "lng": 12.4472806
+        },
+        "capital": "City of San Marino"
+      },
+      {
+        "id": "R3JlZWNlQXRoZW5z",
+        "name": "Greece",
+        "latlng": {
+          "lat": 37.9838096,
+          "lng": 23.7275388
+        },
+        "capital": "Athens"
+      }
+    ],
+    "Polynesia": [
+      {
+        "id": "QW1lcmljYW4gU2Ftb2FQYWdvIFBhZ28=",
+        "name": "American Samoa",
+        "latlng": {
+          "lat": -14.2732232,
+          "lng": -170.7030309
+        },
+        "capital": "Pago Pago"
+      },
+      {
+        "id": "Q29vayBJc2xhbmRzQXZhcnVh",
+        "name": "Cook Islands",
+        "latlng": {
+          "lat": -21.2056839,
+          "lng": -159.7850102
+        },
+        "capital": "Avarua"
+      },
+      {
+        "id": "UGl0Y2Fpcm4gSXNsYW5kc0FkYW1zdG93bg==",
+        "name": "Pitcairn Islands",
+        "latlng": {
+          "lat": -25.0662051,
+          "lng": -130.0996638
+        },
+        "capital": "Adamstown"
+      },
+      {
+        "id": "RnJlbmNoIFBvbHluZXNpYVBhcGVldMST",
+        "name": "French Polynesia",
+        "latlng": {
+          "lat": -17.5324608,
+          "lng": -149.5677151
+        },
+        "capital": "Papeetē"
+      },
+      {
+        "id": "Tml1ZUFsb2Zp",
+        "name": "Niue",
+        "latlng": {
+          "lat": -19.0558365,
+          "lng": -169.9213651
+        },
+        "capital": "Alofi"
+      },
+      {
+        "id": "VG9uZ2FOdWt1J2Fsb2Zh",
+        "name": "Tonga",
+        "latlng": {
+          "lat": -21.1343065,
+          "lng": -175.2004858
+        },
+        "capital": "Nuku'alofa"
+      },
+      {
+        "id": "VG9rZWxhdUZha2FvZm8=",
+        "name": "Tokelau",
+        "latlng": {
+          "lat": -9.380255499999999,
+          "lng": -171.2188355
+        },
+        "capital": "Fakaofo"
+      },
+      {
+        "id": "VHV2YWx1RnVuYWZ1dGk=",
+        "name": "Tuvalu",
+        "latlng": {
+          "lat": -8.5211471,
+          "lng": 179.1961926
+        },
+        "capital": "Funafuti"
+      },
+      {
+        "id": "V2FsbGlzIGFuZCBGdXR1bmFNYXRhLVV0dQ==",
+        "name": "Wallis and Futuna",
+        "latlng": {
+          "lat": -13.2825091,
+          "lng": -176.1764475
+        },
+        "capital": "Mata-Utu"
+      },
+      {
+        "id": "U2Ftb2FBcGlh",
+        "name": "Samoa",
+        "latlng": {
+          "lat": -13.831609,
+          "lng": -171.7689086
+        },
+        "capital": "Apia"
+      }
+    ],
+    "South America": [
+      {
+        "id": "QXJnZW50aW5hQnVlbm9zIEFpcmVz",
+        "name": "Argentina",
+        "latlng": {
+          "lat": -34.6036739,
+          "lng": -58.3821215
+        },
+        "capital": "Buenos Aires"
+      },
+      {
+        "id": "Qm9saXZpYVN1Y3Jl",
+        "name": "Bolivia",
+        "latlng": {
+          "lat": -19.0352912,
+          "lng": -65.2592563
+        },
+        "capital": "Sucre"
+      },
+      {
+        "id": "RWN1YWRvclF1aXRv",
+        "name": "Ecuador",
+        "latlng": {
+          "lat": -0.2232523,
+          "lng": -78.5141064
+        },
+        "capital": "Quito"
+      },
+      {
+        "id": "R3V5YW5hR2VvcmdldG93bg==",
+        "name": "Guyana",
+        "latlng": {
+          "lat": 6.8012793,
+          "lng": -58.1551255
+        },
+        "capital": "Georgetown"
+      },
+      {
+        "id": "RnJlbmNoIEd1aWFuYUNheWVubmU=",
+        "name": "French Guiana",
+        "latlng": {
+          "lat": 4.937977399999999,
+          "lng": -52.3354386
+        },
+        "capital": "Cayenne"
+      },
+      {
+        "id": "Q29sb21iaWFCb2dvdMOh",
+        "name": "Colombia",
+        "latlng": {
+          "lat": 4.710988599999999,
+          "lng": -74.072092
+        },
+        "capital": "Bogotá"
+      },
+      {
+        "id": "UGVydUxpbWE=",
+        "name": "Peru",
+        "latlng": {
+          "lat": -12.0466888,
+          "lng": -77.04308859999999
+        },
+        "capital": "Lima"
+      },
+      {
+        "id": "UGFyYWd1YXlBc3VuY2nDs24=",
+        "name": "Paraguay",
+        "latlng": {
+          "lat": -25.2637399,
+          "lng": -57.57592599999999
+        },
+        "capital": "Asunción"
+      },
+      {
+        "id": "VXJ1Z3VheU1vbnRldmlkZW8=",
+        "name": "Uruguay",
+        "latlng": {
+          "lat": -34.9055016,
+          "lng": -56.1851147
+        },
+        "capital": "Montevideo"
+      },
+      {
+        "id": "QnJhemlsQnJhc8OtbGlh",
+        "name": "Brazil",
+        "latlng": {
+          "lat": -15.7975154,
+          "lng": -47.89188739999999
+        },
+        "capital": "Brasília"
+      },
+      {
+        "id": "Q2hpbGVTYW50aWFnbw==",
+        "name": "Chile",
+        "latlng": {
+          "lat": -33.4488897,
+          "lng": -70.6692655
+        },
+        "capital": "Santiago"
+      },
+      {
+        "id": "VmVuZXp1ZWxhQ2FyYWNhcw==",
+        "name": "Venezuela",
+        "latlng": {
+          "lat": 10.4805937,
+          "lng": -66.90360629999999
+        },
+        "capital": "Caracas"
+      },
+      {
+        "id": "RmFsa2xhbmQgSXNsYW5kc1N0YW5sZXk=",
+        "name": "Falkland Islands",
+        "latlng": {
+          "lat": -51.6927517,
+          "lng": -57.86196
+        },
+        "capital": "Stanley"
+      },
+      {
+        "id": "U3VyaW5hbWVQYXJhbWFyaWJv",
+        "name": "Suriname",
+        "latlng": {
+          "lat": 5.8520355,
+          "lng": -55.2038278
+        },
+        "capital": "Paramaribo"
+      }
+    ],
+    "Central Europe": [
+      {
+        "id": "QXVzdHJpYVZpZW5uYQ==",
+        "name": "Austria",
+        "latlng": {
+          "lat": 48.20806959999999,
+          "lng": 16.3713095
+        },
+        "capital": "Vienna"
+      },
+      {
+        "id": "Q3plY2hpYVByYWd1ZQ==",
+        "name": "Czechia",
+        "latlng": {
+          "lat": 50.0755381,
+          "lng": 14.4378005
+        },
+        "capital": "Prague"
+      },
+      {
+        "id": "SHVuZ2FyeUJ1ZGFwZXN0",
+        "name": "Hungary",
+        "latlng": {
+          "lat": 47.497912,
+          "lng": 19.040235
+        },
+        "capital": "Budapest"
+      },
+      {
+        "id": "UG9sYW5kV2Fyc2F3",
+        "name": "Poland",
+        "latlng": {
+          "lat": 52.2296756,
+          "lng": 21.0122287
+        },
+        "capital": "Warsaw"
+      },
+      {
+        "id": "U2xvdmVuaWFManVibGphbmE=",
+        "name": "Slovenia",
+        "latlng": {
+          "lat": 46.0569465,
+          "lng": 14.5057515
+        },
+        "capital": "Ljubljana"
+      },
+      {
+        "id": "U2xvdmFraWFCcmF0aXNsYXZh",
+        "name": "Slovakia",
+        "latlng": {
+          "lat": 48.1485965,
+          "lng": 17.1077477
+        },
+        "capital": "Bratislava"
+      }
+    ],
+    "": [
+      {
+        "id": "RnJlbmNoIFNvdXRoZXJuIGFuZCBBbnRhcmN0aWMgTGFuZHNQb3J0LWF1eC1GcmFuw6dhaXM=",
+        "name": "French Southern and Antarctic Lands",
+        "latlng": {
+          "lat": -49.3496422,
+          "lng": 70.2180039
+        },
+        "capital": "Port-aux-Français"
+      },
+      {
+        "id": "U291dGggR2VvcmdpYUtpbmcgRWR3YXJkIFBvaW50",
+        "name": "South Georgia",
+        "latlng": {
+          "lat": -54.2832502,
+          "lng": -36.493735
+        },
+        "capital": "King Edward Point"
+      }
+    ],
+    "Western Europe": [
+      {
+        "id": "QmVsZ2l1bUJydXNzZWxz",
+        "name": "Belgium",
+        "latlng": {
+          "lat": 50.84770289999999,
+          "lng": 4.357200100000001
+        },
+        "capital": "Brussels"
+      },
+      {
+        "id": "R2VybWFueUJlcmxpbg==",
+        "name": "Germany",
+        "latlng": {
+          "lat": 52.52000659999999,
+          "lng": 13.404954
+        },
+        "capital": "Berlin"
+      },
+      {
+        "id": "U3dpdHplcmxhbmRCZXJu",
+        "name": "Switzerland",
+        "latlng": {
+          "lat": 46.9479739,
+          "lng": 7.4474468
+        },
+        "capital": "Bern"
+      },
+      {
+        "id": "TGllY2h0ZW5zdGVpblZhZHV6",
+        "name": "Liechtenstein",
+        "latlng": {
+          "lat": 47.1410843,
+          "lng": 9.5210732
+        },
+        "capital": "Vaduz"
+      },
+      {
+        "id": "THV4ZW1ib3VyZ0x1eGVtYm91cmc=",
+        "name": "Luxembourg",
+        "latlng": {
+          "lat": 49.815273,
+          "lng": 6.129582999999999
+        },
+        "capital": "Luxembourg"
+      },
+      {
+        "id": "TW9uYWNvTW9uYWNv",
+        "name": "Monaco",
+        "latlng": {
+          "lat": 43.73841760000001,
+          "lng": 7.424615799999999
+        },
+        "capital": "Monaco"
+      },
+      {
+        "id": "TmV0aGVybGFuZHNBbXN0ZXJkYW0=",
+        "name": "Netherlands",
+        "latlng": {
+          "lat": 52.3675734,
+          "lng": 4.9041389
+        },
+        "capital": "Amsterdam"
+      },
+      {
+        "id": "RnJhbmNlUGFyaXM=",
+        "name": "France",
+        "latlng": {
+          "lat": 48.8575475,
+          "lng": 2.3513765
+        },
+        "capital": "Paris"
+      }
+    ],
+    "Western Africa": [
+      {
+        "id": "U2FpbnQgSGVsZW5hLCBBc2NlbnNpb24gYW5kIFRyaXN0YW4gZGEgQ3VuaGFKYW1lc3Rvd24=",
+        "name": "Saint Helena, Ascension and Tristan da Cunha",
+        "latlng": {
+          "lat": -15.9267879,
+          "lng": -5.717124699999999
+        },
+        "capital": "Jamestown"
+      },
+      {
+        "id": "QnVya2luYSBGYXNvT3VhZ2Fkb3Vnb3U=",
+        "name": "Burkina Faso",
+        "latlng": {
+          "lat": 12.3714277,
+          "lng": -1.5196603
+        },
+        "capital": "Ouagadougou"
+      },
+      {
+        "id": "QmVuaW5Qb3J0by1Ob3Zv",
+        "name": "Benin",
+        "latlng": {
+          "lat": 6.478623799999999,
+          "lng": 2.6203212
+        },
+        "capital": "Porto-Novo"
+      },
+      {
+        "id": "R3VpbmVhQ29uYWtyeQ==",
+        "name": "Guinea",
+        "latlng": {
+          "lat": 9.5090945,
+          "lng": -13.7119312
+        },
+        "capital": "Conakry"
+      },
+      {
+        "id": "R2hhbmFBY2NyYQ==",
+        "name": "Ghana",
+        "latlng": {
+          "lat": 5.559284600000001,
+          "lng": -0.1974306
+        },
+        "capital": "Accra"
+      },
+      {
+        "id": "R2FtYmlhQmFuanVs",
+        "name": "Gambia",
+        "latlng": {
+          "lat": 13.454375,
+          "lng": -16.5753186
+        },
+        "capital": "Banjul"
+      },
+      {
+        "id": "R3VpbmVhLUJpc3NhdUJpc3NhdQ==",
+        "name": "Guinea-Bissau",
+        "latlng": {
+          "lat": 11.8632196,
+          "lng": -15.5843227
+        },
+        "capital": "Bissau"
+      },
+      {
+        "id": "SXZvcnkgQ29hc3RZYW1vdXNzb3Vrcm8=",
+        "name": "Ivory Coast",
+        "latlng": {
+          "lat": 6.816274099999999,
+          "lng": -5.274362900000001
+        },
+        "capital": "Yamoussoukro"
+      },
+      {
+        "id": "TGliZXJpYU1vbnJvdmlh",
+        "name": "Liberia",
+        "latlng": {
+          "lat": 6.3156068,
+          "lng": -10.8073698
+        },
+        "capital": "Monrovia"
+      },
+      {
+        "id": "Q2FwZSBWZXJkZVByYWlh",
+        "name": "Cape Verde",
+        "latlng": {
+          "lat": 14.9452652,
+          "lng": -23.5014213
+        },
+        "capital": "Praia"
+      },
+      {
+        "id": "TWFsaUJhbWFrbw==",
+        "name": "Mali",
+        "latlng": {
+          "lat": 12.6391699,
+          "lng": -8.0025475
+        },
+        "capital": "Bamako"
+      },
+      {
+        "id": "TWF1cml0YW5pYU5vdWFrY2hvdHQ=",
+        "name": "Mauritania",
+        "latlng": {
+          "lat": 18.0735299,
+          "lng": -15.9582372
+        },
+        "capital": "Nouakchott"
+      },
+      {
+        "id": "VG9nb0xvbcOp",
+        "name": "Togo",
+        "latlng": {
+          "lat": 6.129557699999999,
+          "lng": 1.2196502
+        },
+        "capital": "Lomé"
+      },
+      {
+        "id": "U2VuZWdhbERha2Fy",
+        "name": "Senegal",
+        "latlng": {
+          "lat": 14.716677,
+          "lng": -17.4676861
+        },
+        "capital": "Dakar"
+      },
+      {
+        "id": "TmlnZXJpYUFidWph",
+        "name": "Nigeria",
+        "latlng": {
+          "lat": 9.0562646,
+          "lng": 7.4985259
+        },
+        "capital": "Abuja"
+      },
+      {
+        "id": "TmlnZXJOaWFtZXk=",
+        "name": "Niger",
+        "latlng": {
+          "lat": 13.5115963,
+          "lng": 2.1253854
+        },
+        "capital": "Niamey"
+      },
+      {
+        "id": "U2llcnJhIExlb25lRnJlZXRvd24=",
+        "name": "Sierra Leone",
+        "latlng": {
+          "lat": 8.487080299999999,
+          "lng": -13.2354918
+        },
+        "capital": "Freetown"
+      }
+    ],
+    "North America": [
+      {
+        "id": "QmVybXVkYUhhbWlsdG9u",
+        "name": "Bermuda",
+        "latlng": {
+          "lat": 32.2950716,
+          "lng": -64.7842417
+        },
+        "capital": "Hamilton"
+      },
+      {
+        "id": "VW5pdGVkIFN0YXRlc1dhc2hpbmd0b24gRC5DLg==",
+        "name": "United States",
+        "latlng": {
+          "lat": 38.9071923,
+          "lng": -77.0368707
+        },
+        "capital": "Washington D.C."
+      },
+      {
+        "id": "Q2FuYWRhT3R0YXdh",
+        "name": "Canada",
+        "latlng": {
+          "lat": 45.4200572,
+          "lng": -75.7003397
+        },
+        "capital": "Ottawa"
+      },
+      {
+        "id": "U2FpbnQgUGllcnJlIGFuZCBNaXF1ZWxvblNhaW50LVBpZXJyZQ==",
+        "name": "Saint Pierre and Miquelon",
+        "latlng": {
+          "lat": 46.7818357,
+          "lng": -56.17373929999999
+        },
+        "capital": "Saint-Pierre"
+      },
+      {
+        "id": "R3JlZW5sYW5kTnV1aw==",
+        "name": "Greenland",
+        "latlng": {
+          "lat": 64.17432339999999,
+          "lng": -51.7372787
+        },
+        "capital": "Nuuk"
+      },
+      {
+        "id": "TWV4aWNvTWV4aWNvIENpdHk=",
+        "name": "Mexico",
+        "latlng": {
+          "lat": 19.4326077,
+          "lng": -99.133208
+        },
+        "capital": "Mexico City"
+      }
+    ],
+    "Eastern Europe": [
+      {
+        "id": "QmVsYXJ1c01pbnNr",
+        "name": "Belarus",
+        "latlng": {
+          "lat": 53.9006011,
+          "lng": 27.558972
+        },
+        "capital": "Minsk"
+      },
+      {
+        "id": "TW9sZG92YUNoaciZaW7Eg3U=",
+        "name": "Moldova",
+        "latlng": {
+          "lat": 47.0104529,
+          "lng": 28.8638103
+        },
+        "capital": "Chișinău"
+      },
+      {
+        "id": "VWtyYWluZUt5aXY=",
+        "name": "Ukraine",
+        "latlng": {
+          "lat": 50.4503596,
+          "lng": 30.5245025
+        },
+        "capital": "Kyiv"
+      },
+      {
+        "id": "UnVzc2lhTW9zY293",
+        "name": "Russia",
+        "latlng": {
+          "lat": 55.7568721,
+          "lng": 37.6150527
+        },
+        "capital": "Moscow"
+      }
+    ],
+    "Eastern Africa": [
+      {
+        "id": "Q29tb3Jvc01vcm9uaQ==",
+        "name": "Comoros",
+        "latlng": {
+          "lat": -11.7061223,
+          "lng": 43.2517012
+        },
+        "capital": "Moroni"
+      },
+      {
+        "id": "RXJpdHJlYUFzbWFyYQ==",
+        "name": "Eritrea",
+        "latlng": {
+          "lat": 15.3317304,
+          "lng": 38.9300394
+        },
+        "capital": "Asmara"
+      },
+      {
+        "id": "RGppYm91dGlEamlib3V0aQ==",
+        "name": "Djibouti",
+        "latlng": {
+          "lat": 11.825138,
+          "lng": 42.590275
+        },
+        "capital": "Djibouti"
+      },
+      {
+        "id": "QnVydW5kaUdpdGVnYQ==",
+        "name": "Burundi",
+        "latlng": {
+          "lat": -3.4272755,
+          "lng": 29.9246016
+        },
+        "capital": "Gitega"
+      },
+      {
+        "id": "QnJpdGlzaCBJbmRpYW4gT2NlYW4gVGVycml0b3J5RGllZ28gR2FyY2lh",
+        "name": "British Indian Ocean Territory",
+        "latlng": {
+          "lat": -7.319500499999999,
+          "lng": 72.42285559999999
+        },
+        "capital": "Diego Garcia"
+      },
+      {
+        "id": "TWFkYWdhc2NhckFudGFuYW5hcml2bw==",
+        "name": "Madagascar",
+        "latlng": {
+          "lat": -18.9184607,
+          "lng": 47.5211293
+        },
+        "capital": "Antananarivo"
+      },
+      {
+        "id": "VWdhbmRhS2FtcGFsYQ==",
+        "name": "Uganda",
+        "latlng": {
+          "lat": 0.3151692,
+          "lng": 32.5816313
+        },
+        "capital": "Kampala"
+      },
+      {
+        "id": "TW96YW1iaXF1ZU1hcHV0bw==",
+        "name": "Mozambique",
+        "latlng": {
+          "lat": -25.969248,
+          "lng": 32.5731746
+        },
+        "capital": "Maputo"
+      },
+      {
+        "id": "TWF1cml0aXVzUG9ydCBMb3Vpcw==",
+        "name": "Mauritius",
+        "latlng": {
+          "lat": -20.1608912,
+          "lng": 57.5012222
+        },
+        "capital": "Port Louis"
+      },
+      {
+        "id": "TWF5b3R0ZU1hbW91ZHpvdQ==",
+        "name": "Mayotte",
+        "latlng": {
+          "lat": -12.78064,
+          "lng": 45.23269639999999
+        },
+        "capital": "Mamoudzou"
+      },
+      {
+        "id": "TWFsYXdpTGlsb25nd2U=",
+        "name": "Malawi",
+        "latlng": {
+          "lat": -13.9865252,
+          "lng": 33.76806
+        },
+        "capital": "Lilongwe"
+      },
+      {
+        "id": "U2V5Y2hlbGxlc1ZpY3Rvcmlh",
+        "name": "Seychelles",
+        "latlng": {
+          "lat": -4.621129799999999,
+          "lng": 55.4522153
+        },
+        "capital": "Victoria"
+      },
+      {
+        "id": "RXRoaW9waWFBZGRpcyBBYmFiYQ==",
+        "name": "Ethiopia",
+        "latlng": {
+          "lat": 9.0191936,
+          "lng": 38.7524635
+        },
+        "capital": "Addis Ababa"
+      },
+      {
+        "id": "VGFuemFuaWFEb2RvbWE=",
+        "name": "Tanzania",
+        "latlng": {
+          "lat": -6.1811245,
+          "lng": 35.746877
+        },
+        "capital": "Dodoma"
+      },
+      {
+        "id": "WmltYmFid2VIYXJhcmU=",
+        "name": "Zimbabwe",
+        "latlng": {
+          "lat": -17.8262928,
+          "lng": 31.0503723
+        },
+        "capital": "Harare"
+      },
+      {
+        "id": "UndhbmRhS2lnYWxp",
+        "name": "Rwanda",
+        "latlng": {
+          "lat": -1.9440727,
+          "lng": 30.0618851
+        },
+        "capital": "Kigali"
+      },
+      {
+        "id": "UsOpdW5pb25TYWludC1EZW5pcw==",
+        "name": "Réunion",
+        "latlng": {
+          "lat": -20.8784675,
+          "lng": 55.4484856
+        },
+        "capital": "Saint-Denis"
+      },
+      {
+        "id": "WmFtYmlhTHVzYWth",
+        "name": "Zambia",
+        "latlng": {
+          "lat": -15.4154677,
+          "lng": 28.2773267
+        },
+        "capital": "Lusaka"
+      },
+      {
+        "id": "S2VueWFOYWlyb2Jp",
+        "name": "Kenya",
+        "latlng": {
+          "lat": -1.2920659,
+          "lng": 36.8219462
+        },
+        "capital": "Nairobi"
+      },
+      {
+        "id": "U29tYWxpYU1vZ2FkaXNodQ==",
+        "name": "Somalia",
+        "latlng": {
+          "lat": 2.037148,
+          "lng": 45.3379067
+        },
+        "capital": "Mogadishu"
+      }
+    ],
+    "Northern Africa": [
+      {
+        "id": "RWd5cHRDYWlybw==",
+        "name": "Egypt",
+        "latlng": {
+          "lat": 30.0444196,
+          "lng": 31.2357116
+        },
+        "capital": "Cairo"
+      },
+      {
+        "id": "QWxnZXJpYUFsZ2llcnM=",
+        "name": "Algeria",
+        "latlng": {
+          "lat": 36.753768,
+          "lng": 3.0587561
+        },
+        "capital": "Algiers"
+      },
+      {
+        "id": "V2VzdGVybiBTYWhhcmFFbCBBYWnDum4=",
+        "name": "Western Sahara",
+        "latlng": {
+          "lat": 26.7599542,
+          "lng": -12.989615
+        },
+        "capital": "El Aaiún"
+      },
+      {
+        "id": "TGlieWFUcmlwb2xp",
+        "name": "Libya",
+        "latlng": {
+          "lat": 32.8877109,
+          "lng": 13.187186
+        },
+        "capital": "Tripoli"
+      },
+      {
+        "id": "TW9yb2Njb1JhYmF0",
+        "name": "Morocco",
+        "latlng": {
+          "lat": 34.0083637,
+          "lng": -6.8538748
+        },
+        "capital": "Rabat"
+      },
+      {
+        "id": "VHVuaXNpYVR1bmlz",
+        "name": "Tunisia",
+        "latlng": {
+          "lat": 36.8064948,
+          "lng": 10.1815316
+        },
+        "capital": "Tunis"
+      },
+      {
+        "id": "U3VkYW5LaGFydG91bQ==",
+        "name": "Sudan",
+        "latlng": {
+          "lat": 15.597431,
+          "lng": 32.535587
+        },
+        "capital": "Khartoum"
+      }
+    ],
+    "South-Eastern Asia": [
+      {
+        "id": "SW5kb25lc2lhSmFrYXJ0YQ==",
+        "name": "Indonesia",
+        "latlng": {
+          "lat": -6.1944491,
+          "lng": 106.8229198
+        },
+        "capital": "Jakarta"
+      },
+      {
+        "id": "QnJ1bmVpQmFuZGFyIFNlcmkgQmVnYXdhbg==",
+        "name": "Brunei",
+        "latlng": {
+          "lat": 4.8923413,
+          "lng": 114.9419021
+        },
+        "capital": "Bandar Seri Begawan"
+      },
+      {
+        "id": "TGFvc1ZpZW50aWFuZQ==",
+        "name": "Laos",
+        "latlng": {
+          "lat": 17.9757058,
+          "lng": 102.6331035
+        },
+        "capital": "Vientiane"
+      },
+      {
+        "id": "Q2FtYm9kaWFQaG5vbSBQZW5o",
+        "name": "Cambodia",
+        "latlng": {
+          "lat": 11.5563738,
+          "lng": 104.9282099
+        },
+        "capital": "Phnom Penh"
+      },
+      {
+        "id": "UGhpbGlwcGluZXNNYW5pbGE=",
+        "name": "Philippines",
+        "latlng": {
+          "lat": 14.5995133,
+          "lng": 120.984234
+        },
+        "capital": "Manila"
+      },
+      {
+        "id": "TXlhbm1hck5heXB5aWRhdw==",
+        "name": "Myanmar",
+        "latlng": {
+          "lat": 19.7633057,
+          "lng": 96.07851040000001
+        },
+        "capital": "Naypyidaw"
+      },
+      {
+        "id": "VGhhaWxhbmRCYW5na29r",
+        "name": "Thailand",
+        "latlng": {
+          "lat": 13.7563309,
+          "lng": 100.5017651
+        },
+        "capital": "Bangkok"
+      },
+      {
+        "id": "VGltb3ItTGVzdGVEaWxp",
+        "name": "Timor-Leste",
+        "latlng": {
+          "lat": -8.5563336,
+          "lng": 125.5798233
+        },
+        "capital": "Dili"
+      },
+      {
+        "id": "VmlldG5hbUhhbm9p",
+        "name": "Vietnam",
+        "latlng": {
+          "lat": 21.0277644,
+          "lng": 105.8341598
+        },
+        "capital": "Hanoi"
+      },
+      {
+        "id": "TWFsYXlzaWFLdWFsYSBMdW1wdXI=",
+        "name": "Malaysia",
+        "latlng": {
+          "lat": 3.1319197,
+          "lng": 101.6840589
+        },
+        "capital": "Kuala Lumpur"
+      },
+      {
+        "id": "U2luZ2Fwb3JlU2luZ2Fwb3Jl",
+        "name": "Singapore",
+        "latlng": {
+          "lat": 1.352083,
+          "lng": 103.819836
+        },
+        "capital": "Singapore"
+      }
+    ],
+    "Australia and New Zealand": [
+      {
+        "id": "QXVzdHJhbGlhQ2FuYmVycmE=",
+        "name": "Australia",
+        "latlng": {
+          "lat": -35.2801846,
+          "lng": 149.1310324
+        },
+        "capital": "Canberra"
+      },
+      {
+        "id": "Q29jb3MgKEtlZWxpbmcpIElzbGFuZHNXZXN0IElzbGFuZA==",
+        "name": "Cocos (Keeling) Islands",
+        "latlng": {
+          "lat": -12.1450486,
+          "lng": 96.82170169999999
+        },
+        "capital": "West Island"
+      },
+      {
+        "id": "Q2hyaXN0bWFzIElzbGFuZEZseWluZyBGaXNoIENvdmU=",
+        "name": "Christmas Island",
+        "latlng": {
+          "lat": -10.4260146,
+          "lng": 105.6727746
+        },
+        "capital": "Flying Fish Cove"
+      },
+      {
+        "id": "Tm9yZm9sayBJc2xhbmRLaW5nc3Rvbg==",
+        "name": "Norfolk Island",
+        "latlng": {
+          "lat": -29.0559683,
+          "lng": 167.9601828
+        },
+        "capital": "Kingston"
+      },
+      {
+        "id": "TmV3IFplYWxhbmRXZWxsaW5ndG9u",
+        "name": "New Zealand",
+        "latlng": {
+          "lat": -41.2923814,
+          "lng": 174.7787463
+        },
+        "capital": "Wellington"
+      }
+    ],
+    "Central America": [
+      {
+        "id": "SG9uZHVyYXNUZWd1Y2lnYWxwYQ==",
+        "name": "Honduras",
+        "latlng": {
+          "lat": 14.0607145,
+          "lng": -87.1824529
+        },
+        "capital": "Tegucigalpa"
+      },
+      {
+        "id": "QmVsaXplQmVsbW9wYW4=",
+        "name": "Belize",
+        "latlng": {
+          "lat": 17.2522988,
+          "lng": -88.7641293
+        },
+        "capital": "Belmopan"
+      },
+      {
+        "id": "Q29zdGEgUmljYVNhbiBKb3PDqQ==",
+        "name": "Costa Rica",
+        "latlng": {
+          "lat": 9.9280694,
+          "lng": -84.0907246
+        },
+        "capital": "San José"
+      },
+      {
+        "id": "UGFuYW1hUGFuYW1hIENpdHk=",
+        "name": "Panama",
+        "latlng": {
+          "lat": 8.9823792,
+          "lng": -79.51986959999999
+        },
+        "capital": "Panama City"
+      },
+      {
+        "id": "TmljYXJhZ3VhTWFuYWd1YQ==",
+        "name": "Nicaragua",
+        "latlng": {
+          "lat": 12.1149926,
+          "lng": -86.2361744
+        },
+        "capital": "Managua"
+      },
+      {
+        "id": "R3VhdGVtYWxhR3VhdGVtYWxhIENpdHk=",
+        "name": "Guatemala",
+        "latlng": {
+          "lat": 14.6349149,
+          "lng": -90.5068824
+        },
+        "capital": "Guatemala City"
+      },
+      {
+        "id": "RWwgU2FsdmFkb3JTYW4gU2FsdmFkb3I=",
+        "name": "El Salvador",
+        "latlng": {
+          "lat": 13.6929403,
+          "lng": -89.2181911
+        },
+        "capital": "San Salvador"
+      }
+    ],
+    "Micronesia": [
+      {
+        "id": "R3VhbUhhZ8OldMOxYQ==",
+        "name": "Guam",
+        "latlng": {
+          "lat": 13.4769232,
+          "lng": 144.754282
+        },
+        "capital": "Hagåtña"
+      },
+      {
+        "id": "UGFsYXVOZ2VydWxtdWQ=",
+        "name": "Palau",
+        "latlng": {
+          "lat": 7.5003835,
+          "lng": 134.624289
+        },
+        "capital": "Ngerulmud"
+      },
+      {
+        "id": "Tm9ydGhlcm4gTWFyaWFuYSBJc2xhbmRzU2FpcGFu",
+        "name": "Northern Mariana Islands",
+        "latlng": {
+          "lat": 15.1850483,
+          "lng": 145.7467259
+        },
+        "capital": "Saipan"
+      },
+      {
+        "id": "S2lyaWJhdGlTb3V0aCBUYXJhd2E=",
+        "name": "Kiribati",
+        "latlng": {
+          "lat": 1.433333,
+          "lng": 173
+        },
+        "capital": "South Tarawa"
+      },
+      {
+        "id": "TWljcm9uZXNpYVBhbGlraXI=",
+        "name": "Micronesia",
+        "latlng": {
+          "lat": 6.92347,
+          "lng": 158.1584451
+        },
+        "capital": "Palikir"
+      },
+      {
+        "id": "TmF1cnVZYXJlbg==",
+        "name": "Nauru",
+        "latlng": {
+          "lat": -0.5455672,
+          "lng": 166.9156781
+        },
+        "capital": "Yaren"
+      },
+      {
+        "id": "TWFyc2hhbGwgSXNsYW5kc01hanVybw==",
+        "name": "Marshall Islands",
+        "latlng": {
+          "lat": 7.066667,
+          "lng": 171.266667
+        },
+        "capital": "Majuro"
+      }
+    ],
+    "Southern Africa": [
+      {
+        "id": "Qm90c3dhbmFHYWJvcm9uZQ==",
+        "name": "Botswana",
+        "latlng": {
+          "lat": -24.6580003,
+          "lng": 25.9077037
+        },
+        "capital": "Gaborone"
+      },
+      {
+        "id": "TGVzb3Rob01hc2VydQ==",
+        "name": "Lesotho",
+        "latlng": {
+          "lat": -29.3150767,
+          "lng": 27.4869229
+        },
+        "capital": "Maseru"
+      },
+      {
+        "id": "U291dGggQWZyaWNhQ2FwZSBUb3du",
+        "name": "South Africa",
+        "latlng": {
+          "lat": -33.922087,
+          "lng": 18.4231418
+        },
+        "capital": "Cape Town"
+      },
+      {
+        "id": "U291dGggQWZyaWNhQmxvZW1mb250ZWlu",
+        "name": "South Africa",
+        "latlng": {
+          "lat": -29.1129237,
+          "lng": 26.214937
+        },
+        "capital": "Bloemfontein"
+      },
+      {
+        "id": "RXN3YXRpbmlMb2JhbWJh",
+        "name": "Eswatini",
+        "latlng": {
+          "lat": -26.4465795,
+          "lng": 31.201826
+        },
+        "capital": "Lobamba"
+      },
+      {
+        "id": "U291dGggQWZyaWNhUHJldG9yaWE=",
+        "name": "South Africa",
+        "latlng": {
+          "lat": -25.7565723,
+          "lng": 28.1913815
+        },
+        "capital": "Pretoria"
+      },
+      {
+        "id": "TmFtaWJpYVdpbmRob2Vr",
+        "name": "Namibia",
+        "latlng": {
+          "lat": -22.5649344,
+          "lng": 17.0842147
+        },
+        "capital": "Windhoek"
+      }
+    ],
+    "Central Asia": [
+      {
+        "id": "S3lyZ3l6c3RhbkJpc2hrZWs=",
+        "name": "Kyrgyzstan",
+        "latlng": {
+          "lat": 42.8746212,
+          "lng": 74.5697617
+        },
+        "capital": "Bishkek"
+      },
+      {
+        "id": "S2F6YWtoc3RhbkFzdGFuYQ==",
+        "name": "Kazakhstan",
+        "latlng": {
+          "lat": 51.1655126,
+          "lng": 71.4272222
+        },
+        "capital": "Astana"
+      },
+      {
+        "id": "VGFqaWtpc3RhbkR1c2hhbmJl",
+        "name": "Tajikistan",
+        "latlng": {
+          "lat": 38.5597722,
+          "lng": 68.7870384
+        },
+        "capital": "Dushanbe"
+      },
+      {
+        "id": "VHVya21lbmlzdGFuQXNoZ2FiYXQ=",
+        "name": "Turkmenistan",
+        "latlng": {
+          "lat": 37.9600766,
+          "lng": 58.32606289999999
+        },
+        "capital": "Ashgabat"
+      },
+      {
+        "id": "VXpiZWtpc3RhblRhc2hrZW50",
+        "name": "Uzbekistan",
+        "latlng": {
+          "lat": 41.2994958,
+          "lng": 69.2400734
+        },
+        "capital": "Tashkent"
+      }
+    ],
+    "Melanesia": [
+      {
+        "id": "UGFwdWEgTmV3IEd1aW5lYVBvcnQgTW9yZXNieQ==",
+        "name": "Papua New Guinea",
+        "latlng": {
+          "lat": -9.4790043,
+          "lng": 147.1494164
+        },
+        "capital": "Port Moresby"
+      },
+      {
+        "id": "RmlqaVN1dmE=",
+        "name": "Fiji",
+        "latlng": {
+          "lat": -18.1265564,
+          "lng": 178.439908
+        },
+        "capital": "Suva"
+      },
+      {
+        "id": "U29sb21vbiBJc2xhbmRzSG9uaWFyYQ==",
+        "name": "Solomon Islands",
+        "latlng": {
+          "lat": -9.4306698,
+          "lng": 159.9526758
+        },
+        "capital": "Honiara"
+      },
+      {
+        "id": "VmFudWF0dVBvcnQgVmlsYQ==",
+        "name": "Vanuatu",
+        "latlng": {
+          "lat": -17.742979,
+          "lng": 168.3173027
+        },
+        "capital": "Port Vila"
+      },
+      {
+        "id": "TmV3IENhbGVkb25pYU5vdW3DqWE=",
+        "name": "New Caledonia",
+        "latlng": {
+          "lat": -22.2716866,
+          "lng": 166.4398627
+        },
+        "capital": "Nouméa"
+      }
+    ],
+    "Eastern Asia": [
+      {
+        "id": "Tm9ydGggS29yZWFQeW9uZ3lhbmc=",
+        "name": "North Korea",
+        "latlng": {
+          "lat": 39.0737987,
+          "lng": 125.8197642
+        },
+        "capital": "Pyongyang"
+      },
+      {
+        "id": "TW9uZ29saWFVbGFuIEJhdG9y",
+        "name": "Mongolia",
+        "latlng": {
+          "lat": 47.9220509,
+          "lng": 106.9155007
+        },
+        "capital": "Ulan Bator"
+      },
+      {
+        "id": "Q2hpbmFCZWlqaW5n",
+        "name": "China",
+        "latlng": {
+          "lat": 39.904211,
+          "lng": 116.407395
+        },
+        "capital": "Beijing"
+      },
+      {
+        "id": "U291dGggS29yZWFTZW91bA==",
+        "name": "South Korea",
+        "latlng": {
+          "lat": 37.550263,
+          "lng": 126.9970831
+        },
+        "capital": "Seoul"
+      },
+      {
+        "id": "VGFpd2FuVGFpcGVp",
+        "name": "Taiwan",
+        "latlng": {
+          "lat": 25.0329694,
+          "lng": 121.5654177
+        },
+        "capital": "Taipei"
+      },
+      {
+        "id": "SmFwYW5Ub2t5bw==",
+        "name": "Japan",
+        "latlng": {
+          "lat": 35.6764225,
+          "lng": 139.650027
+        },
+        "capital": "Tokyo"
+      }
+    ]
+  }
+}

@@ -1,0 +1,4 @@
+# https://guess-where.pages.dev
+
+User-agent: *
+Disallow
