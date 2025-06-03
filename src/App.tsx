@@ -1,7 +1,7 @@
 import Levels, { type Level } from './components/levels';
 import Regions from './components/regions';
 import Guesses from './components/guesses';
-import Footer from './components/gooter';
+import Footer from './components/footer';
 import BaseMap from './components/base-map';
 import Header from './components/header';
 import ScoreCard from './components/score-card';
