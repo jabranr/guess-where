@@ -1,54 +1,24 @@
-# React + TypeScript + Vite
+# Guess Where?
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+An interactive geo quiz game app. This repository hosts the uncompiled code. The games is inspired from a [geo quiz by Telegraph](http://www.telegraph.co.uk/travel/citybreaks/11825481/Quiz-Can-you-identify-these-cities.html) that used a collection of static images. Visit the website and test your geo skills at [https://guess-where.pages.dev](https://guess-where.pages.dev)
 
-Currently, two official plugins are available:
+# Contribute / Get involved
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Fork the repository to contribute, get involved or make your own version out of it. You will need your own [Google API Browser Key](https://console.developers.google.com/) for it though.
 
-## Expanding the ESLint configuration
+The project is setup using [Vite](https://vite.dev/). Development Workflow requires Node. Use following steps to setup a development environment:
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
-
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname
-    }
-  }
-});
+```shell
+$ npm install
+$ npm run dev
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+This will compile the list of countries and start the app at http://localhost:5173/
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x';
-import reactDom from 'eslint-plugin-react-dom';
+# Bugs reporting
 
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules
-  }
-});
-```
+Feature requests or bugs can be reported in the GitHub [issue tracker](https://github.com/jabranr/guess-where/issues)
+
+# License
+
+MIT License - [Jabran Rafique](https://www.jabran.me) | [@jabranr](https://twitter.com/jabranr)
