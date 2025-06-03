@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import useRandomCountry from './use-random-country';
+import { getRandomCountries } from '../utils';
 
 export default function useQuiz() {
   // const [quiz, setQuiz] = useState({
@@ -9,6 +9,6 @@ export default function useQuiz() {
   //   region: 'World'
   // });
 
-  const { name, capital, latlng } = useRandomCountry({ region: 'World' });
-  console.log('useQuiz', { name, capital, latlng });
+  const randomCountries = getRandomCountries({ region: 'World' });
+  console.log('useQuiz', { randomCountries });
 }

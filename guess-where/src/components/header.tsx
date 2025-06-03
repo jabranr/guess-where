@@ -14,7 +14,7 @@ export default function Header({ children }: ComponentProps<'header'>) {
           className="md:w-[100px] md:h-[100px]"
         />
       </div>
-      <div>
+      <div className="[&>*+*]:mt-2">
         <h2>Guess the location name from the given choices.</h2>
         {children}
       </div>

@@ -12,25 +12,56 @@ const mapStyles = {
   easy: easyMapStyles
 };
 
-export default function BaseMap({ level }: { level: Level }) {
+const device = {
+  iOS: new RegExp(/iP(od|ad|hone)/).test(navigator.userAgent),
+  android: new RegExp(/(Android)/).test(navigator.userAgent)
+};
+
+export default function BaseMap({
+  level,
+  onSetup
+}: {
+  level: Level;
+  onSetup?: (map?: google.maps.Map) => void;
+}) {
   const { mapRef, map, isMapLoaded } = useGoogleMaps({
     apiKey: 'AIzaSyCc6A42_pUh_OjrulrREQ5Zu5aWirNrPZ4',
     mapOptions: {
-      zoom: 2,
+      center: { lat: 45.436, lng: 4.876 },
+      zoom: device.iOS || device.android ? 10 : 12,
       backgroundColor: '#f1f1f1',
       disableDefaultUI: true,
       disableDoubleClickZoom: true,
       keyboardShortcuts: false,
       scrollwheel: false,
-      draggable: false
+      gestureHandling: 'none',
+      styles: mapStyles[level]
     }
   });
 
   useEffect(() => {
     if (isMapLoaded) {
-      map.setOptions({ styles: mapStyles[level] });
+      map.setOptions({
+        styles: mapStyles[level]
+      });
     }
   }, [isMapLoaded, level, map]);
+
+  useEffect(() => {
+    if (isMapLoaded && onSetup) {
+      onSetup(map);
+    }
+  }, [isMapLoaded, map, onSetup]);
+
+  useEffect(() => {
+    if (isMapLoaded) {
+      if (device.iOS || device.android) {
+        map.panBy(0, -100);
+      } else {
+        map.panBy(-100, 0);
+      }
+    }
+  }, [isMapLoaded, map]);
 
   useEffect(() => {
     function handleResize() {

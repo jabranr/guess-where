@@ -1,72 +1,106 @@
-import { useEffect, useState, useTransition } from 'react';
-import useRandomCountry from '../hooks/use-random-country';
-import type { RandomCountry, Region } from '../types';
-import { shuffleArray } from '../utils';
-import { MapPinCheckInside } from 'lucide-react';
+import { useCallback, useEffect, useState, useTransition } from 'react';
+import { getRandomCountries } from '../utils';
+import type { Region } from '../types';
+import { Check, MapPinCheckInside, MapPinXInside, X } from 'lucide-react';
 
 export default function Guesses({
   region,
-  setScore,
-  setGoes
+  map,
+  onCorrectGuess,
+  onNextStep
 }: {
   region: Region;
-  setScore: React.Dispatch<React.SetStateAction<number>>;
-  setGoes: React.Dispatch<React.SetStateAction<number>>;
+  map?: google.maps.Map;
+  onCorrectGuess: () => void;
+  onNextStep: () => void;
 }) {
   const [isPending, startTransition] = useTransition();
-  const [guessedCorrectly, setGuessedCorrectly] =
-    useState<RandomCountry | null>(null);
-  const correctGuess = useRandomCountry({ region });
-  const getMinimumGuesses = shuffleArray<RandomCountry[]>([
-    correctGuess,
-    useRandomCountry({ region }),
-    useRandomCountry({ region }),
-    useRandomCountry({ region })
-  ]);
+  const [selectedGuess, setSelectedGuess] = useState<
+    ReturnType<typeof getRandomCountries>[0] | null
+  >(null);
+  const [answer, setAnswer] = useState<
+    ReturnType<typeof getRandomCountries>[0] | null
+  >(null);
+  const [guesses, setGuesses] = useState<ReturnType<typeof getRandomCountries>>(
+    []
+  );
+
+  const loadGuesses = useCallback(
+    function loadGuesses() {
+      setSelectedGuess(null);
+      const newGuesses = getRandomCountries({ region, range: 4 });
+      const ans = newGuesses[Math.floor(Math.random() * newGuesses.length)];
+      setGuesses(newGuesses);
+      setAnswer(ans);
+
+      if (map) {
+        map.panTo(
+          new google.maps.LatLng({
+            lat: ans.latlng.lat,
+            lng: ans.latlng.lng
+          })
+        );
+      }
+    },
+    [map, region]
+  );
 
   useEffect(() => {
-    setGuessedCorrectly(null);
-  }, []);
+    loadGuesses();
+  }, [loadGuesses]);
 
   return (
     <div className="flex flex-col py-2">
       <h3 className="font-semibold mb-2 text-gray-500">Guess the place</h3>
-      <ul className="[&>*+*]:mt-2 min-h-[245px]">
-        {getMinimumGuesses.map((guess) => (
-          <li key={guess.capital + Math.random()}>
-            <button
-              disabled={isPending}
-              type="button"
-              name="region"
-              className={`cursor-pointer block p-2.5 py-1.5 rounded-md text-left text-white font-semibold w-full bg-cyan-500/80 hover:bg-cyan-600 focus:bg-cyan-800 focus:outline-none ${guessedCorrectly && (correctGuess?.name !== correctGuess.name ? 'bg-green-600' : 'bg-red-400')}`}
-              onClick={() => {
-                startTransition(() => {
-                  if (isPending) return;
-                  setGoes((prevGoes: number) => prevGoes + 1);
-                  setScore((prevScore: number) => {
-                    if (guess.capital === correctGuess.capital) {
-                      setGuessedCorrectly(correctGuess);
-                      return prevScore + 1;
+      <ul className="grid grid-cols-2 gap-2 md:block md:[&>*+*]:mt-2 md:min-h-[245px]">
+        {guesses.map((guess) => {
+          const isCorrect =
+            selectedGuess?.id === guess.id && selectedGuess?.id === answer?.id;
+          const isInCorrect =
+            selectedGuess?.id === guess.id && selectedGuess.id !== answer?.id;
+          const wasCorrect =
+            selectedGuess &&
+            selectedGuess?.id !== answer?.id &&
+            guess.id === answer?.id;
+
+          return (
+            <li key={guess.id}>
+              <button
+                disabled={isPending || selectedGuess !== null}
+                type="button"
+                name={guess.id}
+                className={`cursor-pointer block p-2.5 py-1.5 rounded-md text-left text-white font-semibold w-full focus:outline-none transition-colors duration-150 bg-cyan-500/80 ${isInCorrect && 'bg-red-500'} ${wasCorrect && 'bg-green-500'} ${isCorrect && 'bg-green-500'}`}
+                onClick={() => {
+                  startTransition(() => {
+                    if (isPending) return;
+
+                    setSelectedGuess(guess);
+                    onNextStep();
+
+                    if (guess.id === answer?.id) {
+                      onCorrectGuess();
                     }
 
-                    return prevScore;
+                    setTimeout(() => {
+                      loadGuesses();
+                    }, 800);
                   });
-                });
-              }}
-            >
-              <div className="flex items-center justify-between">
-                <div>
-                  {guess.capital}
-                  <small className="block text-gray-900">{guess.name}</small>
+                }}
+              >
+                <div className="flex items-center justify-between pointer-events-none">
+                  <div>
+                    {guess.capital}
+                    <small className="block text-gray-900">{guess.name}</small>
+                  </div>
+                  {(isCorrect || wasCorrect) && (
+                    <Check size={26} className="text-white" />
+                  )}
+                  {isInCorrect && <X size={26} className="text-white" />}
                 </div>
-                {guessedCorrectly &&
-                  (correctGuess?.name === guess.name ? (
-                    <MapPinCheckInside size={26} />
-                  ) : null)}
-              </div>
-            </button>
-          </li>
-        ))}
+              </button>
+            </li>
+          );
+        })}
       </ul>
     </div>
   );

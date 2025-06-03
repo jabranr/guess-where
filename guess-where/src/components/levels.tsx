@@ -18,15 +18,15 @@ export default function Levels({
   };
 
   return (
-    <div className="flex items-center gap-2">
-      <strong>Levels:</strong>
+    <div className="flex items-center gap-1">
+      {/* <strong className="text-sm text-gray-500">Levels:</strong> */}
       {levels.map((level) => {
         const isSelected = level.value === selectedLevel;
 
         return (
           <label
             key={level.value}
-            className={`uppercase font-semibold  p-2 text-xs py-1 rounded-md cursor-pointer hover:bg-cyan-500 ${isSelected ? 'text-white bg-cyan-400' : ' bg-gray-100'}`}
+            className={`transition-colors duration-150 uppercase font-semibold  p-2 text-xs py-1 rounded-md cursor-pointer ${!isSelected ? 'hover:bg-gray-300' : ''} ${isSelected ? 'text-white bg-gray-500' : ' bg-gray-200'}`}
           >
             <input
               type="radio"

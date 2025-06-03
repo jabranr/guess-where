@@ -18,25 +18,49 @@ export default function Footer() {
         </p>
       </div>
       <div className="flex items-center gap-1">
-        <a href="https://www.jabran.me" target="_blank" rel="noopener">
+        <a
+          href="https://www.jabran.me"
+          target="_blank"
+          rel="noopener"
+          className="hover:text-cyan-600"
+        >
           <Earth size={16} />
         </a>
         <a
           href="https://www.twitter.com/jabranr"
           target="_blank"
           rel="noopener"
+          className="hover:text-cyan-600"
         >
           <SiX size={16} />
         </a>
-        <a href="https://www.github.com/jabranr" target="_blank" rel="noopener">
+        <a
+          href="https://www.github.com/jabranr"
+          target="_blank"
+          rel="noopener"
+          className="hover:text-cyan-600"
+        >
           <SiGithub size={16} />
         </a>
         <div className="flex items-center gap-1 [&>*:not(:last-child)]:after:content-['/'] [&>*:not(:last-child)]:after:pl-1">
           <span>MIT License</span>
-          <span>Jabran Rafique</span>
-          <span>
-            <Info size={16} />
-          </span>
+          <a
+            className="text-cyan-600 hover:underline"
+            href="https://jabran.me"
+            target="_blank"
+            rel="noopener"
+          >
+            Jabran Rafique
+          </a>
+          <button
+            onClick={() => {
+              window.alert(
+                'By continue to use this website, you agree to use of cookies.'
+              );
+            }}
+          >
+            <Info size={16} className="cursor-pointer hover:text-cyan-600" />
+          </button>
         </div>
       </div>
     </footer>

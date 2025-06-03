@@ -1,9 +1,11 @@
 import fs from 'node:fs';
 import path from 'node:path';
+import { Buffer } from 'node:buffer';
 import countries, { type Country } from 'world-countries';
 
 type CountryData =
   | {
+      id: string;
       name: Country['name']['common'];
       capital: string;
       latlng: { lat: number; lng: number };
@@ -33,6 +35,7 @@ countries.forEach(function (country) {
 
     // group by countries
     _data.countries.push({
+      id: Buffer.from(country.name.common + c).toString('base64'),
       name: country.name.common,
       latlng: {
         lat: country.latlng[0],
@@ -44,6 +47,7 @@ countries.forEach(function (country) {
     // group by regions
     _data.byRegion[country.region] = _data.byRegion[country.region] || [];
     _data.byRegion[country.region].push({
+      id: Buffer.from(country.name.common + c).toString('base64'),
       name: country.name.common,
       latlng: {
         lat: country.latlng[0],
@@ -56,6 +60,7 @@ countries.forEach(function (country) {
     _data.bySubregion[country.subregion] =
       _data.bySubregion[country.subregion] || [];
     _data.bySubregion[country.subregion].push({
+      id: Buffer.from(country.name.common + c).toString('base64'),
       name: country.name.common,
       latlng: {
         lat: country.latlng[0],
