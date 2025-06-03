@@ -25,7 +25,7 @@ export default function BaseMap({
   onSetup?: (map?: google.maps.Map) => void;
 }) {
   const { mapRef, map, isMapLoaded } = useGoogleMaps({
-    apiKey: 'AIzaSyCc6A42_pUh_OjrulrREQ5Zu5aWirNrPZ4',
+    apiKey: String(import.meta.env.VITE_GOOGLE_MAPS_API_KEY),
     mapOptions: {
       center: { lat: 45.436, lng: 4.876 },
       zoom: device.iOS || device.android ? 10 : 12,

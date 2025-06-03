@@ -5,9 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "predev": "npm run prep-data",
     "build": "tsc -b && vite build",
-    "prebuild": "npm run prep-data",
     "lint": "eslint .",
     "preview": "vite preview",
     "test": "tsc --noEmit && vitest run",
@@ -25,6 +23,7 @@
   },
   "devDependencies": {
     "@eslint/js": "^9.25.0",
+    "@googlemaps/google-maps-services-js": "^3.4.1",
     "@jabranr-lab/prettier": "^2.0.0",
     "@testing-library/jest-dom": "^6.6.3",
     "@testing-library/react": "^16.3.0",
